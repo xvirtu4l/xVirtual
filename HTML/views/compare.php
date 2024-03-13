@@ -224,6 +224,8 @@ require_once "header.php";
         <!-- .col-full -->
     </div>
     <!-- #content -->
-<?php
+
+
+    <?php
 require_once "footer.php";
 ?>

@@ -1,5 +1,5 @@
 <?php
-require_once "header.php";
+require_once "header_product.php";
 ?>
     <!-- ============================================================= Header End ============================================================= -->
     <div id="content" class="site-content" tabindex="-1">
@@ -1581,5 +1581,5 @@ require_once "header.php";
     </div>
     <!-- .col-full -->
 <?php
-require_once "footer.php";
+require_once "footer_product.php";
 ?>

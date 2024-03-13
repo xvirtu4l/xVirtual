@@ -6,7 +6,7 @@ require_once "header.php";
         <div class="col-full">
             <div class="row">
                 <nav class="woocommerce-breadcrumb">
-                    <a href="home-v1.html">Home</a>
+                    <a href="home-v1.php">Home</a>
                     <span class="delimiter">
                                 <i class="fa fa-angle-right"></i>
                             </span>
@@ -18,7 +18,7 @@ require_once "header.php";
                         <article class="post format-image hentry">
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                         <img alt="" class="wp-post-image" src="../assets/images/blog/1.jpg">
                                     </a>
                                 </div>
@@ -27,15 +27,15 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.html">Tech Terms you should know before your adventure</a>
+                                        <a rel="bookmark" href="blog-single.php">Tech Terms you should know before your adventure</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.html" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
                                                 </span>
                                         <span class="posted-on">
-                                                    <a href="blog-single.html" rel="bookmark">
+                                                    <a href="blog-single.php" rel="bookmark">
                                                         <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
                                                         <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
                                                     </a>
@@ -52,11 +52,11 @@ require_once "header.php";
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.html">Leave a comment</a>
+                                            <a href="blog-single#comments.php">Leave a comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -65,7 +65,7 @@ require_once "header.php";
                         <article class="post format-image hentry">
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                         <img alt="" class="wp-post-image" src="../assets/images/blog/2.jpg">
                                     </a>
                                 </div>
@@ -74,15 +74,15 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.html">How to build your first 4k ready Desktop PC</a>
+                                        <a rel="bookmark" href="blog-single.php">How to build your first 4k ready Desktop PC</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.html" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
                                                 </span>
                                         <span class="posted-on">
-                                                    <a href="blog-single.html" rel="bookmark">
+                                                    <a href="blog-single.php" rel="bookmark">
                                                         <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
                                                         <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
                                                     </a>
@@ -99,11 +99,11 @@ require_once "header.php";
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.html">Leave a comment</a>
+                                            <a href="blog-single#comments.php">Leave a comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -112,7 +112,7 @@ require_once "header.php";
                         <article class="post format-image hentry">
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                         <img alt="" class="wp-post-image" src="../assets/images/blog/3.jpg">
                                     </a>
                                 </div>
@@ -121,15 +121,15 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.html">Top 10 Best Graphical Games for testing your Hardware</a>
+                                        <a rel="bookmark" href="blog-single.php">Top 10 Best Graphical Games for testing your Hardware</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.html" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
                                                 </span>
                                         <span class="posted-on">
-                                                    <a href="blog-single.html" rel="bookmark">
+                                                    <a href="blog-single.php" rel="bookmark">
                                                         <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
                                                         <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
                                                     </a>
@@ -146,11 +146,11 @@ require_once "header.php";
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.html">Leave a comment</a>
+                                            <a href="blog-single#comments.php">Leave a comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -159,7 +159,7 @@ require_once "header.php";
                         <article class="post format-image hentry">
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                         <img alt="" class="wp-post-image" src="../assets/images/blog/4.png">
                                     </a>
                                 </div>
@@ -168,15 +168,15 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.html">5 Tips to how find a place for your Wide screen Monitor</a>
+                                        <a rel="bookmark" href="blog-single.php">5 Tips to how find a place for your Wide screen Monitor</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.html" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
                                                 </span>
                                         <span class="posted-on">
-                                                    <a href="blog-single.html" rel="bookmark">
+                                                    <a href="blog-single.php" rel="bookmark">
                                                         <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
                                                         <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
                                                     </a>
@@ -193,11 +193,11 @@ require_once "header.php";
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.html">Leave a comment</a>
+                                            <a href="blog-single#comments.php">Leave a comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -206,7 +206,7 @@ require_once "header.php";
                         <article class="post format-image hentry">
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                         <img alt="" class="wp-post-image" src="../assets/images/blog/4.jpg">
                                     </a>
                                 </div>
@@ -215,15 +215,15 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.html">Why you should choose dedicated Desktop PC Computer</a>
+                                        <a rel="bookmark" href="blog-single.php">Why you should choose dedicated Desktop PC Computer</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.html" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
                                                 </span>
                                         <span class="posted-on">
-                                                    <a href="blog-single.html" rel="bookmark">
+                                                    <a href="blog-single.php" rel="bookmark">
                                                         <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
                                                         <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
                                                     </a>
@@ -240,11 +240,11 @@ require_once "header.php";
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.html">Leave a comment</a>
+                                            <a href="blog-single#comments.php">Leave a comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -253,7 +253,7 @@ require_once "header.php";
                         <article class="post format-image hentry">
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
-                                    <a href="blog-single.html">
+                                    <a href="blog-single.php">
                                         <img alt="" class="wp-post-image" src="../assets/images/blog/5.jpg">
                                     </a>
                                 </div>
@@ -262,15 +262,15 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.html">Most comfortable Gaming Seats for Playing Station</a>
+                                        <a rel="bookmark" href="blog-single.php">Most comfortable Gaming Seats for Playing Station</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.html" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
                                                 </span>
                                         <span class="posted-on">
-                                                    <a href="blog-single.html" rel="bookmark">
+                                                    <a href="blog-single.php" rel="bookmark">
                                                         <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
                                                         <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
                                                     </a>
@@ -287,11 +287,11 @@ require_once "header.php";
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.html">Leave a comment</a>
+                                            <a href="blog-single#comments.php">Leave a comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -305,16 +305,16 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.html">Robot Wars – Now Closed – Post with Audio</a>
+                                        <a rel="bookmark" href="blog-single.php">Robot Wars – Now Closed – Post with Audio</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a rel="category tag" href="blog-single.html">Design</a>,
-                                                    <a rel="category tag" href="blog-single.html">News</a>
+                                                    <a rel="category tag" href="blog-single.php">Design</a>,
+                                                    <a rel="category tag" href="blog-single.php">News</a>
                                                 </span>
                                         <span class="posted-on">
-                                                    <a rel="bookmark" href="blog-single.html">
+                                                    <a rel="bookmark" href="blog-single.php">
                                                         <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
                                                     </a>
                                                 </span>
@@ -330,11 +330,11 @@ require_once "header.php";
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.html">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.html">Leave a comment</a>
+                                            <a href="blog-single#comments.php">Leave a comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -386,6 +386,6 @@ require_once "header.php";
         <!-- .col-full -->
     </div>
     <!-- #content -->
-<?php
+ <?php
 require_once "footer.php";
 ?>

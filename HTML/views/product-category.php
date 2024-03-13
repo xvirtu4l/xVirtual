@@ -1451,7 +1451,6 @@ require_once "header.php";
         <!-- .brands-carousel -->
     </div>
     <!-- .col-full -->
-
-<?php
+ <?php
 require_once "footer.php";
 ?>

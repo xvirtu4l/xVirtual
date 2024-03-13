@@ -62,6 +62,7 @@ require_once "header.php";
         <!-- .col-full -->
     </div>
     <!-- #content -->
+
 <?php
 require_once "footer.php";
 ?>

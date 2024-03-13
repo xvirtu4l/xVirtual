@@ -1,4 +1,3 @@
-
 <footer class="site-footer footer-v1">
     <div class="col-full">
         <div class="before-footer-wrap">

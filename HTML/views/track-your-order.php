@@ -1,5 +1,5 @@
 <?php
-require_once "header.php";
+require_once "footer.php";
 ?>
     <!-- ============================================================= Header End ============================================================= -->
     <div id="content" class="site-content">
@@ -56,6 +56,7 @@ require_once "header.php";
         <!-- .col-full -->
     </div>
     <!-- #content -->
-<?php
+
+    <?php
 require_once "footer.php";
 ?>

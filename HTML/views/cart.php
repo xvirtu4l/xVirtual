@@ -1,5 +1,4 @@
 <?php
-
 require_once "header.php";
 ?>
     <!-- ============================================================= Header End ============================================================= -->
@@ -475,7 +474,6 @@ require_once "header.php";
         <!-- .brands-carousel -->
     </div>
     <!-- .col-full -->
-
 <?php
 require_once "footer.php";
 ?>

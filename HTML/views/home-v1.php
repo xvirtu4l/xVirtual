@@ -8,7 +8,7 @@ require_once "header.php";
                 <div id="primary" class="content-area">
                     <main id="main" class="site-main">
                         <div class="home-v1-slider home-slider">
-                            <div class="slider-1" style="background-image: url(../assets/images/slider/home-v1-background.jpg);">
+                            <div class="slider-1" style="background-image: url(../../assets/images/slider/home-v1-background.jpg);">
                                 <img src="../assets/images/slider/home-v1-img-1.png" alt="">
                                 <div class="caption">
                                     <div class="title">Turn. Click. Expand. Smart modular design simplifies adding storage for growing media.</div>
@@ -20,7 +20,7 @@ require_once "header.php";
                                 </div>
                             </div>
                             <!-- .slider-1 -->
-                            <div class="slider-1 slider-2" style="background-image: url(../assets/images/slider/home-v1-background.jpg);">
+                            <div class="slider-1 slider-2" style="background-image: url(../../assets/images/slider/home-v1-background.jpg);">
                                 <img src="../assets/images/slider/home-v1-img-2.png" alt="">
                                 <div class="caption">
                                     <div class="title">The new-tech gift you
@@ -2025,7 +2025,7 @@ require_once "header.php";
                             <!-- .product-categories-carousel -->
                         </section>
                         <!-- .section-categories-carousel -->
-                        <section style="background-size: cover; background-position: center center; background-image: url( ../assets/images/products/card-bg.jpg ); height: 853px;" class="section-landscape-full-product-cards-carousel">
+                        <section style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/products/card-bg.jpg ); height: 853px;" class="section-landscape-full-product-cards-carousel">
                             <div class="col-full">
                                 <header class="section-header">
                                     <h2 class="section-title">
@@ -3906,7 +3906,7 @@ require_once "header.php";
                             <div class="row">
                                 <div class="banner banner-long text-in-right">
                                     <a href="shop.php">
-                                        <div style="background-size: cover; background-position: center center; background-image: url( ../assets/images/banner/3-2.jpg ); height: 259px;" class="banner-bg">
+                                        <div style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/banner/3-2.jpg ); height: 259px;" class="banner-bg">
                                             <div class="caption">
                                                 <div class="banner-info">
                                                     <h3 class="title">
@@ -3924,7 +3924,7 @@ require_once "header.php";
                                 <!-- /.banner -->
                                 <div class="banner banner-short text-in-left">
                                     <a href="shop.php">
-                                        <div style="background-size: cover; background-position: center center; background-image: url( ../assets/images/banner/3-3.jpg ); height: 259px;" class="banner-bg">
+                                        <div style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/banner/3-3.jpg ); height: 259px;" class="banner-bg">
                                             <div class="caption">
                                                 <div class="banner-info">
                                                     <h3 class="title">
@@ -4251,7 +4251,7 @@ require_once "header.php";
                                         </a>
                                     </li>
                                 </ul>
-                                <div style="background-size: cover; background-position: center center; background-image: url( ../assets/images/banner/vertical-bg.png ); height: 552px;" class="tab-content">
+                                <div style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/banner/vertical-bg.png ); height: 552px;" class="tab-content">
                                     <div id="desktop-pc" class="tab-pane active" role="tabpanel">
                                         <div class="products-carousel" data-ride="tm-slick-carousel" data-wrap=".products" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:6,&quot;slidesToScroll&quot;:6,&quot;dots&quot;:true,&quot;arrows&quot;:false,&quot;responsive&quot;:[{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1600,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}}]}">
                                             <div class="container-fluid">
@@ -7762,7 +7762,7 @@ require_once "header.php";
                         <!-- .section-products-carousel-tabs-->
                         <div class="banner full-width-banner">
                             <a href="shop.php">
-                                <div style="background-size: cover; background-position: center center; background-image: url( ../assets/images/banner/full-width.png ); height: 236px;" class="banner-bg">
+                                <div style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/banner/full-width.png ); height: 236px;" class="banner-bg">
                                     <div class="caption">
                                         <div class="banner-info">
                                             <h3 class="title">
@@ -10782,7 +10782,7 @@ require_once "header.php";
                                         <div class="side-banners">
                                             <div class="banner text-in-left">
                                                 <a href="#">
-                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( ../assets/images/banner/1-1.jpg ); height: 245px;">
+                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/banner/1-1.jpg ); height: 245px;">
                                                         <div class="caption">
                                                             <div class="banner-info">
                                                                 <h4 class="pretitle">Best Gift Idea</h4>
@@ -10808,7 +10808,7 @@ require_once "header.php";
                                             <!-- /.banner -->
                                             <div class="banner text-in-left">
                                                 <a href="#">
-                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( ../assets/images/banner/1-2.jpg ); height: 245px;">
+                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/banner/1-2.jpg ); height: 245px;">
                                                         <div class="caption">
                                                             <div class="banner-info">
                                                                 <h3 class="title">
@@ -10825,7 +10825,7 @@ require_once "header.php";
                                             <!-- /.banner -->
                                             <div class="banner small-banner text-in-left">
                                                 <a href="#">
-                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( ../assets/images/banner/1-3.jpg ); height: 245px;">
+                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( ../../assets/images/banner/1-3.jpg ); height: 245px;">
                                                         <div class="caption">
                                                             <div class="banner-info">
                                                                 <h3 class="title">New Arrivals
@@ -11298,6 +11298,8 @@ require_once "header.php";
         <!-- .col-full -->
     </div>
     <!-- #content -->
+
+
 <?php
 require_once "footer.php";
 ?>
