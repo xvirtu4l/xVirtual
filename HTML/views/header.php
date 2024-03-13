@@ -25,16 +25,16 @@
         <div class="col-full">
             <ul id="menu-top-bar-left" class="nav justify-content-center">
                 <li class="menu-item animate-dropdown">
-                    <a title="TechMarket eCommerce - Always free delivery" href="contact-v1.html">TechMarket eCommerce &#8211; Always free delivery</a>
+                    <a title="TechMarket eCommerce - Always free delivery" href="contact-v1.php">TechMarket eCommerce &#8211; Always free delivery</a>
                 </li>
                 <li class="menu-item animate-dropdown">
-                    <a title="Quality Guarantee of products" href="shop.html">Quality Guarantee of products</a>
+                    <a title="Quality Guarantee of products" href="shop.php">Quality Guarantee of products</a>
                 </li>
                 <li class="menu-item animate-dropdown">
-                    <a title="Fast returnings program" href="track-your-order.html">Fast returnings program</a>
+                    <a title="Fast returnings program" href="track-your-order.php">Fast returnings program</a>
                 </li>
                 <li class="menu-item animate-dropdown">
-                    <a title="No additional fees" href="contact-v2.html">No additional fees</a>
+                    <a title="No additional fees" href="contact-v2.php">No additional fees</a>
                 </li>
             </ul>
             <!-- .nav -->
@@ -47,7 +47,7 @@
             <div class="techmarket-sticky-wrap">
                 <div class="row">
                     <div class="site-branding">
-                        <a href="home-v1.html" class="custom-logo-link" rel="home">
+                        <a href="home-v1.php" class="custom-logo-link" rel="home">
                             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 28">
                                 <defs>
                                     <style>
@@ -91,22 +91,22 @@
                     <nav id="primary-navigation" class="primary-navigation" aria-label="Primary Navigation" data-nav="flex-menu">
                         <ul id="menu-primary-menu" class="nav yamm">
                             <li class="sale-clr yamm-fw menu-item animate-dropdown">
-                                <a title="Super deals" href="product-category.html">Super deals</a>
+                                <a title="Super deals" href="product-category.php">Super deals</a>
                             </li>
                             <li class="menu-item menu-item-has-children animate-dropdown dropdown">
                                 <a title="Mother`s Day" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" href="#">Mother`s Day <span class="caret"></span></a>
                                 <ul role="menu" class=" dropdown-menu">
                                     <li class="menu-item animate-dropdown">
-                                        <a title="Wishlist" href="wishlist.html">Wishlist</a>
+                                        <a title="Wishlist" href="wishlist.php">Wishlist</a>
                                     </li>
                                     <li class="menu-item animate-dropdown">
-                                        <a title="Add to compare" href="compare.html">Add to compare</a>
+                                        <a title="Add to compare" href="compare.php">Add to compare</a>
                                     </li>
                                     <li class="menu-item animate-dropdown">
-                                        <a title="About Us" href="about.html">About Us</a>
+                                        <a title="About Us" href="about.php">About Us</a>
                                     </li>
                                     <li class="menu-item animate-dropdown">
-                                        <a title="Track Order" href="track-your-order.html">Track Order</a>
+                                        <a title="Track Order" href="track-your-order.php">Track Order</a>
                                     </li>
                                 </ul>
                                 <!-- .dropdown-menu -->
@@ -123,46 +123,46 @@
                                                             <a href="#">Home Pages</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v1.html">Home v1</a>
+                                                            <a href="home-v1.php">Home v1</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v2.html">Home v2</a>
+                                                            <a href="home-v2.php">Home v2</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v3.html">Home v3</a>
+                                                            <a href="home-v3.php">Home v3</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v4.html">Home v4</a>
+                                                            <a href="home-v4.php">Home v4</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v5.html">Home v5</a>
+                                                            <a href="home-v5.php">Home v5</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v6.html">Home v6</a>
+                                                            <a href="home-v6.php">Home v6</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v7.html">Home v7</a>
+                                                            <a href="home-v7.php">Home v7</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v8.html">Home v8</a>
+                                                            <a href="home-v8.php">Home v8</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v9.html">Home v9</a>
+                                                            <a href="home-v9.php">Home v9</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v10.html">Home v10</a>
+                                                            <a href="home-v10.php">Home v10</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v11.html">Home v11</a>
+                                                            <a href="home-v11.php">Home v11</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v12.html">Home v12</a>
+                                                            <a href="home-v12.php">Home v12</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v13.html">Home v13</a>
+                                                            <a href="home-v13.php">Home v13</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="home-v14.html">Home v14</a>
+                                                            <a href="home-v14.php">Home v14</a>
                                                         </li>
                                                     </ul>
                                                     <!-- .menu -->
@@ -174,37 +174,37 @@
                                                             <a href="#">Landing Pages</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="landing-page-v1.html">Landing v1</a>
+                                                            <a href="landing-page-v1.php">Landing v1</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="landing-page-v2.html">Landing v2</a>
+                                                            <a href="landing-page-v2.php">Landing v2</a>
                                                         </li>
                                                         <li class="nav-title menu-item">
                                                             <a href="#">Shop Pages</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="shop.html">Shop</a>
+                                                            <a href="shop.php">Shop</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="shop-extended.html">Shop Extended</a>
+                                                            <a href="shop-extended.php">Shop Extended</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="shop-listing.html">Shop Listing</a>
+                                                            <a href="shop-listing.php">Shop Listing</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="shop-listing-large.html">Shop Listing Large</a>
+                                                            <a href="shop-listing-large.php">Shop Listing Large</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="shop-listing-with-product-sidebar.html">Shop Listing with Product Sidebar</a>
+                                                            <a href="shop-listing-with-product-sidebar.php">Shop Listing with Product Sidebar</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="product-category.html">Categories</a>
+                                                            <a href="product-category.php">Categories</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="shop-right-sidebar.html">Shop Right Sidebar</a>
+                                                            <a href="shop-right-sidebar.php">Shop Right Sidebar</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="shop-fullwidth.html">Shop Full Width</a>
+                                                            <a href="shop-fullwidth.php">Shop Full Width</a>
                                                         </li>
                                                     </ul>
                                                     <!-- .menu -->
@@ -216,37 +216,37 @@
                                                             <a href="#">Single Product Pages</a>
                                                         </li>
                                                         <li class="menu-item menu-item-object-product">
-                                                            <a href="single-product-sidebar.html">Single Product Sidebar</a>
+                                                            <a href="single-product-sidebar.php">Single Product Sidebar</a>
                                                         </li>
                                                         <li class="menu-item menu-item-object-product">
-                                                            <a href="single-product-fullwidth.html">Single Product Fullwidth</a>
+                                                            <a href="single-product-fullwidth.php">Single Product Fullwidth</a>
                                                         </li>
                                                         <li class="menu-item menu-item-object-product">
-                                                            <a href="single-product-extended.html">Single Product Extended</a>
+                                                            <a href="single-product-extended.php">Single Product Extended</a>
                                                         </li>
                                                         <li class="nav-title menu-item">
                                                             <a href="#">Ecommerce Pages</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="cart.html">Cart</a>
+                                                            <a href="cart.php">Cart</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="checkout.html">Checkout</a>
+                                                            <a href="checkout.php">Checkout</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="login-and-register.html">My Account</a>
+                                                            <a href="login-and-register.php">My Account</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="compare.html">Compare</a>
+                                                            <a href="compare.php">Compare</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="wishlist.html">Wishlist</a>
+                                                            <a href="wishlist.php">Wishlist</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="track-your-order.html">Track Order</a>
+                                                            <a href="track-your-order.php">Track Order</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="terms-and-conditions.html">Terms and Conditions</a>
+                                                            <a href="terms-and-conditions.php">Terms and Conditions</a>
                                                         </li>
                                                     </ul>
                                                     <!-- .menu -->
@@ -258,37 +258,37 @@
                                                             <a href="#">Blog Pages</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="blog-v1.html">Blog v1</a>
+                                                            <a href="blog-v1.php">Blog v1</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="blog-v2.html">Blog v2</a>
+                                                            <a href="blog-v2.php">Blog v2</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="blog-v3.html">Blog v3</a>
+                                                            <a href="blog-v3.php">Blog v3</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="blog-fullwidth.html">Blog Full Width</a>
+                                                            <a href="blog-fullwidth.php">Blog Full Width</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="blog-single.html">Single Blog Post</a>
+                                                            <a href="blog-single.php">Single Blog Post</a>
                                                         </li>
                                                         <li class="nav-title menu-item">
                                                             <a href="#">Other Pages</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="about.html">About Us</a>
+                                                            <a href="about.php">About Us</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="contact-v1.html">Contact v1</a>
+                                                            <a href="contact-v1.php">Contact v1</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="contact-v2.html">Contact v2</a>
+                                                            <a href="contact-v2.php">Contact v2</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="faq.html">FAQ</a>
+                                                            <a href="faq.php">FAQ</a>
                                                         </li>
                                                         <li class="menu-item">
-                                                            <a href="404.html">404</a>
+                                                            <a href="404.php">404</a>
                                                         </li>
                                                     </ul>
                                                     <!-- .menu -->
@@ -304,10 +304,10 @@
                                 <!-- .dropdown-menu -->
                             </li>
                             <li class="menu-item animate-dropdown">
-                                <a title="Logitech Sale" href="product-category.html">Logitech Sale</a>
+                                <a title="Logitech Sale" href="product-category.php">Logitech Sale</a>
                             </li>
                             <li class="menu-item animate-dropdown">
-                                <a title="Headphones Sale" href="product-category.html">Headphones Sale</a>
+                                <a title="Headphones Sale" href="product-category.php">Headphones Sale</a>
                             </li>
                             <li class="techmarket-flex-more-menu-item dropdown">
                                 <a title="..." href="#" data-toggle="dropdown" class="dropdown-toggle">...</a>
@@ -321,7 +321,7 @@
                     <nav id="secondary-navigation" class="secondary-navigation" aria-label="Secondary Navigation" data-nav="flex-menu">
                         <ul id="menu-secondary-menu" class="nav">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2802 animate-dropdown">
-                                <a title="Track Your Order" href="track-your-order.html">
+                                <a title="Track Your Order" href="track-your-order.php">
                                     <i class="tm tm-order-tracking"></i>Track Your Order</a>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-487 animate-dropdown dropdown">
@@ -346,7 +346,7 @@
                                 <!-- .dropdown-menu -->
                             </li>
                             <li class="menu-item">
-                                <a title="My Account" href="login-and-register.html">
+                                <a title="My Account" href="login-and-register.php">
                                     <i class="tm tm-login-register"></i>Register or Sign in</a>
                             </li>
                             <li class="techmarket-flex-more-menu-item dropdown">
@@ -369,13 +369,13 @@
                     </button>
                     <ul id="menu-departments-menu" class="dropdown-menu yamm departments-menu-dropdown">
                         <li class="highlight menu-item animate-dropdown">
-                            <a title="Value of the Day" href="home-v2.html">Value of the Day</a>
+                            <a title="Value of the Day" href="home-v2.php">Value of the Day</a>
                         </li>
                         <li class="highlight menu-item animate-dropdown">
-                            <a title="Top 100 Offers" href="home-v3.html">Top 100 Offers</a>
+                            <a title="Top 100 Offers" href="home-v3.php">Top 100 Offers</a>
                         </li>
                         <li class="highlight menu-item animate-dropdown">
-                            <a title="New Arrivals" href="home-v4.html">New Arrivals</a>
+                            <a title="New Arrivals" href="home-v4.php">New Arrivals</a>
                         </li>
                         <li class="yamm-tfw menu-item menu-item-has-children animate-dropdown dropdown-submenu">
                             <a title="Computers &amp; Laptops" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" href="#">Computers &#038; Laptops <span class="caret"></span></a>
@@ -398,13 +398,13 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Computers &amp; Accessories</li>
-                                                            <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                            <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                            <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                            <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                            <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                            <li><a href="shop.html">Computer Accessories</a></li>
-                                                            <li><a href="shop.html">Software</a></li>
+                                                            <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                            <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                            <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                            <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                            <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                            <li><a href="shop.php">Computer Accessories</a></li>
+                                                            <li><a href="shop.php">Software</a></li>
                                                             <li class="nav-divider"></li>
                                                             <li>
                                                                 <a href="#">
@@ -424,8 +424,8 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Office &amp; Stationery</li>
-                                                            <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                            <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                            <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                            <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                         </ul>
                                                     </div>
                                                     <!-- .kc_text_block -->
@@ -461,13 +461,13 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Cameras & Photography</li>
-                                                            <li><a href="shop.html">All Cameras & Photography</a></li>
-                                                            <li><a href="shop.html">Point & Shoot Cameras</a></li>
-                                                            <li><a href="shop.html">Lenses</a></li>
-                                                            <li><a href="shop.html">Camera Accessories</a></li>
-                                                            <li><a href="shop.html">Security & Surveillance</a></li>
-                                                            <li><a href="shop.html">Binoculars & Telescopes</a></li>
-                                                            <li><a href="shop.html">Camcorders</a></li>
+                                                            <li><a href="shop.php">All Cameras & Photography</a></li>
+                                                            <li><a href="shop.php">Point & Shoot Cameras</a></li>
+                                                            <li><a href="shop.php">Lenses</a></li>
+                                                            <li><a href="shop.php">Camera Accessories</a></li>
+                                                            <li><a href="shop.php">Security & Surveillance</a></li>
+                                                            <li><a href="shop.php">Binoculars & Telescopes</a></li>
+                                                            <li><a href="shop.php">Camcorders</a></li>
                                                             <li class="nav-divider"></li>
                                                             <li>
                                                                 <a href="#">
@@ -487,10 +487,10 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Audio & Video</li>
-                                                            <li><a href="shop.html">All Audio & Video</a></li>
-                                                            <li><a href="shop.html">Headphones & Speakers</a></li>
-                                                            <li><a href="shop.html">Home Entertainment Systems</a></li>
-                                                            <li><a href="shop.html">MP3 & Media Players</a></li>
+                                                            <li><a href="shop.php">All Audio & Video</a></li>
+                                                            <li><a href="shop.php">Headphones & Speakers</a></li>
+                                                            <li><a href="shop.php">Home Entertainment Systems</a></li>
+                                                            <li><a href="shop.php">MP3 & Media Players</a></li>
                                                         </ul>
                                                     </div>
                                                     <!-- .kc_text_block -->
@@ -526,13 +526,13 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Computers &amp; Accessories</li>
-                                                            <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                            <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                            <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                            <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                            <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                            <li><a href="shop.html">Computer Accessories</a></li>
-                                                            <li><a href="shop.html">Software</a></li>
+                                                            <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                            <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                            <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                            <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                            <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                            <li><a href="shop.php">Computer Accessories</a></li>
+                                                            <li><a href="shop.php">Software</a></li>
                                                             <li class="nav-divider"></li>
                                                             <li>
                                                                 <a href="#">
@@ -552,8 +552,8 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Office &amp; Stationery</li>
-                                                            <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                            <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                            <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                            <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                         </ul>
                                                     </div>
                                                     <!-- .kc_text_block -->
@@ -589,13 +589,13 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Cameras & Photography</li>
-                                                            <li><a href="shop.html">All Cameras & Photography</a></li>
-                                                            <li><a href="shop.html">Point & Shoot Cameras</a></li>
-                                                            <li><a href="shop.html">Lenses</a></li>
-                                                            <li><a href="shop.html">Camera Accessories</a></li>
-                                                            <li><a href="shop.html">Security & Surveillance</a></li>
-                                                            <li><a href="shop.html">Binoculars & Telescopes</a></li>
-                                                            <li><a href="shop.html">Camcorders</a></li>
+                                                            <li><a href="shop.php">All Cameras & Photography</a></li>
+                                                            <li><a href="shop.php">Point & Shoot Cameras</a></li>
+                                                            <li><a href="shop.php">Lenses</a></li>
+                                                            <li><a href="shop.php">Camera Accessories</a></li>
+                                                            <li><a href="shop.php">Security & Surveillance</a></li>
+                                                            <li><a href="shop.php">Binoculars & Telescopes</a></li>
+                                                            <li><a href="shop.php">Camcorders</a></li>
                                                             <li class="nav-divider"></li>
                                                             <li>
                                                                 <a href="#">
@@ -615,10 +615,10 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Audio & Video</li>
-                                                            <li><a href="shop.html">All Audio & Video</a></li>
-                                                            <li><a href="shop.html">Headphones & Speakers</a></li>
-                                                            <li><a href="shop.html">Home Entertainment Systems</a></li>
-                                                            <li><a href="shop.html">MP3 & Media Players</a></li>
+                                                            <li><a href="shop.php">All Audio & Video</a></li>
+                                                            <li><a href="shop.php">Headphones & Speakers</a></li>
+                                                            <li><a href="shop.php">Home Entertainment Systems</a></li>
+                                                            <li><a href="shop.php">MP3 & Media Players</a></li>
                                                         </ul>
                                                     </div>
                                                     <!-- .kc_text_block -->
@@ -654,13 +654,13 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Computers &amp; Accessories</li>
-                                                            <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                            <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                            <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                            <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                            <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                            <li><a href="shop.html">Computer Accessories</a></li>
-                                                            <li><a href="shop.html">Software</a></li>
+                                                            <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                            <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                            <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                            <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                            <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                            <li><a href="shop.php">Computer Accessories</a></li>
+                                                            <li><a href="shop.php">Software</a></li>
                                                             <li class="nav-divider"></li>
                                                             <li>
                                                                 <a href="#">
@@ -680,8 +680,8 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Office &amp; Stationery</li>
-                                                            <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                            <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                            <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                            <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                         </ul>
                                                     </div>
                                                     <!-- .kc_text_block -->
@@ -717,13 +717,13 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Cameras & Photography</li>
-                                                            <li><a href="shop.html">All Cameras & Photography</a></li>
-                                                            <li><a href="shop.html">Point & Shoot Cameras</a></li>
-                                                            <li><a href="shop.html">Lenses</a></li>
-                                                            <li><a href="shop.html">Camera Accessories</a></li>
-                                                            <li><a href="shop.html">Security & Surveillance</a></li>
-                                                            <li><a href="shop.html">Binoculars & Telescopes</a></li>
-                                                            <li><a href="shop.html">Camcorders</a></li>
+                                                            <li><a href="shop.php">All Cameras & Photography</a></li>
+                                                            <li><a href="shop.php">Point & Shoot Cameras</a></li>
+                                                            <li><a href="shop.php">Lenses</a></li>
+                                                            <li><a href="shop.php">Camera Accessories</a></li>
+                                                            <li><a href="shop.php">Security & Surveillance</a></li>
+                                                            <li><a href="shop.php">Binoculars & Telescopes</a></li>
+                                                            <li><a href="shop.php">Camcorders</a></li>
                                                             <li class="nav-divider"></li>
                                                             <li>
                                                                 <a href="#">
@@ -743,10 +743,10 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Audio & Video</li>
-                                                            <li><a href="shop.html">All Audio & Video</a></li>
-                                                            <li><a href="shop.html">Headphones & Speakers</a></li>
-                                                            <li><a href="shop.html">Home Entertainment Systems</a></li>
-                                                            <li><a href="shop.html">MP3 & Media Players</a></li>
+                                                            <li><a href="shop.php">All Audio & Video</a></li>
+                                                            <li><a href="shop.php">Headphones & Speakers</a></li>
+                                                            <li><a href="shop.php">Home Entertainment Systems</a></li>
+                                                            <li><a href="shop.php">MP3 & Media Players</a></li>
                                                         </ul>
                                                     </div>
                                                     <!-- .kc_text_block -->
@@ -782,13 +782,13 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Computers &amp; Accessories</li>
-                                                            <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                            <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                            <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                            <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                            <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                            <li><a href="shop.html">Computer Accessories</a></li>
-                                                            <li><a href="shop.html">Software</a></li>
+                                                            <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                            <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                            <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                            <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                            <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                            <li><a href="shop.php">Computer Accessories</a></li>
+                                                            <li><a href="shop.php">Software</a></li>
                                                             <li class="nav-divider"></li>
                                                             <li>
                                                                 <a href="#">
@@ -808,8 +808,8 @@
                                                     <div class="kc_text_block">
                                                         <ul>
                                                             <li class="nav-title">Office &amp; Stationery</li>
-                                                            <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                            <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                            <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                            <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                         </ul>
                                                     </div>
                                                     <!-- .kc_text_block -->
@@ -825,15 +825,15 @@
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-custom animate-dropdown">
-                            <a title="Gadgets" href="landing-page-v1.html">Gadgets</a>
+                            <a title="Gadgets" href="landing-page-v1.php">Gadgets</a>
                         </li>
                         <li class="menu-item menu-item-type-custom animate-dropdown">
-                            <a title="Virtual Reality" href="landing-page-v2.html">Virtual Reality</a>
+                            <a title="Virtual Reality" href="landing-page-v2.php">Virtual Reality</a>
                         </li>
                     </ul>
                 </div>
                 <!-- .departments-menu -->
-                <form class="navbar-search" method="get" action="home-v1.html">
+                <form class="navbar-search" method="get" action="home-v1.php">
                     <label class="sr-only screen-reader-text" for="search">Search for:</label>
                     <div class="input-group">
                         <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="s" placeholder="Search for products" />
@@ -878,7 +878,7 @@
                 <!-- .navbar-search -->
                 <ul class="header-compare nav navbar-nav">
                     <li class="nav-item">
-                        <a href="compare.html" class="nav-link">
+                        <a href="compare.php" class="nav-link">
                             <i class="tm tm-compare"></i>
                             <span id="top-cart-compare-count" class="value">3</span>
                         </a>
@@ -887,7 +887,7 @@
                 <!-- .header-compare -->
                 <ul class="header-wishlist nav navbar-nav">
                     <li class="nav-item">
-                        <a href="wishlist.html" class="nav-link">
+                        <a href="wishlist.php" class="nav-link">
                             <i class="tm tm-favorites"></i>
                             <span id="top-cart-wishlist-count" class="value">3</span>
                         </a>
@@ -896,7 +896,7 @@
                 <!-- .header-wishlist -->
                 <ul id="site-header-cart" class="site-header-cart menu">
                     <li class="animate-dropdown dropdown ">
-                        <a class="cart-contents" href="cart.html" data-toggle="dropdown" title="View your shopping cart">
+                        <a class="cart-contents" href="cart.php" data-toggle="dropdown" title="View your shopping cart">
                             <i class="tm tm-shopping-bag"></i>
                             <span class="count">2</span>
                             <span class="amount">
@@ -909,7 +909,7 @@
                                         <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                                             <li class="woocommerce-mini-cart-item mini_cart_item">
                                                 <a href="#" class="remove" aria-label="Remove this item" data-product_id="65" data-product_sku="">×</a>
-                                                <a href="single-product-sidebar.html">
+                                                <a href="single-product-sidebar.php">
                                                     <img src="../assets/images/products/mini-cart1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">XONE Wireless Controller&nbsp;
                                                 </a>
                                                 <span class="quantity">1 ×
@@ -919,7 +919,7 @@
                                             </li>
                                             <li class="woocommerce-mini-cart-item mini_cart_item">
                                                 <a href="#" class="remove" aria-label="Remove this item" data-product_id="27" data-product_sku="">×</a>
-                                                <a href="single-product-sidebar.html">
+                                                <a href="single-product-sidebar.php">
                                                     <img src="../assets/images/products/mini-cart2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">Gear Virtual Reality 3D with Bluetooth Glasses&nbsp;
                                                 </a>
                                                 <span class="quantity">1 ×
@@ -935,8 +935,8 @@
                                                         <span class="woocommerce-Price-currencySymbol">$</span>136.99</span>
                                         </p>
                                         <p class="woocommerce-mini-cart__buttons buttons">
-                                            <a href="cart.html" class="button wc-forward">View cart</a>
-                                            <a href="checkout.html" class="button checkout wc-forward">Checkout</a>
+                                            <a href="cart.php" class="button wc-forward">View cart</a>
+                                            <a href="checkout.php" class="button checkout wc-forward">Checkout</a>
                                         </p>
                                     </div>
                                     <!-- .widget_shopping_cart_content -->
@@ -956,7 +956,7 @@
             <div class="handheld-header">
                 <div class="row">
                     <div class="site-branding">
-                        <a href="home-v1.html" class="custom-logo-link" rel="home">
+                        <a href="home-v1.php" class="custom-logo-link" rel="home">
                             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 28">
                                 <defs>
                                     <style>
@@ -1000,18 +1000,18 @@
                     <div class="handheld-header-links">
                         <ul class="columns-3">
                             <li class="my-account">
-                                <a href="login-and-register.html" class="has-icon">
+                                <a href="login-and-register.php" class="has-icon">
                                     <i class="tm tm-login-register"></i>
                                 </a>
                             </li>
                             <li class="wishlist">
-                                <a href="wishlist.html" class="has-icon">
+                                <a href="wishlist.php" class="has-icon">
                                     <i class="tm tm-favorites"></i>
                                     <span class="count">3</span>
                                 </a>
                             </li>
                             <li class="compare">
-                                <a href="compare.html" class="has-icon">
+                                <a href="compare.php" class="has-icon">
                                     <i class="tm tm-compare"></i>
                                     <span class="count">3</span>
                                 </a>
@@ -1033,13 +1033,13 @@
                                 <span class="tmhm-close">Close</span>
                                 <ul id="menu-departments-menu-1" class="nav">
                                     <li class="highlight menu-item animate-dropdown">
-                                        <a title="Value of the Day" href="shop.html">Value of the Day</a>
+                                        <a title="Value of the Day" href="shop.php">Value of the Day</a>
                                     </li>
                                     <li class="highlight menu-item animate-dropdown">
-                                        <a title="Top 100 Offers" href="shop.html">Top 100 Offers</a>
+                                        <a title="Top 100 Offers" href="shop.php">Top 100 Offers</a>
                                     </li>
                                     <li class="highlight menu-item animate-dropdown">
-                                        <a title="New Arrivals" href="shop.html">New Arrivals</a>
+                                        <a title="New Arrivals" href="shop.php">New Arrivals</a>
                                     </li>
                                     <li class="yamm-tfw menu-item menu-item-has-children animate-dropdown dropdown-submenu">
                                         <a title="Computers &amp; Laptops" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" href="#">Computers &#038; Laptops <span class="caret"></span></a>
@@ -1062,13 +1062,13 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Computers &amp; Accessories</li>
-                                                                        <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                                        <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                                        <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                                        <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                                        <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                                        <li><a href="shop.html">Computer Accessories</a></li>
-                                                                        <li><a href="shop.html">Software</a></li>
+                                                                        <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                                        <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                                        <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                                        <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                                        <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                                        <li><a href="shop.php">Computer Accessories</a></li>
+                                                                        <li><a href="shop.php">Software</a></li>
                                                                         <li class="nav-divider"></li>
                                                                         <li>
                                                                             <a href="#">
@@ -1088,8 +1088,8 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Office &amp; Stationery</li>
-                                                                        <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                                        <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                                        <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                                        <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <!-- .kc_text_block -->
@@ -1125,13 +1125,13 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Cameras & Photography</li>
-                                                                        <li><a href="shop.html">All Cameras & Photography</a></li>
-                                                                        <li><a href="shop.html">Point & Shoot Cameras</a></li>
-                                                                        <li><a href="shop.html">Lenses</a></li>
-                                                                        <li><a href="shop.html">Camera Accessories</a></li>
-                                                                        <li><a href="shop.html">Security & Surveillance</a></li>
-                                                                        <li><a href="shop.html">Binoculars & Telescopes</a></li>
-                                                                        <li><a href="shop.html">Camcorders</a></li>
+                                                                        <li><a href="shop.php">All Cameras & Photography</a></li>
+                                                                        <li><a href="shop.php">Point & Shoot Cameras</a></li>
+                                                                        <li><a href="shop.php">Lenses</a></li>
+                                                                        <li><a href="shop.php">Camera Accessories</a></li>
+                                                                        <li><a href="shop.php">Security & Surveillance</a></li>
+                                                                        <li><a href="shop.php">Binoculars & Telescopes</a></li>
+                                                                        <li><a href="shop.php">Camcorders</a></li>
                                                                         <li class="nav-divider"></li>
                                                                         <li>
                                                                             <a href="#">
@@ -1151,10 +1151,10 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Audio & Video</li>
-                                                                        <li><a href="shop.html">All Audio & Video</a></li>
-                                                                        <li><a href="shop.html">Headphones & Speakers</a></li>
-                                                                        <li><a href="shop.html">Home Entertainment Systems</a></li>
-                                                                        <li><a href="shop.html">MP3 & Media Players</a></li>
+                                                                        <li><a href="shop.php">All Audio & Video</a></li>
+                                                                        <li><a href="shop.php">Headphones & Speakers</a></li>
+                                                                        <li><a href="shop.php">Home Entertainment Systems</a></li>
+                                                                        <li><a href="shop.php">MP3 & Media Players</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <!-- .kc_text_block -->
@@ -1190,13 +1190,13 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Computers &amp; Accessories</li>
-                                                                        <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                                        <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                                        <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                                        <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                                        <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                                        <li><a href="shop.html">Computer Accessories</a></li>
-                                                                        <li><a href="shop.html">Software</a></li>
+                                                                        <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                                        <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                                        <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                                        <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                                        <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                                        <li><a href="shop.php">Computer Accessories</a></li>
+                                                                        <li><a href="shop.php">Software</a></li>
                                                                         <li class="nav-divider"></li>
                                                                         <li>
                                                                             <a href="#">
@@ -1216,8 +1216,8 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Office &amp; Stationery</li>
-                                                                        <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                                        <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                                        <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                                        <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <!-- .kc_text_block -->
@@ -1253,13 +1253,13 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Cameras & Photography</li>
-                                                                        <li><a href="shop.html">All Cameras & Photography</a></li>
-                                                                        <li><a href="shop.html">Point & Shoot Cameras</a></li>
-                                                                        <li><a href="shop.html">Lenses</a></li>
-                                                                        <li><a href="shop.html">Camera Accessories</a></li>
-                                                                        <li><a href="shop.html">Security & Surveillance</a></li>
-                                                                        <li><a href="shop.html">Binoculars & Telescopes</a></li>
-                                                                        <li><a href="shop.html">Camcorders</a></li>
+                                                                        <li><a href="shop.php">All Cameras & Photography</a></li>
+                                                                        <li><a href="shop.php">Point & Shoot Cameras</a></li>
+                                                                        <li><a href="shop.php">Lenses</a></li>
+                                                                        <li><a href="shop.php">Camera Accessories</a></li>
+                                                                        <li><a href="shop.php">Security & Surveillance</a></li>
+                                                                        <li><a href="shop.php">Binoculars & Telescopes</a></li>
+                                                                        <li><a href="shop.php">Camcorders</a></li>
                                                                         <li class="nav-divider"></li>
                                                                         <li>
                                                                             <a href="#">
@@ -1279,10 +1279,10 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Audio & Video</li>
-                                                                        <li><a href="shop.html">All Audio & Video</a></li>
-                                                                        <li><a href="shop.html">Headphones & Speakers</a></li>
-                                                                        <li><a href="shop.html">Home Entertainment Systems</a></li>
-                                                                        <li><a href="shop.html">MP3 & Media Players</a></li>
+                                                                        <li><a href="shop.php">All Audio & Video</a></li>
+                                                                        <li><a href="shop.php">Headphones & Speakers</a></li>
+                                                                        <li><a href="shop.php">Home Entertainment Systems</a></li>
+                                                                        <li><a href="shop.php">MP3 & Media Players</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <!-- .kc_text_block -->
@@ -1318,13 +1318,13 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Computers &amp; Accessories</li>
-                                                                        <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                                        <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                                        <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                                        <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                                        <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                                        <li><a href="shop.html">Computer Accessories</a></li>
-                                                                        <li><a href="shop.html">Software</a></li>
+                                                                        <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                                        <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                                        <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                                        <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                                        <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                                        <li><a href="shop.php">Computer Accessories</a></li>
+                                                                        <li><a href="shop.php">Software</a></li>
                                                                         <li class="nav-divider"></li>
                                                                         <li>
                                                                             <a href="#">
@@ -1344,8 +1344,8 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Office &amp; Stationery</li>
-                                                                        <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                                        <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                                        <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                                        <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <!-- .kc_text_block -->
@@ -1381,13 +1381,13 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Cameras & Photography</li>
-                                                                        <li><a href="shop.html">All Cameras & Photography</a></li>
-                                                                        <li><a href="shop.html">Point & Shoot Cameras</a></li>
-                                                                        <li><a href="shop.html">Lenses</a></li>
-                                                                        <li><a href="shop.html">Camera Accessories</a></li>
-                                                                        <li><a href="shop.html">Security & Surveillance</a></li>
-                                                                        <li><a href="shop.html">Binoculars & Telescopes</a></li>
-                                                                        <li><a href="shop.html">Camcorders</a></li>
+                                                                        <li><a href="shop.php">All Cameras & Photography</a></li>
+                                                                        <li><a href="shop.php">Point & Shoot Cameras</a></li>
+                                                                        <li><a href="shop.php">Lenses</a></li>
+                                                                        <li><a href="shop.php">Camera Accessories</a></li>
+                                                                        <li><a href="shop.php">Security & Surveillance</a></li>
+                                                                        <li><a href="shop.php">Binoculars & Telescopes</a></li>
+                                                                        <li><a href="shop.php">Camcorders</a></li>
                                                                         <li class="nav-divider"></li>
                                                                         <li>
                                                                             <a href="#">
@@ -1407,10 +1407,10 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Audio & Video</li>
-                                                                        <li><a href="shop.html">All Audio & Video</a></li>
-                                                                        <li><a href="shop.html">Headphones & Speakers</a></li>
-                                                                        <li><a href="shop.html">Home Entertainment Systems</a></li>
-                                                                        <li><a href="shop.html">MP3 & Media Players</a></li>
+                                                                        <li><a href="shop.php">All Audio & Video</a></li>
+                                                                        <li><a href="shop.php">Headphones & Speakers</a></li>
+                                                                        <li><a href="shop.php">Home Entertainment Systems</a></li>
+                                                                        <li><a href="shop.php">MP3 & Media Players</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <!-- .kc_text_block -->
@@ -1446,13 +1446,13 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Computers &amp; Accessories</li>
-                                                                        <li><a href="shop.html">All Computers &amp; Accessories</a></li>
-                                                                        <li><a href="shop.html">Laptops, Desktops &amp; Monitors</a></li>
-                                                                        <li><a href="shop.html">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
-                                                                        <li><a href="shop.html">Printers &amp; Ink</a></li>
-                                                                        <li><a href="shop.html">Networking &amp; Internet Devices</a></li>
-                                                                        <li><a href="shop.html">Computer Accessories</a></li>
-                                                                        <li><a href="shop.html">Software</a></li>
+                                                                        <li><a href="shop.php">All Computers &amp; Accessories</a></li>
+                                                                        <li><a href="shop.php">Laptops, Desktops &amp; Monitors</a></li>
+                                                                        <li><a href="shop.php">Pen Drives, Hard Drives &amp; Memory Cards</a></li>
+                                                                        <li><a href="shop.php">Printers &amp; Ink</a></li>
+                                                                        <li><a href="shop.php">Networking &amp; Internet Devices</a></li>
+                                                                        <li><a href="shop.php">Computer Accessories</a></li>
+                                                                        <li><a href="shop.php">Software</a></li>
                                                                         <li class="nav-divider"></li>
                                                                         <li>
                                                                             <a href="#">
@@ -1472,8 +1472,8 @@
                                                                 <div class="kc_text_block">
                                                                     <ul>
                                                                         <li class="nav-title">Office &amp; Stationery</li>
-                                                                        <li><a href="shop.html">All Office &amp; Stationery</a></li>
-                                                                        <li><a href="shop.html">Pens &amp; Writing</a></li>
+                                                                        <li><a href="shop.php">All Office &amp; Stationery</a></li>
+                                                                        <li><a href="shop.php">Pens &amp; Writing</a></li>
                                                                     </ul>
                                                                 </div>
                                                                 <!-- .kc_text_block -->
@@ -1489,10 +1489,10 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item animate-dropdown">
-                                        <a title="Gadgets" href="shop.html">Gadgets</a>
+                                        <a title="Gadgets" href="shop.php">Gadgets</a>
                                     </li>
                                     <li class="menu-item animate-dropdown">
-                                        <a title="Virtual Reality" href="shop.html">Virtual Reality</a>
+                                        <a title="Virtual Reality" href="shop.php">Virtual Reality</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1501,7 +1501,7 @@
                         <!-- .handheld-navigation -->
                         <div class="site-search">
                             <div class="widget woocommerce widget_product_search">
-                                <form role="search" method="get" class="woocommerce-product-search" action="home-v1.html">
+                                <form role="search" method="get" class="woocommerce-product-search" action="home-v1.php">
                                     <label class="screen-reader-text" for="woocommerce-product-search-field-0">Search for:</label>
                                     <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Search products&hellip;" value="" name="s" />
                                     <input type="submit" value="Search" />
@@ -1511,7 +1511,7 @@
                             <!-- .widget -->
                         </div>
                         <!-- .site-search -->
-                        <a class="handheld-header-cart-link has-icon" href="cart.html" title="View your shopping cart">
+                        <a class="handheld-header-cart-link has-icon" href="cart.php" title="View your shopping cart">
                             <i class="tm tm-shopping-bag"></i>
                             <span class="count">2</span>
                         </a>

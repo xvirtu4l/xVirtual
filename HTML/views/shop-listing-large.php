@@ -6,11 +6,11 @@ require_once "header.php";
         <div class="col-full">
             <div class="row">
                 <nav class="woocommerce-breadcrumb">
-                    <a href="home-v1.html">Home</a>
+                    <a href="home-v1.php">Home</a>
                     <span class="delimiter">
                                 <i class="tm tm-breadcrumbs-arrow-right"></i>
                             </span>
-                    <a href="shop.html">Shop</a>
+                    <a href="shop.php">Shop</a>
                     <span class="delimiter">
                                 <i class="tm tm-breadcrumbs-arrow-right"></i>
                             </span>Page 1
@@ -111,10 +111,10 @@ require_once "header.php";
                                     <div class="products">
                                         <div class="product first">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/1.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -124,18 +124,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/2.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -145,18 +145,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/3.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -166,18 +166,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/4.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -187,18 +187,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/5.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -208,18 +208,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/6.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -229,18 +229,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product last">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/7.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -250,18 +250,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product first">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/8.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -271,18 +271,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/9.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -292,18 +292,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/10.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -313,18 +313,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/11.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -334,18 +334,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/12.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -355,18 +355,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/13.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -376,18 +376,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product last">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/14.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -397,18 +397,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product first">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/15.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -418,18 +418,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/16.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -439,18 +439,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/17.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -460,18 +460,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/5.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -481,18 +481,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/12.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -502,18 +502,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/1.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -523,18 +523,18 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
                                         <!-- .product -->
                                         <div class="product last">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/8.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -544,8 +544,8 @@ require_once "header.php";
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.html">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -561,10 +561,10 @@ require_once "header.php";
                                     <div class="products">
                                         <div class="product first">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/1.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -597,16 +597,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/2.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -639,16 +639,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/3.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -681,16 +681,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/4.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -723,16 +723,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/5.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -765,16 +765,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/6.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -807,16 +807,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product last">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/7.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -849,16 +849,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product first">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/8.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -891,16 +891,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/9.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -933,16 +933,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/10.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -975,16 +975,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/11.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1017,16 +1017,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/12.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1059,16 +1059,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/13.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1101,16 +1101,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product last">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/14.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1143,16 +1143,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product first">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/15.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1185,16 +1185,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/16.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1227,16 +1227,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/17.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1269,16 +1269,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/5.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1311,16 +1311,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/12.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1353,16 +1353,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/1.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1395,16 +1395,16 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                         <div class="product last">
                                             <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/8.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
@@ -1437,8 +1437,8 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.html">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
+                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                         </div>
                                         <!-- .product -->
                                     </div>
@@ -1456,10 +1456,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1500,8 +1500,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1516,10 +1516,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1560,8 +1560,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1576,10 +1576,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1620,8 +1620,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1636,10 +1636,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1680,8 +1680,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1696,10 +1696,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1740,8 +1740,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1756,10 +1756,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1800,8 +1800,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1825,10 +1825,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1866,8 +1866,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1882,10 +1882,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1923,8 +1923,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1939,10 +1939,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -1980,8 +1980,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1996,10 +1996,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2037,8 +2037,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2053,10 +2053,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2094,8 +2094,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2110,10 +2110,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2151,8 +2151,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2176,10 +2176,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2207,8 +2207,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2223,10 +2223,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2254,8 +2254,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2270,10 +2270,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2301,8 +2301,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2317,10 +2317,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2348,8 +2348,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2364,10 +2364,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2395,8 +2395,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2411,10 +2411,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2442,8 +2442,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2458,10 +2458,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2489,8 +2489,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2505,10 +2505,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2536,8 +2536,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2552,10 +2552,10 @@ require_once "header.php";
                                                 <div class="media-body">
                                                     <div class="product-info">
                                                         <div class="yith-wcwl-add-to-wishlist">
-                                                            <a href="wishlist.html" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                                            <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                                         </div>
                                                         <!-- .yith-wcwl-add-to-wishlist -->
-                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.html">
+                                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
                                                             <h2 class="woocommerce-loop-product__title">60UH6150 60-Inch 4K Ultra HD Smart LED TV</h2>
                                                             <div class="techmarket-product-rating">
                                                                 <div title="Rated 5.00 out of 5" class="star-rating">
@@ -2583,8 +2583,8 @@ require_once "header.php";
                                                                         <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.html">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.html">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2644,99 +2644,99 @@ require_once "header.php";
                                 <span>Browse Categories</span>
                                 <ul>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>Televisions</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>Home Theater &amp; Audio</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Headphones</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Digital Cameras</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Cells &amp; Tablets</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>Smartwatches</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Games &amp; Consoles</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>Printer</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>TV &amp; Video</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Home Entertainment</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Computers &amp; Laptops</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>Notebooks</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Desktop PCs</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>Mac Computers</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>All in One PC</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Audio &amp; Music</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>PC Components</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                                     <span class="child-indicator">
                                                         <i class="fa fa-angle-right"></i>
                                                     </span>Desktop PCs</a>
                                     </li>
                                     <li class="cat-item">
-                                        <a href="product-category.html">
+                                        <a href="product-category.php">
                                             <span class="no-child"></span>Monitors</a>
                                     </li>
                                 </ul>
@@ -2834,7 +2834,7 @@ require_once "header.php";
                                     <div class="woocommerce columns-1">
                                         <div class="products">
                                             <div class="landscape-product-widget product">
-                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                                     <div class="media">
                                                         <img class="wp-post-image" src="../assets/images/products/sm-1.jpg" alt="">
                                                         <div class="media-body">
@@ -2864,7 +2864,7 @@ require_once "header.php";
                                                 <!-- .woocommerce-LoopProduct-link -->
                                             </div>
                                             <div class="landscape-product-widget product">
-                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                                     <div class="media">
                                                         <img class="wp-post-image" src="../assets/images/products/sm-2.jpg" alt="">
                                                         <div class="media-body">
@@ -2894,7 +2894,7 @@ require_once "header.php";
                                                 <!-- .woocommerce-LoopProduct-link -->
                                             </div>
                                             <div class="landscape-product-widget product">
-                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                                     <div class="media">
                                                         <img class="wp-post-image" src="../assets/images/products/sm-3.jpg" alt="">
                                                         <div class="media-body">
@@ -2924,7 +2924,7 @@ require_once "header.php";
                                                 <!-- .woocommerce-LoopProduct-link -->
                                             </div>
                                             <div class="landscape-product-widget product">
-                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                                     <div class="media">
                                                         <img class="wp-post-image" src="../assets/images/products/sm-4.jpg" alt="">
                                                         <div class="media-body">
@@ -2983,7 +2983,7 @@ require_once "header.php";
                     <div class="woocommerce columns-5">
                         <div class="products">
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-1.jpg" alt="">
                                         <div class="media-body">
@@ -3015,7 +3015,7 @@ require_once "header.php";
                             </div>
                             <!-- .landscape-product -->
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-6.jpg" alt="">
                                         <div class="media-body">
@@ -3044,7 +3044,7 @@ require_once "header.php";
                             </div>
                             <!-- .landscape-product -->
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-4.jpg" alt="">
                                         <div class="media-body">
@@ -3073,7 +3073,7 @@ require_once "header.php";
                             </div>
                             <!-- .landscape-product -->
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-2.jpg" alt="">
                                         <div class="media-body">
@@ -3102,7 +3102,7 @@ require_once "header.php";
                             </div>
                             <!-- .landscape-product -->
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-5.jpg" alt="">
                                         <div class="media-body">
@@ -3134,7 +3134,7 @@ require_once "header.php";
                             </div>
                             <!-- .landscape-product -->
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-3.jpg" alt="">
                                         <div class="media-body">
@@ -3166,7 +3166,7 @@ require_once "header.php";
                             </div>
                             <!-- .landscape-product -->
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-4.jpg" alt="">
                                         <div class="media-body">
@@ -3195,7 +3195,7 @@ require_once "header.php";
                             </div>
                             <!-- .landscape-product -->
                             <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.html">
+                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
                                         <img class="wp-post-image" src="../assets/images/products/card-3.jpg" alt="">
                                         <div class="media-body">
@@ -3240,7 +3240,7 @@ require_once "header.php";
             <div class="col-full" data-ride="tm-slick-carousel" data-wrap=".brands" data-slick="{&quot;slidesToShow&quot;:6,&quot;slidesToScroll&quot;:1,&quot;dots&quot;:false,&quot;arrows&quot;:true,&quot;responsive&quot;:[{&quot;breakpoint&quot;:400,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1}},{&quot;breakpoint&quot;:800,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:5}}]}">
                 <div class="brands">
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3254,7 +3254,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3268,7 +3268,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3282,7 +3282,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3296,7 +3296,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3310,7 +3310,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3324,7 +3324,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3338,7 +3338,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3352,7 +3352,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3366,7 +3366,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3380,7 +3380,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">
@@ -3394,7 +3394,7 @@ require_once "header.php";
                     </div>
                     <!-- .item -->
                     <div class="item">
-                        <a href="shop.html">
+                        <a href="shop.php">
                             <figure>
                                 <figcaption class="text-overlay">
                                     <div class="info">

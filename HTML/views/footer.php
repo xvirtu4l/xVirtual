@@ -1,4 +1,4 @@
-<footer class="site-footer footer-v1">
+<.php-v1">
     <div class="col-full">
         <div class="before-footer-wrap">
             <div class="col-full">
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="footer-contact">
                     <div class="footer-logo">
-                        <a href="home-v1.html" class="custom-logo-link" rel="home">
+                        <a href="home-v1.php" class="custom-logo-link" rel="home">
                             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 28">
                                 <defs>
                                     <style>
@@ -173,22 +173,22 @@
                                 <div class="menu-footer-menu-1-container">
                                     <ul id="menu-footer-menu-1" class="menu">
                                         <li class="menu-item">
-                                            <a href="shop.html">Computers &#038; Laptops</a>
+                                            <a href="shop.php">Computers &#038; Laptops</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Cameras &#038; Photography</a>
+                                            <a href="shop.php">Cameras &#038; Photography</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Smart Phones &#038; Tablets</a>
+                                            <a href="shop.php">Smart Phones &#038; Tablets</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Video Games &#038; Consoles</a>
+                                            <a href="shop.php">Video Games &#038; Consoles</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">TV</a>
+                                            <a href="shop.php">TV</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Car Electronic &#038; GPS</a>
+                                            <a href="shop.php">Car Electronic &#038; GPS</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -206,22 +206,22 @@
                                 <div class="menu-footer-menu-2-container">
                                     <ul id="menu-footer-menu-2" class="menu">
                                         <li class="menu-item">
-                                            <a href="shop.html">Printers &#038; Ink</a>
+                                            <a href="shop.php">Printers &#038; Ink</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Audio &amp; Music</a>
+                                            <a href="shop.php">Audio &amp; Music</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Home Theaters</a>
+                                            <a href="shop.php">Home Theaters</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">PC Components</a>
+                                            <a href="shop.php">PC Components</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Ultrabooks</a>
+                                            <a href="shop.php">Ultrabooks</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Smartwatches</a>
+                                            <a href="shop.php">Smartwatches</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -239,25 +239,25 @@
                                 <div class="menu-footer-menu-3-container">
                                     <ul id="menu-footer-menu-3" class="menu">
                                         <li class="menu-item">
-                                            <a href="login-and-register.html">My Account</a>
+                                            <a href="login-and-register.php">My Account</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="track-your-order.html">Track Order</a>
+                                            <a href="track-your-order.php">Track Order</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.html">Shop</a>
+                                            <a href="shop.php">Shop</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="wishlist.html">Wishlist</a>
+                                            <a href="wishlist.php">Wishlist</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="about.html">About Us</a>
+                                            <a href="about.php">About Us</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="terms-and-conditions.html">Returns/Exchange</a>
+                                            <a href="terms-and-conditions.php">Returns/Exchange</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="faq.html">FAQs</a>
+                                            <a href="faq.php">FAQs</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -276,7 +276,7 @@
         <!-- .footer-widgets-block -->
         <div class="site-info">
             <div class="col-full">
-                <div class="copyright">Copyright &copy; 2017 <a href="home-v1.html">Techmarket</a> Theme. All rights reserved.</div>
+                <div class="copyright">Copyright &copy; 2017 <a href="home-v1.php">Techmarket</a> Theme. All rights reserved.</div>
                 <!-- .copyright -->
                 <div class="credit">Made with
                     <i class="fa fa-heart"></i> by bcube.</div>

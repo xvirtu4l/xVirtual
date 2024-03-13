@@ -6,7 +6,7 @@ require_once "header.php";
         <div class="col-full">
             <div class="row">
                 <nav class="woocommerce-breadcrumb">
-                    <a href="home-v1.html">Home</a>
+                    <a href="home-v1.php">Home</a>
                     <span class="delimiter">
                                 <i class="tm tm-breadcrumbs-arrow-right"></i>
                             </span>
@@ -53,12 +53,12 @@ require_once "header.php";
                                                 </div>
                                             </td>
                                             <td class="product-thumbnail">
-                                                <a href="single-product-fullwidth.html">
+                                                <a href="single-product-fullwidth.php">
                                                     <img width="180" height="180" alt="" class="wp-post-image" src="../assets/images/products/cart-1.jpg">
                                                 </a>
                                             </td>
                                             <td class="product-name">
-                                                <a href="single-product-fullwidth.html">4K Action Cam with  Wi-Fi &amp; GPS</a>
+                                                <a href="single-product-fullwidth.php">4K Action Cam with  Wi-Fi &amp; GPS</a>
                                             </td>
                                             <td class="product-price">
                                                 <ins>
@@ -74,7 +74,7 @@ require_once "header.php";
                                                 <span class="wishlist-in-stock">In Stock</span>
                                             </td>
                                             <td class="product-add-to-cart">
-                                                <a class="button add_to_cart_button button alt" href="cart.html"> Add to Cart</a>
+                                                <a class="button add_to_cart_button button alt" href="cart.php"> Add to Cart</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -84,12 +84,12 @@ require_once "header.php";
                                                 </div>
                                             </td>
                                             <td class="product-thumbnail">
-                                                <a href="single-product-fullwidth.html">
+                                                <a href="single-product-fullwidth.php">
                                                     <img width="180" height="180" alt="" class="wp-post-image" src="../assets/images/products/cart-2.jpg">
                                                 </a>
                                             </td>
                                             <td class="product-name">
-                                                <a href="single-product-fullwidth.html">55EG9600 - 55-Inch 2160p Smart Curved Ultra HD 3D</a>
+                                                <a href="single-product-fullwidth.php">55EG9600 - 55-Inch 2160p Smart Curved Ultra HD 3D</a>
                                             </td>
                                             <td class="product-price">
                                                 <ins>
@@ -105,7 +105,7 @@ require_once "header.php";
                                                 <span class="wishlist-in-stock">In Stock</span>
                                             </td>
                                             <td class="product-add-to-cart">
-                                                <a class="button add_to_cart_button button alt" href="cart.html"> Add to Cart</a>
+                                                <a class="button add_to_cart_button button alt" href="cart.php"> Add to Cart</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -115,12 +115,12 @@ require_once "header.php";
                                                 </div>
                                             </td>
                                             <td class="product-thumbnail">
-                                                <a href="single-product-fullwidth.html">
+                                                <a href="single-product-fullwidth.php">
                                                     <img width="180" height="180" alt="" class="wp-post-image" src="../assets/images/products/cart-3.jpg">
                                                 </a>
                                             </td>
                                             <td class="product-name">
-                                                <a href="single-product-fullwidth.html">360° Viewing Immersive VR Headset</a>
+                                                <a href="single-product-fullwidth.php">360° Viewing Immersive VR Headset</a>
                                             </td>
                                             <td class="product-price">
                                                 <ins>
@@ -136,7 +136,7 @@ require_once "header.php";
                                                 <span class="wishlist-in-stock">In Stock</span>
                                             </td>
                                             <td class="product-add-to-cart">
-                                                <a class="button add_to_cart_button button alt" href="cart.html"> Add to Cart</a>
+                                                <a class="button add_to_cart_button button alt" href="cart.php"> Add to Cart</a>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -147,19 +147,19 @@ require_once "header.php";
                                                     <h4 class="yith-wcwl-share-title">Share on:</h4>
                                                     <ul>
                                                         <li style="list-style-type: none; display: inline-block;">
-                                                            <a title="Facebook" href="https://www.facebook.com/sharer.php?s=100&amp;p%5Btitle%5D=My+wishlist+on+Tech+Market&amp;p%5Burl%5D=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.html%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F" class="facebook" target="_blank"></a>
+                                                            <a title="Facebook" href="https://www.facebook.com/sharer.php?s=100&amp;p%5Btitle%5D=My+wishlist+on+Tech+Market&amp;p%5Burl%5D=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.php%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F" class="facebook" target="_blank"></a>
                                                         </li>
                                                         <li style="list-style-type: none; display: inline-block;">
-                                                            <a title="Twitter" href="https://twitter.com/share?url=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.html%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;text=" class="twitter" target="_blank"></a>
+                                                            <a title="Twitter" href="https://twitter.com/share?url=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.php%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;text=" class="twitter" target="_blank"></a>
                                                         </li>
                                                         <li style="list-style-type: none; display: inline-block;">
-                                                            <a onclick="window.open(this.href); return false;" title="Pinterest" href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.html%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;description=&amp;media=" class="pinterest" target="_blank"></a>
+                                                            <a onclick="window.open(this.href); return false;" title="Pinterest" href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.php%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;description=&amp;media=" class="pinterest" target="_blank"></a>
                                                         </li>
                                                         <li style="list-style-type: none; display: inline-block;">
-                                                            <a onclick="javascript:window.open(this.href, &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;" title="Google+" href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.html%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;title=My+wishlist+on+Tech+Market" class="googleplus" target="_blank"></a>
+                                                            <a onclick="javascript:window.open(this.href, &quot;&quot;, &quot;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&quot;);return false;" title="Google+" href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.php%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;title=My+wishlist+on+Tech+Market" class="googleplus" target="_blank"></a>
                                                         </li>
                                                         <li style="list-style-type: none; display: inline-block;">
-                                                            <a title="Email" href="mailto:?subject=I+wanted+you+to+see+this+site&amp;body=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.html%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;title=My+wishlist+on+Tech+Market" class="email"></a>
+                                                            <a title="Email" href="mailto:?subject=I+wanted+you+to+see+this+site&amp;body=http%3A%2F%2Flocalhost%2F%7Efarook%2Ftechmarket%2Fhome-v1.php%2Fwishlist%2Fview%2FD5ON1PW1PYO1%2F&amp;title=My+wishlist+on+Tech+Market" class="email"></a>
                                                         </li>
                                                     </ul>
                                                 </div>
