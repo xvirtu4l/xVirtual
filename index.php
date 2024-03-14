@@ -1,4 +1,5 @@
 <?php
+// tung keng da sua 
 session_start();
 include "model/pdo.php";
 include "model/sanpham.php";
