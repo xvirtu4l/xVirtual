@@ -9,16 +9,16 @@
                         <div class="media-body">
                             <div class="clearfix">
                                 <div class="newsletter-header">
-                                    <h5 class="newsletter-title">Sign up to Newsletter</h5>
-                                    <span class="newsletter-marketing-text">...and receive
-                                                    <strong>$20 coupon for first shopping</strong>
+                                    <h5 class="newsletter-title">Đăng ký nhận bản tin</h5>
+                                    <span class="newsletter-marketing-text">...và nhận
+                                                    <strong>Phiếu giảm giá 999.999đ cho lần mua đầu tiên</strong>
                                                 </span>
                                 </div>
                                 <!-- .newsletter-header -->
                                 <div class="newsletter-body">
                                     <form class="newsletter-form">
                                         <input type="text" placeholder="Enter your email address">
-                                        <button class="button" type="button">Sign up</button>
+                                        <button class="button" type="button">Đăng ký</button>
                                     </form>
                                 </div>
                                 <!-- .newsletter body -->
@@ -109,11 +109,11 @@
                                                 <i class="tm tm-call-us-footer"></i>
                                             </span>
                                 <div class="media-body">
-                                    <span class="call-us-title">Got Questions ? Call us 24/7!</span>
+                                    <span class="call-us-title">Có câu hỏi? Gọi cho chúng tôi 24/7!</span>
                                     <span class="call-us-text">(800) 8001-8588, (0600) 874 548</span>
-                                    <address class="footer-contact-address">17 Princess Road, London, Greater London NW1 8JR, UK</address>
+                                    <address class="footer-contact-address">29 Xã Đàn, Phương Liên,Đống Đa, Hà Nội</address>
                                     <a href="#" class="footer-address-map-link">
-                                        <i class="tm tm-map-marker"></i>Find us on map</a>
+                                        <i class="tm tm-map-marker"></i>Tìm chúng tôi trên map</a>
                                 </div>
                                 <!-- .media-body -->
                             </div>
@@ -126,7 +126,7 @@
                                                 <i class="tm tm-safe-payments"></i>
                                             </span>
                                 <div class="media-body">
-                                    <h5 class="footer-payment-info-title">We are using safe payments</h5>
+                                    <h5 class="footer-payment-info-title">Chúng tôi sử dụng các phương thức thanh toán an toàn</h5>
                                     <div class="footer-payment-icons">
                                         <ul class="list-payment-icons nav">
                                             <li class="nav-item">
@@ -170,7 +170,7 @@
                     <div class="columns">
                         <aside class="widget clearfix">
                             <div class="body">
-                                <h4 class="widget-title">Find it Fast</h4>
+                                <h4 class="widget-title">Tìm kiếm nhanh</h4>
                                 <div class="menu-footer-menu-1-container">
                                     <ul id="menu-footer-menu-1" class="menu">
                                         <li class="menu-item">
@@ -236,26 +236,24 @@
                     <div class="columns">
                         <aside class="widget clearfix">
                             <div class="body">
-                                <h4 class="widget-title">Customer Care</h4>
+                                <h4 class="widget-title">CHĂM SÓC KHÁCH HÀNG</h4>
                                 <div class="menu-footer-menu-3-container">
                                     <ul id="menu-footer-menu-3" class="menu">
                                         <li class="menu-item">
-                                            <a href="login-and-register.php">My Account</a>
+                                            <a href="login-and-register.php">Tài Khoản Của Tôi</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="track-your-order.php">Track Order</a>
+                                            <a href="track-your-order.php">Theo Dõi Đơn Hàng</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="shop.php">Shop</a>
+                                            <a href="shop.php">Cửa Hàng</a>
+                                        </li>
+
+                                        <li class="menu-item">
+                                            <a href="about.php">Về Chúng Tôi</a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="wishlist.php">Wishlist</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="about.php">About Us</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="terms-and-conditions.php">Returns/Exchange</a>
+                                            <a href="terms-and-conditions.php">Đổi/Trả hàng</a>
                                         </li>
                                         <li class="menu-item">
                                             <a href="faq.php">FAQs</a>
