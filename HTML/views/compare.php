@@ -20,16 +20,17 @@ require_once "header.php";
                                     <table class="table table-compare compare-list">
                                         <tbody>
                                         <tr>
-                                            <th>Product</th>
+                                            <th>Sản phẩm</th>
                                             <td>
                                                 <a class="product" href="single-product-fullwidth.php">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <img width="300" height="300" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/1-2.jpg">
+                                                            <img width="300" height="300" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/iphone-11-den-11-org.jpg">
                                                         </div>
                                                     </div>
                                                     <div class="product-info">
-                                                        <h3 class="product-title">55EG9600 - 55-Inch 2160p Smart Curved Ultra HD 3D</h3>
+                                                        <h3 class="product-title">iPhone 15 Pro Max 256GB
+                                                        </h3>
                                                         <div class="star-rating">
                                                                         <span style="width:100%">Rated
                                                                             <strong class="rating">5.00</strong> out of 5</span>
@@ -42,11 +43,11 @@ require_once "header.php";
                                                 <a class="product" href="single-product-fullwidth.php">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <img width="300" height="300" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/big-2.jpg">
+                                                            <img width="300" height="300" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/5.jpg">
                                                         </div>
                                                     </div>
                                                     <div class="product-info">
-                                                        <h3 class="product-title">55UP130 55-Inch 4K Ultra HD Roku Smart LED TV</h3>
+                                                        <h3 class="product-title">Điện thoại iPhone 11 128GB</h3>
                                                     </div>
                                                 </a>
                                                 <!-- /.product -->
@@ -55,18 +56,18 @@ require_once "header.php";
                                                 <a class="product" href="single-product-fullwidth.php">
                                                     <div class="product-image">
                                                         <div class="image">
-                                                            <img width="300" height="300" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/deals-3.jpg">
+                                                            <img width="300" height="300" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/638303950417112947_iphone-15-xanh-la-1.webp">
                                                         </div>
                                                     </div>
                                                     <div class="product-info">
-                                                        <h3 class="product-title">55" KU6470 6 Series UHD Crystal Colour HDR Smart TV</h3>
+                                                        <h3 class="product-title">Điện thoại iPhone 12 128GB</h3>
                                                     </div>
                                                 </a>
                                                 <!-- /.product -->
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>Price</th>
+                                            <th>Giá</th>
                                             <td>
                                                 <div class="product-price price"></div>
                                             </td>
@@ -74,11 +75,11 @@ require_once "header.php";
                                                 <div class="product-price price">
                                                     <ins>
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">£</span>3,497.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                     </ins>
                                                     <del>
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">£</span>4,239.99</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>23.000.000đ</span>
                                                     </del>
                                                 </div>
                                             </td>
@@ -86,58 +87,58 @@ require_once "header.php";
                                                 <div class="product-price price">
                                                     <ins>
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">£</span>627.99</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>23.000.000đ</span>
                                                     </ins>
                                                     <del>
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">£</span>939.99</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>19.000.000đ</span>
                                                     </del>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>Availability</th>
+                                            <th>Khả dụng</th>
                                             <td>
-                                                <span>In stock</span>
+                                                <span>Còn hàng</span>
                                             </td>
                                             <td>
-                                                <span>In stock</span>
+                                                <span>Còn hàng</span>
                                             </td>
                                             <td>
-                                                <span>In stock</span>
+                                                <span>Còn hàng</span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>Description</th>
+                                            <th>Miêu tả</th>
                                             <td>
-                                                <p>3D Glasses Included, Built-In Speakers, DLNA Certified, Game Mode, Headphone Jack, Internet Apps and Widgets, Keyboard Controller Included, Smartphone controllable, Wi-Fi Enabled.</p>
+                                                <p>Kính 3D Được Bao Gồm, Loa Tích Hợp, Được Chứng Nhận DLNA, Chế Độ Trò Chơi, Cổng Tai Nghe, Ứng Dụng và Tiện Ích Internet, Bàn Phím Điều Khiển Được Bao Gồm, Có Thể Điều Khiển Bằng Điện Thoại Thông Minh, Kết Nối Wi-Fi.</p>
                                             </td>
                                             <td>
                                                 <ul>
-                                                    <li>Refresh Rate: 60Hz (Native), 120Hz Clear Motion Index (Effective)</li>
-                                                    <li>Backlight: LED (Full Array)</li>
-                                                    <li>Smart Functionality: Yes &ndash; Roku TV Streaming Platform with built-in dual band Wi-Fi</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 49″ x 28.4″ x 2.7″, TV with stand: 49″ x 30.2″ x 8.7”</li>
+                                                    <li>Tần Số: 60Hz (Gốc), 120Hz Clear Motion Index (Hiệu Quả)</li>
+                                                    <li>Đèn nền: LED (Mảng Đầy Đủ)</li>
+                                                    <li>Chức năng Thông Minh: Có - Nền tảng Phát Sóng Roku TV tích hợp với Wi-Fi kép băng tần</li>
+                                                    <li>Kích thước (Rộng x Cao x Sâu): TV không chân đế: 49 inch x 28.4 inch x 2.7 inch, TV có chân đế: 49 inch x 30.2 inch x 8.7 inch</li>
                                                 </ul>
                                             </td>
                                             <td>
-                                                <p>See stunningly natural and lifelike pictures through Samsung’s UHD Crystal Colour technology meeting Digital Europe and CEA UHD picture quality standards. This latest screen technology delivers enhanced pixels and chip set for a superior picture quality experience with stunning contrast and over 17 million true to life colours with intense shades in a colour space 20% wider than conventional UHD.</p>
+                                                <p>"Thưởng thức những hình ảnh tuyệt đẹp tự nhiên và sống động thông qua Công nghệ Màu Crystal UHD của Samsung, đáp ứng các tiêu chuẩn chất lượng hình ảnh UHD của Digital Europe và CEA. Công nghệ màn hình mới nhất này mang lại các điểm ảnh và vi xử lý cải tiến để trải nghiệm chất lượng hình ảnh vượt trội với độ tương phản tuyệt vời và hơn 17 triệu màu sắc thực sự với các tông màu cực kỳ đậm và đa dạng trong không gian màu rộng hơn 20% so với UHD thông thường."</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>Add to cart</th>
+                                            <th>Thêm vào giỏ hàng</th>
                                             <td>
-                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
                                             </td>
                                             <td>
-                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
                                             </td>
                                             <td>
-                                                <a class="button" href="cart.php">Add to cart</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>Weight</th>
+                                            <th>Khối lượng</th>
                                             <td>
                                                 <span>-</span>
                                             </td>
@@ -149,7 +150,7 @@ require_once "header.php";
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>Dimensions</th>
+                                            <th>Kích thước</th>
                                             <td>
                                                 <span>N/A</span>
                                             </td>
@@ -161,13 +162,13 @@ require_once "header.php";
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th>Brand</th>
+                                            <th>Nhãn hiệu</th>
                                             <td>&nbsp;</td>
                                             <td>cannon</td>
                                             <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <th>Price</th>
+                                            <th>Giá</th>
                                             <td>
                                                 <div class="product-price price">
                                                                 <span class="woocommerce-Price-amount amount">

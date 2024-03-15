@@ -17,13 +17,13 @@ require_once "header.php";
                         <div class="error404">
                             <div class="info-404">
                                 <h2 class="title">404!</h2>
-                                <p class="lead error-text">Oops! That page can’t be found.</p>
-                                <p class="lead">Nothing was found at this location. Try searching, or check out the links below.</p>
+                                <p class="lead error-text">Xin lỗi! Trang đó không thể được tìm thấy.</p>
+                                <p class="lead">Không có gì được tìm thấy tại vị trí này. Hãy thử tìm kiếm, hoặc kiểm tra các liên kết dưới đây</p>
                                 <div class="sub-form-row">
                                     <div class="widget woocommerce widget_product_search">
                                         <form class="search-form">
-                                            <input type="text" placeholder="Search products...">
-                                            <button class="button" type="button">Search</button>
+                                            <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                                            <button class="button" type="button">Tìm kiếm</button>
                                         </form>
                                     </div>
                                 </div>
