@@ -10,7 +10,7 @@ require_once "header.php";
                     <span class="delimiter">
                                 <i class="tm tm-breadcrumbs-arrow-right"></i>
                             </span>
-                    Terms and Conditions
+                    Điều Khoản Và Dịch Vụ
                 </nav>
                 <!-- .woocommerce-breadcrumb -->
                 <div id="primary" class="content-area">
@@ -18,32 +18,34 @@ require_once "header.php";
                         <div class="type-page hentry">
                             <header class="entry-header">
                                 <div class="page-header-caption">
-                                    <h1 class="entry-title">Terms and Conditions</h1>
-                                    <p class="entry-subtitle">This Agreement was last modified on 18 February 2016.</p>
+                                    <h1 class="entry-title">Điều Khoản Và Dịch Vụ</h1>
+                                    <p class="entry-subtitle">Thỏa thuận này đã được sửa đổi lần cuối vào ngày 18 tháng 2 năm 2016.</p>
                                 </div>
                             </header>
                             <div class="entry-content">
                                 <section class="section terms-conditions">
-                                    <h2>Intellectual Propertly</h2>
+                                    <h2>Điều Khoản</h2>
                                     <ol>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis diam erat. Duis velit lectus, posuere a blandit sit amet, tempor at lorem. Donec ultricies, lorem sed ultrices interdum.</li>
-                                        <li>Leo metus luctus sem, vel vulputate diam ipsum sed lorem. Donec tempor arcu nisl, et molestie massa scelerisque ut. Nunc at rutrum leo. Mauris metus mauris, tristique quis sapien eu, rutrum vulputate enim.</li>
-                                        <li>Mauris tempus erat laoreet turpis lobortis, eu tincidunt erat fermentum.</li>
-                                        <li>Aliquam non tincidunt urna. Integer tincidunt nec nisl vitae ullamcorper. Proin sed ultrices erat. Praesent varius ultrices massa at faucibus.</li>
-                                        <li>Aenean dignissim, orci sed faucibus pharetra, dui mi dignissim tortor, sit amet condimentum mi ligula sit amet augue.</li>
-                                        <li>Pellentesque vitae eros eget enim mollis placerat.</li>
+                                        <li>YouTube có thể tắt âm thanh của bạn, rõ ràng là không tốt cho kế hoạch tiếp thị của bạn.</li>
+                                        <li>Tài khoản của bạn có thể bị ngừng hoạt động hoặc bị khóa, điều này cũng không hữu ích cho doanh nghiệp của bạn nếu bạn đang phát triển rất lớn</li>
+                                        <li>Chủ sở hữu của âm nhạc có thể nộp đơn kiện.</li>
+                                        <li>Thế giới bản quyền trên Internet rất phức tạp.</li>
+                                        <li>Vì YouTube là một nền tảng để đăng và xem video, nên nó tự nhiên trở thành một điểm nóng của vi phạm.
+                                        </li>
+                                        <li>Nếu họ phát hiện ra một vi phạm, họ sẽ gỡ bỏ nội dung. </li>
                                     </ol>
-                                    <h2>Termination</h2>
+                                    <h2>Dịch Vụ</h2>
                                     <ol>
-                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis diam erat. Duis velit lectus, posuere a blandit sit amet, tempor at lorem. Donec ultricies, lorem sed ultrices interdum.</li>
-                                        <li>Leo metus luctus sem, vel vulputate diam ipsum sed lorem. Donec tempor arcu nisl, et molestie massa scelerisque ut. Nunc at rutrum leo. Mauris metus mauris, tristique quis sapien eu, rutrum vulputate enim.</li>
-                                        <li>Mauris tempus erat laoreet turpis lobortis, eu tincidunt erat fermentum.</li>
-                                        <li>Aliquam non tincidunt urna. Integer tincidunt nec nisl vitae ullamcorper. Proin sed ultrices erat. Praesent varius ultrices massa at faucibus.</li>
-                                        <li>Aenean dignissim, orci sed faucibus pharetra, dui mi dignissim tortor, sit amet condimentum mi ligula sit amet augue.</li>
-                                        <li>Pellentesque vitae eros eget enim mollis placerat.</li>
+                                      <li>YouTube có thể tắt âm thanh của bạn, rõ ràng là không tốt cho kế hoạch tiếp thị của bạn.</li>
+                                      <li>Tài khoản của bạn có thể bị ngừng hoạt động hoặc bị khóa, điều này cũng không hữu ích cho doanh nghiệp của bạn nếu bạn đang phát triển rất lớn</li>
+                                      <li>Chủ sở hữu của âm nhạc có thể nộp đơn kiện.</li>
+                                      <li>Thế giới bản quyền trên Internet rất phức tạp.</li>
+                                      <li>Vì YouTube là một nền tảng để đăng và xem video, nên nó tự nhiên trở thành một điểm nóng của vi phạm.
+                                      </li>
+                                      <li>Nếu họ phát hiện ra một vi phạm, họ sẽ gỡ bỏ nội dung. </li>
                                     </ol>
-                                    <h2>Changes To This Agreement</h2>
-                                    <p>We reserve the right, at our sole discretion, to modify or replace these Terms and Conditions by posting the updated terms on the Site.
+                                    <h2>Thay đổi trong Thỏa thuận này</h2>
+                                    <p>Chúng tôi dành quyền, tùy theo quyết định của chúng tôi, để sửa đổi hoặc thay thế các Điều Khoản Và Dịch Vụ này bằng cách đăng các điều khoản cập nhật trên Trang web.
                                         <br>
                                     </p>
                                 </section>

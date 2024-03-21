@@ -19,7 +19,7 @@ require_once "header.php";
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
                                     <a href="blog-single.php">
-                                        <img alt="" class="wp-post-image" src="../assets/images/blog/1.jpg">
+                                        <img alt="" class="wp-post-image" src="../assets/images/products/iphone/1.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -27,36 +27,36 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.php">Tech Terms you should know before your adventure</a>
+                                        <a rel="bookmark" href="blog-single.php">Các Thuật Ngữ Công Nghệ Bạn Nên Biết</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Iphone</a>
                                                 </span>
                                         <span class="posted-on">
                                                     <a href="blog-single.php" rel="bookmark">
-                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
-                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
+                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/2024</time>
+                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">13/03/2024</time>
                                                     </a>
                                                 </span>
                                         <span class="author">
-                                                    <a title="Posts by Jane Smith" href="#" rel="author">Jane Smith</a>
+                                                    <a title="Posts by Bui Hien" href="#" rel="author">Bui Hien</a>
                                                 </span>
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
                                 <div class="entry-content">
-                                    <p>A desktop computer is a computer that is designed to stay in a single location. It may be a tower or an all-in-one PC.</p>
+                                    <p>Máy tính để bàn là một loại máy tính được thiết kế để ở một vị trí cố định. Nó có thể là một tháp máy tính hoặc một PC tất cả trong một</p>
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Xem thêm</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.php">Leave a comment</a>
+                                            <a href="blog-single#comments.php">comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -66,7 +66,7 @@ require_once "header.php";
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
                                     <a href="blog-single.php">
-                                        <img alt="" class="wp-post-image" src="../assets/images/blog/2.jpg">
+                                        <img alt="" class="wp-post-image" src="../assets/images/products/iphone/2.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -74,36 +74,36 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.php">How to build your first 4k ready Desktop PC</a>
+                                        <a rel="bookmark" href="blog-single.php">Cách xây dựng chiếc máy tính để bàn sẵn sàng cho 4K đầu tiên của bạn</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Iphone</a>
                                                 </span>
                                         <span class="posted-on">
                                                     <a href="blog-single.php" rel="bookmark">
-                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
-                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
+                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/2024</time>
+                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">13/03/2024</time>
                                                     </a>
                                                 </span>
                                         <span class="author">
-                                                    <a title="Posts by Jane Smith" href="#" rel="author">Jane Smith</a>
+                                                    <a title="Posts by Bui Hien" href="#" rel="author">Bui Hien</a>
                                                 </span>
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
                                 <div class="entry-content">
-                                    <p>A desktop computer is a computer that is designed to stay in a single location. It may be a tower or an all-in-one PC.</p>
+                                    <p>Máy tính để bàn là một loại máy tính được thiết kế để ở một vị trí cố định. Nó có thể là một tháp máy tính hoặc một máy tính tất cả trong một.</p>
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Xem thêm</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.php">Leave a comment</a>
+                                            <a href="blog-single#comments.php">comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -113,7 +113,7 @@ require_once "header.php";
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
                                     <a href="blog-single.php">
-                                        <img alt="" class="wp-post-image" src="../assets/images/blog/3.jpg">
+                                        <img alt="" class="wp-post-image" src="../assets/images/products/iphone/3.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -121,36 +121,36 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.php">Top 10 Best Graphical Games for testing your Hardware</a>
+                                        <a rel="bookmark" href="blog-single.php">Top 10 trò chơi đồ họa tốt nhất để kiểm tra phần cứng của bạn</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Iphone</a>
                                                 </span>
                                         <span class="posted-on">
                                                     <a href="blog-single.php" rel="bookmark">
-                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
-                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
+                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/2024</time>
+                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">13/03/2024</time>
                                                     </a>
                                                 </span>
                                         <span class="author">
-                                                    <a title="Posts by Jane Smith" href="#" rel="author">Jane Smith</a>
+                                                    <a title="Posts by Bui Hien" href="#" rel="author">Bui Hien</a>
                                                 </span>
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
                                 <div class="entry-content">
-                                    <p>A desktop computer is a computer that is designed to stay in a single location. It may be a tower or an all-in-one PC.</p>
+                                    <p>"Máy tính để bàn là một loại máy tính được thiết kế để ở một vị trí cố định. Nó có thể là một tháp máy tính hoặc một PC tất cả trong một."</p>
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Xem thêm</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.php">Leave a comment</a>
+                                            <a href="blog-single#comments.php">comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -160,7 +160,7 @@ require_once "header.php";
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
                                     <a href="blog-single.php">
-                                        <img alt="" class="wp-post-image" src="../assets/images/blog/4.png">
+                                        <img alt="" class="wp-post-image" src="../assets/images/products/iphone/4.png">
                                     </a>
                                 </div>
                             </div>
@@ -168,36 +168,36 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.php">5 Tips to how find a place for your Wide screen Monitor</a>
+                                        <a rel="bookmark" href="blog-single.php">"5 Mẹo để tìm một nơi cho Màn hình Rộng của bạn"</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Iphone</a>
                                                 </span>
                                         <span class="posted-on">
                                                     <a href="blog-single.php" rel="bookmark">
-                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
-                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
+                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/2024</time>
+                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">13/03/2024</time>
                                                     </a>
                                                 </span>
                                         <span class="author">
-                                                    <a title="Posts by Jane Smith" href="#" rel="author">Jane Smith</a>
+                                                    <a title="Posts by Bui Hien" href="#" rel="author">Bui Hien</a>
                                                 </span>
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
                                 <div class="entry-content">
-                                    <p>A desktop computer is a computer that is designed to stay in a single location. It may be a tower or an all-in-one PC.</p>
+                                    <p>"Máy tính để bàn là một loại máy tính được thiết kế để ở một vị trí cố định. Nó có thể là một tháp máy tính hoặc một máy tính tất cả trong một."</p>
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Xem thêm</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.php">Leave a comment</a>
+                                            <a href="blog-single#comments.php">comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -207,7 +207,7 @@ require_once "header.php";
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
                                     <a href="blog-single.php">
-                                        <img alt="" class="wp-post-image" src="../assets/images/blog/4.jpg">
+                                        <img alt="" class="wp-post-image" src="../assets/images/products/iphone/4.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -215,36 +215,36 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.php">Why you should choose dedicated Desktop PC Computer</a>
+                                        <a rel="bookmark" href="blog-single.php">"Tại sao bạn nên chọn máy tính để bàn riêng biệt?"</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Iphone</a>
                                                 </span>
                                         <span class="posted-on">
                                                     <a href="blog-single.php" rel="bookmark">
-                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
-                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
+                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/2024</time>
+                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">13/03/2024</time>
                                                     </a>
                                                 </span>
                                         <span class="author">
-                                                    <a title="Posts by Jane Smith" href="#" rel="author">Jane Smith</a>
+                                                    <a title="Posts by Bui Hien" href="#" rel="author">Bui Hien</a>
                                                 </span>
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
                                 <div class="entry-content">
-                                    <p>A desktop computer is a computer that is designed to stay in a single location. It may be a tower or an all-in-one PC.</p>
+                                    <p>"Máy tính để bàn là một loại máy tính được thiết kế để ở một vị trí cố định. Nó có thể là một tháp máy tính hoặc một PC tất cả trong một."</p>
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Xem thêm</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.php">Leave a comment</a>
+                                            <a href="blog-single#comments.php">comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -254,7 +254,7 @@ require_once "header.php";
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
                                     <a href="blog-single.php">
-                                        <img alt="" class="wp-post-image" src="../assets/images/blog/5.jpg">
+                                        <img alt="" class="wp-post-image" src="../assets/images/products/iphone/5.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -262,36 +262,36 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.php">Most comfortable Gaming Seats for Playing Station</a>
+                                        <a rel="bookmark" href="blog-single.php">"Những ghế chơi game thoải mái nhất cho máy chơi game"</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
                                                 <span class="cat-links">
-                                                    <a href="blog-single.php" rel="category tag">Laptops</a>
+                                                    <a href="blog-single.php" rel="category tag">Iphone</a>
                                                 </span>
                                         <span class="posted-on">
                                                     <a href="blog-single.php" rel="bookmark">
-                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
-                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">June 22, 2017</time>
+                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/2024</time>
+                                                        <time datetime="2017-06-22T10:40:23+00:00" class="updated">13/03/2024</time>
                                                     </a>
                                                 </span>
                                         <span class="author">
-                                                    <a title="Posts by Jane Smith" href="#" rel="author">Jane Smith</a>
+                                                    <a title="Posts by Bui Hien" href="#" rel="author">Bui Hien</a>
                                                 </span>
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
                                 <div class="entry-content">
-                                    <p>A desktop computer is a computer that is designed to stay in a single location. It may be a tower or an all-in-one PC.</p>
+                                    <p>"Tại sao bạn nên chọn máy tính để bàn riêng biệt?"</p>
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Xem thêm</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.php">Leave a comment</a>
+                                            <a href="blog-single#comments.php">comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
@@ -305,7 +305,7 @@ require_once "header.php";
                             <div class="content-body">
                                 <header class="entry-header">
                                     <h1 class="entry-title">
-                                        <a rel="bookmark" href="blog-single.php">Robot Wars – Now Closed – Post with Audio</a>
+                                        <a rel="bookmark" href="blog-single.php">"Tại sao bạn nên chọn máy tính để bàn riêng biệt?"</a>
                                     </h1>
                                     <!-- .entry-title -->
                                     <div class="entry-meta">
@@ -315,52 +315,32 @@ require_once "header.php";
                                                 </span>
                                         <span class="posted-on">
                                                     <a rel="bookmark" href="blog-single.php">
-                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
+                                                        <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/2024</time>
                                                     </a>
                                                 </span>
                                         <span class="author">
-                                                    <a rel="author" title="Posts by Jane Smith" href="#">Jane Smith</a>
+                                                    <a rel="author" title="Posts by Bui Hien" href="#">Bui Hien</a>
                                                 </span>
                                     </div>
                                     <!-- .entry-meta -->
                                 </header>
                                 <!-- .entry-header -->
                                 <div class="entry-content">
-                                    <p>A desktop computer is a computer that is designed to stay in a single location. It may be a tower or an all-in-one PC.</p>
+                                    <p>"Máy tính để bàn là một loại máy tính được thiết kế để ở một vị trí cố định. Nó có thể là một tháp máy tính hoặc một máy tính tất cả trong một."</p>
                                 </div>
                                 <!-- .post-excerpt -->
                                 <div class="post-readmore">
-                                    <a class="btn btn-primary" href="blog-single.php">Read More</a>
+                                    <a class="btn btn-primary" href="blog-single.php">Xem thêm</a>
                                 </div>
                                 <!-- .post-readmore -->
                                 <span class="comments-link">
-                                            <a href="blog-single#comments.php">Leave a comment</a>
+                                            <a href="blog-single#comments.php">comment</a>
                                         </span>
                                 <!-- .comments-link -->
                             </div>
                         </article>
                         <!-- .post-->
-                        <article class="post format-quote hentry">
-                            <div class="entry-content">
-                                <blockquote>
-                                    <p>Quisque a commodo lectus. Nunc vel dolor sed libero venenatis egestas. Cras non volutpat enim. Cras molestie purus id lorem sodales, in facilisis erat tristique. Aliquam luctus orci aliquet augue eleifend.</p>
-                                    <cite> Steve Kowalsky</cite>
-                                </blockquote>
-                            </div>
-                            <!-- .entry-content -->
-                        </article>
                         <!-- .post-->
-                        <article class="post format-link hentry">
-                            <div class="entry-content">
-                                <p>If you are looking for a developer on ThemeForest &ndash; check out the link</p>
-                                <p>
-                                    <a target="_blank" href="http://wwww.transvelo.com">
-                                        <span>http://wwww.transvelo.com</span>
-                                    </a>
-                                </p>
-                            </div>
-                            <!-- .entry-content -->
-                        </article>
                         <nav class="navigation pagination" id="post-navigation">
                             <span class="screen-reader-text">Posts navigation</span>
                             <div class="nav-links">
@@ -416,7 +396,7 @@ require_once "header.php";
                                 <a href="product-category.php">Events</a>
                             </li>
                             <li class="cat-item cat-item-52">
-                                <a href="product-category.php">Laptops</a>
+                                <a href="product-category.php">Iphone</a>
                             </li>
                             <li class="cat-item cat-item-93">
                                 <a href="product-category.php">Links &amp; Quotes</a>
@@ -462,7 +442,7 @@ require_once "header.php";
                                         <div class="post-content">
                                             <a href="blog-single.php" class="post-name" tabindex="-1">Why you should choose dedicated Desktop PC Computer</a>
                                             <span class="comments-link">
-                                                        <a href="#">Leave a comment</a>
+                                                        <a href="#">comment</a>
                                                     </span>
                                         </div>
                                         <!-- .post-content -->
@@ -478,7 +458,7 @@ require_once "header.php";
                                         <div class="post-content">
                                             <a href="blog-single.php" class="post-name" tabindex="-1">Tech Terms you should know before your adventure</a>
                                             <span class="comments-link">
-                                                        <a href="#">Leave a comment</a>
+                                                        <a href="#">comment</a>
                                                     </span>
                                         </div>
                                         <!-- .post-content -->
@@ -494,7 +474,7 @@ require_once "header.php";
                                         <div class="post-content">
                                             <a href="blog-single.php" class="post-name" tabindex="-1">How to build your first 4k ready Desktop PC</a>
                                             <span class="comments-link">
-                                                        <a href="#">Leave a comment</a>
+                                                        <a href="#">comment</a>
                                                     </span>
                                         </div>
                                         <!-- .post-content -->
@@ -510,7 +490,7 @@ require_once "header.php";
                                         <div class="post-content">
                                             <a href="blog-single.php" class="post-name" tabindex="-1">Top 10 Best Graphical Games for testing your Hardware</a>
                                             <span class="comments-link">
-                                                        <a href="#">Leave a comment</a>
+                                                        <a href="#">comment</a>
                                                     </span>
                                         </div>
                                         <!-- .post-content -->

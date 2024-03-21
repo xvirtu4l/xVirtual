@@ -22,7 +22,7 @@ require_once "header.php";
                                 <div class="woocommerce">
                                     <div class="woocommerce-order">
 
-                                        <p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received">Thank you. Your order has been received.</p>
+                                        <p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received">Cảm ơn bạn. Đơn đặt hàng của bạn đã được nhận.</p>
 
                                         <ul class="woocommerce-order-overview woocommerce-thankyou-order-details order_details">
 
@@ -31,16 +31,16 @@ require_once "header.php";
                                             </li>
 
                                             <li class="woocommerce-order-overview__date date">
-                                                Date:<strong>November 6, 2017</strong>
+                                                Date:<strong>20/11/2023</strong>
                                             </li>
 
 
                                             <li class="woocommerce-order-overview__total total">
-                                                Total:<strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1,476.99</span></strong>
+                                                Total:<strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>25.000.000đ</span></strong>
                                             </li>
 
                                             <li class="woocommerce-order-overview__payment-method method">
-                                                Payment method: <strong>Direct bank transfer</strong>
+                                              Phương thức thanh toán: <strong>Chuyển khoản ngân hàng</strong>
                                             </li>
 
                                         </ul>
@@ -68,7 +68,7 @@ require_once "header.php";
                                                     </td>
 
                                                     <td class="woocommerce-table__product-total product-total">
-                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>179.99</span>
+                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                     </td>
 
                                                 </tr>
@@ -81,7 +81,7 @@ require_once "header.php";
                                                     </td>
 
                                                     <td class="woocommerce-table__product-total product-total">
-                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1,197.00</span>
+                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                     </td>
 
                                                 </tr>
@@ -91,19 +91,21 @@ require_once "header.php";
                                                 <tfoot>
                                                 <tr>
                                                     <th scope="row">Subtotal:</th>
-                                                    <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1,376.99</span></td>
+                                                    <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>25.000.000đ
+</span></td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">Shipping:</th>
-                                                    <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>100.00</span>&nbsp;<small class="shipped_via">via Normal Delivery</small></td>
+                                                    <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>100.00</span>&nbsp;<small class="shipped_via">via Normal Delivery</small></td>
                                                 </tr>
                                                 <tr>
-                                                    <th scope="row">Payment method:</th>
-                                                    <td>Direct bank transfer</td>
+                                                    <th scope="row">Phương thức thanh toán:</th>
+                                                    <td>Chuyển khoản ngân hàng</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">Total:</th>
-                                                    <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1,476.99</span></td>
+                                                    <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol"></span>25.000.000đ
+</span></td>
                                                 </tr>
                                                 </tfoot>
                                             </table>

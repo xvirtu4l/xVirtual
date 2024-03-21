@@ -24,7 +24,7 @@ require_once "header.php";
                                 <div class="row contact-info">
                                     <div class="col-md-9 left-col">
                                         <div class="text-block">
-                                            <h2 class="contact-page-title">Leave us a Message</h2>
+                                            <h2 class="contact-page-title">Để lại tin nhắn cho chúng tôi</h2>
                                             <p>Maecenas dolor elit, semper a sem sed, pulvinar molestie lacus. Aliquam dignissim, elit non mattis ultrices,
                                                 <br> neque odio ultricies tellus, eu porttitor nisl ipsum eu massa.</p>
                                         </div>
@@ -41,7 +41,7 @@ require_once "header.php";
                                                     </div>
                                                     <div class="form-group row">
                                                         <div class="col-xs-12 col-md-6">
-                                                            <label>First name
+                                                            <label>Họ
                                                                 <abbr title="required" class="required">*</abbr>
                                                             </label>
                                                             <br>
@@ -51,7 +51,7 @@ require_once "header.php";
                                                         </div>
                                                         <!-- .col -->
                                                         <div class="col-xs-12 col-md-6">
-                                                            <label>Last name
+                                                            <label>Tên
                                                                 <abbr title="required" class="required">*</abbr>
                                                             </label>
                                                             <br>
@@ -63,7 +63,7 @@ require_once "header.php";
                                                     </div>
                                                     <!-- .form-group -->
                                                     <div class="form-group">
-                                                        <label>Subject</label>
+                                                        <label>Tiêu đề</label>
                                                         <br>
                                                         <span class="wpcf7-form-control-wrap subject">
                                                                     <input type="text" aria-invalid="false" class="wpcf7-form-control wpcf7-text input-text" size="40" value="" name="subject">
@@ -71,7 +71,7 @@ require_once "header.php";
                                                     </div>
                                                     <!-- .form-group -->
                                                     <div class="form-group">
-                                                        <label>Your Message</label>
+                                                        <label>Tin nhắn</label>
                                                         <br>
                                                         <span class="wpcf7-form-control-wrap your-message">
                                                                     <textarea aria-invalid="false" class="wpcf7-form-control wpcf7-textarea" rows="10" cols="40" name="your-message"></textarea>
@@ -95,13 +95,13 @@ require_once "header.php";
                                     <!-- .col -->
                                     <div class="col-md-3 store-info">
                                         <div class="text-block">
-                                            <h2 class="contact-page-title">Our Store</h2>
+                                            <h2 class="contact-page-title">Cửa hàng</h2>
                                             <address>
-                                                17 Princess Road
-                                                <br> London, Greater London
-                                                <br> NW1 8JR, UK
+                                              29 Xã Đàn
+                                                <br>Phương Liên, Đống Đa, Hà Nội
+                                                <br>
                                             </address>
-                                            <h3>Hours of Operation</h3>
+                                            <h3>Giờ mở cửa</h3>
                                             <ul class="list-unstyled operation-hours inner-right-md">
                                                 <li class="clearfix">
                                                     <span class="day">Monday:</span>
@@ -132,8 +132,8 @@ require_once "header.php";
                                                     <span class="pull-right flip hours">Closed</span>
                                                 </li>
                                             </ul>
-                                            <h3>Careers</h3>
-                                            <p class="inner-right-md">If you’re interested in employment opportunities at Techmarket, please email us: <a href="mailto:contact@yourstore.com">contact@yourstore.com</a></p>
+                                            <h3>Cơ Hội Nghề Nghiệp</h3>
+                                            <p class="inner-right-md">Nếu bạn quan tâm đến cơ hội việc làm tại Techmarket, vui lòng gửi email cho chúng tôi tại: <a href="mailto:contact@yourstore.com">contact@yourstore.com</a></p>
                                         </div>
                                         <!-- .text-block -->
                                     </div>

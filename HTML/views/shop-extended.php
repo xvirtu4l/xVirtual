@@ -21,14 +21,15 @@ require_once "header.php";
                         <div class="shop-archive-header">
                             <div class="jumbotron">
                                 <div class="jumbotron-img">
-                                    <img width="416" height="283" alt="" src="../assets/images/products/jumbo.jpg" class="jumbo-image alignright">
+                                    <img width="416" height="283" alt="" src="../assets/images/products/apple-vision-pro-47-700x700.jpg" class="jumbo-image alignright">
                                 </div>
                                 <div class="jumbotron-caption">
-                                    <h3 class="jumbo-title">Virtual Reality Headsets</h3>
-                                    <p class="jumbo-subtitle">Nullam dignissim elit ut urna rutrum, a fermentum mi auctor. Mauris efficitur magna orci, et dignissim lacus scelerisque sit amet. Proin malesuada tincidunt nisl ac commodo. Vivamus eleifend porttitor ex sit amet suscipit. Vestibulum at ullamcorper lacus, vel facilisis arcu. Aliquam erat volutpat.
+                                    <h3 class="jumbo-title">Kính Thực Tế Ảo</h3>
+                                    <p class="jumbo-subtitle">Vision Pro chiếc kính thực tế ảo được cho ra mắt bởi Apple là sự hòa quyện hoàn hảo giữa nội dung kỹ thuật số với không gian sống của bạn. Bạn có thể dễ dàng điều hướng bằng cách sử dụng mắt, tay và giọng nói của mình. Vision Pro vừa là một thiết bị mở ra thế giới giải trí hiện đại, vừa mở ra một khả năng làm việc sáng tạo không giới hạn.
+
+                                      <br>
                                         <br>
-                                        <br>Maecenas in sodales nisl. Pellentesque ac nibh mi. Ut lobortis odio nulla, congue rhoncus risus facilisis eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                        <a href="#">read more <i class="tm tm-long-arrow-right"></i></a>
+                                        <a href="#">Xem thêm <i class="tm tm-long-arrow-right"></i></a>
                                     </p>
                                 </div>
                                 <!-- .jumbotron-caption -->
@@ -86,11 +87,11 @@ require_once "header.php";
                             <!-- .form-techmarket-wc-ppp -->
                             <form method="get" class="woocommerce-ordering">
                                 <select class="orderby" name="orderby">
-                                    <option value="popularity">Sort by popularity</option>
-                                    <option value="rating">Sort by average rating</option>
-                                    <option selected="selected" value="date">Sort by newness</option>
-                                    <option value="price">Sort by price: low to high</option>
-                                    <option value="price-desc">Sort by price: high to low</option>
+                                  <option value="popularity">Bán chạy</option>
+                                  <option value="rating">Đánh giá</option>
+                                  <option selected="selected" value="date">Mới nhất</option>
+                                  <option value="price">Sắp xếp theo giá: thấp đến cao</option>
+                                  <option value="price-desc">Sắp xếp theo giá: cao đến thấp</option>
                                 </select>
                                 <input type="hidden" value="5" name="shop_columns">
                                 <input type="hidden" value="15" name="shop_per_page">
@@ -118,14 +119,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/1.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">XONE Wireless Controller</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -139,14 +140,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/2.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -160,14 +161,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/3.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -181,14 +182,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/4.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -202,14 +203,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/5.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Bbd 23-Inch Screen LED-Lit Monitorss Buds</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -223,14 +224,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/6.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -244,14 +245,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/7.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Watch Stainless with Grey Suture Leather Strap</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -265,14 +266,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/8.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -286,14 +287,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/9.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Video & Air Quality Monitor</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -307,14 +308,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/10.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -328,14 +329,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/11.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -349,14 +350,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/12.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Smart Watches 3 SWR50</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -370,14 +371,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/13.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -391,14 +392,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/14.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -412,14 +413,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/15.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -433,14 +434,14 @@ require_once "header.php";
                                                 <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/16.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
                                                 <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="hover-area">
-                                                <a class="button" href="cart.php">Add to cart</a>
-                                                <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                <a class="button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                             </div>
                                             <!-- .hover-area -->
                                         </div>
@@ -454,18 +455,18 @@ require_once "header.php";
                             <div id="grid-extended" class="tab-pane active" role="tabpanel">
                                 <div class="woocommerce columns-4">
                                     <div class="products">
-                                        <div class="product first">
+                                      <div class="product first">
                                             <div class="yith-wcwl-add-to-wishlist">
                                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
                                             <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/1.jpg">
+                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/1.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Gear Virtual Reality 3D with Bluetooth Glasses</h2>
+                                                <h2 class="woocommerce-loop-product__title">Điện thoại iPhone X 256GB</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="techmarket-product-rating">
@@ -481,9 +482,9 @@ require_once "header.php";
                                                     </span>
                                             <div class="woocommerce-product-details__short-description">
                                                 <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
+                                                    <li>Đa phương tiện</li>
+                                                    <li>Công suất cực đại 120W</li>
+                                                    <li>Loa siêu trầm</li>
                                                     <li>Refresh Rate: 120Hz (Effective)</li>
                                                     <li>Backlight: LED</li>
                                                     <li>Smart Functionality: Yes, webOS 3.0</li>
@@ -492,22 +493,22 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                            <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                         </div>
                                         <!-- .product -->
-                                        <div class="product ">
+                                      <div class="product ">
                                             <div class="yith-wcwl-add-to-wishlist">
                                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
                                             <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/2.jpg">
+                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
+                                                <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="techmarket-product-rating">
@@ -523,9 +524,12 @@ require_once "header.php";
                                                     </span>
                                             <div class="woocommerce-product-details__short-description">
                                                 <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
+                                                    <li>Đa phương tiện
+                                                    </li>
+                                                    <li>Công suất cực đại 120W
+                                                    </li>
+                                                    <li>Loa siêu trầm
+                                                    </li>
                                                     <li>Refresh Rate: 120Hz (Effective)</li>
                                                     <li>Backlight: LED</li>
                                                     <li>Smart Functionality: Yes, webOS 3.0</li>
@@ -534,22 +538,67 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                            <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                         </div>
                                         <!-- .product -->
-                                        <div class="product ">
+                                      <div class="product ">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
+                                          <span class="price">
+                                                            <span class="woocommerce-Price-amount amount">
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
+                                                        </span>
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
+                                                            <span style="width:100%">
+                                                                <strong class="rating">5.00</strong> out of 5</span>
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
+                                                        <span class="sku">5487FB8/13</span>
+                                                    </span>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
+                                        </div>
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                        <!-- .product -->
+                                      <div class="product last">
                                             <div class="yith-wcwl-add-to-wishlist">
                                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                             </div>
                                             <!-- .yith-wcwl-add-to-wishlist -->
                                             <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/3.jpg">
+                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/19.jpg">
                                                 <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
+                                                <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
                                             </a>
                                             <!-- .woocommerce-LoopProduct-link -->
                                             <div class="techmarket-product-rating">
@@ -565,9 +614,12 @@ require_once "header.php";
                                                     </span>
                                             <div class="woocommerce-product-details__short-description">
                                                 <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
+                                                    <li>Đa phương tiện
+                                                    </li>
+                                                    <li>Công suất cực đại 120W
+                                                    </li>
+                                                    <li>Loa siêu trầm
+                                                    </li>
                                                     <li>Refresh Rate: 120Hz (Effective)</li>
                                                     <li>Backlight: LED</li>
                                                     <li>Smart Functionality: Yes, webOS 3.0</li>
@@ -576,556 +628,541 @@ require_once "header.php";
                                                 </ul>
                                             </div>
                                             <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                            <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product last">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/4.jpg">
-                                                <span class="price">
+                                      <div class="product first">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/1.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone X 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện</li>
+                                            <li>Công suất cực đại 120W</li>
+                                            <li>Loa siêu trầm</li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product first">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/5.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product ">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product ">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/6.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product ">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product ">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/7.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product last">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/19.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Gear Virtual Reality 3D with Bluetooth Glasses</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product last">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/8.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <div class="product first">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/1.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">ZenBook 3 Ultrabook 8GB 512SSD W10</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone X 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện</li>
+                                            <li>Công suất cực đại 120W</li>
+                                            <li>Loa siêu trầm</li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product first">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/9.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product ">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product ">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/10.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product ">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product ">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/11.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product last">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/19.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Watch Stainless with Grey Suture Leather Strap</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product last">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/12.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <div class="product first">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/1.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">XONE Wireless Controller</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone X 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện</li>
+                                            <li>Công suất cực đại 120W</li>
+                                            <li>Loa siêu trầm</li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product first">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/13.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product ">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product ">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/14.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product ">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/16.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product ">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/15.jpg">
-                                                <span class="price">
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+                                      <!-- .product -->
+                                      <div class="product last">
+                                        <div class="yith-wcwl-add-to-wishlist">
+                                          <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                        </div>
+                                        <!-- .yith-wcwl-add-to-wishlist -->
+                                        <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
+                                          <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/19.jpg">
+                                          <span class="price">
                                                             <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
+                                                                <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                         </span>
-                                                <h2 class="woocommerce-loop-product__title">XONE Wireless Controller</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
+                                          <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                        </a>
+                                        <!-- .woocommerce-LoopProduct-link -->
+                                        <div class="techmarket-product-rating">
+                                          <div title="Rated 5.00 out of 5" class="star-rating">
                                                             <span style="width:100%">
                                                                 <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
+                                          </div>
+                                          <span class="review-count">(1)</span>
+                                        </div>
+                                        <!-- .techmarket-product-rating -->
+                                        <span class="sku_wrapper">SKU:
                                                         <span class="sku">5487FB8/13</span>
                                                     </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                        <div class="woocommerce-product-details__short-description">
+                                          <ul>
+                                            <li>Đa phương tiện
+                                            </li>
+                                            <li>Công suất cực đại 120W
+                                            </li>
+                                            <li>Loa siêu trầm
+                                            </li>
+                                            <li>Refresh Rate: 120Hz (Effective)</li>
+                                            <li>Backlight: LED</li>
+                                            <li>Smart Functionality: Yes, webOS 3.0</li>
+                                            <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
+                                            <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
+                                          </ul>
                                         </div>
-                                        <!-- .product -->
-                                        <div class="product last">
-                                            <div class="yith-wcwl-add-to-wishlist">
-                                                <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
-                                            </div>
-                                            <!-- .yith-wcwl-add-to-wishlist -->
-                                            <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/16.jpg">
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currencySymbol">$</span>800.00</span>
-                                                        </span>
-                                                <h2 class="woocommerce-loop-product__title">Video & Air Quality Monitor</h2>
-                                            </a>
-                                            <!-- .woocommerce-LoopProduct-link -->
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 5.00 out of 5" class="star-rating">
-                                                            <span style="width:100%">
-                                                                <strong class="rating">5.00</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(1)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                            <span class="sku_wrapper">SKU:
-                                                        <span class="sku">5487FB8/13</span>
-                                                    </span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <ul>
-                                                    <li>Multimedia Speakers</li>
-                                                    <li>120 watts peak</li>
-                                                    <li>Front-facing subwoofer</li>
-                                                    <li>Refresh Rate: 120Hz (Effective)</li>
-                                                    <li>Backlight: LED</li>
-                                                    <li>Smart Functionality: Yes, webOS 3.0</li>
-                                                    <li>Dimensions (W x H x D): TV without stand: 43.5″ x 25.4″ x 3.0″, TV with stand: 43.5″ x 27.6″ x 8.5″</li>
-                                                    <li>Inputs: 3 HMDI, 2 USB, 1 RF, 1 Component, 1 Composite, 1 Optical, 1 RS232C, 1 Ethernet</li>
-                                                </ul>
-                                            </div>
-                                            <!-- .woocommerce-product-details__short-description -->
-                                            <a class="button product_type_simple add_to_cart_button" href="cart.php">Add to cart</a>
-                                            <a class="add-to-compare-link" href="compare.php">Add to compare</a>
-                                        </div>
-                                        <!-- .product -->
+                                        <!-- .woocommerce-product-details__short-description -->
+                                        <a class="button product_type_simple add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
+                                      </div>
+
+
+
+
                                     </div>
                                     <!-- .products -->
                                 </div>
@@ -1182,11 +1219,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1242,11 +1279,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1302,11 +1339,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1362,11 +1399,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1422,11 +1459,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1482,11 +1519,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1548,11 +1585,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1605,11 +1642,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1662,11 +1699,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1719,11 +1756,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1776,11 +1813,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1833,11 +1870,11 @@ require_once "header.php";
                                                         </div>
                                                         <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1889,11 +1926,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1936,11 +1973,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -1983,11 +2020,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2030,11 +2067,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2077,11 +2114,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2124,11 +2161,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2171,11 +2208,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2218,11 +2255,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2265,11 +2302,11 @@ require_once "header.php";
                                                     <div class="product-actions">
                                                                 <span class="price">
                                                                     <span class="woocommerce-Price-amount amount">
-                                                                        <span class="woocommerce-Price-currencySymbol">$</span>730.00</span>
+                                                                        <span class="woocommerce-Price-currencySymbol"></span>730.00</span>
                                                                 </span>
                                                         <!-- .price -->
-                                                        <a class="button add_to_cart_button" href="cart.php">Add to Cart</a>
-                                                        <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                                        <a class="button add_to_cart_button" href="cart.php">Thêm vào giỏ hàng</a>
+                                                        <a class="add-to-compare-link" href="compare.php">Thêm để so sánh</a>
                                                     </div>
                                                     <!-- .product-actions -->
                                                 </div>
@@ -2660,7 +2697,7 @@ require_once "header.php";
     <div class="col-full">
         <section class="section-landscape-products-carousel recently-viewed" id="recently-viewed">
             <header class="section-header">
-                <h2 class="section-title">Recently viewed products</h2>
+                <h2 class="section-title">Các sản phẩm đã xem gần đây</h2>
                 <nav class="custom-slick-nav"></nav>
             </header>
             <div class="products-carousel" data-ride="tm-slick-carousel" data-wrap=".products" data-slick="{&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:2,&quot;dots&quot;:true,&quot;arrows&quot;:true,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;appendArrows&quot;:&quot;#recently-viewed .custom-slick-nav&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1700,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}}]}">
@@ -2670,16 +2707,16 @@ require_once "header.php";
                             <div class="landscape-product product">
                                 <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                                     <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-6.jpg" alt="">
+                                        <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
                                         <div class="media-body">
                                                     <span class="price">
                                                         <ins>
                                                             <span class="amount"> </span>
                                                         </ins>
-                                                        <span class="amount"> $600</span>
+                                                        <span class="amount"> 58.000.000đ</span>
                                                     </span>
                                             <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">ZenBook 3 Ultrabook 8GB 512SSD W10</h2>
+                                            <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
                                             <div class="techmarket-product-rating">
                                                 <div title="Rated 0 out of 5" class="star-rating">
                                                             <span style="width:0%">
@@ -2696,220 +2733,202 @@ require_once "header.php";
                                 <!-- .woocommerce-LoopProduct-link -->
                             </div>
                             <!-- .landscape-product -->
-                            <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
-                                    <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-4.jpg" alt="">
-                                        <div class="media-body">
+                          <div class="landscape-product product">
+                            <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
+                              <div class="media">
+                                <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
+                                <div class="media-body">
                                                     <span class="price">
                                                         <ins>
                                                             <span class="amount"> </span>
                                                         </ins>
-                                                        <span class="amount"> $800</span>
+                                                        <span class="amount"> 58.000.000đ</span>
                                                     </span>
-                                            <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">Snap White Instant Digital Camera in White</h2>
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 0 out of 5" class="star-rating">
+                                  <!-- .price -->
+                                  <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                  <div class="techmarket-product-rating">
+                                    <div title="Rated 0 out of 5" class="star-rating">
                                                             <span style="width:0%">
                                                                 <strong class="rating">0</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(0)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                        </div>
-                                        <!-- .media-body -->
                                     </div>
-                                    <!-- .media -->
-                                </a>
-                                <!-- .woocommerce-LoopProduct-link -->
-                            </div>
-                            <!-- .landscape-product -->
-                            <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
-                                    <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-3.jpg" alt="">
-                                        <div class="media-body">
-                                                    <span class="price">
-                                                        <ins>
-                                                            <span class="amount"> $3,788.00</span>
-                                                        </ins>
-                                                        <del>
-                                                            <span class="amount">$4,780.00</span>
-                                                        </del>
-                                                        <span class="amount"> </span>
-                                                    </span>
-                                            <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">PowerBank 4400</h2>
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 0 out of 5" class="star-rating">
-                                                            <span style="width:0%">
-                                                                <strong class="rating">0</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(0)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                        </div>
-                                        <!-- .media-body -->
-                                    </div>
-                                    <!-- .media -->
-                                </a>
-                                <!-- .woocommerce-LoopProduct-link -->
-                            </div>
-                            <!-- .landscape-product -->
-                            <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
-                                    <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-2.jpg" alt="">
-                                        <div class="media-body">
+                                    <span class="review-count">(0)</span>
+                                  </div>
+                                  <!-- .techmarket-product-rating -->
+                                </div>
+                                <!-- .media-body -->
+                              </div>
+                              <!-- .media -->
+                            </a>
+                            <!-- .woocommerce-LoopProduct-link -->
+                          </div>
+                          <div class="landscape-product product">
+                            <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
+                              <div class="media">
+                                <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
+                                <div class="media-body">
                                                     <span class="price">
                                                         <ins>
                                                             <span class="amount"> </span>
                                                         </ins>
-                                                        <span class="amount"> $500</span>
+                                                        <span class="amount"> 58.000.000đ</span>
                                                     </span>
-                                            <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">Headset 3D Glasses VR for Android</h2>
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 0 out of 5" class="star-rating">
+                                  <!-- .price -->
+                                  <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                  <div class="techmarket-product-rating">
+                                    <div title="Rated 0 out of 5" class="star-rating">
                                                             <span style="width:0%">
                                                                 <strong class="rating">0</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(0)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                        </div>
-                                        <!-- .media-body -->
                                     </div>
-                                    <!-- .media -->
-                                </a>
-                                <!-- .woocommerce-LoopProduct-link -->
-                            </div>
-                            <!-- .landscape-product -->
-                            <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
-                                    <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-3.jpg" alt="">
-                                        <div class="media-body">
-                                                    <span class="price">
-                                                        <ins>
-                                                            <span class="amount"> $3,788.00</span>
-                                                        </ins>
-                                                        <del>
-                                                            <span class="amount">$4,780.00</span>
-                                                        </del>
-                                                        <span class="amount"> </span>
-                                                    </span>
-                                            <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">PowerBank 4400</h2>
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 0 out of 5" class="star-rating">
-                                                            <span style="width:0%">
-                                                                <strong class="rating">0</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(0)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                        </div>
-                                        <!-- .media-body -->
-                                    </div>
-                                    <!-- .media -->
-                                </a>
-                                <!-- .woocommerce-LoopProduct-link -->
-                            </div>
-                            <!-- .landscape-product -->
-                            <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
-                                    <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-4.jpg" alt="">
-                                        <div class="media-body">
+                                    <span class="review-count">(0)</span>
+                                  </div>
+                                  <!-- .techmarket-product-rating -->
+                                </div>
+                                <!-- .media-body -->
+                              </div>
+                              <!-- .media -->
+                            </a>
+                            <!-- .woocommerce-LoopProduct-link -->
+                          </div>
+                          <div class="landscape-product product">
+                            <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
+                              <div class="media">
+                                <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
+                                <div class="media-body">
                                                     <span class="price">
                                                         <ins>
                                                             <span class="amount"> </span>
                                                         </ins>
-                                                        <span class="amount"> $800</span>
+                                                        <span class="amount"> 58.000.000đ</span>
                                                     </span>
-                                            <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">Snap White Instant Digital Camera in White</h2>
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 0 out of 5" class="star-rating">
+                                  <!-- .price -->
+                                  <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                  <div class="techmarket-product-rating">
+                                    <div title="Rated 0 out of 5" class="star-rating">
                                                             <span style="width:0%">
                                                                 <strong class="rating">0</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(0)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                        </div>
-                                        <!-- .media-body -->
                                     </div>
-                                    <!-- .media -->
-                                </a>
-                                <!-- .woocommerce-LoopProduct-link -->
-                            </div>
-                            <!-- .landscape-product -->
-                            <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
-                                    <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-5.jpg" alt="">
-                                        <div class="media-body">
+                                    <span class="review-count">(0)</span>
+                                  </div>
+                                  <!-- .techmarket-product-rating -->
+                                </div>
+                                <!-- .media-body -->
+                              </div>
+                              <!-- .media -->
+                            </a>
+                            <!-- .woocommerce-LoopProduct-link -->
+                          </div>
+                          <div class="landscape-product product">
+                            <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
+                              <div class="media">
+                                <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
+                                <div class="media-body">
                                                     <span class="price">
                                                         <ins>
-                                                            <span class="amount"> $3,788.00</span>
+                                                            <span class="amount"> </span>
                                                         </ins>
-                                                        <del>
-                                                            <span class="amount">$4,780.00</span>
-                                                        </del>
-                                                        <span class="amount"> </span>
+                                                        <span class="amount"> 58.000.000đ</span>
                                                     </span>
-                                            <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">Smart Watches 3 SWR50</h2>
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 0 out of 5" class="star-rating">
+                                  <!-- .price -->
+                                  <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                  <div class="techmarket-product-rating">
+                                    <div title="Rated 0 out of 5" class="star-rating">
                                                             <span style="width:0%">
                                                                 <strong class="rating">0</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(0)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                        </div>
-                                        <!-- .media-body -->
                                     </div>
-                                    <!-- .media -->
-                                </a>
-                                <!-- .woocommerce-LoopProduct-link -->
-                            </div>
-                            <!-- .landscape-product -->
-                            <div class="landscape-product product">
-                                <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
-                                    <div class="media">
-                                        <img class="wp-post-image" src="../assets/images/products/card-1.jpg" alt="">
-                                        <div class="media-body">
+                                    <span class="review-count">(0)</span>
+                                  </div>
+                                  <!-- .techmarket-product-rating -->
+                                </div>
+                                <!-- .media-body -->
+                              </div>
+                              <!-- .media -->
+                            </a>
+                            <!-- .woocommerce-LoopProduct-link -->
+                          </div>
+                          <div class="landscape-product product">
+                            <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
+                              <div class="media">
+                                <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
+                                <div class="media-body">
                                                     <span class="price">
                                                         <ins>
-                                                            <span class="amount"> $3,788.00</span>
+                                                            <span class="amount"> </span>
                                                         </ins>
-                                                        <del>
-                                                            <span class="amount">$4,780.00</span>
-                                                        </del>
-                                                        <span class="amount"> </span>
+                                                        <span class="amount"> 58.000.000đ</span>
                                                     </span>
-                                            <!-- .price -->
-                                            <h2 class="woocommerce-loop-product__title">Unlocked Android 6″ Inch 4.4.2 Dual Core</h2>
-                                            <div class="techmarket-product-rating">
-                                                <div title="Rated 0 out of 5" class="star-rating">
+                                  <!-- .price -->
+                                  <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                  <div class="techmarket-product-rating">
+                                    <div title="Rated 0 out of 5" class="star-rating">
                                                             <span style="width:0%">
                                                                 <strong class="rating">0</strong> out of 5</span>
-                                                </div>
-                                                <span class="review-count">(0)</span>
-                                            </div>
-                                            <!-- .techmarket-product-rating -->
-                                        </div>
-                                        <!-- .media-body -->
                                     </div>
-                                    <!-- .media -->
-                                </a>
-                                <!-- .woocommerce-LoopProduct-link -->
-                            </div>
+                                    <span class="review-count">(0)</span>
+                                  </div>
+                                  <!-- .techmarket-product-rating -->
+                                </div>
+                                <!-- .media-body -->
+                              </div>
+                              <!-- .media -->
+                            </a>
+                            <!-- .woocommerce-LoopProduct-link -->
+                          </div>
+                          <div class="landscape-product product">
+                            <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
+                              <div class="media">
+                                <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
+                                <div class="media-body">
+                                                    <span class="price">
+                                                        <ins>
+                                                            <span class="amount"> </span>
+                                                        </ins>
+                                                        <span class="amount"> 58.000.000đ</span>
+                                                    </span>
+                                  <!-- .price -->
+                                  <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                  <div class="techmarket-product-rating">
+                                    <div title="Rated 0 out of 5" class="star-rating">
+                                                            <span style="width:0%">
+                                                                <strong class="rating">0</strong> out of 5</span>
+                                    </div>
+                                    <span class="review-count">(0)</span>
+                                  </div>
+                                  <!-- .techmarket-product-rating -->
+                                </div>
+                                <!-- .media-body -->
+                              </div>
+                              <!-- .media -->
+                            </a>
+                            <!-- .woocommerce-LoopProduct-link -->
+                          </div>
+                          <div class="landscape-product product">
+                            <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
+                              <div class="media">
+                                <img class="wp-post-image" src="../assets/images/products/iphone/20.jpg" alt="">
+                                <div class="media-body">
+                                                    <span class="price">
+                                                        <ins>
+                                                            <span class="amount"> </span>
+                                                        </ins>
+                                                        <span class="amount"> 58.000.000đ</span>
+                                                    </span>
+                                  <!-- .price -->
+                                  <h2 class="woocommerce-loop-product__title">Điện thoại iPhone 12 256GB</h2>
+                                  <div class="techmarket-product-rating">
+                                    <div title="Rated 0 out of 5" class="star-rating">
+                                                            <span style="width:0%">
+                                                                <strong class="rating">0</strong> out of 5</span>
+                                    </div>
+                                    <span class="review-count">(0)</span>
+                                  </div>
+                                  <!-- .techmarket-product-rating -->
+                                </div>
+                                <!-- .media-body -->
+                              </div>
+                              <!-- .media -->
+                            </a>
+                            <!-- .woocommerce-LoopProduct-link -->
+                          </div>
                             <!-- .landscape-product -->
                         </div>
                     </div>
@@ -2920,182 +2939,6 @@ require_once "header.php";
             <!-- .products-carousel -->
         </section>
         <!-- .section-landscape-products-carousel -->
-        <section class="brands-carousel">
-            <h2 class="sr-only">Brands Carousel</h2>
-            <div class="col-full" data-ride="tm-slick-carousel" data-wrap=".brands" data-slick="{&quot;slidesToShow&quot;:6,&quot;slidesToScroll&quot;:1,&quot;dots&quot;:false,&quot;arrows&quot;:true,&quot;responsive&quot;:[{&quot;breakpoint&quot;:400,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1}},{&quot;breakpoint&quot;:800,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:5}}]}">
-                <div class="brands">
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>apple</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="apple" src="../assets/images/brands/1.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>bosch</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="bosch" src="../assets/images/brands/2.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>cannon</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="cannon" src="../assets/images/brands/3.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>connect</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="connect" src="../assets/images/brands/4.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>galaxy</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="galaxy" src="../assets/images/brands/5.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>gopro</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="gopro" src="../assets/images/brands/6.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>handspot</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="handspot" src="../assets/images/brands/7.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>kinova</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="kinova" src="../assets/images/brands/8.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>nespresso</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="nespresso" src="../assets/images/brands/9.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>samsung</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="samsung" src="../assets/images/brands/10.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>speedway</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="speedway" src="../assets/images/brands/11.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                    <div class="item">
-                        <a href="shop.php">
-                            <figure>
-                                <figcaption class="text-overlay">
-                                    <div class="info">
-                                        <h4>yoko</h4>
-                                    </div>
-                                    <!-- /.info -->
-                                </figcaption>
-                                <img width="145" height="50" class="img-responsive desaturate" alt="yoko" src="../assets/images/brands/12.png">
-                            </figure>
-                        </a>
-                    </div>
-                    <!-- .item -->
-                </div>
-            </div>
-            <!-- .col-full -->
-        </section>
         <!-- .brands-carousel -->
     </div>
     <!-- .col-full -->

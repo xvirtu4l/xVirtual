@@ -13,7 +13,7 @@ require_once "header.php";
                     <a href="product-category.php">Laptops</a>
                     <span class="delimiter">
                                 <i class="tm tm-breadcrumbs-arrow-right"></i>
-                            </span>Tech Terms you should know before your adventure
+                            </span>Các Thuật Ngữ Công Nghệ Bạn Nên Biết
                 </nav>
                 <!-- .woocommerce-breadcrumb -->
                 <div id="primary" class="content-area">
@@ -21,11 +21,11 @@ require_once "header.php";
                         <article class="post format-image">
                             <div class="media-attachment">
                                 <div class="post-thumbnail">
-                                    <img width="1433" height="560" alt="" class="wp-post-image" src="../assets/images/blog/1.jpg">
+                                    <img width="1433" height="560" alt="" class="wp-post-image" src="../assets/images/products/iphone//1.jpg">
                                 </div>
                             </div>
                             <header class="entry-header">
-                                <h1 class="entry-title">Tech Terms you should know before your adventure
+                                <h1 class="entry-title">"Những ghế chơi game thoải mái nhất cho máy chơi game"
                                     <span class="comments-link">
                                                 <a href="#comments">3</a>
                                             </span>
@@ -38,12 +38,12 @@ require_once "header.php";
                                     <!-- .cat-links -->
                                     <span class="posted-on">
                                                 <a rel="bookmark" href="#">
-                                                    <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">March 23, 2017</time>
+                                                    <time datetime="2017-03-23T08:06:09+00:00" class="entry-date published">12/03/1999</time>
                                                 </a>
                                             </span>
                                     <!-- .posted-on -->
                                     <span class="author">
-                                                <a rel="author" title="Posts by Jane Smith" href="#">Jane Smith</a>
+                                                <a rel="author" title="Posts by Bui Hien" href="#">Bui Hien</a>
                                             </span>
                                     <!-- .author -->
                                 </div>
@@ -85,7 +85,7 @@ require_once "header.php";
                                 <!-- .media-left -->
                                 <div class="media-body">
                                     <h4 class="media-heading">
-                                        <a href="#">Jane Smith</a>
+                                        <a href="#">Bui Hien</a>
                                     </h4>
                                 </div>
                                 <!-- .media-body -->
@@ -98,11 +98,11 @@ require_once "header.php";
                             <div class="nav-links">
                                 <div class="nav-previous">
                                     <a rel="prev" href="#">
-                                        <span class="meta-nav">←</span>&nbsp;How to build your first 4k ready Desktop PC</a>
+                                        <span class="meta-nav">←</span>&nbsp;Những ghế chơi game thoải mái nhất cho máy chơi game</a>
                                 </div>
                                 <!-- /.nav-previous -->
                                 <div class="nav-next">
-                                    <a href="#" rel="next">Robot Wars – Now Closed – Post with Gallery &nbsp;
+                                    <a href="#" rel="next">Cuộc Chiến Robot - Đã Đóng Cửa - Bài Đăng với Bộ Sưu Tập Hình Ảnh &nbsp;
                                         <span class="meta-nav">→</span>
                                     </a>
                                 </div>
@@ -119,7 +119,7 @@ require_once "header.php";
                                         <img width="100" height="100" class="avatar avatar-100 photo" src="../assets/images/blog/author.jpg" alt="">
                                         <div class="comment-text">
                                             <div class="meta">
-                                                <strong class="woocommerce-review__author" itemprop="author">Jane Smith</strong>
+                                                <strong class="woocommerce-review__author" itemprop="author">Bui Hien</strong>
                                                 <time datetime="2017-03-23T08:06:09+00:00" class="woocommerce-review__published-date">July 24, 2017</time>
                                             </div>
                                             <div class="comment-content">
@@ -127,8 +127,8 @@ require_once "header.php";
                                                     <p>good</p>
                                                 </div>
                                                 <div class="reply">
-                                                    <a class="comment-edit-link" href="#">Edit</a>
-                                                    <a href="#respond" class="comment-reply-link" rel="nofollow">Reply</a>
+                                                    <a class="comment-edit-link" href="#">Sửa</a>
+                                                    <a href="#respond" class="comment-reply-link" rel="nofollow">Trả lời</a>
                                                 </div>
                                                 <!-- .reply -->
                                             </div>
@@ -144,7 +144,7 @@ require_once "header.php";
                                         <img width="100" height="100" class="avatar avatar-100 photo" src="../assets/images/blog/author.jpg" alt="">
                                         <div class="comment-text">
                                             <div class="meta">
-                                                <strong class="woocommerce-review__author" itemprop="author">Jane Smith</strong>
+                                                <strong class="woocommerce-review__author" itemprop="author">Bui Hien</strong>
                                                 <time datetime="2017-03-23T08:06:09+00:00" class="woocommerce-review__published-date">July 24, 2017</time>
                                             </div>
                                             <div class="comment-content">
@@ -152,8 +152,8 @@ require_once "header.php";
                                                     <p>Awesome</p>
                                                 </div>
                                                 <div class="reply">
-                                                    <a class="comment-edit-link" href="#">Edit</a>
-                                                    <a href="#respond" class="comment-reply-link" rel="nofollow">Reply</a>
+                                                    <a class="comment-edit-link" href="#">Sửa</a>
+                                                    <a href="#respond" class="comment-reply-link" rel="nofollow">Trả lời</a>
                                                 </div>
                                                 <!-- .reply -->
                                             </div>
@@ -169,7 +169,7 @@ require_once "header.php";
                                         <img width="100" height="100" class="avatar avatar-100 photo" src="../assets/images/blog/author.jpg" alt="">
                                         <div class="comment-text">
                                             <div class="meta">
-                                                <strong class="woocommerce-review__author" itemprop="author">Jane Smith</strong>
+                                                <strong class="woocommerce-review__author" itemprop="author">Bui Hien</strong>
                                                 <time datetime="2017-03-23T08:06:09+00:00" class="woocommerce-review__published-date">July 24, 2017</time>
                                             </div>
                                             <div class="comment-content">
@@ -177,8 +177,8 @@ require_once "header.php";
                                                     <p>Nice</p>
                                                 </div>
                                                 <div class="reply">
-                                                    <a class="comment-edit-link" href="#">Edit</a>
-                                                    <a href="#respond" class="comment-reply-link" rel="nofollow">Reply</a>
+                                                    <a class="comment-edit-link" href="#">Sửa</a>
+                                                    <a href="#respond" class="comment-reply-link" rel="nofollow">Trả lời</a>
                                                 </div>
                                                 <!-- .reply -->
                                             </div>
@@ -192,10 +192,10 @@ require_once "header.php";
                             </ol>
                             <!-- .commentlist -->
                             <div class="comment-respond" id="respond">
-                                <h3 class="comment-reply-title" id="reply-title">Leave a Reply</h3>
+                                <h3 class="comment-reply-title" id="reply-title">Comment</h3>
                                 <form novalidate="" class="comment-form" id="commentform" method="post" action="#">
                                     <p class="comment-notes">
-                                        <span id="email-notes">Your email address will not be published.</span> Required fields are marked
+                                        <span id="email-notes">"Địa chỉ email của bạn sẽ không được công khai.</span>Các trường bắt buộc được đánh dấu
                                         <span class="required">*</span>
                                     </p>
                                     <p class="comment-form-comment">
@@ -203,7 +203,7 @@ require_once "header.php";
                                         <textarea required="required" maxlength="65525" rows="8" cols="45" name="comment" id="comment"></textarea>
                                     </p>
                                     <p class="comment-form-author">
-                                        <label for="author">Name
+                                        <label for="author">Tên
                                             <span class="required">*</span>
                                         </label>
                                         <input type="text" required="required" aria-required="true" maxlength="245" size="30" value="" name="author" id="author">
@@ -219,7 +219,7 @@ require_once "header.php";
                                         <input type="url" maxlength="200" size="30" value="" name="url" id="url">
                                     </p>
                                     <p class="form-submit">
-                                        <input type="submit" value="Post Comment" class="submit">
+                                        <input type="submit" value="Gửi Bình Luận" class="submit">
                                     </p>
                                 </form>
                             </div>

@@ -18,7 +18,7 @@ require_once "header.php";
                         <div class="type-page hentry">
                             <header class="entry-header">
                                 <div class="page-header-caption">
-                                    <h1 class="entry-title">Wishlist</h1>
+                                    <h1 class="entry-title">Danh sách mong muốn</h1>
                                 </div>
                             </header>
                             <!-- .entry-header -->
@@ -30,16 +30,16 @@ require_once "header.php";
                                             <th class="product-remove"></th>
                                             <th class="product-thumbnail"></th>
                                             <th class="product-name">
-                                                <span class="nobr">Product Name</span>
+                                                <span class="nobr">Tên</span>
                                             </th>
                                             <th class="product-price">
                                                             <span class="nobr">
-                                                                Unit Price
+                                                                Giá
                                                             </span>
                                             </th>
                                             <th class="product-stock-status">
                                                             <span class="nobr">
-                                                                Stock Status
+                                                                Tình trạng hàng trong kho
                                                             </span>
                                             </th>
                                             <th class="product-add-to-cart"></th>
@@ -63,18 +63,18 @@ require_once "header.php";
                                             <td class="product-price">
                                                 <ins>
                                                                 <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">£</span>199.95</span>
+                                                                    <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                 </ins>
                                                 <del>
                                                                 <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">£</span>229.99</span>
+                                                                    <span class="woocommerce-Price-currencySymbol"></span>13.000.000đ</span>
                                                 </del>
                                             </td>
                                             <td class="product-stock-status">
-                                                <span class="wishlist-in-stock">In Stock</span>
+                                                <span class="wishlist-in-stock">Còn hàng</span>
                                             </td>
                                             <td class="product-add-to-cart">
-                                                <a class="button add_to_cart_button button alt" href="cart.php"> Add to Cart</a>
+                                                <a class="button add_to_cart_button button alt" href="cart.php"> Thêm Vào Giỏ Hàng</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -94,18 +94,18 @@ require_once "header.php";
                                             <td class="product-price">
                                                 <ins>
                                                                 <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">£</span>199.95</span>
+                                                                    <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                 </ins>
                                                 <del>
                                                                 <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">£</span>229.99</span>
+                                                                    <span class="woocommerce-Price-currencySymbol"></span>13.000.000đ</span>
                                                 </del>
                                             </td>
                                             <td class="product-stock-status">
-                                                <span class="wishlist-in-stock">In Stock</span>
+                                                <span class="wishlist-in-stock">Còn hàng</span>
                                             </td>
                                             <td class="product-add-to-cart">
-                                                <a class="button add_to_cart_button button alt" href="cart.php"> Add to Cart</a>
+                                                <a class="button add_to_cart_button button alt" href="cart.php"> Thêm Vào Giỏ Hàng</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -125,18 +125,18 @@ require_once "header.php";
                                             <td class="product-price">
                                                 <ins>
                                                                 <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">£</span>199.95</span>
+                                                                    <span class="woocommerce-Price-currencySymbol"></span>15.000.000đ</span>
                                                 </ins>
                                                 <del>
                                                                 <span class="woocommerce-Price-amount amount">
-                                                                    <span class="woocommerce-Price-currencySymbol">£</span>229.99</span>
+                                                                    <span class="woocommerce-Price-currencySymbol"></span>13.000.000đ</span>
                                                 </del>
                                             </td>
                                             <td class="product-stock-status">
-                                                <span class="wishlist-in-stock">In Stock</span>
+                                                <span class="wishlist-in-stock">Còn hàng</span>
                                             </td>
                                             <td class="product-add-to-cart">
-                                                <a class="button add_to_cart_button button alt" href="cart.php"> Add to Cart</a>
+                                                <a class="button add_to_cart_button button alt" href="cart.php"> Thêm Vào Giỏ Hàng</a>
                                             </td>
                                         </tr>
                                         </tbody>

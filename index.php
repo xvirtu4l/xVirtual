@@ -1,6 +1,4 @@
 <?php
-// tung keng da sua 
-// hoang anh da sua
 session_start();
 include "model/pdo.php";
 include "model/sanpham.php";
