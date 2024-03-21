@@ -35,33 +35,33 @@ require_once "header_product.php";
                         <figure class="woocommerce-product-gallery__wrapper ">
 
                           <div data-thumb='../assets/images/products/sm-card-2.jpg' class="woocommerce-product-gallery__image">
-                            <a href="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" tabindex="0">
-                              <img width="600" height="600" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="">
+                            <a href="../assets/images/products/ip1000.png" tabindex="0">
+                              <img width="600" height="600" src="../assets/images/products/ip1000.png" class="attachment-shop_single size-shop_single wp-post-image" alt="">
                             </a>
                           </div>
                           <div data-thumb='../assets/images/products/sm-card-2.jpg' class="woocommerce-product-gallery__image">
-                            <a href="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" tabindex="0">
-                              <img width="600" height="600" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="">
+                            <a href="../assets/images/products/ip1000.png" tabindex="0">
+                              <img width="600" height="600" src="../assets/images/products/ip1000.png" class="attachment-shop_single size-shop_single wp-post-image" alt="">
                             </a>
                           </div>
                           <div data-thumb='../assets/images/products/sm-card-2.jpg' class="woocommerce-product-gallery__image">
-                            <a href="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" tabindex="0">
-                              <img width="600" height="600" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="">
+                            <a href="../assets/images/products/ip1000.png" tabindex="0">
+                              <img width="600" height="600" src="../assets/images/products/ip1000.png" class="attachment-shop_single size-shop_single wp-post-image" alt="">
                             </a>
                           </div>
                           <div data-thumb='../assets/images/products/sm-card-2.jpg' class="woocommerce-product-gallery__image">
-                            <a href="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" tabindex="0">
-                              <img width="600" height="600" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="">
+                            <a href="../assets/images/products/ip1000.png" tabindex="0">
+                              <img width="600" height="600" src="../assets/images/products/ip1000.png" class="attachment-shop_single size-shop_single wp-post-image" alt="">
                             </a>
                           </div>
                           <div data-thumb='../assets/images/products/sm-card-2.jpg' class="woocommerce-product-gallery__image">
-                            <a href="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" tabindex="0">
-                              <img width="600" height="600" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="">
+                            <a href="../assets/images/products/ip1000.png" tabindex="0">
+                              <img width="600" height="600" src="../assets/images/products/ip1000.png" class="attachment-shop_single size-shop_single wp-post-image" alt="">
                             </a>
                           </div>
                           <div data-thumb='../assets/images/products/sm-card-2.jpg' class="woocommerce-product-gallery__image">
-                            <a href="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" tabindex="0">
-                              <img width="600" height="600" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_single size-shop_single wp-post-image" alt="">
+                            <a href="../assets/images/products/ip1000.png" tabindex="0">
+                              <img width="600" height="600" src="../assets/images/products/ip1000.png" class="attachment-shop_single size-shop_single wp-post-image" alt="">
                             </a>
                           </div>
 
@@ -76,19 +76,19 @@ require_once "header_product.php";
                     <div class="techmarket-single-product-gallery-thumbnails" data-ride="tm-slick-carousel" data-wrap=".techmarket-single-product-gallery-thumbnails__wrapper" data-slick="{&quot;infinite&quot;:false,&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:1,&quot;dots&quot;:false,&quot;arrows&quot;:true,&quot;vertical&quot;:true,&quot;verticalSwiping&quot;:true,&quot;focusOnSelect&quot;:true,&quot;touchMove&quot;:true,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-up\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-down\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;asNavFor&quot;:&quot;#techmarket-single-product-gallery .woocommerce-product-gallery__wrapper&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:765,&quot;settings&quot;:{&quot;vertical&quot;:false,&quot;horizontal&quot;:true,&quot;verticalSwiping&quot;:false,&quot;slidesToShow&quot;:4}}]}">
                       <figure class="techmarket-single-product-gallery-thumbnails__wrapper">
                         <figure data-thumb="../assets/images/products/sm-card-1.jpg" class="techmarket-wc-product-gallery__image">
-                          <img width="180" height="180" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
+                          <img width="180" height="180" src="../assets/images/products/ip1000.png" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
                         </figure>
                         <figure data-thumb="../assets/images/products/sm-card-1.jpg" class="techmarket-wc-product-gallery__image">
-                          <img width="180" height="180" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
+                          <img width="180" height="180" src="../assets/images/products/ip1000.png" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
                         </figure>
                         <figure data-thumb="../assets/images/products/sm-card-1.jpg" class="techmarket-wc-product-gallery__image">
-                          <img width="180" height="180" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
+                          <img width="180" height="180" src="../assets/images/products/ip1000.png" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
                         </figure>
                         <figure data-thumb="../assets/images/products/sm-card-1.jpg" class="techmarket-wc-product-gallery__image">
-                          <img width="180" height="180" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
+                          <img width="180" height="180" src="../assets/images/products/ip1000.png" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
                         </figure>
                         <figure data-thumb="../assets/images/products/sm-card-1.jpg" class="techmarket-wc-product-gallery__image">
-                          <img width="180" height="180" src="../assets/images/products/iphone/iphone-14-plus-den-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
+                          <img width="180" height="180" src="../assets/images/products/ip1000.png" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="">
                         </figure>
 
                       </figure>
@@ -205,7 +205,7 @@ require_once "header_product.php";
                           <div class="products">
                             <div class="product">
                               <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/iphone-14-pro-tim-4.jpg">
+                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/ip1000.png">
                                 <span class="price">
                                                                             <del>
                                                                                 <span class="woocommerce-Price-amount amount">
@@ -226,7 +226,7 @@ require_once "header_product.php";
                             </div>
                             <div class="product">
                               <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/iphone-14-pro-tim-4.jpg">
+                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/ip1000.png">
                                 <span class="price">
                                                                             <del>
                                                                                 <span class="woocommerce-Price-amount amount">
@@ -247,7 +247,7 @@ require_once "header_product.php";
                             </div>
                             <div class="product">
                               <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/iphone-14-pro-tim-4.jpg">
+                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/ip1000.png">
                                 <span class="price">
                                                                             <del>
                                                                                 <span class="woocommerce-Price-amount amount">
@@ -268,7 +268,7 @@ require_once "header_product.php";
                             </div>
                             <div class="product">
                               <a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="single-product-fullwidth.php">
-                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/iphone/iphone-14-pro-tim-4.jpg">
+                                <img width="224" height="197" alt="" class="attachment-shop_catalog size-shop_catalog wp-post-image" src="../assets/images/products/ip1000.png">
                                 <span class="price">
                                                                             <del>
                                                                                 <span class="woocommerce-Price-amount amount">
@@ -339,7 +339,7 @@ require_once "header_product.php";
                     <!-- .outer-wrap -->
                     <div class="outer-wrap">
                       <div class="image-info">
-                        <img src="../assets/images/products/iphone/iphone-15-pro-131023-035001.jpg" class="alignnone" alt="">
+                        <img src="../assets/images/products/ip1000.png" class="alignnone" alt="">
                       </div>
                       <!-- .image-info -->
                       <div class="content-info">
@@ -604,7 +604,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -624,7 +624,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -644,7 +644,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -664,7 +664,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -684,7 +684,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -704,7 +704,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -724,7 +724,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -744,7 +744,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -764,7 +764,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>
@@ -784,7 +784,7 @@ require_once "header_product.php";
                         <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                       </div>
                       <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                        <img src="../assets/images/products/iphone/mieng-dan-camera-iphone-15-pro-max-optix-aluminium-uniq-da-sac-1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                        <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                         <span class="price">
                                                             <ins>
                                                                 <span class="amount"> </span>

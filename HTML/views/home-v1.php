@@ -28,7 +28,7 @@ require_once "header.php";
                     <br> right here</div>
                   <div class="sub-title">Đột Phá Thiểt Kế Và Hiệu Năng
                     <br>Apple - Có Mọi Thứ Bạn Cần</div>
-                  <div class="button">Đựt Mua Ngay
+                  <div class="button">Đặt Mua Ngay
                     <i class="tm tm-long-arrow-right"></i>
                   </div>
                   <div class="bottom-caption">Free Shipping Trên 63 Tỉnh Thành  </div>
@@ -103,7 +103,7 @@ require_once "header.php";
                 <div class="deals-carousel-inner-block">
                   <header class="section-header">
                     <h2 class="section-title">
-                      <strong>Deals</strong> of the week</h2>
+                      <strong>Ưu Đãi</strong> Trong Tuần</h2>
                     <nav class="custom-slick-nav"></nav>
                   </header>
                   <!-- /.section-header -->
@@ -127,7 +127,7 @@ require_once "header.php";
                                                                                     </del>
                                                                                 </span>
                                     <!-- /.price -->
-                                    <h2 class="woocommerce-loop-product__title">Tablet Red EliteBook Revolve</h2>
+                                    <h2 class="woocommerce-loop-product__title">Iphone 15 Seris</h2>
                                   </div>
                                   <!-- /.price-and-title -->
                                   <div class="sale-label-outer">
@@ -143,13 +143,13 @@ require_once "header.php";
                                   <!-- /.sale-label-outer -->
                                 </div>
                                 <!-- /.sale-product-with-timer-header -->
-                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/1.jpg">
+                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/ip1.jpg">
                                 <div class="deal-progress">
                                   <div class="deal-stock">
-                                    <div class="stock-sold">Already Sold:
+                                    <div class="stock-sold">Đã Bán:
                                       <strong>0</strong>
                                     </div>
-                                    <div class="stock-available">Available:
+                                    <div class="stock-available">Số Lượng:
                                       <strong>1000</strong>
                                     </div>
                                   </div>
@@ -162,8 +162,8 @@ require_once "header.php";
                                 <!-- /.deal-progress -->
                                 <div class="deal-countdown-timer">
                                   <div class="marketing-text">
-                                    <span class="line-1">Hurry up!</span>
-                                    <span class="line-2">Offers ends in:</span>
+                                    <span class="line-1">Nhanh Tay Đặt Hàng!</span>
+                                    <span class="line-2">Ưu Đãi Kết Thúc:</span>
                                   </div>
                                   <!-- /.marketing-text -->
                                   <span class="deal-time-diff" style="display:none;">28800</span>
@@ -189,7 +189,7 @@ require_once "header.php";
                                                                                     </del>
                                                                                 </span>
                                     <!-- /.price -->
-                                    <h2 class="woocommerce-loop-product__title">Tablet Red EliteBook Revolve</h2>
+                                    <h2 class="woocommerce-loop-product__title">SamSung Z Flip</h2>
                                   </div>
                                   <!-- /.price-and-title -->
                                   <div class="sale-label-outer">
@@ -205,13 +205,13 @@ require_once "header.php";
                                   <!-- /.sale-label-outer -->
                                 </div>
                                 <!-- /.sale-product-with-timer-header -->
-                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/2.jpg">
+                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/ss1.jpg">
                                 <div class="deal-progress">
                                   <div class="deal-stock">
-                                    <div class="stock-sold">Already Sold:
+                                    <div class="stock-sold">Đã Bán:
                                       <strong>0</strong>
                                     </div>
-                                    <div class="stock-available">Available:
+                                    <div class="stock-available">Số Lượng:
                                       <strong>1000</strong>
                                     </div>
                                   </div>
@@ -224,8 +224,8 @@ require_once "header.php";
                                 <!-- /.deal-progress -->
                                 <div class="deal-countdown-timer">
                                   <div class="marketing-text">
-                                    <span class="line-1">Hurry up!</span>
-                                    <span class="line-2">Offers ends in:</span>
+                                    <span class="line-1">Nhanh Tay Đặt Hàng!</span>
+                                    <span class="line-2">ưu Đãi Kết Thúc Sau:</span>
                                   </div>
                                   <!-- /.marketing-text -->
                                   <span class="deal-time-diff" style="display:none;">28800</span>
@@ -251,7 +251,7 @@ require_once "header.php";
                                                                                     </del>
                                                                                 </span>
                                     <!-- /.price -->
-                                    <h2 class="woocommerce-loop-product__title">Tablet Red EliteBook Revolve</h2>
+                                    <h2 class="woocommerce-loop-product__title">Xiaomi 14 Seris</h2>
                                   </div>
                                   <!-- /.price-and-title -->
                                   <div class="sale-label-outer">
@@ -267,13 +267,13 @@ require_once "header.php";
                                   <!-- /.sale-label-outer -->
                                 </div>
                                 <!-- /.sale-product-with-timer-header -->
-                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/3.jpg">
+                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/xiaomi1.webp">
                                 <div class="deal-progress">
                                   <div class="deal-stock">
-                                    <div class="stock-sold">Already Sold:
+                                    <div class="stock-sold">Đã Bán:
                                       <strong>0</strong>
                                     </div>
-                                    <div class="stock-available">Available:
+                                    <div class="stock-available">Só Lượng:
                                       <strong>1000</strong>
                                     </div>
                                   </div>
@@ -286,8 +286,8 @@ require_once "header.php";
                                 <!-- /.deal-progress -->
                                 <div class="deal-countdown-timer">
                                   <div class="marketing-text">
-                                    <span class="line-1">Hurry up!</span>
-                                    <span class="line-2">Offers ends in:</span>
+                                    <span class="line-1">Nhanh Tay Đặt Hàng!</span>
+                                    <span class="line-2">Ưu Đãi Kết Thúc:</span>
                                   </div>
                                   <!-- /.marketing-text -->
                                   <span class="deal-time-diff" style="display:none;">28800</span>
@@ -313,7 +313,7 @@ require_once "header.php";
                                                                                     </del>
                                                                                 </span>
                                     <!-- /.price -->
-                                    <h2 class="woocommerce-loop-product__title">Tablet Red EliteBook Revolve</h2>
+                                    <h2 class="woocommerce-loop-product__title">Realme C35</h2>
                                   </div>
                                   <!-- /.price-and-title -->
                                   <div class="sale-label-outer">
@@ -329,13 +329,13 @@ require_once "header.php";
                                   <!-- /.sale-label-outer -->
                                 </div>
                                 <!-- /.sale-product-with-timer-header -->
-                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/4.jpg">
+                                <img width="224" height="197" alt="" class="wp-post-image" src="../assets/images/products/relme1.jpg">
                                 <div class="deal-progress">
                                   <div class="deal-stock">
-                                    <div class="stock-sold">Already Sold:
+                                    <div class="stock-sold">Đã Bán:
                                       <strong>0</strong>
                                     </div>
-                                    <div class="stock-available">Available:
+                                    <div class="stock-available">Số Lượng:
                                       <strong>1000</strong>
                                     </div>
                                   </div>
@@ -348,8 +348,8 @@ require_once "header.php";
                                 <!-- /.deal-progress -->
                                 <div class="deal-countdown-timer">
                                   <div class="marketing-text">
-                                    <span class="line-1">Hurry up!</span>
-                                    <span class="line-2">Offers ends in:</span>
+                                    <span class="line-1">Nhanh Tay Đặt Hàng!</span>
+                                    <span class="line-2">Ưu Đãi Kết Thúc:</span>
                                   </div>
                                   <!-- /.marketing-text -->
                                   <span class="deal-time-diff" style="display:none;">28800</span>
@@ -373,8 +373,8 @@ require_once "header.php";
                   <footer class="section-footer">
                     <nav class="custom-slick-pagination">
                       <a class="slider-prev left" href="#" data-target="#sale-with-timer-carousel .products">
-                        <i class="tm tm-arrow-left"></i>Previous deal</a>
-                      <a class="slider-next right" href="#" data-target="#sale-with-timer-carousel .products">Next deal<i class="tm tm-arrow-right"></i></a>
+                        <i class="tm tm-arrow-left"></i>Trang Trước</a>
+                      <a class="slider-next right" href="#" data-target="#sale-with-timer-carousel .products">Trang Tiếp Theo<i class="tm tm-arrow-right"></i></a>
                     </nav>
                   </footer>
                   <!-- /.section-footer -->
@@ -387,13 +387,13 @@ require_once "header.php";
                   <header class="section-header">
                     <ul role="tablist" class="nav justify-content-end">
                       <li class="nav-item">
-                        <a class="nav-link active" href="#tab-59f89f0881f930" data-toggle="tab">New Arrivals</a>
+                        <a class="nav-link active" href="#tab-59f89f0881f930" data-toggle="tab">Sản Phẩm Mới</i></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link " href="#tab-59f89f0881f931" data-toggle="tab">On Sale</a>
+                        <a class="nav-link " href="#tab-59f89f0881f931" data-toggle="tab">Giảm Giá</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link " href="#tab-59f89f0881f932" data-toggle="tab">Best Rated</a>
+                        <a class="nav-link " href="#tab-59f89f0881f932" data-toggle="tab">Top Đánh Giá</a>
                       </li>
                     </ul>
                   </header>
@@ -406,10 +406,10 @@ require_once "header.php";
                             <div class="products">
                               <div class="product">
                                 <div class="yith-wcwl-add-to-wishlist">
-                                  <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
+                                  <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Thêm Vào Giỏ Hàng</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/3.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -420,8 +420,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -430,7 +430,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/15.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -441,8 +441,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -451,7 +451,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/11.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -462,8 +462,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -472,7 +472,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/4.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -483,8 +483,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -493,7 +493,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/5.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -504,8 +504,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">XONE Wireless Controller</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -518,7 +518,7 @@ require_once "header.php";
                                                                                 <span class="woocommerce-Price-amount amount">
                                                                                     <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                             </span>
-                                  <img src="../assets/images/products/7.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> 789.95</span>
@@ -532,8 +532,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -542,7 +542,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/16.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -553,8 +553,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -563,7 +563,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/10.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -574,8 +574,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -584,7 +584,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/13.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -595,8 +595,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Drone WIFI FPV With 4K</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -605,7 +605,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/9.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -616,8 +616,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Watch Stainless with Grey Suture Leather Strap</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -630,7 +630,7 @@ require_once "header.php";
                                                                                 <span class="woocommerce-Price-amount amount">
                                                                                     <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                             </span>
-                                  <img src="../assets/images/products/2.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> 309.95</span>
@@ -644,8 +644,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">ZenBook 3 Ultrabook 8GB 512SSD W10</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -654,7 +654,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/6.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -665,8 +665,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Gear Virtual Reality 3D with Bluetooth Glasses</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -675,7 +675,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/8.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -686,8 +686,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Video & Air Quality Monitor</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -700,7 +700,7 @@ require_once "header.php";
                                                                                 <span class="woocommerce-Price-amount amount">
                                                                                     <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                             </span>
-                                  <img src="../assets/images/products/14.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> 262.81</span>
@@ -714,8 +714,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -724,7 +724,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/12.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -735,8 +735,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Bbd 23-Inch Screen LED-Lit Monitorss Buds</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -745,7 +745,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -756,8 +756,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Smart Watches 3 SWR50</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -780,7 +780,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/11.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -791,8 +791,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -805,7 +805,7 @@ require_once "header.php";
                                                                                 <span class="woocommerce-Price-amount amount">
                                                                                     <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                             </span>
-                                  <img src="../assets/images/products/2.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> 309.95</span>
@@ -819,8 +819,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">ZenBook 3 Ultrabook 8GB 512SSD W10</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -829,7 +829,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/16.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -840,8 +840,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -850,7 +850,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/10.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -861,8 +861,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -871,7 +871,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/8.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -882,8 +882,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Video & Air Quality Monitor</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -892,7 +892,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/5.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -903,8 +903,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">XONE Wireless Controller</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -917,7 +917,7 @@ require_once "header.php";
                                                                                 <span class="woocommerce-Price-amount amount">
                                                                                     <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                             </span>
-                                  <img src="../assets/images/products/7.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> 789.95</span>
@@ -931,8 +931,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -941,7 +941,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -952,8 +952,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Smart Watches 3 SWR50</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -962,7 +962,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/13.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -973,8 +973,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Drone WIFI FPV With 4K</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -987,7 +987,7 @@ require_once "header.php";
                                                                                 <span class="woocommerce-Price-amount amount">
                                                                                     <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                             </span>
-                                  <img src="../assets/images/products/14.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> 262.81</span>
@@ -1001,8 +1001,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1011,7 +1011,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/15.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -1022,8 +1022,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1032,7 +1032,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/4.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -1043,8 +1043,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1053,7 +1053,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/12.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -1064,8 +1064,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Bbd 23-Inch Screen LED-Lit Monitorss Buds</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1074,7 +1074,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/6.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -1085,8 +1085,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Gear Virtual Reality 3D with Bluetooth Glasses</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1095,7 +1095,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/3.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -1106,8 +1106,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1116,7 +1116,7 @@ require_once "header.php";
                                   <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                                 </div>
                                 <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                  <img src="../assets/images/products/9.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                  <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                   <span class="price">
                                                                                 <ins>
                                                                                     <span class="amount"> </span>
@@ -1127,8 +1127,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Watch Stainless with Grey Suture Leather Strap</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1162,8 +1162,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Gear Virtual Reality 3D with Bluetooth Glasses</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1183,8 +1183,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1204,8 +1204,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1225,8 +1225,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Bbd 23-Inch Screen LED-Lit Monitorss Buds</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1253,8 +1253,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1274,8 +1274,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1295,8 +1295,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1323,8 +1323,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1344,8 +1344,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">XONE Wireless Controller</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1365,8 +1365,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1386,8 +1386,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Drone WIFI FPV With 4K</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1407,8 +1407,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Watch Stainless with Grey Suture Leather Strap</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1428,8 +1428,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Smart Watches 3 SWR50</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1449,8 +1449,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">Video & Air Quality Monitor</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1470,8 +1470,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1498,8 +1498,8 @@ require_once "header.php";
                                   <h2 class="woocommerce-loop-product__title">ZenBook 3 Ultrabook 8GB 512SSD W10</h2>
                                 </a>
                                 <div class="hover-area">
-                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
-                                  <a class="add-to-compare-link" href="compare.php">Add to compare</a>
+                                  <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
+                                  <a class="add-to-compare-link" href="compare.php">So Sánh Với Sản Phẩm Khác</a>
                                 </div>
                               </div>
                               <!-- /.product-outer -->
@@ -1890,19 +1890,14 @@ require_once "header.php";
               </section>
               <!-- .section-products-carousel-tabs -->
             </div>
-            <div class="fullwidth-notice stretch-full-width">
-              <div class="col-full">
-                <p class="message">Download our new app today! Dont miss our mobile-only offers and shop with Android Play.</p>
-              </div>
-              <!-- .col-full -->
-            </div>
+            
             <!-- .fullwidth-notice -->
 
             <!-- .slick-dots -->
             <section class="section-hot-new-arrivals section-products-carousel-tabs techmarket-tabs">
               <div class="section-products-carousel-tabs-wrap">
                 <header class="section-header">
-                  <h2 class="section-title">Hot Best Sellers</h2>
+                  <h2 class="section-title">Hot Sale</h2>
                   <ul role="tablist" class="nav justify-content-end">
                     <li class="nav-item"><a class="nav-link active" href="#tab-59f89f08825d50" data-toggle="tab">Top 14</a></li>
 
@@ -1920,7 +1915,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/12.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -1931,7 +1926,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Bbd 23-Inch Screen LED-Lit Monitorss Buds</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -1945,7 +1940,7 @@ require_once "header.php";
                                                                             <span class="woocommerce-Price-amount amount">
                                                                                 <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                         </span>
-                                <img src="../assets/images/products/14.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> 262.81</span>
@@ -1959,7 +1954,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -1969,7 +1964,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/6.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -1980,7 +1975,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Gear Virtual Reality 3D with Bluetooth Glasses</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -1990,7 +1985,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/1.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -2001,7 +1996,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Smart Watches 3 SWR50</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2011,7 +2006,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/15.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -2022,7 +2017,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2036,7 +2031,7 @@ require_once "header.php";
                                                                             <span class="woocommerce-Price-amount amount">
                                                                                 <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                         </span>
-                                <img src="../assets/images/products/7.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> 789.95</span>
@@ -2050,7 +2045,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2060,7 +2055,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/8.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -2071,7 +2066,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Video & Air Quality Monitor</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2083,7 +2078,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/16.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -2094,7 +2089,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2108,7 +2103,7 @@ require_once "header.php";
                                                                             <span class="woocommerce-Price-amount amount">
                                                                                 <span class="woocommerce-Price-currencySymbol">$</span>150.04</span>
                                                                         </span>
-                                <img src="../assets/images/products/2.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> 309.95</span>
@@ -2122,7 +2117,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">ZenBook 3 Ultrabook 8GB 512SSD W10</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2132,7 +2127,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/3.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -2143,7 +2138,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2153,7 +2148,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/4.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -2164,7 +2159,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2174,7 +2169,7 @@ require_once "header.php";
                                 <a href="wishlist.php" rel="nofollow" class="add_to_wishlist"> Add to Wishlist</a>
                               </div>
                               <a href="single-product-fullwidth.php" class="woocommerce-LoopProduct-link">
-                                <img src="../assets/images/products/9.jpg" width="224" height="197" class="wp-post-image" alt="">
+                                <img src="../assets/images/products/ip1000.png" width="224" height="197" class="wp-post-image" alt="">
                                 <span class="price">
                                                                             <ins>
                                                                                 <span class="amount"> </span>
@@ -2185,7 +2180,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Watch Stainless with Grey Suture Leather Strap</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2230,7 +2225,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Bluetooth on-ear PureBass Headphones</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2251,7 +2246,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2272,7 +2267,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2293,7 +2288,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Bbd 23-Inch Screen LED-Lit Monitorss Buds</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2314,7 +2309,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2342,7 +2337,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Band Fitbit Flex</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2363,7 +2358,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">4K Action Cam with Wi-Fi & GPS</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2384,7 +2379,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Gear Virtual Reality 3D with Bluetooth Glasses</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2405,7 +2400,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Watch Stainless with Grey Suture Leather Strap</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2433,7 +2428,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">ZenBook 3 Ultrabook 8GB 512SSD W10</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2454,7 +2449,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">On-ear Wireless NXTG</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2475,7 +2470,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Video & Air Quality Monitor</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2496,7 +2491,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">XONE Wireless Controller</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2517,7 +2512,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Drone WIFI FPV With 4K</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2538,7 +2533,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Xtreme ultimate splashproof portable speaker</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -2559,7 +2554,7 @@ require_once "header.php";
                                 <h2 class="woocommerce-loop-product__title">Smart Watches 3 SWR50</h2>
                               </a>
                               <div class="hover-area">
-                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Add to cart</a>
+                                <a class="button add_to_cart_button" href="cart.php" rel="nofollow">Thêm Vào Giỏ Hàng</a>
                                 <a class="add-to-compare-link" href="compare.php">Add to compare</a>
                               </div>
                             </div>
@@ -3328,7 +3323,7 @@ require_once "header.php";
 
             <section class="section-landscape-products-carousel recently-viewed" id="recently-viewed">
               <header class="section-header">
-                <h2 class="section-title">Recently viewed products</h2>
+                <h2 class="section-title">Sản Phẩm Đã Xem Gần Đây</h2>
                 <nav class="custom-slick-nav"></nav>
               </header>
               <div class="products-carousel" data-ride="tm-slick-carousel" data-wrap=".products" data-slick="{&quot;slidesToShow&quot;:5,&quot;slidesToScroll&quot;:2,&quot;dots&quot;:true,&quot;arrows&quot;:true,&quot;prevArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-right\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;nextArrow&quot;:&quot;&lt;a href=\&quot;#\&quot;&gt;&lt;i class=\&quot;tm tm-arrow-left\&quot;&gt;&lt;\/i&gt;&lt;\/a&gt;&quot;,&quot;appendArrows&quot;:&quot;#recently-viewed .custom-slick-nav&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:992,&quot;settings&quot;:{&quot;slidesToShow&quot;:2,&quot;slidesToScroll&quot;:2}},{&quot;breakpoint&quot;:1200,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1400,&quot;settings&quot;:{&quot;slidesToShow&quot;:3,&quot;slidesToScroll&quot;:3}},{&quot;breakpoint&quot;:1700,&quot;settings&quot;:{&quot;slidesToShow&quot;:4,&quot;slidesToScroll&quot;:4}}]}">
@@ -3338,7 +3333,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-3.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
@@ -3370,7 +3365,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-2.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
@@ -3399,7 +3394,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-4.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
@@ -3428,7 +3423,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-5.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
@@ -3460,7 +3455,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-6.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
@@ -3489,7 +3484,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-1.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
@@ -3521,7 +3516,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-3.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
@@ -3553,7 +3548,7 @@ require_once "header.php";
                       <div class="landscape-product product">
                         <a class="woocommerce-LoopProduct-link" href="single-product-fullwidth.php">
                           <div class="media">
-                            <img class="wp-post-image" src="../assets/images/products/card-4.jpg" alt="">
+                            <img class="wp-post-image" src="../assets/images/products/ss224.jpg" alt="">
                             <div class="media-body">
                                                                     <span class="price">
                                                                         <ins>
