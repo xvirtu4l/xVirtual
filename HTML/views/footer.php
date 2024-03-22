@@ -170,27 +170,10 @@
                     <div class="columns">
                         <aside class="widget clearfix">
                             <div class="body">
-                                <h4 class="widget-title">Tìm kiếm nhanh</h4>
+                               
                                 <div class="menu-footer-menu-1-container">
                                     <ul id="menu-footer-menu-1" class="menu">
-                                        <li class="menu-item">
-                                            <a href="shop.php">Computers &#038; Laptops</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Cameras &#038; Photography</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Smart Phones &#038; Tablets</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Video Games &#038; Consoles</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">TV</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Car Electronic &#038; GPS</a>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                                 <!-- .menu-footer-menu-1-container -->
@@ -206,24 +189,7 @@
                                 <h4 class="widget-title">&nbsp;</h4>
                                 <div class="menu-footer-menu-2-container">
                                     <ul id="menu-footer-menu-2" class="menu">
-                                        <li class="menu-item">
-                                            <a href="shop.php">Printers &#038; Ink</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Audio &amp; Music</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Home Theaters</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">PC Components</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Ultrabooks</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shop.php">Smartwatches</a>
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                                 <!-- .menu-footer-menu-2-container -->
@@ -233,7 +199,7 @@
                         <!-- .widget -->
                     </div>
                     <!-- .columns -->
-                    <div class="columns">
+                    <div class="columns" >
                         <aside class="widget clearfix">
                             <div class="body">
                                 <h4 class="widget-title">CHĂM SÓC KHÁCH HÀNG</h4>
