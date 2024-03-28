@@ -11,8 +11,8 @@ define('PATH_VIEW_ADMIN',         __DIR__ . '/../admin/views/');
 
 define('PATH_UPLOAD',         __DIR__ . '/../');
 
-define('BASE_URL',          '/fpoly-mvc-basic/');
-define('BASE_URL_ADMIN',    '/fpoly-mvc-basic/admin/');
+define('BASE_URL',          '/xVirtual/');
+define('BASE_URL_ADMIN',    '/xVirtual/admin/');
 
 define('DB_HOST',       'localhost');
 define('DB_PORT',       '3306');
