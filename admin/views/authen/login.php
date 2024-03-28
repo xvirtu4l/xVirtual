@@ -49,12 +49,12 @@
 
                                     <form action="" method="POST" class="user">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user" name="email" placeholder="Enter Email Address...">
+                                            <input type="text" class="form-control form-control-user" name="email" placeholder="Enter Email Address...">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user" name="password" placeholder="Password">
                                         </div>
-                                        <button type="submit" class="btn btn-primary btn-user btn-block">Login</a>
+                                      <button type="submit" class="btn btn-primary btn-user btn-block">Login</a></button>
                                     </form>
                                 </div>
                             </div>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if (!function_exists('checkUniqueEmail')) {
     // Nếu không trùng thì trả về True
@@ -48,17 +48,29 @@ if (!function_exists('checkUniqueEmailForUpdate')) {
 if (!function_exists('getUserAdminByEmailAndPassword')) {
     function getUserAdminByEmailAndPassword($email, $password)
     {
+        $email_or_user = $email;
+        $isEmail = strpos($email_or_user, '@') !== false;
+        if ($isEmail) {
+            $sql = "SELECT * FROM taikhoan WHERE email = :email AND pass = :password AND role = 1 LIMIT 1";
+        } else {
+            $sql = "SELECT * FROM taikhoan WHERE user = :user AND pass = :password AND role = 1 LIMIT 1";
+        }
         try {
-            $sql = "SELECT * FROM users WHERE email = :email AND password = :password AND type = 1 LIMIT 1";
 
             $stmt = $GLOBALS['conn']->prepare($sql);
 
-            $stmt->bindParam(":email", $email);
+            //            $stmt->bindParam(":email", $email);
+            //            $stmt->bindParam(":password", $password);
+            if ($isEmail) {
+                $stmt->bindParam(":email", $email_or_user);
+            } else {
+                $stmt->bindParam(":user", $email_or_user);
+            }
             $stmt->bindParam(":password", $password);
-
             $stmt->execute();
+            $result = $stmt->fetch();
+            return $result;
 
-            return $stmt->fetch();
         } catch (\Exception $e) {
             debug($e);
         }
