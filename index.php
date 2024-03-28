@@ -1,7 +1,7 @@
 <?php 
 
 // Require file trong commons
-require_once './commons/env.example.php';
+require_once './commons/env.php';
 require_once './commons/helper.php';
 require_once './commons/connect-db.php';
 require_once './commons/model.php';

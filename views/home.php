@@ -48,14 +48,14 @@
             <div class="grid_item">
                 <figure>
                     
-                    <a href="product-detail-1.html">
+                    <a href="<?= BASE_URL . '?act=detail&id=' . $value['id'] ?>">
                         <img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="<?= BASE_URL . 'uploads/' . $value['img'] ?>" alt="">
                         <img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/1_b.jpg" alt="">
                     </a>
                     <!-- <div data-countdown="2019/05/15" class="countdown"></div> -->
                 </figure>
                 <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
-                <a href="product-detail-1.html">
+                <a href="<?= BASE_URL . '?act=detail&id=' . $value['id'] ?>">
                     <h3><?= $value['name'] ?></h3>
                 </a>
                 <div class="price_box">
@@ -113,12 +113,12 @@
             <div class="grid_item">
                 <span class="ribbon new">New</span>
                 <figure>
-                    <a href="product-detail-1.html">
+                    <a href="<?= BASE_URL . '?act=detail&id=' . $value['id'] ?>">
                         <img class="owl-lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="<?= BASE_URL . 'uploads/' . $value['img'] ?>" alt="">
                     </a>
                 </figure>
                 <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
-                <a href="product-detail-1.html">
+                <a href="<?= BASE_URL . '?act=detail&id=' . $value['id'] ?>">
                     <h3><?= $value['name'] ?></h3>
                 </a>
                 <div class="price_box">
