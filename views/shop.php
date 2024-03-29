@@ -4,21 +4,21 @@
             <div class="breadcrumbs">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li>Page active</li>
+                    <li><a href="#">Danh Mục</a></li>
+                    <li>Tất Cả</li>
                 </ul>
             </div>
-            <h1>Shoes - Grid listing</h1>
+            <h1>Tất Cả</h1>
         </div>
     </div>
-    <img src="img/bg_cat_shoes.jpg" class="img-fluid" alt="">
+    <img src="<?=  BASE_URL . "uploads/" . 'samsungz.webp' ?>" class="img-fluid" alt="">
 </div>
 <!-- /top_banner -->
 <div id="stick_here"></div>
 <div class="toolbox elemento_stick">
     <div class="container">
         <ul class="clearfix">
-            <li>
+            <!-- <li>
                 <div class="sort_select">
                     <select name="sort" id="sort">
                         <option value="popularity" selected="selected">Sort by popularity</option>
@@ -28,8 +28,8 @@
                         <option value="price-desc">Sort by price: high to
                     </select>
                 </div>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
                 <a href="#0"><i class="ti-view-grid"></i></a>
                 <a href="listing-row-1-sidebar-left.html"><i class="ti-view-list"></i></a>
             </li>
@@ -37,7 +37,7 @@
                 <a href="#0" class="open_filters">
                     <i class="ti-filter"></i><span>Filters</span>
                 </a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </div>
@@ -50,71 +50,51 @@
             <div class="filter_col">
                 <div class="inner_bt"><a href="#" class="open_filters"><i class="ti-close"></i></a></div>
                 <div class="filter_type version_2">
-                    <h4><a href="#filter_1" data-bs-toggle="collapse" class="opened">Categories</a></h4>
+                    <h4><a href="#filter_1" data-bs-toggle="collapse" class="opened">Điện Thoại</a></h4>
                     <div class="collapse show" id="filter_1">
                         <ul>
                             <li>
-                                <label class="container_check">Men <small>12</small>
+                                <label class="container_check">Iphone <small>10</small>
                                     <input type="checkbox">
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
                             <li>
-                                <label class="container_check">Women <small>24</small>
+                                <label class="container_check">SamSung <small>10</small>
                                     <input type="checkbox">
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
-                            <li>
-                                <label class="container_check">Running <small>23</small>
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li>
-                                <label class="container_check">Training <small>11</small>
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
+                           
                         </ul>
                     </div>
                     <!-- /filter_type -->
                 </div>
                 <!-- /filter_type -->
                 <div class="filter_type version_2">
-                    <h4><a href="#filter_2" data-bs-toggle="collapse" class="opened">Color</a></h4>
+                    <h4><a href="#filter_2" data-bs-toggle="collapse" class="opened">Phụ Kiện</a></h4>
                     <div class="collapse show" id="filter_2">
                         <ul>
                             <li>
-                                <label class="container_check">Blue <small>06</small>
+                                <label class="container_check">Kính Cường Lực <small>06</small>
                                     <input type="checkbox">
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
                             <li>
-                                <label class="container_check">Red <small>12</small>
+                                <label class="container_check">Giá Đỡ Điện Thoại <small>12</small>
                                     <input type="checkbox">
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
-                            <li>
-                                <label class="container_check">Orange <small>17</small>
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
+                            
                             </li>
-                            <li>
-                                <label class="container_check">Black <small>43</small>
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
+                           </li>
                         </ul>
                     </div>
                 </div>
                 <!-- /filter_type -->
-                <div class="filter_type version_2">
+                <!-- <div class="filter_type version_2">
                     <h4><a href="#filter_3" data-bs-toggle="collapse" class="closed">Brands</a></h4>
                     <div class="collapse" id="filter_3">
                         <ul>
@@ -144,9 +124,9 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 <!-- /filter_type -->
-                <div class="filter_type version_2">
+                <!-- <div class="filter_type version_2">
                     <h4><a href="#filter_4" data-bs-toggle="collapse" class="closed">Price</a></h4>
                     <div class="collapse" id="filter_4">
                         <ul>
@@ -176,7 +156,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
                 <!-- /filter_type -->
                 <div class="buttons">
                     <a href="#0" class="btn_1">Filter</a> <a href="#0" class="btn_1 gray">Reset</a>
