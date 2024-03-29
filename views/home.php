@@ -122,7 +122,7 @@
                     <h3><?= $value['name'] ?></h3>
                 </a>
                 <div class="price_box">
-                    <span class="new_price"><?= $value['price'] ?></span>
+                    <span class="new_price"><?= number_format($value['price'], 0, ',') ?> VND</span>
                 </div>
                 <ul>
                     <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
