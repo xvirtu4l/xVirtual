@@ -59,7 +59,7 @@
                     <h3><?= $value['name'] ?></h3>
                 </a>
                 <div class="price_box">
-                    <span class="new_price"><?= $value['price'] ?></span>
+                <span class="new_price"><?= number_format($value['price'], 0, ',') ?> VND</span>
                     
                 </div>
                 <ul>

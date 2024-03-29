@@ -67,7 +67,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-5 col-md-6">
-                        <div class="price_main"><span class="new_price">$148.00</span><span class="percentage">-20%</span> <span class="old_price">$160.00</span></div>
+                        <div class="price_main"><span class="new_price"><?= number_format($product['price'], 0, ',') ?> VND</span><span class="percentage">-20%</span> <span class="old_price">$160.00</span></div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="btn_add_to_cart"><a href="#0" class="btn_1">Add to Cart</a></div>
