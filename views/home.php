@@ -8,16 +8,16 @@
 
 <ul id="banners_grid" class="clearfix">
     <li>
-        <a href="#0" class="img_container">
+        <a href="<?= BASE_URL . '?act=shop' ?>" class="img_container">
             <img src="" data-src="<?= BASE_URL . 'uploads/' . 'iphone13.jpg' ?>" alt="" class="lazy">
             <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <h3>New Product Apple</h3>
                 <div><span class="btn_1">Shop Now</span></div>
-            </div>
+           </div>
         </a>
     </li>
     <li>
-        <a href="#0" class="img_container">
+        <a href="<?= BASE_URL . '?act=shop' ?>" class="img_container">
             <img src="" data-src="<?= BASE_URL . 'uploads/' . 'samsung.webp' ?>" alt="" class="lazy">
             <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <h3>S23 Ultra</h3>
@@ -26,7 +26,7 @@
         </a>
     </li>
     <li>
-        <a href="#0" class="img_container">
+        <a href="<?= BASE_URL . '?act=shop' ?>" class="img_container">
             <img src="img/banners_cat_placeholder.jpg" data-src="<?= BASE_URL . 'uploads/' . 'samsungz.webp' ?>" alt="" class="lazy">
             <div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
                 <h3>SamSung Z Flip</h3>
