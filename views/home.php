@@ -1,3 +1,5 @@
+<!-- test -->
+
 <?php
 
    require_once('components/slider-home.php')
