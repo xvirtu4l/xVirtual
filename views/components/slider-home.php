@@ -16,7 +16,7 @@
 										<p class="owl-slide-animated owl-slide-subtitle">
                                         Flip & Ford
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">Shop Now</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="<?= BASE_URL . '?act=shop' ?>" role="button">Shop Now</a></div>
 									</div>
 								</div>
 							</div>
@@ -32,7 +32,7 @@
 										<p class="owl-slide-animated owl-slide-subtitle">
 											SALEOFF 35%
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">Shop Now</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="<?= BASE_URL . '?act=shop' ?>" role="button">Shop Now</a></div>
 									</div>
 								</div>
 							</div>
@@ -49,7 +49,7 @@
 										<p class="owl-slide-animated owl-slide-subtitle">
                                         Đặt hàng ngay để nhận ưu đãi khủng!!
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">Shop Now</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="<?= BASE_URL . '?act=shop' ?>" role="button">Shop Now</a></div>
 									</div>
 								</div>
 							</div>

@@ -37,10 +37,10 @@
                     <div class="follow_us">
                         <h5>Follow Us</h5>
                         <ul>
-                            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/twitter_icon.svg" alt="" class="lazy"></a></li>
-                            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
-                            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
-                            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/youtube_icon.svg" alt="" class="lazy"></a></li>
+                            <li><a href="#0"><img src="<?= BASE_URL . 'uploads/' . 'twitter_icon.svg' ?>" data-src="<?= BASE_URL . 'uploads/' . 'twitter_icon.svg' ?>" alt="" class="lazy"></a></li>
+                            <li><a href="#0"><img src="<?= BASE_URL . 'uploads/' . 'facebook_icon.svg' ?>" data-src="<?= BASE_URL . 'uploads/' . 'facebook_icon.svg' ?>"></a></li>
+                            <li><a href="#0"><img src="<?= BASE_URL . 'uploads/' . 'facebook_icon.svg' ?>" data-src="<?= BASE_URL . 'uploads/' . 'facebook_icon.svg' ?>"></a></li>
+                            <li><a href="#0"><img src="<?= BASE_URL . 'uploads/' . 'youtube_icon.svg' ?>" data-src="<?= BASE_URL . 'uploads/' . 'youtube_icon.svg' ?>"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                     <li>
                         
                     </li>
-                    <li><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/cards_all.svg" alt="" width="198" height="30" class="lazy"></li>
+                    <li><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?= BASE_URL . 'uploads/' . 'cards_all.svg' ?>" alt="" width="198" height="30" class="lazy"></li>
                 </ul>
             </div>
             <div class="col-lg-6">

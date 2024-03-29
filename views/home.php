@@ -79,19 +79,20 @@
 </div>
 <!-- /container -->
 
-<div class="featured lazy" data-bg="url(img/featured_home.jpg)">
+<div class="featured lazy" data-bg="url(<?= BASE_URL . 'uploads/iphone13.jpg' ?>)">
     <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
         <div class="container margin_60">
             <div class="row justify-content-center justify-content-md-start">
                 <div class="col-lg-6 wow" data-wow-offset="150">
-                    <h3>Armor<br>Air Color 720</h3>
-                    <p>Lightweight cushioning and durable support with a Phylon midsole</p>
+                    <h3>Siêu<br>SALE</h3>
+                    <p>Nhân ngày sinh nhật của shop</p>
                     <div class="feat_text_block">
                         <div class="price_box">
-                            <span class="new_price">$90.00</span>
-                            <span class="old_price">$170.00</span>
+                           
+                            <span class="new_price">90.000đ</span>
+                            <span class="old_price">69.999đ</span>
                         </div>
-                        <a class="btn_1" href="listing-grid-1-full.html" role="button">Shop Now</a>
+                        <a class="btn_1" href="<?= BASE_URL . '?act=shop' ?>" role="button">Shop Now</a>
                     </div>
                 </div>
             </div>
