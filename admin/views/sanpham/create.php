@@ -10,7 +10,7 @@
             </h6>
         </div>
         <div class="card-body">
-            
+
             <?php if (isset($_SESSION['errors'])) : ?>
                 <div class="alert alert-danger">
                     <ul>
@@ -26,15 +26,27 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3 mt-3">
-                            <label for="name" class="form-label">Name:</label>
-                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Enter name" name="name">
+                            <label for="name" class="form-label">Tên:</label>
+                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Nhập tên sản phẩm" name="name">
                         </div>
+                      <div class="mb-3 mt-3">
+                        <label for="price" class="form-label">Giá:</label>
+                        <input type="text" class="form-control" id="price" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['price'] : null ?>" placeholder="Nhập giá sản phẩm" name="price">
+                      </div>
+                      <div class="mb-3 mt-3">
+                        <label for="mota" class="form-label">Mô tả:</label>
+                        <input type="text" class="form-control" id="mota" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['mota'] : null ?>" placeholder="Nhập mô tả" name="mota">
+                      </div>
                     </div>
-                    
+
                     <div class="col-md-6">
+                      <div class="mb-3 mt-3">
+                        <label for="soluong" class="form-label">Số lượng:</label>
+                        <input type="text" class="form-control" id="soluong" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['soluong'] : null ?>" placeholder="Nhập số lượng" name="soluong">
+                      </div>
                         <div class="mb-3 mt-3">
-                            <label for="avatar" class="form-label">Avatar:</label>
-                            <input type="file" class="form-control" id="avatar" name="avatar">
+                            <label for="img" class="form-label">Ảnh:</label>
+                            <input type="file" class="form-control" id="img" name="img">
                         </div>
                     </div>
                 </div>

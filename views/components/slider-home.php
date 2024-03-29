@@ -45,7 +45,7 @@
 							<div class="row justify-content-center justify-content-md-end">
 								<div class="col-lg-6 static">
 									<div class="slide-text text-end white">
-										<h2 class="owl-slide-animated owl-slide-title">Iphone<br>14 Seris</h2>
+										<h2 class="owl-slide-animated owl-slide-title">Iphone<br>14 Series</h2>
 										<p class="owl-slide-animated owl-slide-subtitle">
                                         Đặt hàng ngay để nhận ưu đãi khủng!!
 										</p>

@@ -1,9 +1,9 @@
-<?php 
+<?php
 
 session_start();
 
 // Require file trong commons
-require_once '../commons/env.php';
+require_once '../commons/env.example.php';
 require_once '../commons/helper.php';
 require_once '../commons/connect-db.php';
 require_once '../commons/model.php';
@@ -47,14 +47,14 @@ match($act) {
     'tag-delete' => tagDelete($_GET['id']),
 
     // CRUD author
-    'authors' => authorListAll(),
-    'author-detail' => authorShowOne($_GET['id']),
-    'author-create' => authorCreate(),
-    'author-update' => authorUpdate($_GET['id']),
-    'author-delete' => authorDelete($_GET['id']),
+    'sanpham' => sanpham_ListAll(),
+    'sanpham-detail' => sanpham_ShowOne($_GET['id']),
+    'sanpham-create' => sanpham_Create(),
+    'sanpham-update' => sanpham_Update($_GET['id']),
+    'sanpham-delete' => sanpham_Delete($_GET['id']),
 
     // CRUD post
-    'posts' => postListAll(),
+    'binhluan' => binhluan_ListAll(),
     'post-detail' => postShowOne($_GET['id']),
     'post-create' => postCreate(),
     'post-update' => postUpdate($_GET['id']),

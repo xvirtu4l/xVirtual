@@ -12,8 +12,8 @@
         <div class="card-body">
             <table class="table">
                 <tr>
-                    <th>Trường dữ liệu</th>
-                    <th>Dữ liệu</th>
+                    <th>Danh mục</th>
+                    <th>Chi tiết</th>
                 </tr>
 
                 <?php foreach ($user as $fieldName => $value) : ?>
