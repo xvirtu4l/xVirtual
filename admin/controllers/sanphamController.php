@@ -1,56 +1,58 @@
 <?php
 
-function authorListAll()
+function sanpham_ListAll()
 {
-    $title = 'Danh sách author';
-    $view = 'authors/index';
+    $title = 'Danh sách sản phẩm';
+    $view = 'sanpham/index';
     $script = 'datatable';
-    $script2 = 'authors/script';
+    $script2 = 'sanpham/script';
     $style = 'datatable';
 
-    $authors = listAll('authors');
+    $authors = listAll('sanpham');
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function authorShowOne($id)
+function sanpham_ShowOne($id)
 {
-    $author = showOne('authors', $id);
+    $author = showOne('sanpham', $id);
 
     if (empty($author)) {
         e404();
     }
 
     $title = 'Chi tiết author: ' . $author['name'];
-    $view = 'authors/show';
+    $view = 'sanpham/show';
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function authorCreate()
+function sanpham_Create()
 {
-    $title = 'Thêm mới author';
-    $view = 'authors/create';
+    $title = 'Thêm mới sản phẩm';
+    $view = 'sanpham/create';
 
     if (!empty($_POST)) {
 
         $data = [
             'name' => $_POST['name'] ?? null,
-            'avatar' => $_FILES['avatar'] ?? null
+            'price' => $_POST['price'] ?? null,
+            'mota' => $_POST['mota'] ?? null,
+            'soluong' => $_POST['soluong'] ?? null,
+            'img' => $_FILES['img'] ?? null,
+            'luotxem' => '0',
+            'iddm' => '5',
+
         ];
-        
+
         validateAuthorCreate($data);
 
-        $avatar = $data['avatar'];
-        if (!empty($avatar) && $avatar['size'] > 0) {
-            $data['avatar'] = upload_file($avatar, 'uploads/authors/');
-        }
 
-        insert('authors', $data);
+        insert('sanpham', $data);
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=authors');
+        header('Location: ' . BASE_URL_ADMIN . '?act=sanpham');
         exit();
     }
 
@@ -64,21 +66,22 @@ function validateAuthorCreate($data)
 
     $errors = [];
 
-    if (empty($data['name'])) {
-        $errors[] = 'Trường name là bắt buộc';
-    } else if (strlen($data['name']) > 50) {
-        $errors[] = 'Trường name độ dài tối đa 50 ký tự';
-    } else if (!checkUniqueName('authors', $data['name'])) {
-        $errors[] = 'Name đã được sử dụng';
+    if (empty($data['name']) || !(strlen($title) <= 255) || preg_match('/[\'^£$%&*()}{@#~?><>,|=+¬-]/', $title)) {
+        $errors[] = 'Invailable name';
+    }
+
+    if (empty($data['price']) && $data['price'] <= 0) {
+        $errors[] = 'Invailable price';
     }
 
 
-    if (!empty($data['avatar']) && $data['avatar']['size'] > 0) {
+
+    if (!empty($data['img']) && $data['img']['size'] > 0) {
         $typeImage = ['image/png', 'image/jpg', 'image/jpeg'];
 
-        if ($data['avatar']['size'] > 2 * 1024 * 1024) {
+        if ($data['img']['size'] > 2 * 1024 * 1024) {
             $errors[] = 'Trường avatar có dung lượng nhỏ hơn 2M';
-        } else if (!in_array($data['avatar']['type'], $typeImage)) {
+        } else if (!in_array($data['img']['type'], $typeImage)) {
             $errors[] = 'Trường avatar chỉ chấp nhận định dạng file: png, jpg, jpeg';
         }
     }
@@ -87,21 +90,21 @@ function validateAuthorCreate($data)
         $_SESSION['errors'] = $errors;
         $_SESSION['data'] = $data;
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=author-create');
+        header('Location: ' . BASE_URL_ADMIN . '?act=sanpham-create');
         exit();
     }
 }
 
-function authorUpdate($id)
+function sanpham_Update($id)
 {
-    $author = showOne('authors', $id);
+    $author = showOne('sanpham', $id);
 
     if (empty($author)) {
         e404();
     }
 
     $title = 'Cập nhật author: ' . $author['name'];
-    $view = 'authors/update';
+    $view = 'sanpham/update';
 
     if (!empty($_POST)) {
         $data = [
@@ -113,10 +116,10 @@ function authorUpdate($id)
 
         $avatar = $data['avatar'];
         if (!empty($avatar) && is_array($avatar) &&  $avatar['size'] > 0) {
-            $data['avatar'] = upload_file($avatar, 'uploads/authors/');
+            $data['avatar'] = upload_file($avatar, 'uploads/sanpham/');
         }
 
-        update('authors', $id, $data);
+        update('sanpham', $id, $data);
 
         if (
             !empty($avatar)                                 // Có upload file
@@ -129,7 +132,7 @@ function authorUpdate($id)
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=author-update&id=' . $id);
+        header('Location: ' . BASE_URL_ADMIN . '?act=sanpham-update&id=' . $id);
         exit();
     }
 
@@ -147,7 +150,7 @@ function validateAuthorUpdate($id, $data)
         $errors[] = 'Trường name là bắt buộc';
     } else if (strlen($data['name']) > 50) {
         $errors[] = 'Trường name độ dài tối đa 50 ký tự';
-    } else if (!checkUniqueNameForUpdate('authors', $id, $data['name'])) {
+    } else if (!checkUniqueNameForUpdate('sanpham', $id, $data['name'])) {
         $errors[] = 'Name đã được sử dụng';
     }
 
@@ -164,24 +167,24 @@ function validateAuthorUpdate($id, $data)
             $errors[] = 'Trường avatar chỉ chấp nhận định dạng file: png, jpg, jpeg';
         }
     }
-    
+
     if (!empty($errors)) {
         $_SESSION['errors'] = $errors;
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=author-update&id=' . $id);
+        header('Location: ' . BASE_URL_ADMIN . '?act=sanpham-update&id=' . $id);
         exit();
     }
 }
 
-function authorDelete($id)
+function sanpham_Delete($id)
 {
-    $author = showOne('authors', $id);
+    $author = showOne('sanpham', $id);
 
     if (empty($author)) {
         e404();
     }
 
-    delete2('authors', $id);
+    delete2('sanpham', $id);
 
     if (
         !empty($author['avatar'])                       // có giá trị
@@ -192,6 +195,6 @@ function authorDelete($id)
 
     $_SESSION['success'] = 'Thao tác thành công!';
 
-    header('Location: ' . BASE_URL_ADMIN . '?act=authors');
+    header('Location: ' . BASE_URL_ADMIN . '?act=sanpham');
     exit();
 }

@@ -30,7 +30,7 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
             <i class="fas fa-user"></i>
-            <span>Quản lý user</span>
+            <span>Quản lý tài khoản</span>
         </a>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
@@ -43,11 +43,11 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePost" aria-expanded="true" aria-controls="collapsePost">
             <i class="fab fa-apple"></i>
-            <span>Quản lý Post</span>
+            <span>Quản lý bình luận</span>
         </a>
         <div id="collapsePost" class="collapse" aria-labelledby="headingPost" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=posts">Danh sách</a>
+                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=binhluan">Danh sách</a>
                 <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=post-create">Thêm mới</a>
             </div>
         </div>
@@ -82,12 +82,12 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
             <i class="fab fa-apple"></i>
-            <span>Quản lý author</span>
+            <span>Quản lý sản phẩm</span>
         </a>
         <div id="collapse5" class="collapse" aria-labelledby="heading4" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=authors">Danh sách</a>
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=author-create">Thêm mới</a>
+                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=sanpham">Danh sách</a>
+                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=sanpham-create">Thêm mới</a>
             </div>
         </div>
     </li>

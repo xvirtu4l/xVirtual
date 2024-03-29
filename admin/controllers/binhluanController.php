@@ -1,11 +1,11 @@
 <?php
 
-function postListAll()
+function binhluan_ListAll()
 {
     $title      = 'Danh sách post';
-    $view       = 'posts/index';
+    $view       = 'binhluan/index';
     $script     = 'datatable';
-    $script2    = 'posts/script';
+    $script2    = 'binhluan/script';
     $style      = 'datatable';
 
     $posts = listAllForPost();
@@ -22,7 +22,7 @@ function postShowOne($id)
     }
 
     $title  = 'Chi tiết post: ' . $post['p_title'];
-    $view   = 'posts/show';
+    $view   = 'binhluan/show';
 
     $tags = getTagsForPost($id);
 
@@ -32,12 +32,12 @@ function postShowOne($id)
 function postCreate()
 {
     $title      = 'Thêm mới post';
-    $view       = 'posts/create';
+    $view       = 'binhluan/create';
     $script     = 'datatable';
-    $script2    = 'posts/script';
+    $script2    = 'binhluan/script';
 
     $categories = listAll('categories');
-    $authors    = listAll('authors');
+    $authors    = listAll('sanpham');
     $tags       = listAll('tags');
 
     if (!empty($_POST)) {
@@ -58,18 +58,18 @@ function postCreate()
 
         $imgThumnail = $data['img_thumnail'];
         if (is_array($imgThumnail)) {
-            $data['img_thumnail'] = upload_file($imgThumnail, 'uploads/posts/');
+            $data['img_thumnail'] = upload_file($imgThumnail, 'uploads/binhluan/');
         }
 
         $imgCover = $data['img_cover'];
         if (is_array($imgCover)) {
-            $data['img_cover'] = upload_file($imgCover, 'uploads/posts/');
+            $data['img_cover'] = upload_file($imgCover, 'uploads/binhluan/');
         }
 
         try {
             $GLOBALS['conn']->beginTransaction();
 
-            $postID = insert_get_last_id('posts', $data);
+            $postID = insert_get_last_id('binhluan', $data);
 
             // Xử lý lưu Post - Tags
             if (!empty($_POST['tags'])) {
@@ -85,24 +85,24 @@ function postCreate()
         } catch (Exception $e) {
             $GLOBALS['conn']->rollBack();
 
-            if (is_array($imgThumnail) 
+            if (is_array($imgThumnail)
                 && !empty($data['img_thumnail'])
                 && file_exists(PATH_UPLOAD . $data['img_thumnail'])) {
                 unlink(PATH_UPLOAD . $data['img_thumnail']);
             }
 
-            if (is_array($imgCover) 
+            if (is_array($imgCover)
                 && !empty($data['img_cover'])
                 && file_exists(PATH_UPLOAD . $data['img_cover'])) {
                 unlink(PATH_UPLOAD . $data['img_cover']);
             }
-            
+
             debug($e);
         }
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=posts');
+        header('Location: ' . BASE_URL_ADMIN . '?act=binhluan');
         exit();
     }
 
@@ -121,7 +121,7 @@ function validatePostCreate($data)
 
         if ($data['img_thumnail']['size'] > 2 * 1024 * 1024) {
             $errors[] = 'Trường img_thumnail có dung lượng nhỏ hơn 2M';
-        } 
+        }
         else if (!in_array($data['img_thumnail']['type'], $typeImage)) {
             $errors[] = 'Trường img_thumnail chỉ chấp nhận định dạng file: png, jpg, jpeg';
         }
@@ -132,7 +132,7 @@ function validatePostCreate($data)
 
         if ($data['img_cover']['size'] > 2 * 1024 * 1024) {
             $errors[] = 'Trường img_cover có dung lượng nhỏ hơn 2M';
-        } 
+        }
         else if (!in_array($data['img_cover']['type'], $typeImage)) {
             $errors[] = 'Trường img_cover chỉ chấp nhận định dạng file: png, jpg, jpeg';
         }
@@ -156,12 +156,12 @@ function postUpdate($id)
     }
 
     $title      = 'Cập nhật post: ' . $post['p_title'];
-    $view       = 'posts/update';
+    $view       = 'binhluan/update';
     $script     = 'datatable';
-    $script2    = 'posts/script';
+    $script2    = 'binhluan/script';
 
     $categories     = listAll('categories');
-    $authors        = listAll('authors');
+    $authors        = listAll('sanpham');
     $tags           = listAll('tags');
 
     $tagsForPost    = getTagsForPost($id);
@@ -185,23 +185,23 @@ function postUpdate($id)
 
         $imgThumnail = $data['img_thumnail'];
         if (is_array($imgThumnail)) {
-            $data['img_thumnail'] = upload_file($imgThumnail, 'uploads/posts/');
+            $data['img_thumnail'] = upload_file($imgThumnail, 'uploads/binhluan/');
         }
 
         $imgCover = $data['img_cover'];
         if (is_array($imgCover)) {
-            $data['img_cover'] = upload_file($imgCover, 'uploads/posts/');
+            $data['img_cover'] = upload_file($imgCover, 'uploads/binhluan/');
         }
 
         try {
             $GLOBALS['conn']->beginTransaction();
 
-            update('posts', $id, $data);
+            update('binhluan', $id, $data);
 
             // Xử lý lưu Post - Tags
 
             deleteTagsByPostID($id);
-            
+
             if (!empty($_POST['tags'])) {
                 foreach ($_POST['tags'] as $tagID) {
                     insert('post_tag', [
@@ -215,13 +215,13 @@ function postUpdate($id)
         } catch (Exception $e) {
             $GLOBALS['conn']->rollBack();
 
-            if (is_array($imgThumnail) 
+            if (is_array($imgThumnail)
                 && !empty($data['img_thumnail'])
                 && file_exists(PATH_UPLOAD . $data['img_thumnail'])) {
                 unlink(PATH_UPLOAD . $data['img_thumnail']);
             }
 
-            if (is_array($imgCover) 
+            if (is_array($imgCover)
                 && !empty($data['img_cover'])
                 && file_exists(PATH_UPLOAD . $data['img_cover'])) {
                 unlink(PATH_UPLOAD . $data['img_cover']);
@@ -269,7 +269,7 @@ function validatePostUpdate($id, $data)
 
         if ($data['img_thumnail']['size'] > 2 * 1024 * 1024) {
             $errors[] = 'Trường img_thumnail có dung lượng nhỏ hơn 2M';
-        } 
+        }
         else if (!in_array($data['img_thumnail']['type'], $typeImage)) {
             $errors[] = 'Trường img_thumnail chỉ chấp nhận định dạng file: png, jpg, jpeg';
         }
@@ -280,7 +280,7 @@ function validatePostUpdate($id, $data)
 
         if ($data['img_cover']['size'] > 2 * 1024 * 1024) {
             $errors[] = 'Trường img_cover có dung lượng nhỏ hơn 2M';
-        } 
+        }
         else if (!in_array($data['img_cover']['type'], $typeImage)) {
             $errors[] = 'Trường img_cover chỉ chấp nhận định dạng file: png, jpg, jpeg';
         }
@@ -288,7 +288,7 @@ function validatePostUpdate($id, $data)
 
     if (!empty($errors)) {
         $_SESSION['errors'] = $errors;
-        
+
         header('Location: ' . BASE_URL_ADMIN . '?act=post-update&id=' . $id);
         exit();
     }
@@ -296,7 +296,7 @@ function validatePostUpdate($id, $data)
 
 function postDelete($id)
 {
-    $post = showOne('posts', $id);
+    $post = showOne('binhluan', $id);
 
     if (empty($post)) {
         e404();
@@ -307,7 +307,7 @@ function postDelete($id)
 
         deleteTagsByPostID($id);
 
-        delete2('posts', $id);
+        delete2('binhluan', $id);
 
         $GLOBALS['conn']->commit();
     } catch (Exception $e) {
@@ -332,6 +332,6 @@ function postDelete($id)
 
     $_SESSION['success'] = 'Thao tác thành công!';
 
-    header('Location: ' . BASE_URL_ADMIN . '?act=posts');
+    header('Location: ' . BASE_URL_ADMIN . '?act=binhluan');
     exit();
 }
