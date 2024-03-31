@@ -12,7 +12,8 @@ require_file(PATH_CONTROLLER);
 require_file(PATH_MODEL);
 
 // Điều hướng
-$act = $_GET['act'] ?? '/';
+$act  = $_GET['act'] ?? '/';
+$page = $_GET['page'] ?? 1;
 
 match($act) {
     '/'      => homeIndex(),
