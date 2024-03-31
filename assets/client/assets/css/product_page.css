@@ -317,7 +317,7 @@
 .prod_options .colors ul li a.color.active:before {
   font-family: 'themify';
   content: "\e64c";
-  color: #fff;
+  color: #014dd9;
   font-size: 13px;
   font-size: 0.8125rem;
   line-height: 1;
@@ -326,14 +326,15 @@
   top: 8px;
   left: 8px;
 }
-.prod_options .colors ul li a.color.color_1 {
-  background-color: #ffcc00;
+.prod_options .colors ul li a.color.black {
+  background-color: #000000;
 }
-.prod_options .colors ul li a.color.color_2 {
-  background-color: #ff9933;
+.prod_options .colors ul li a.color.white {
+  background-color: #ffffff;
+  outline: 2px solid rgba(0, 0, 0, 0.1);
 }
-.prod_options .colors ul li a.color.color_3 {
-  background-color: #ff9966;
+.prod_options .colors ul li a.color.pink {
+  background-color: #ffc0cb;
 }
 .prod_options .colors ul li a.color.color_4 {
   background-color: #ff9999;
