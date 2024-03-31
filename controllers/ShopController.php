@@ -1,10 +1,6 @@
 <?php
 
 function shopIndex(){
-    $title = 'Shop';
-    $view = 'shop';
-    $dataProduct = selectAllProduct();
-    $dataVariant = selectAllVariants();
     $title          = 'Shop';
     $view           = 'shop';
     
@@ -26,10 +22,9 @@ function detail_product() {
     
 
 
-    $id         = $_GET['id'] ?? null;
-    $product    = selectOneProduct($id);
-    $variant    = selectProductVariant($id);
-
+    $id                    = $_GET['id'] ?? null;
+    $product               = selectOneProduct($id);
+    $variantall            = selectAllVariants($id);
     require_once PATH_VIEW . 'layouts/master.php';
 
 }

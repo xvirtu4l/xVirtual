@@ -202,16 +202,18 @@
             <div class="pagination__wrapper">
                 
                 <ul class="pagination">
-                    <li><a href="<?= BASE_URL ?>?act=shop&page=<?= ($i > 1) ? ($i - 1) : 1 ?>" class="prev" title="previous page">&#10094;</a></li>
-                    <?php
-                        for($page = 1; $page <=  $total_i ; $page++) : 
-                    ?>
-                    <li>
-                        <a href="<?= BASE_URL . '?act=shop&page=' . $page ?>" class=" <?= ($page==$i) ? "active" : '' ?>"><?= $page ?></a>
-                    </li>
+                    <li><a href="<?= BASE_URL  ?>?act=shop&page=<?= ($i > 1) ? ($i -1) : 1 ?>" class="prev" title="previous page">&#10094;</a></li>
                     
-                    <?php endfor ?>
-                    <li><a href="<?= BASE_URL ?>?act=shop&page=<?= ($i==$total_i) ? $i : ($i + 1)  ?>"  class="next" title="next page">&#10095;</a></li>
+                    <?php  for($page = 1; $page <= $total_i; $page++) :  ?>
+                
+                    <li>
+                        <a href="<?= BASE_URL . '?act=shop&page=' . $page ?>" class="<?= ($page==$i) ? "active" : '' ?>"><?= $page ?></a>
+                    </li>
+
+                     <?php endfor ?>
+
+                    
+                    <li><a href="<?= BASE_URL  ?>?act=shop&page=<?= ($i==$total_i) ? $i : ($i + 1) ?>" class="next" title="next page">&#10095;</a></li>
                 </ul>
             </div>
         </div>

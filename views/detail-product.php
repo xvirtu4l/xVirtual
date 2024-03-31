@@ -48,22 +48,21 @@
                         <label class="col-xl-5 col-lg-5  col-md-6 col-6 pt-0"><strong>Color</strong></label>
                         <div class="col-xl-4 col-lg-5 col-md-6 col-6 colors">
                             <ul>
-                                <li><a href="#0">Black</a></li>
-                                <li><a href="#0" class="color color_2"></a></li>
-                                <li><a href="#0" class="color color_3"></a></li>
-                                <li><a href="#0" class="color color_4"></a></li>
+                                <?php foreach($variantall as $key => $var) : ?>
+                                <li><a href="#0" class="color <?= $var['color']?>"></a></li>
+                                
+                               <?php endforeach ?>
                             </ul>
                         </div>
                     </div>
                     
                     <div class="row">
-                        <label class="col-xl-5 col-lg-5  col-md-6 col-6 pt-0"><strong>Size</strong></label>
+                        <label class="col-xl-5 col-lg-5  col-md-6 col-6 pt-0"><strong>Storage</strong></label>
                         <div class="col-xl-4 col-lg-5 col-md-6 col-6 colors">
                             <ul>
-                                <li><a href="#0"></a></li>
-                                <li><a href="#0"></a></li>
-                                <li><a href="#0"></a></li>
-                                <li><a href="#0"></a></li>
+                            <?php foreach($variantall as $key => $var) : ?>
+                                <li><a href="#0" class="size"><?= $var['storage']?></a></li>
+                               <?php endforeach ?>
                             </ul>
                         </div>
                     </div>

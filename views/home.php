@@ -39,12 +39,11 @@
 
 <div class="container margin_60_35">
     <div class="main_title">
-        <h2>Top Selling</h2>
-        <span>Products</span>
-        <p>Cum doctus civibus efficiantur in imperdiet deterruisset</p>
+        <h2>Sản Phẩm</h2>
+        <p>Siêu Sale</p>
     </div>
     <div class="row small-gutters">
-        <?php foreach($dataProductTop8 as  $key => $value) : ?>
+        <?php foreach($dataProduct as  $key => $value) : ?>
            
             <div class="col-6 col-md-4 col-xl-3">
             <div class="grid_item">
@@ -65,8 +64,7 @@
                     
                 </div>
                 <ul>
-                    <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
-                    <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+                    
                     <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
                 </ul>
             </div>
@@ -105,12 +103,10 @@
 
 <div class="container margin_60_35">
     <div class="main_title">
-        <h2>Featured</h2>
-        <span>Products</span>
-        <p>Cum doctus civibus efficiantur in imperdiet deterruisset</p>
+        <h2>Sản Phẩm Nổi Bật</h2>
     </div>
     <div class="owl-carousel owl-theme products_carousel">
-    <?php foreach($dataProductTop8 as  $key => $value) : ?>
+    <?php foreach($dataProduct as  $key => $value) : ?>
 
         <div class="item">
             <div class="grid_item">
@@ -128,8 +124,7 @@
                     <span class="new_price"><?= number_format($value['price'], 0, ',') ?> VND</span>
                 </div>
                 <ul>
-                    <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
-                    <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+                   
                     <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
                 </ul>
             </div>
