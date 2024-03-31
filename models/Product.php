@@ -56,3 +56,16 @@ function getTotalPageProduct() {
         die($e->getMessage());
     }
 }
+
+//top6 
+function top6Product() {
+    try {
+        $sql = 'select * from sanpham LIMIT 6';
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+        return $result;
+    } catch (PDOException $e) {
+        die($e->getMessage());
+    }
+}

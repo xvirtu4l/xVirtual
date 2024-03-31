@@ -28,12 +28,10 @@
                             <li>
                                 <a href="<?= BASE_URL . '?act=shop' ?>">Shop</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="blog.html">Blog</a>
-                            </li>
-                            <li>
-                                <a href="blog.html">Blog</a>
-                            </li>
+                            </li> -->
+                           
 
                         </ul>
                     </div>
@@ -94,7 +92,7 @@
                     <ul class="top_tools">
                         <li>
                             <div class="dropdown dropdown-cart">
-                                <a href="cart.html" class="cart_bt"><strong>2</strong></a>
+                                <a href="<?= BASE_URL . '?act=cart' ?>" class="cart_bt"><strong>2</strong></a>
                                 <div class="dropdown-menu">
                                     <ul>
                                         <li>

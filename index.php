@@ -16,11 +16,13 @@ $act  = $_GET['act'] ?? '/';
 $page = $_GET['page'] ?? 1;
 
 match($act) {
-    '/'      => homeIndex(),
-    'shop'   => shopIndex(),
-    'detail' => detail_product(),
-    'login'  => loginIndex(),
-    'logup'  => logupIndex(),
+    '/'         => homeIndex(),
+    'shop'      => shopIndex(),
+    'detail'    => detail_product(),
+    'login'     => loginIndex(),
+    'logup'     => logupIndex(),
+    'cart'      => cartIndex(),
+    'checkout'  => checkoutIndex(),
 };
 
 require_once './commons/disconnect-db.php';

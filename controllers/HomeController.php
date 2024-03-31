@@ -4,7 +4,7 @@ function homeIndex() {
     
     $view   = 'home';
     $script = 'home';
-    $dataProductTop8 = selectAllProduct();
+    $dataProduct = selectAllProduct();
 
     require_once PATH_VIEW . 'layouts/master.php';
 }
