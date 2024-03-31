@@ -1,10 +1,16 @@
 <?php
 
 function shopIndex(){
-    $title = 'Shop';
-    $view = 'shop';
-    $dataProduct = selectAllProduct();
-
+    $title          = 'Shop';
+    $view           = 'shop';
+    
+    $i = $GLOBALS['page'];
+    $limit = 3; // số lượng sp muốn để trên 1 trang
+    $initial_page = ($i - 1) * $limit;
+    $dataProduct    = selectAllProduct($limit, $initial_page);
+    $total_rows = getTotalPageProducts();
+    $total_i = ceil($total_rows / $limit);
+    
     require_once PATH_VIEW . 'layouts/master.php';
 }
 
