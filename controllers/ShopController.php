@@ -1,16 +1,15 @@
 <?php
 
 function shopIndex(){
-    $title = 'Shop';
-    $view = 'shop';
-    $dataProduct = selectAllProduct();
+    $title          = 'Shop';
+    $view           = 'shop';
     
-    $i             = $GLOBALS['page'];
-    $limit         = 3;
-    $initial_page  = ($i - 1) * $limit;
-    $dataProduct   = selectAllProductPhantrang($limit, $initial_page);
-    $total_rows    = getTotalPageProduct();
-    $total_i       = ceil($total_rows / $limit);
+    $i = $GLOBALS['page'];
+    $limit = 3; // số lượng sp muốn để trên 1 trang
+    $initial_page = ($i - 1) * $limit;
+    $dataProduct    = selectAllProduct($limit, $initial_page);
+    $total_rows = getTotalPageProducts();
+    $total_i = ceil($total_rows / $limit);
     
     require_once PATH_VIEW . 'layouts/master.php';
 }
@@ -22,11 +21,10 @@ function detail_product() {
     $script     = 'detail';
     
 
-    
-    $id          = $_GET['id'] ?? null;
-    $product     = selectOneProduct($id);
-    $sp          = top6Product();
-    
+
+    $id                    = $_GET['id'] ?? null;
+    $product               = selectOneProduct($id);
+    $variantall            = selectAllVariants($id);
     require_once PATH_VIEW . 'layouts/master.php';
 
 }
