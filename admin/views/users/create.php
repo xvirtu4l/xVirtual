@@ -29,13 +29,13 @@
                             <label for="user" class="form-label">User:</label>
                             <input type="text" class="form-control" id="user" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['user'] : null ?>" placeholder="Enter user" name="user">
                         </div>
-                        <div class="mb-3 mt-3">
-                            <label for="email" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="email" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['email'] : null ?>" placeholder="Enter email" name="email">
-                        </div>
                       <div class="mb-3 mt-3">
-                        <label for="password" class="form-label">Password:</label>
-                        <input type="password" class="form-control" id="password" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['pass'] : null ?>" placeholder="Enter password" name="password">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['email'] : null ?>" placeholder="Enter email" name="email">
+                      </div>
+                      <div class="mb-3 mt-3">
+                        <label for="pass" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="pass" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['pass'] : null ?>" placeholder="Enter password" name="pass">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -44,12 +44,12 @@
                         <input type="text" class="form-control" id="address" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['address'] : null ?>" placeholder="Enter address" name="address">
                       </div>
                       <div class="mb-3 mt-3">
-                        <label for="tel" class="form-label">Phone:</label>
-                        <input type="text" class="form-control" id="tel" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['tel'] : null ?>" placeholder="Enter phone" name="tel">
+                        <label for="tel" class="form-label">Telephone:</label>
+                        <input type="number" class="form-control" id="tel" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['tel'] : null ?>" placeholder="Enter tel" name="tel">
                       </div>
 
                         <div class="mb-3 mt-3">
-                            <label for="type" class="form-label">Role:</label>
+                            <label for="role" class="form-label">Type:</label>
                             <select name="role" id="role" class="form-control">
                                 <option <?= isset($_SESSION['data']) && $_SESSION['data']['role'] == 1 ? 'selected' : null ?> value="1">Admin</option>
                                 <option <?= isset($_SESSION['data']) && $_SESSION['data']['role'] == 0 ? 'selected' : null ?> value="0">Member</option>

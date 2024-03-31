@@ -47,18 +47,30 @@ match($act) {
     'tag-delete' => tagDelete($_GET['id']),
 
     // CRUD author
-    'sanpham' => sanpham_ListAll(),
-    'sanpham-detail' => sanpham_ShowOne($_GET['id']),
-    'sanpham-create' => sanpham_Create(),
-    'sanpham-update' => sanpham_Update($_GET['id']),
-    'sanpham-delete' => sanpham_Delete($_GET['id']),
+//    'authors' => authorListAll(),
+//    'author-detail' => authorShowOne($_GET['id']),
+//    'author-create' => authorCreate(),
+//    'author-update' => authorUpdate($_GET['id']),
+//    'author-delete' => authorDelete($_GET['id']),
+
+
+    'sanpham' => sanphamListAll(),
+    'sanpham-detail' => sanphamShowOne($_GET['id']),
+    'sanpham-create' => sanphamCreate(),
+    'sanpham-update' => sanphamUpdate($_GET['id']),
+    'sanpham-delete' => sanphamDelete($_GET['id']),
+
+
 
     // CRUD post
-    'binhluan' => binhluan_ListAll(),
+    'posts' => postListAll(),
     'post-detail' => postShowOne($_GET['id']),
     'post-create' => postCreate(),
     'post-update' => postUpdate($_GET['id']),
     'post-delete' => postDelete($_GET['id']),
+
+
+
 
     // Setting
     'setting-form' => settingShowForm(),
