@@ -17,7 +17,7 @@
 	                    </div>
 	                </div>
 	                <div class="col-md-5 btn_panel">
-	                    <a href="<?= BASE_URL . '?act=cart' ?>" class="btn_1 outline">Xem Giỏ Hàng</a> <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1">Checkout</a>
+	                    <a href="<?= BASE_URL . '?act=cart' ?>" class="btn_1 outline">Xem Giỏ Hàng</a> <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1">Thanh Toán</a>
 	                </div>
 	            </div>
 	        </div>

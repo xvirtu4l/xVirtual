@@ -23,6 +23,7 @@ match($act) {
     'logup'     => logupIndex(),
     'cart'      => cartIndex(),
     'checkout'  => checkoutIndex(),
+    'perfect'   => pfIndex(),
 };
 
 require_once './commons/disconnect-db.php';

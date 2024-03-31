@@ -31,3 +31,13 @@
         require_once PATH_VIEW . 'layouts/master.php';
     }
 
+    
+    function pfIndex() {
+    
+        $view = 'perfect';
+    
+    
+        require_once PATH_VIEW . 'layouts/master.php';
+    }
+
+

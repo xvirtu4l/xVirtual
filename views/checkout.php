@@ -231,7 +231,7 @@
 									</label>
 								</div>
 
-								<a href="confirm.html" class="btn_1 full-width"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Xac nhận va thanh toan</font></font></a>
+								<a href="<?= BASE_URL . '?act=perfect' ?>" class="btn_1 full-width"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Xác Nhận Và Thanh Toán</font></font></a>
 							</div>
 							<!-- /box_general -->
 						</div>

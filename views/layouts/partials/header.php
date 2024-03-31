@@ -118,9 +118,7 @@
                             </div>
                             <!-- /dropdown-cart-->
                         </li>
-                        <li>
-                            <a href="#0" class="wishlist"><span>Wishlist</span></a>
-                        </li>
+                      
                         <li>
                             <div class="dropdown dropdown-access">
                                 <a href="<?= BASE_URL . '?act=login' ?>" class="access_link"><span>Account</span></a>
@@ -146,7 +144,7 @@
                             <!-- /dropdown-access-->
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="btn_search_mob"><span>Search</span></a>
+                       
                         </li>
                         <li>
                             <a href="#menu" class="btn_cat_mob">
