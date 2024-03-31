@@ -25,7 +25,8 @@
   <link href="<?= BASE_URL ?>assets/client/assets/css/listing.css" rel="stylesheet">
   <link href="<?= BASE_URL ?>assets/client/assets/css/product_page.css" rel="stylesheet">
   <link href="<?= BASE_URL ?>assets/client/assets/css/account.css" rel="stylesheet">
-
+  <link href="<?= BASE_URL ?>assets/client/assets/css/cart.css" rel="stylesheet">
+  <link href="<?= BASE_URL ?>assets/client/assets/css/checkout.css" rel="stylesheet">
   <!-- YOUR CUSTOM CSS -->
   <link href="<?= BASE_URL ?>assets/client/assets/css/custom.css" rel="stylesheet">
 
