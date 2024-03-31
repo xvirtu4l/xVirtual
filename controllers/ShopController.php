@@ -25,6 +25,10 @@ function detail_product() {
     $id                    = $_GET['id'] ?? null;
     $product               = selectOneProduct($id);
     $variantall            = selectAllVariants($id);
+    $distinctcolor         = selectDistinctColors($id);
+    $distinctstorage       = selectDistinctStorage($id);
+    $stock                 = OutofStock($id);
+
     require_once PATH_VIEW . 'layouts/master.php';
 
 }

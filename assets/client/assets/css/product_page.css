@@ -676,3 +676,22 @@
 .table.sizes tr th {
   white-space: nowrap;
 }
+
+.size {
+  /* Define default styles for storage options */
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: white; /* Set background color to white */
+  color: blue; /* Set text color to blue */
+  transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+  text-decoration: none; /* Remove default underline */
+}
+
+.size.active {
+  /* Define styles for active state */
+  background-color: lightblue; /* Set background color to light blue */
+  border-color: blue;
+  color: white; /* Set text color to white */
+}
