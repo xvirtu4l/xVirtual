@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Require file trong commons
 require_once './commons/env.php';
