@@ -23,8 +23,8 @@ function countVariant($id)
         $stmt = $GLOBALS['conn']->prepare($sql);
         $stmt->bindParam(':id_pro', $id, PDO::PARAM_INT);
         $stmt->execute();
-        $number_of_rows = $stmt->fetchColumn();
-        return $number_of_rows;
+        $results = $stmt->fetchColumn();
+        return $results;
     } catch (PDOException $e) {
         die($e->getMessage());
     }
