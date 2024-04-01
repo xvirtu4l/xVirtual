@@ -198,6 +198,7 @@
             </div>
             <!-- /row -->
             <div class="pagination__wrapper">
+                
                 <ul class="pagination">
                     <li><a href="<?= BASE_URL  ?>?act=shop&page=<?= ($i > 1) ? ($i -1) : 1 ?>" class="prev" title="previous page">&#10094;</a></li>
                     

@@ -22,37 +22,44 @@
                 <?php unset($_SESSION['errors']); ?>
             <?php endif; ?>
 
-            <form action="" method="POST" enctype="multipart/form-data">
+            <form action="" method="POST">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3 mt-3">
-                            <label for="name" class="form-label">Tên:</label>
-                            <input type="text" class="form-control" id="name" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['name'] : null ?>" placeholder="Nhập tên sản phẩm" name="name">
+                            <label for="user" class="form-label">User:</label>
+                            <input type="text" class="form-control" id="user" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['user'] : null ?>" placeholder="Enter user" name="user">
                         </div>
                       <div class="mb-3 mt-3">
-                        <label for="price" class="form-label">Giá:</label>
-                        <input type="text" class="form-control" id="price" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['price'] : null ?>" placeholder="Nhập giá sản phẩm" name="price">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['email'] : null ?>" placeholder="Enter email" name="email">
                       </div>
                       <div class="mb-3 mt-3">
-                        <label for="mota" class="form-label">Mô tả:</label>
-                        <input type="text" class="form-control" id="mota" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['mota'] : null ?>" placeholder="Nhập mô tả" name="mota">
+                        <label for="pass" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="pass" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['pass'] : null ?>" placeholder="Enter password" name="pass">
                       </div>
                     </div>
-
                     <div class="col-md-6">
                       <div class="mb-3 mt-3">
-                        <label for="soluong" class="form-label">Số lượng:</label>
-                        <input type="text" class="form-control" id="soluong" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['soluong'] : null ?>" placeholder="Nhập số lượng" name="soluong">
+                        <label for="address" class="form-label">Address:</label>
+                        <input type="text" class="form-control" id="address" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['address'] : null ?>" placeholder="Enter address" name="address">
                       </div>
+                      <div class="mb-3 mt-3">
+                        <label for="tel" class="form-label">Telephone:</label>
+                        <input type="number" class="form-control" id="tel" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['tel'] : null ?>" placeholder="Enter tel" name="tel">
+                      </div>
+
                         <div class="mb-3 mt-3">
-                            <label for="img" class="form-label">Ảnh:</label>
-                            <input type="file" class="form-control" id="img" name="img">
+                            <label for="role" class="form-label">Type:</label>
+                            <select name="role" id="role" class="form-control">
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['role'] == 1 ? 'selected' : null ?> value="1">Admin</option>
+                                <option <?= isset($_SESSION['data']) && $_SESSION['data']['role'] == 0 ? 'selected' : null ?> value="0">Member</option>
+                            </select>
                         </div>
                     </div>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
-                <a href="<?= BASE_URL_ADMIN ?>?act=authors" class="btn btn-danger">Back to list</a>
+                <a href="<?= BASE_URL_ADMIN ?>?act=users" class="btn btn-danger">Back to list</a>
             </form>
         </div>
     </div>

@@ -26,46 +26,34 @@
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>
-                          <th>ID</th>
-                          <th>Tên</th>
-                          <th>Giá</th>
-                          <th>Ảnh</th>
-                          <th>Mô tả</th>
-                          <th>Lượt xem</th>
-                          <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tfoot>
-                        <tr>
-                            <th>ID</th>
+                            <th>Stt</th>
                             <th>Tên</th>
-                            <th>Giá</th>
-                            <th>Ảnh</th>
+                            <th>Hình ảnh</th>
+                            <th>Giá tiền</th>
                             <th>Mô tả</th>
-                            <th>Lượt xem</th>
                             <th>Action</th>
                         </tr>
-                    </tfoot>
+                    </thead>
+
                     <tbody>
-                        <?php foreach ($authors as $author) : ?>
+                        <?php $stt = 1; foreach ($users as $user) : ?>
                             <tr>
-                                <td><?= $author['id'] ?></td>
-                                <td><?= $author['name'] ?></td>
-                                <td><?= $author['price'] ?>đ</td>
+                                <td><?= $stt ?></td>
+                                <td><?= $user['name'] ?></td>
                                 <td>
-                                    <img src="<?= BASE_URL ."/uploads/". $author['img'] ?>" alt="" width="100px">
+                                  <img src="<?= BASE_URL ."/uploads/". $user['img'] ?>" alt="" width="100px">
                                 </td>
-                              <td><?= $author['mota'] ?></td>
-                              <td><?= $author['luotxem'] ?></td>
+                                <td><?= $user['price'] ?></td>
+                               <td><?= $user['mota'] ?></td>
                                 <td>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=sanpham-detail&id=<?= $author['id'] ?>" class="btn btn-info">Show</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=sanpham-update&id=<?= $author['id'] ?>" class="btn btn-warning">Update</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=sanpham-delete&id=<?= $author['id'] ?>"
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=sanpham-detail&id=<?= $user['id'] ?>" class="btn btn-info">Show</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=sanpham-update&id=<?= $user['id'] ?>" class="btn btn-warning">Update</a>
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=sanpham-delete&id=<?= $user['id'] ?>"
                                         onclick="return confirm('Bạn có chắc chắn xóa không?')"
                                         class="btn btn-danger">Delete</a>
                                 </td>
                             </tr>
-                        <?php endforeach; ?>
+                        <?php $stt++; endforeach; ?>
 
                     </tbody>
                 </table>

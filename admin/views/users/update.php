@@ -32,33 +32,22 @@
             <form action="" method="POST">
                 <div class="row">
                     <div class="col-md-6">
-                      <div class="mb-3 mt-3">
-                        <label for="user" class="form-label">User:</label>
-                        <input type="text" class="form-control" id="user" value="<?= $user['user'] ?>" placeholder="Enter name" name="user">
-                      </div>
-                      <div class="mb-3 mt-3">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email" value="<?= $user['email'] ?>" placeholder="Enter email" name="email">
-                      </div>
-                      <div class="mb-3 mt-3">
-                        <label for="password" class="form-label">Password:</label>
-                        <input type="text" class="form-control" id="pass" value="<?= $user['pass'] ?>" placeholder="Enter password" name="password">
-                      </div>
-
-
+                        <div class="mb-3 mt-3">
+                            <label for="user" class="form-label">User:</label>
+                            <input type="text" class="form-control" id="user" value="<?= $user['user'] ?>" placeholder="Enter user" name="user">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" value="<?= $user['email'] ?>" placeholder="Enter email" name="email">
+                        </div>
                     </div>
                     <div class="col-md-6">
-                      <div class="mb-3 mt-3">
-                        <label for="address" class="form-label">Address:</label>
-                        <input type="text" class="form-control" id="address" value="<?= $user['address'] ?>" placeholder="Enter name" name="address">
-                      </div>
-                      <div class="mb-3 mt-3">
-                        <label for="tel" class="form-label">Telephone:</label>
-                        <input type="text" class="form-control" id="tel" value="<?= $user['tel'] ?>" placeholder="Enter name" name="tel">
-                      </div>
-
                         <div class="mb-3 mt-3">
-                            <label for="role" class="form-label">Role:</label>
+                            <label for="pass" class="form-label">Password:</label>
+                            <input type="text" class="form-control" id="pass" value="<?= $user['pass'] ?>" placeholder="Enter password" name="pass">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="role" class="form-label">Type:</label>
                             <select name="role" id="role" class="form-control">
                                 <option <?= $user['role'] == 1 ? 'selected' : null ?> value="1">Admin</option>
                                 <option <?= $user['role'] == 0 ? 'selected' : null ?> value="0">Member</option>

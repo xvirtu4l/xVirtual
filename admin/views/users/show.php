@@ -6,38 +6,39 @@
     <div class="card shadow mb-4">
         <div class="card-header py-3">
             <h6 class="m-0 font-weight-bold text-primary">
-                Detail
+              Chi tiết
             </h6>
         </div>
         <div class="card-body">
             <table class="table">
-                <tr>
-                    <th>Danh mục</th>
-                    <th>Chi tiết</th>
-                </tr>
 
-                <?php foreach ($user as $fieldName => $value) : ?>
-                    <tr>
-                        <td><?= ucfirst($fieldName) ?></td>
-                        <td>
-                            <?php
-                            switch ($fieldName) {
-                                case 'password':
-                                    echo '**********';
-                                    break;
-                                case 'type':
-                                    echo $value
-                                        ? '<span class="badge badge-success">Admin</span>'
-                                        : '<span class="badge badge-warning">Member</span>';
-                                    break;
-                                default:
-                                    echo $value;
-                                    break;
-                            }
-                            ?>
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
+                <tr>
+                  <td>ID</td>
+                  <td><?= $user['id'] ?></td>
+                </tr>
+              <tr>
+                <td>Email</td>
+                <td><?= $user['email'] ?></td>
+              </tr>
+              <tr>
+                <td>Adress</td>
+                <td><?= $user['address'] ?></td>
+              </tr>
+              <tr>
+                <td>Telephone</td>
+                <td><?= $user['tel'] ?></td>
+              </tr>
+              <tr>
+                <td>Role</td>
+                <td><?php
+                    if ($user['role'] == 1) {
+                      echo 'Admin';
+                    } else {
+                      echo 'Member';
+                    }
+                    ?></td>
+              </tr>
+
             </table>
 
             <a href="<?= BASE_URL_ADMIN ?>?act=users" class="btn btn-danger">Back to list</a>
