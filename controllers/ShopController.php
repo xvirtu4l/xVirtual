@@ -7,8 +7,8 @@ function shopIndex(){
     $i = $GLOBALS['page'];
     $limit = 3; // số lượng sp muốn để trên 1 trang
     $initial_page = ($i - 1) * $limit;
-    $dataProduct    = selectAllProduct($limit, $initial_page);
-    $total_rows = getTotalPageProducts();
+    $dataProduct    = selectAllProductPhantrang($limit, $initial_page);
+    $total_rows = getTotalPageProduct();
     $total_i = ceil($total_rows / $limit);
     
     require_once PATH_VIEW . 'layouts/master.php';
