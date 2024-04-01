@@ -21,7 +21,7 @@ function userShowOne($id)
         e404();
     }
 
-    $title = $user['user'];
+    $title = 'Chi tiết User: ' . $user['name'];
     $view = 'users/show';
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
@@ -29,7 +29,7 @@ function userShowOne($id)
 
 function userCreate()
 {
-    $title = 'Thêm mới user';
+    $title = 'Thêm mới User';
     $view = 'users/create';
 
     if (!empty($_POST)) {
@@ -37,10 +37,10 @@ function userCreate()
         $data = [
             "user" => $_POST['user'] ?? null,
             "email" => $_POST['email'] ?? null,
-            "pass" => $_POST['pass'] ?? null,
-            "role" => $_POST['role'] ?? null,
+            "pass" => $_POST['password'] ?? null,
             "address" => $_POST['address'] ?? null,
             "tel" => $_POST['tel'] ?? null,
+            "role" => $_POST['role'] ?? null,
         ];
 
         validateUserCreate($data);
@@ -57,19 +57,22 @@ function userCreate()
 }
 
 function validateUserCreate($data) {
-
+    // name - bắt buộc, độ dài tối đa 50 ký tự
+    // email - bắt buộc, phải là email, không được trùng
+    // password - bắt buộc, đồ dài nhỏ nhất là 8, lớn nhất là 20
+    // type - bắt buộc, nó phải là 0 or 1
 
     $errors = [];
 
     if (empty($data['user'])) {
-        $errors[] = 'Trường name là bắt buộc';
+        $errors[] = 'user là bắt buộc';
     }
     else if(strlen($data['user']) > 50) {
-        $errors[] = 'Trường name độ dài tối đa 50 ký tự';
+        $errors[] = 'User độ dài tối đa 50 ký tự';
     }
 
     if (empty($data['email'])) {
-        $errors[] = 'Trường email là bắt buộc';
+        $errors[] = 'email là bắt buộc';
     }
     else if(!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
         $errors[] = 'Trường email không đúng định dạng';
@@ -79,11 +82,12 @@ function validateUserCreate($data) {
     }
 
     if (empty($data['pass'])) {
-        $errors[] = 'password là bắt buộc';
+        $errors[] = 'Password là bắt buộc';
     }
-    else if(preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$/', $data['pass'])) {
-        $errors[] = 'Password phải bao gồm ít nhất một chữ cái viết hoa, một chữ cái thường, một số và một ký tự đặc biệt';
+    else if(strlen($data['pass']) < 8 || strlen($data['pass']) > 20) {
+        $errors[] = 'Password đồ dài nhỏ nhất là 8, lớn nhất là 20';
     }
+
     if (empty($data['address'])) {
         $errors[] = 'address là bắt buộc';
     }
@@ -93,15 +97,14 @@ function validateUserCreate($data) {
     if (empty($data['tel'])) {
         $errors[] = 'tel là bắt buộc';
     }
-    else if(is_int($data['tel'])) {
-        $errors[] = 'Phone độ dài tối đa 50 ký tự';
+    else if(strlen($data['tel']) > 50) {
+        $errors[] = 'Telephone độ dài tối đa 50 ký tự';
     }
-
     if ($data['role'] === null) {
-        $errors[] = 'Trường type là bắt buộc';
+        $errors[] = 'role là bắt buộc';
     }
     else if(! in_array($data['role'], [0, 1])) {
-        $errors[] = 'Trường type phải là 0 or 1';
+        $errors[] = 'role phải là 0 or 1';
     }
 
     if (!empty($errors)) {
@@ -126,10 +129,12 @@ function userUpdate($id)
 
     if (!empty($_POST)) {
         $data = [
-            "user" => $_POST['user'] ?? $user['user'],
+            "user" => $_POST['name'] ?? $user['user'],
             "email" => $_POST['email'] ?? $user['email'],
-            "pass" => $_POST['pass'] ?? $user['pass'],
-            "role" => $_POST['role'] ?? $user['role'],
+            "pass" => $_POST['password'] ?? $user['pass'],
+            "address" => $_POST['address'] ?? $user['address'],
+          "tel" => $_POST['tel'] ?? $user['tel'],
+          "role" => $_POST['role'] ?? $user['role'],
         ];
 
         validateUserUpdate($id, $data);
@@ -146,44 +151,55 @@ function userUpdate($id)
 }
 
 function validateUserUpdate($id, $data) {
-    // name - bắt buộc, độ dài tối đa 50 ký tự
-    // email - bắt buộc, phải là email, không được trùng
-    // password - bắt buộc, đồ dài nhỏ nhất là 8, lớn nhất là 20
-    // type - bắt buộc, nó phải là 0 or 1
+
 
     $errors = [];
 
     if (empty($data['user'])) {
-        $errors[] = 'Trường name là bắt buộc';
+        $errors[] = 'user là bắt buộc';
     }
     else if(strlen($data['user']) > 50) {
-        $errors[] = 'Trường name độ dài tối đa 50 ký tự';
+        $errors[] = 'User độ dài tối đa 50 ký tự';
     }
 
     if (empty($data['email'])) {
-        $errors[] = 'Trường email là bắt buộc';
+        $errors[] = 'email là bắt buộc';
     }
     else if(!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
         $errors[] = 'Trường email không đúng định dạng';
     }
-    else if(! checkUniqueEmailForUpdate('taikhoan', $id, $data['email'])) {
+    else if(! checkUniqueEmail('taikhoan', $data['email'])) {
         $errors[] = 'Email đã được sử dụng';
     }
 
     if (empty($data['pass'])) {
-        $errors[] = 'Trường password là bắt buộc';
+        $errors[] = 'Password là bắt buộc';
     }
     else if(strlen($data['pass']) < 8 || strlen($data['pass']) > 20) {
-        $errors[] = 'Trường password đồ dài nhỏ nhất là 8, lớn nhất là 20';
+        $errors[] = 'Password đồ dài nhỏ nhất là 8, lớn nhất là 20';
+    }
+
+    if (empty($data['address'])) {
+        $errors[] = 'address là bắt buộc';
+    }
+    else if(strlen($data['address']) > 50) {
+        $errors[] = 'address độ dài tối đa 50 ký tự';
+    }
+    if (empty($data['tel'])) {
+        $errors[] = 'user là bắt buộc';
+    }
+    else if(strlen($data['tel']) > 50) {
+        $errors[] = 'Telephone độ dài tối đa 50 ký tự';
     }
 
 
-    if ($data['role'] === null) {
-        $errors[] = 'Trường type là bắt buộc';
-    }
-    else if(! in_array($data['role'], [0, 1])) {
-        $errors[] = 'Trường type phải là 0 or 1';
-    }
+
+//    if ($data['role'] === null) {
+//        $errors[] = 'Trường type là bắt buộc';
+//    }
+//    else if(! in_array($data['role'], [0, 1])) {
+//        $errors[] = 'Trường type phải là 0 or 1';
+//    }
 
     if (!empty($errors)) {
         $_SESSION['errors'] = $errors;

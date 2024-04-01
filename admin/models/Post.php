@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if (!function_exists('listAllForPost')) {
     function listAllForPost() {
@@ -19,9 +19,9 @@ if (!function_exists('listAllForPost')) {
                     c.name          as c_name,
                     au.name         as au_name,
                     au.avatar       as au_avatar
-                FROM posts as p
+                FROM binhluan as p
                 INNER JOIN categories   as c    ON c.id     = p.category_id
-                INNER JOIN authors      as au   ON au.id    = p.author_id
+                INNER JOIN sanpham      as au   ON au.id    = p.author_id
                 ORDER BY p_id DESC;
             ";
 
@@ -56,9 +56,9 @@ if (!function_exists('showOneForPost')) {
                     c.name          as c_name,
                     au.name         as au_name,
                     au.avatar       as au_avatar
-                FROM posts as p
+                FROM binhluan as p
                 INNER JOIN categories   as c    ON c.id    = p.category_id
-                INNER JOIN authors      as au   ON au.id   = p.author_id
+                INNER JOIN sanpham      as au   ON au.id   = p.author_id
                 WHERE 
                     p.id = :id 
                 LIMIT 1
