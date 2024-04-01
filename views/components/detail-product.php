@@ -7,23 +7,25 @@
 	    <div class="item">
 	        <div class="container">
 	            <div class="row">
+					
 	                <div class="col-md-7">
 	                    <div class="item_panel">
 	                        <figure>
-	                            <img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/1.jpg" class="lazy" alt="">
+	                            <img src="img/products/product_placeholder_square_small.jpg" data-src="<?= BASE_URL . 'uploads/' . $product['img'] ?>" class="lazy" alt="">
 	                        </figure>
-	                        <h4>1x Armor Air X Fear</h4>
-	                        <div class="price_panel"><span class="new_price">$148.00</span><span class="percentage">-20%</span> <span class="old_price">$160.00</span></div>
+	                        <h4><?= $product['name'] ?></h4>
+	                        <div class="price_panel"><span class="new_price"><?= $product['price'] ?></span><span class="percentage">-20%</span> <span class="old_price">$160.00</span></div>
 	                    </div>
 	                </div>
 	                <div class="col-md-5 btn_panel">
 	                    <a href="<?= BASE_URL . '?act=cart' ?>" class="btn_1 outline">Xem Giỏ Hàng</a> <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1">Thanh Toán</a>
 	                </div>
+				
 	            </div>
 	        </div>
 	    </div>
 	    <!-- /item -->
-	    <div class="container related">
+	    <!-- <div class="container related">
 	        <h4>Who bought this product also bought</h4>
 	        <div class="row">
 	            <div class="col-md-4">
@@ -66,7 +68,7 @@
 	                </div>
 	            </div>
 	        </div>
-	    </div>
+	    </div> -->
 	    <!-- /related -->
 	</div>
 	<!-- /add_cart_panel -->
