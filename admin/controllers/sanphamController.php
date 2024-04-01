@@ -31,17 +31,18 @@ function sanphamCreate()
 {
     $title = 'Thêm mới sản phẩm';
     $view = 'sanpham/create';
-
+    $danhmuc = get_id_name_dm();
     if (!empty($_POST)) {
 
         $data = [
-          "user" => $_POST['user'] ?? null,
-          "email" => $_POST['email'] ?? null,
-          "pass" => $_POST['pass'] ?? null,
-          "role" => $_POST['role'] ?? null,
-          "address" => $_POST['address'] ?? null,
-          "tel" => $_POST['tel'] ?? null,
+          "name" => $_POST['name'] ?? null,
+          "price" => $_POST['price'] ?? null,
+          "img" => $_POST['img'] ?? null,
+          "mota" => $_POST['mota'] ?? null,
+            "iddm" => $_POST['iddm'] ?? null,
+
         ];
+
 
         validateUserCreate($data);
 
@@ -49,7 +50,7 @@ function sanphamCreate()
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=users');
+        header('Location: ' . BASE_URL_ADMIN . '?act=sanpham');
         exit();
     }
 
@@ -57,61 +58,35 @@ function sanphamCreate()
 }
 
 function validatesanphamCreate($data) {
-    // name - bắt buộc, độ dài tối đa 50 ký tự
-    // email - bắt buộc, phải là email, không được trùng
-    // password - bắt buộc, đồ dài nhỏ nhất là 8, lớn nhất là 20
-    // type - bắt buộc, nó phải là 0 or 1
+
 
     $errors = [];
 
-    if (empty($data['user'])) {
-        $errors[] = 'Trường name là bắt buộc';
+    if (empty($data['name'])) {
+        $errors[] = 'name là bắt buộc';
     }
-    else if(strlen($data['user']) > 50) {
-        $errors[] = 'Trường name độ dài tối đa 50 ký tự';
-    }
-
-    if (empty($data['email'])) {
-        $errors[] = 'Trường email là bắt buộc';
-    }
-    else if(!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'Trường email không đúng định dạng';
-    }
-    else if(! checkUniqueEmail('taikhoan', $data['email'])) {
-        $errors[] = 'Email đã được sử dụng';
+    else if(strlen($data['name']) > 50) {
+        $errors[] = 'name độ dài tối đa 50 ký tự';
     }
 
-    if (empty($data['pass'])) {
-        $errors[] = 'password là bắt buộc';
-    }
-    else if(preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$/', $data['pass'])) {
-        $errors[] = 'Password phải bao gồm ít nhất một chữ cái viết hoa, một chữ cái thường, một số và một ký tự đặc biệt';
-    }
-    if (empty($data['address'])) {
-        $errors[] = 'address là bắt buộc';
-    }
-    else if(strlen($data['address']) > 50) {
-        $errors[] = 'address độ dài tối đa 50 ký tự';
-    }
-    if (empty($data['tel'])) {
-        $errors[] = 'tel là bắt buộc';
-    }
-    else if(is_int($data['tel'])) {
-        $errors[] = 'Phone độ dài tối đa 50 ký tự';
+    if (empty($data['price'])) {
+        $errors[] = 'price là bắt buộc';
     }
 
-    if ($data['role'] === null) {
-        $errors[] = 'Trường type là bắt buộc';
+    if (empty($data['mota'])) {
+        $errors[] = 'mota là bắt buộc';
     }
-    else if(! in_array($data['role'], [0, 1])) {
-        $errors[] = 'Trường type phải là 0 or 1';
+
+    if (empty($data['iddm'])) {
+        $errors[] = 'danh mục là bắt buộc';
     }
+
 
     if (!empty($errors)) {
         $_SESSION['errors'] = $errors;
         $_SESSION['data'] = $data;
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=user-create');
+        header('Location: ' . BASE_URL_ADMIN . '?act=sanpham-create');
         exit();
     }
 }
@@ -202,6 +177,6 @@ function sanphamDelete($id)
 
     $_SESSION['success'] = 'Thao tác thành công!';
 
-    header('Location: ' . BASE_URL_ADMIN . '?act=users');
+    header('Location: ' . BASE_URL_ADMIN . '?act=sanpham');
     exit();
 }
