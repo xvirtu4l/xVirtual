@@ -317,7 +317,7 @@
 .prod_options .colors ul li a.color.active:before {
   font-family: 'themify';
   content: "\e64c";
-  color: #014dd9;
+  color: #fff;
   font-size: 13px;
   font-size: 0.8125rem;
   line-height: 1;
@@ -326,15 +326,14 @@
   top: 8px;
   left: 8px;
 }
-.prod_options .colors ul li a.color.black {
-  background-color: #000000;
+.prod_options .colors ul li a.color.color_1 {
+  background-color: #ffcc00;
 }
-.prod_options .colors ul li a.color.white {
-  background-color: #ffffff;
-  outline: 2px solid rgba(0, 0, 0, 0.1);
+.prod_options .colors ul li a.color.color_2 {
+  background-color: #ff9933;
 }
-.prod_options .colors ul li a.color.pink {
-  background-color: #ffc0cb;
+.prod_options .colors ul li a.color.color_3 {
+  background-color: #ff9966;
 }
 .prod_options .colors ul li a.color.color_4 {
   background-color: #ff9999;
@@ -675,23 +674,4 @@
 .table.sizes td,
 .table.sizes tr th {
   white-space: nowrap;
-}
-
-.size {
-  /* Define default styles for storage options */
-  padding: 5px 10px;
-  margin: 5px;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  background-color: white; /* Set background color to white */
-  color: blue; /* Set text color to blue */
-  transition: background-color 0.3s, color 0.3s; /* Add transition effect */
-  text-decoration: none; /* Remove default underline */
-}
-
-.size.active {
-  /* Define styles for active state */
-  background-color: lightblue; /* Set background color to light blue */
-  border-color: blue;
-  color: white; /* Set text color to white */
 }
