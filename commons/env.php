@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Khai báo các biến môi trường dùng Global
 define('PATH_CONTROLLER',   __DIR__ . '/../controllers/');
@@ -11,10 +11,10 @@ define('PATH_VIEW_ADMIN',         __DIR__ . '/../admin/views/');
 
 define('PATH_UPLOAD',         __DIR__ . '/../');
 
-define('BASE_URL',          '/xVirtual/');
-define('BASE_URL_ADMIN',    '/xVirtual/admin/');
+define('BASE_URL',          '/draaag/');
+define('BASE_URL_ADMIN',    '/draaag/admin/');
 
-define('DB_HOST',       'localhost');
+define('DB_HOST',       '127.0.0.1');
 define('DB_PORT',       '3306');
 define('DB_USERNAME',   'root');
 define('DB_PASSWORD',   '');

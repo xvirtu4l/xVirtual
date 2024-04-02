@@ -76,3 +76,17 @@ if (!function_exists('getUserAdminByEmailAndPassword')) {
         }
     }
 }
+
+function get_id_name_dm()
+{
+    try {
+        $sql = "SELECT * FROM danhmuc";
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
+    } catch (\Exception $e) {
+        die($e->getMessage());
+    }
+
+}
