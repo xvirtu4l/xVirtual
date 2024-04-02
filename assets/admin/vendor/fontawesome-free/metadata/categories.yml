@@ -363,7 +363,7 @@ business:
     - stream
     - table
     - tag
-    - tags
+    - donhang
     - tasks
     - thumbtack
     - trademark
@@ -1481,7 +1481,7 @@ maps:
     - subway
     - suitcase
     - tag
-    - tags
+    - donhang
     - taxi
     - thumbtack
     - ticket-alt
@@ -1871,7 +1871,7 @@ objects:
     - tablet-alt
     - tachometer-alt
     - tag
-    - tags
+    - donhang
     - taxi
     - thumbtack
     - ticket-alt
@@ -1943,7 +1943,7 @@ payments-shopping:
     - stripe
     - stripe-s
     - tag
-    - tags
+    - donhang
     - thumbs-down
     - thumbs-up
     - trophy

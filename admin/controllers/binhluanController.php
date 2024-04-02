@@ -38,7 +38,7 @@ function postCreate()
 
     $categories = listAll('categories');
     $authors    = listAll('sanpham');
-    $tags       = listAll('tags');
+    $tags       = listAll('donhang');
 
     if (!empty($_POST)) {
 
@@ -72,8 +72,8 @@ function postCreate()
             $postID = insert_get_last_id('binhluan', $data);
 
             // Xử lý lưu Post - Tags
-            if (!empty($_POST['tags'])) {
-                foreach ($_POST['tags'] as $tagID) {
+            if (!empty($_POST['donhang'])) {
+                foreach ($_POST['donhang'] as $tagID) {
                     insert('post_tag', [
                         'post_id' => $postID,
                         'tag_id' => $tagID,
@@ -162,7 +162,7 @@ function postUpdate($id)
 
     $categories     = listAll('categories');
     $authors        = listAll('sanpham');
-    $tags           = listAll('tags');
+    $tags           = listAll('donhang');
 
     $tagsForPost    = getTagsForPost($id);
     $tagIDsForPost  = array_column($tagsForPost, 't_id');
@@ -202,8 +202,8 @@ function postUpdate($id)
 
             deleteTagsByPostID($id);
 
-            if (!empty($_POST['tags'])) {
-                foreach ($_POST['tags'] as $tagID) {
+            if (!empty($_POST['donhang'])) {
+                foreach ($_POST['donhang'] as $tagID) {
                     insert('post_tag', [
                         'post_id' => $id,
                         'tag_id' => $tagID,

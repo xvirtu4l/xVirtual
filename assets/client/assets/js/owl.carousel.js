@@ -146,7 +146,7 @@
 		};
 
 		/**
-		 * Current state information and their tags.
+		 * Current state information and their donhang.
 		 * @type {Object}
 		 * @protected
 		 */

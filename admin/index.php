@@ -40,11 +40,11 @@ match($act) {
     'category-delete' => categoryDelete($_GET['id']),
 
     // CRUD tag
-    'tags' => tagListAll(),
-    'tag-detail' => tagShowOne($_GET['id']),
-    'tag-create' => tagCreate(),
-    'tag-update' => tagUpdate($_GET['id']),
-    'tag-delete' => tagDelete($_GET['id']),
+    'donhang' => donhangListAll(),
+    'donhang-detail' => donhangShowOne($_GET['id']),
+    'donhang-create' => donhangCreate(),
+    'donhang-update' => donhangUpdate($_GET['id']),
+    'donhang-delete' => donhangDelete($_GET['id']),
 
     // CRUD author
 //    'authors' => authorListAll(),

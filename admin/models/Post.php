@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if (!function_exists('listAllForPost')) {
     function listAllForPost() {
@@ -84,7 +84,7 @@ if (!function_exists('getTagsForPost')) {
                 SELECT 
                     t.id    t_id,
                     t.name  t_name
-                FROM tags as t
+                FROM donhang as t
                 INNER JOIN post_tag as pt   ON t.id     = pt.tag_id
                 WHERE pt.post_id = :post_id;
             ";

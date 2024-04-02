@@ -110,7 +110,7 @@
                 // Get the sticky sidebar element. If none has been found, then create one.
                 o.stickySidebar = o.sidebar.find('.theiaStickySidebar');
                 if (o.stickySidebar.length == 0) {
-                    // Remove <script> tags, otherwise they will be run again when added to the stickySidebar.
+                    // Remove <script> donhang, otherwise they will be run again when added to the stickySidebar.
                     var javaScriptMIMETypes = /(?:text|application)\/(?:x-)?(?:javascript|ecmascript)/i;
                     o.sidebar.find('script').filter(function (index, script) {
                         return script.type.length === 0 || script.type.match(javaScriptMIMETypes);

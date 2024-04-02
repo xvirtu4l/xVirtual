@@ -1,50 +1,50 @@
 <?php
 
-function tagListAll()
+function donhangListAll()
 {
-    $title = 'Danh sách tag';
-    $view = 'tags/index';
+    $title = 'Danh sách đơn hàng';
+    $view = 'donhang/index';
     $script = 'datatable';
-    $script2 = 'tags/script';
+    $script2 = 'donhang/script';
     $style = 'datatable';
-    
-    $tags = listAll('tags');
+
+    $donhang = listAlldonhang('donhang');
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function tagShowOne($id)
+function donhangShowOne($id)
 {
-    $tag = showOne('tags', $id);
+    $donhang = showOnedonhang('donhang', $id);
 
-    if(empty($tag)) {
+    if(empty($donhang)) {
         e404();
     }
 
-    $title = 'Chi tiết tag: ' . $tag['name'];
-    $view = 'tags/show';
+    $title = 'Chi tiết đơn hàng: ' . $donhang['name'];
+    $view = 'donhang/show';
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function tagCreate()
+function donhangCreate()
 {
-    $title = 'Thêm mới tag';
-    $view = 'tags/create';
+    $title = 'Thêm mới đơn hàng';
+    $view = 'donhang/create';
 
     if (!empty($_POST)) {
-        
+
         $data = [
             "name" => $_POST['name'] ?? null,
         ];
 
         validateTagCreate($data);
 
-        insert('tags', $data);
+        insert('donhang', $data);
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=tags');
+        header('Location: ' . BASE_URL_ADMIN . '?act=donhang');
         exit();
     }
 
@@ -58,11 +58,11 @@ function validateTagCreate($data) {
 
     if (empty($data['name'])) {
         $errors[] = 'Trường name là bắt buộc';
-    } 
+    }
     else if(strlen($data['name']) > 50) {
         $errors[] = 'Trường name độ dài tối đa 50 ký tự';
-    } 
-    else if(! checkUniqueName('tags', $data['name'])) {
+    }
+    else if(! checkUniqueName('donhang', $data['name'])) {
         $errors[] = 'Name đã được sử dụng';
     }
 
@@ -75,16 +75,16 @@ function validateTagCreate($data) {
     }
 }
 
-function tagUpdate($id)
+function donhangUpdate($id)
 {
-    $tag = showOne('tags', $id);
+    $donhang = showOnedonhang('donhang', $id);
 
-    if(empty($tag)) {
+    if(empty($donhang)) {
         e404();
     }
 
-    $title = 'Cập nhật tag: ' . $tag['name'];
-    $view = 'tags/update';
+    $title = 'Cập nhật đơn hàng: ' . $donhang['name'];
+    $view = 'donhang/update';
 
     if (!empty($_POST)) {
         $data = [
@@ -92,8 +92,8 @@ function tagUpdate($id)
         ];
 
         validateTagUpdate($id, $data);
-         
-        update('tags', $id, $data);
+
+        update('donhang', $id, $data);
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
@@ -111,11 +111,11 @@ function validateTagUpdate($id, $data) {
 
     if (empty($data['name'])) {
         $errors[] = 'Trường name là bắt buộc';
-    } 
+    }
     else if(strlen($data['name']) > 50) {
         $errors[] = 'Trường name độ dài tối đa 50 ký tự';
     }
-    else if(! checkUniqueNameForUpdate('tags', $id, $data['name'])) {
+    else if(! checkUniqueNameForUpdate('donhang', $id, $data['name'])) {
         $errors[] = 'Name đã được sử dụng';
     }
 
@@ -127,12 +127,12 @@ function validateTagUpdate($id, $data) {
     }
 }
 
-function tagDelete($id)
+function donhangDelete($id)
 {
-    delete2('tags', $id);
+    deleteDonhang('donhang', $id);
 
     $_SESSION['success'] = 'Thao tác thành công!';
-    
-    header('Location: ' . BASE_URL_ADMIN . '?act=tags');
+
+    header('Location: ' . BASE_URL_ADMIN . '?act=donhang');
     exit();
 }
