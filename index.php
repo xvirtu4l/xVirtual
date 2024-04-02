@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Require file trong commons
 require_once './commons/env.php';
@@ -14,7 +14,7 @@ require_file(PATH_MODEL);
 // Điều hướng
 $act  = $_GET['act'] ?? '/';
 $page = $_GET['page'] ?? 1;
-
+#a
 match($act) {
     '/'         => homeIndex(),
     'shop'      => shopIndex(),
