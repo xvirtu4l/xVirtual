@@ -11,8 +11,8 @@ define('PATH_VIEW_ADMIN',         __DIR__ . '/../admin/views/');
 
 define('PATH_UPLOAD',         __DIR__ . '/../uploads/');
 
-define('BASE_URL',          '/xVirtual/');
-define('BASE_URL_ADMIN',    '/xVirtual/admin/');
+define('BASE_URL',          '/draaag/');
+define('BASE_URL_ADMIN',    '/draaag/admin/');
 
 define('DB_HOST',       '127.0.0.1');
 define('DB_PORT',       '3306');
