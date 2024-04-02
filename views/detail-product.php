@@ -316,40 +316,37 @@
 
   <div class="container margin_60_35">
     <div class="main_title">
-      <h2>Related</h2>
-      <span>Products</span>
-      <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+      <h2>Sản Phẩm Khác</h2>
     </div>
     <div class="owl-carousel owl-theme products_carousel">
-      <div class="item">
-        <div class="grid_item">
-          <span class="ribbon new">New</span>
-          <figure>
-            <a href="product-detail-1.html">
-              <img class="owl-lazy" src="img/products/product_placeholder_square_medium.jpg"
-                   data-src="img/products/shoes/4.jpg" alt="">
+    <?php foreach ($sp as $key => $value) : ?>
+        <div class="item">
+          <div class="grid_item">
+            <span class="ribbon new">New</span>
+            <figure>
+              <?php if (is_array($value) && isset($value['id'])) : ?>
+                <a href="<?= BASE_URL . '?act=detail&id=' . $value['id'] ?>">
+                <?php endif; ?>
+
+                <img class="owl-lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="<?= BASE_URL . 'uploads/' . $value['img'] ?>" alt="">
+                </a>
+            </figure>
+            <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+            <a href="<?= BASE_URL . '?act=detail&id=' . $value['id']  ?>">
+              <h3><?= $value['name'] ?></h3>
             </a>
-          </figure>
-          <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i
-              class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
-          <a href="product-detail-1.html">
-            <h3>ACG React Terra</h3>
-          </a>
-          <div class="price_box">
-            <span class="new_price">$110.00</span>
+            <div class="price_box">
+              <span class="new_price"><?= number_format($product['price'], 0, ',') ?> VND</span>
+            </div>
+            <ul>
+              </li>
+              <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+            </ul>
           </div>
-          <ul>
-            <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left"
-                   title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
-            <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left"
-                   title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a>
-            </li>
-            <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left"
-                   title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
-          </ul>
+          <!-- /grid_item -->
         </div>
-        <!-- /grid_item -->
-      </div>
+      <?php endforeach ?>
+    
       <!-- /item -->
       <div class="item">
         <div class="grid_item">

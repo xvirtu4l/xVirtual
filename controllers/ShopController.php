@@ -24,6 +24,7 @@ function detail_product() {
 
     $id                    = $_GET['id'] ?? null;
     $product               = selectOneProduct($id);
+    $sp                    = top6Product();
     $variantall            = selectAllVariants($id);
     $distinctcolor         = selectDistinctColors($id);
     $distinctstorage       = selectDistinctStorage($id);
