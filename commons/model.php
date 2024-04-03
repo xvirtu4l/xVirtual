@@ -98,6 +98,14 @@ if (!function_exists('listAll')) {
         }
     }
 }
+
+
+function show_variant() {
+    $sql = "SELECT * FROM variant";
+    $stmt = $GLOBALS['conn']->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll();
+}
 function listAlldonhang($tableName) {
     try {
         $sql = "SELECT * FROM $tableName ORDER BY id_checkout DESC";

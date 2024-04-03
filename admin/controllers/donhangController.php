@@ -77,19 +77,32 @@ function validateTagCreate($data) {
 
 function donhangUpdate($id)
 {
+    $variants = show_variant();
     $donhang = showOnedonhang('donhang', $id);
 
     if(empty($donhang)) {
         e404();
     }
 
-    $title = 'Cập nhật đơn hàng: ' . $donhang['name'];
+    $title = 'Cập nhật đơn hàng: ' . $donhang['id_variant'];
     $view = 'donhang/update';
 
     if (!empty($_POST)) {
         $data = [
-            "name" => $_POST['name'] ?? $tag['name'],
+            "id_variant" => $_POST['id_variant'] ?? $donhang['id_variant'],
+            "first_name" => $_POST['first_name'] ?? $donhang['first_name'],
+            "last_name" => $_POST['last_name'] ?? $donhang['last_name'],
+            "email" => $_POST['email'] ?? $donhang['email'],
+            "phone" => $_POST['phone'] ?? $donhang['phone'],
+            "address" => $_POST['address'] ?? $donhang['address'],
+            "tien_hang" => $_POST['tien_hang'] ?? $donhang['tien_hang'],
+            "phi_ship" => $_POST['phi_ship'] ?? $donhang['phi_ship'],
+            "tong_tien" => $_POST['tong_tien'] ?? $donhang['tong_tien'],
+            "phuong_thuc" => $_POST['phuong_thuc'] ?? $donhang['phuong_thuc'],
+            "id_cart" => $_POST['id_cart'] ?? $donhang['id_cart'],
+            "status" => $_POST['status'] ?? $donhang['status'],
         ];
+
 
         validateTagUpdate($id, $data);
 

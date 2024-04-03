@@ -49,7 +49,12 @@
                   <div class="col-md-6">
                     <div class="mb-3 mt-3">
                       <label for="id_variant" class="form-label">Variant:</label>
-                      <input type="text" class="form-control" id="id_variant" value="<?= isset($_SESSION['data']) ? $_SESSION['data']['id_variant'] : null ?>" placeholder="Enter..." name="id_variant">
+                      <select name="id_variant" id="id_variant" class="form-control">
+                        <option value="">Chọn variant</option>
+                        <?php foreach ($variants as $variant) : ?>
+                          <option value="<?= $variant['var_id'] ?>" <?= (isset($_SESSION['data']) && $_SESSION['data']['id_variant'] == $variant['var_id']) ? 'selected' : '' ?>><?= htmlspecialchars($variant['storage']) ?></option>
+                        <?php endforeach; ?>
+                      </select>
                     </div>
 
 
