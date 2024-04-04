@@ -19,8 +19,12 @@ function authenLogin() {
         exit();
     } else {
         $_SESSION['user'] = $user;
-        header('Location: ' . BASE_URL_ADMIN);
+        echo '<script type="text/javascript">  
+                alert("Bạn đang đăng nhập với tư cách quản trị viên");
+                window.location.href="' . BASE_URL_ADMIN . '";
+             </script>';
         exit();
+
     }
 
 
