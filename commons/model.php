@@ -147,6 +147,26 @@ function deleteDonhang($tableName, $id) {
         debug($e);
     }
 }
+function updateDonhang($tableName, $id, $data = []) {
+    try {
+        $setParams = get_set_params($data);
+
+        $sql = "UPDATE $tableName SET $setParams WHERE id_checkout = :id";
+
+        $stmt = $GLOBALS['conn']->prepare($sql);
+
+        foreach ($data as $fieldName => &$value) {
+            $stmt->bindParam(":$fieldName", $value);
+        }
+
+        $stmt->bindParam(":id", $id);
+
+        $stmt->execute();
+    } catch (\Exception $e) {
+        debug($e);
+    }
+}
+
 
 if (!function_exists('showOne')) {
     function showOne($tableName, $id) {

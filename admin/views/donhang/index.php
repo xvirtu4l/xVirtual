@@ -28,7 +28,8 @@
           <thead>
           <tr>
             <th>Stt</th>
-            <th>Id đơn hàng</th>
+            <th>Mã đơn hàng</th>
+            <th>Tình trạng</th>
             <th>Tên khách hàng</th>
             <th>Email</th>
             <th>Địa chỉ</th>
@@ -37,7 +38,7 @@
             <th>Tiền ship</th>
             <th>Tổng tiền</th>
             <th>Phương thức thanh toán</th>
-            <th>Trạng thái</th>
+
             <th>Action</th>
           </tr>
           </thead>
@@ -47,16 +48,6 @@
             <tr>
               <td><?= $stt ?></td>
               <td><?= $dh['id_checkout'] ?></td>
-              <td><?= $dh['first_name'] ?> <?= $dh['last_name'] ?></td>
-              <td><?= $dh['email'] ?></td>
-              <td><?= $dh['address'] ?></td>
-              <td><?= $dh['phone'] ?></td>
-              <td><?= $dh['tien_hang'] ?></td>
-              <td><?= $dh['phi_ship'] ?></td>
-              <td><?= $dh['tong_tien'] ?></td>
-              <td><?= $dh['phuong_thuc'] ?></td>
-
-
                 <?php
                 $status_text = '';
                 switch ($dh['status']) {
@@ -80,9 +71,15 @@
                         break;
                 }
                 ?>
-
               <td><?= $status_text ?></td>
-
+              <td><?= $dh['first_name'] ?> <?= $dh['last_name'] ?></td>
+              <td><?= $dh['email'] ?></td>
+              <td><?= $dh['address'] ?></td>
+              <td><?= $dh['phone'] ?></td>
+              <td><?= $dh['tien_hang'] ?></td>
+              <td><?= $dh['phi_ship'] ?></td>
+              <td><?= $dh['tong_tien'] ?></td>
+              <td><?= $dh['phuong_thuc'] ?></td>
               <td>
                 <a
                   href="<?= BASE_URL_ADMIN ?>?act=donhang-detail&id=<?= $dh['id_checkout'] ?>"

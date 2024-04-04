@@ -77,7 +77,14 @@
                     </div>
                     <div class="mb-3 mt-3">
                       <label for="status" class="form-label">Trạng thái:</label>
-                      <input type="text" class="form-control" id="status" value="<?= $donhang['status'] ?>" placeholder="Enter.." name="status">
+                      <select class="form-control" id="status" name="status">
+                        <option value="0" <?= $donhang['status'] == '0' ? 'selected' : '' ?>>Chờ xử lý</option>
+                        <option value="1" <?= $donhang['status'] == '1' ? 'selected' : '' ?>>Đang xử lý</option>
+                        <option value="2" <?= $donhang['status'] == '2' ? 'selected' : '' ?>>Đang giao hàng</option>
+                        <option value="3" <?= $donhang['status'] == '3' ? 'selected' : '' ?>>Đã giao hàng</option>
+                        <option value="4" <?= $donhang['status'] == '4' ? 'selected' : '' ?>>Hủy đơn hàng</option>
+                        <option value="5" <?= $donhang['status'] == '5' ? 'selected' : '' ?>>Đã hủy đơn hàng</option>
+                      </select>
                     </div>
                   </div>
                 </div>

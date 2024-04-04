@@ -39,7 +39,7 @@ match($act) {
     'category-update' => categoryUpdate($_GET['id']),
     'category-delete' => categoryDelete($_GET['id']),
 
-    // CRUD tag
+
     'donhang' => donhangListAll(),
     'donhang-detail' => donhangShowOne($_GET['id']),
     'donhang-create' => donhangCreate(),

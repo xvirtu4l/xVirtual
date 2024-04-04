@@ -70,7 +70,7 @@ function validateTagCreate($data) {
         $_SESSION['errors'] = $errors;
         $_SESSION['data'] = $data;
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=tag-create');
+        header('Location: ' . BASE_URL_ADMIN . '?act=donhang-create');
         exit();
     }
 }
@@ -104,20 +104,20 @@ function donhangUpdate($id)
         ];
 
 
-        validateTagUpdate($id, $data);
+//        validateDonhangUpdate($id, $data);
 
-        update('donhang', $id, $data);
+        updateDonhang('donhang', $id, $data);
 
         $_SESSION['success'] = 'Thao tác thành công!';
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=tag-update&id=' . $id);
+        header('Location: ' . BASE_URL_ADMIN . '?act=donhang-update&id=' . $id);
         exit();
     }
 
     require_once PATH_VIEW_ADMIN . 'layouts/master.php';
 }
 
-function validateTagUpdate($id, $data) {
+function validateDonhangUpdate($id, $data) {
     // name - bắt buộc, độ dài tối đa 50 ký tự, Không được trùng
 
     $errors = [];
@@ -135,7 +135,7 @@ function validateTagUpdate($id, $data) {
     if (!empty($errors)) {
         $_SESSION['errors'] = $errors;
 
-        header('Location: ' . BASE_URL_ADMIN . '?act=tag-update&id=' . $id);
+        header('Location: ' . BASE_URL_ADMIN . '?act=donhang-update&id=' . $id);
         exit();
     }
 }
