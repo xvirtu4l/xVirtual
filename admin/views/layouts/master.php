@@ -15,7 +15,7 @@
 
     <!-- Custom styles for this template-->
     <link href="<?= BASE_URL ?>assets/admin/css/sb-admin-2.min.css" rel="stylesheet">
-
+  <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
     <?php 
         if (isset($style) && $style) {
             require_once PATH_VIEW_ADMIN . 'styles/' . $style . '.php';
