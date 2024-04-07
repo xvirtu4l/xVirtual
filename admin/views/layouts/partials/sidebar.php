@@ -27,19 +27,19 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThongke" aria-expanded="true" aria-controls="collapseThongke">
-          <i class="fas fa-yen-sign"></i>
-          <span>Thống kê</span>
-        </a>
-        <div id="collapseThongke" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=thongke">Doanh thu</a>
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=thongke-create">Đơn hàng</a>
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=thongke-create">Sản phẩm bán chạy</a>
-            </div>
-        </div>
-    </li>
+<!--    <li class="nav-item">-->
+<!--        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThongke" aria-expanded="true" aria-controls="collapseThongke">-->
+<!--          <i class="fas fa-yen-sign"></i>-->
+<!--          <span>Thống kê</span>-->
+<!--        </a>-->
+<!--        <div id="collapseThongke" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">-->
+<!--            <div class="bg-white py-2 collapse-inner rounded">-->
+<!--                <a class="collapse-item" href="--><?php //= BASE_URL_ADMIN ?><!--?act=thongke">Doanh thu</a>-->
+<!--                <a class="collapse-item" href="--><?php //= BASE_URL_ADMIN ?><!--?act=thongke-create">Đơn hàng</a>-->
+<!--                <a class="collapse-item" href="--><?php //= BASE_URL_ADMIN ?><!--?act=thongke-create">Sản phẩm bán chạy</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </li>-->
 
   <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">

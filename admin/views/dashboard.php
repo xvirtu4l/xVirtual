@@ -1,10 +1,11 @@
 <?php
     global $conn;
+    $dateFrom = isset($_GET['dateFrom']) ? (new DateTime($_GET['dateFrom']))->format('Y-m-d') : '2022-01-01';
+    $dateTo = isset($_GET['dateTo']) ? (new DateTime($_GET['dateTo']))->format('Y-m-d') : '2022-12-31';
     $total_sum = 0;
     $tong_tien = array();
     $test = array();
-    $stmt = $conn->query("SELECT DATE(created_at) AS date, SUM(tong_tien) AS total_tien FROM donhang GROUP BY date ORDER BY date ASC;");
-
+    $stmt = $conn->query("SELECT DATE(created_at) AS date, SUM(tong_tien) AS total_tien FROM donhang WHERE created_at BETWEEN '$dateFrom' AND '$dateTo' GROUP BY date ORDER BY date ASC;");
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
         $date = date("d-m-y", strtotime($row['date']));
         $tong_tien[$date] = isset($tong_tien[$date]) ? $tong_tien[$date] + $row['total_tien'] : $row['total_tien'];
@@ -89,6 +90,20 @@
     </div>
 
     <!-- Content Row -->
+  <form method="GET" action="">
+    <div class="form-row align-items-center">
+      <div class="col">
+        <input type="date" class="form-control mb-2" id="dateFrom" name="dateFrom" value="<?php echo isset($_GET['dateFrom']) ? htmlspecialchars($_GET['dateFrom']) : ''; ?>">
+      </div>
+      <div class="col">
+        <input type="date" class="form-control mb-2" id="dateTo" name="dateTo" value="<?php echo isset($_GET['dateTo']) ? htmlspecialchars($_GET['dateTo']) : ''; ?>">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
+      </div>
+    </div>
+  </form>
+
     <div class="row">
 
 
