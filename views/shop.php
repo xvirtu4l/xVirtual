@@ -167,6 +167,17 @@
         <div class="col-lg-9">
             <div class="row small-gutters">
                 <?php foreach ($dataProduct as $key => $value) : ?>
+                    <?php
+                    $variant = getFirstVariantByProductId($value['id']);
+                    $soluong = 1;
+
+                    if ($variant) {
+                        $tong_tien = $variant['price'];
+                        $ship = 20000;
+                        $tien_phai_tra = $tong_tien + $ship;
+                    }
+
+                    ?>
                      
                     <div class="col-6 col-md-4">
                         <div class="grid_item">
@@ -185,7 +196,19 @@
                                 <!-- <span class="old_price">$60.00</span> -->
                             </div>
                             <ul>
-                                <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+                              <li>
+                                <a href="#0" class="tooltip-1 add-to-cart"
+                                   data-id_var="<?= $variant['var_id'] ?>"
+                                   data-soluong="<?= $soluong ?>"
+                                   data-tong_tien="<?= $tong_tien ?>"
+                                   data-ship="<?= $ship ?>"
+                                   data-tien_phai_tra="<?= $tien_phai_tra ?>"
+                                   data-bs-toggle="tooltip"
+                                   data-bs-placement="left"
+                                   title="Add to cart">
+                                  <i class="ti-shopping-cart"></i><span>Add to cart</span>
+                                </a>
+                              </li>
                             </ul>
                         </div>
                         <!-- /grid_item -->

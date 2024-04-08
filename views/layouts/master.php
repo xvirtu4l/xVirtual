@@ -29,7 +29,7 @@
   <link href="<?= BASE_URL ?>assets/client/assets/css/checkout.css" rel="stylesheet">
   <!-- YOUR CUSTOM CSS -->
   <link href="<?= BASE_URL ?>assets/client/assets/css/custom.css" rel="stylesheet">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 

@@ -1,11 +1,48 @@
 <footer class="revealed">
+  <script>
+    $(document).ready(function() {
+      $('.add-to-cart').click(function(e) {
+        e.preventDefault();
+
+        var idVar = $(this).data('id_var');
+        var soLuong = $(this).data('soluong');
+        var tongTien = $(this).data('tong_tien');
+        var ship = $(this).data('ship');
+        var tienPhaiTra = $(this).data('tien_phai_tra');
+
+        $.ajax({
+          url: '<?=BASE_URL."views/" . 'cart.php'?>',
+          //url: '<?php //=BASE_URL?>//?act=cart',
+          type: 'POST',
+          data: {
+            id_var: idVar,
+            soluong: soLuong,
+            tong_tien: tongTien,
+            ship: ship,
+            tien_phai_tra: tienPhaiTra
+            // id_var: 1, // Dữ liệu giả cho id_var
+            // soluong: 2, // Dữ liệu giả cho soluong
+            // tong_tien: 100, // Dữ liệu giả cho tong_tien
+            // ship: 10, // Dữ liệu giả cho ship
+            // tien_phai_tra: 110
+          },
+          success: function(response) {
+            alert('Sản phẩm đã được thêm vào giỏ hàng!');
+          },
+          error: function() {
+            alert('Có lỗi xảy ra, không thể thêm sản phẩm vào giỏ hàng.');
+          }
+        });
+      });
+    });
+  </script>
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <h3 data-bs-target="#collapse_1">Quick Links</h3>
                 <div class="collapse dont-collapse-sm links" id="collapse_1">
                     <ul>
-                        <li><a href="about.html">About us</a></li>
+                        <li><a href="<?=PATH_VIEW."tracking.php"?>">About us</a></li>
                         <li><a href="help.html">Faq</a></li>
                         <li><a href="help.html">Help</a></li>
                         <li><a href="account.html">My account</a></li>

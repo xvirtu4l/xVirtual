@@ -33,4 +33,15 @@ function detail_product() {
     require_once PATH_VIEW . 'layouts/master.php';
 
 }
+
+    function trackingIndex()
+    {
+        $view = 'tracking';
+
+        $id = $_GET[''] ?? null;
+        $order = selectAlldonhang($id);
+
+        require_once PATH_VIEW . 'layouts/master.php';
+    }
+
 ?>

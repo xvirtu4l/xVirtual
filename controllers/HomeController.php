@@ -6,8 +6,7 @@ function homeIndex() {
     $script = 'home';
     $dataProductTop8 = top6Product();
     $dataProduct = selectAllProduct();
-
+//    $variant = getVariantById($var_id);
+//    $firstVariant = getFirstVariantByProductId($product_id);
     require_once PATH_VIEW . 'layouts/master.php';
 }
-
-

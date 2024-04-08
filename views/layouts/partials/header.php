@@ -28,9 +28,11 @@
                             <li>
                                 <a href="<?= BASE_URL . '?act=shop' ?>">Shop</a>
                             </li>
-                            <!-- <li>
-                                <a href="blog.html">Blog</a>
-                            </li> -->
+
+                            <li>
+                              <a href="<?= BASE_URL . '?act=tracking' ?>">tracking</a>
+                            </li>
+                            
                            
 
                         </ul>
@@ -112,7 +114,7 @@
                                     </ul>
                                     <div class="total_drop">
                                         <div class="clearfix"><strong>Total</strong><span>$200.00</span></div>
-                                        <a href="cart.html" class="btn_1 outline">View Cart</a><a href="checkout.html" class="btn_1">Checkout</a>
+                                        <a href="<?= BASE_URL ?>?act=cart" class="btn_1 outline">View Cart</a><a href="checkout.html" class="btn_1">Checkout</a>
                                     </div>
                                 </div>
                             </div>

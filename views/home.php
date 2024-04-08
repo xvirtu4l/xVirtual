@@ -44,7 +44,17 @@
     </div>
     <div class="row small-gutters">
         <?php foreach($dataProduct as  $key => $value) : ?>
-           
+            <?php
+            $variant = getFirstVariantByProductId($value['id']);
+            $soluong = 1;
+
+            if ($variant) {
+                $tong_tien = $variant['price'];
+                $ship = 20000;
+                $tien_phai_tra = $tong_tien + $ship;
+            }
+
+            ?>
             <div class="col-6 col-md-4 col-xl-3">
             <div class="grid_item">
                 <figure>
@@ -64,8 +74,20 @@
                     
                 </div>
                 <ul>
-                    
-                    <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+
+                  <li>
+                    <a href="#0" class="tooltip-1 add-to-cart"
+                       data-id_var="<?= $variant['var_id'] ?>"
+                       data-soluong="<?= $soluong ?>"
+                       data-tong_tien="<?= $tong_tien ?>"
+                       data-ship="<?= $ship ?>"
+                       data-tien_phai_tra="<?= $tien_phai_tra ?>"
+                       data-bs-toggle="tooltip"
+                       data-bs-placement="left"
+                       title="Add to cart">
+                      <i class="ti-shopping-cart"></i><span>Add to cart</span>
+                    </a>
+                  </li>
                 </ul>
             </div>
             <!-- /grid_item -->
@@ -107,6 +129,17 @@
     </div>
     <div class="owl-carousel owl-theme products_carousel">
     <?php foreach($dataProduct as  $key => $value) : ?>
+        <?php
+        $variant = getFirstVariantByProductId($value['id']);
+        $soluong = 1;
+
+        if ($variant) {
+            $tong_tien = $variant['price'];
+            $ship = 20000;
+            $tien_phai_tra = $tong_tien + $ship;
+        }
+
+        ?>
 
         <div class="item">
             <div class="grid_item">
@@ -123,10 +156,21 @@
                 <div class="price_box">
                     <span class="new_price"><?= number_format($value['price'], 0, ',') ?> VND</span>
                 </div>
-                <ul>
-                   
-                    <li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
-                </ul>
+              <ul>
+                <li>
+                  <a href="#0" class="tooltip-1 add-to-cart"
+                     data-id_var="<?= $variant['var_id'] ?>"
+                     data-soluong="<?= $soluong ?>"
+                     data-tong_tien="<?= $tong_tien ?>"
+                     data-ship="<?= $ship ?>"
+                     data-tien_phai_tra="<?= $tien_phai_tra ?>"
+                     data-bs-toggle="tooltip"
+                     data-bs-placement="left"
+                     title="Add to cart">
+                    <i class="ti-shopping-cart"></i><span>Add to cart</span>
+                  </a>
+                </li>
+              </ul>
             </div>
             <!-- /grid_item -->
         </div>
@@ -163,4 +207,3 @@
     </div><!-- /container -->
 </div>
 <!-- /bg_gray -->
-

@@ -22,5 +22,3 @@ define('DB_NAME',       'duan1');
 
 define('STATUS_DRAFT',      'draft');
 define('STATUS_PUBLISHED',  'published');
-
-

@@ -1,3 +1,50 @@
+<?php
+    require_once '/home/david/Documents/draaag/commons/env.php';
+    require_once '/home/david/Documents/draaag/commons/helper.php';
+    require_once '/home/david/Documents/draaag/commons/connect-db.php';
+    require_once '/home/david/Documents/draaag/commons/model.php';
+    function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra)
+    {
+        try {
+            $sql = "INSERT INTO cart (id_var, soluong, tong_tien, ship, tien_phai_tra) VALUES (:id_var, :soluong, :tong_tien, :ship, :tien_phai_tra)";
+            $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->bindParam(':id_var', $id_var, PDO::PARAM_INT);
+            $stmt->bindParam(':soluong', $soluong, PDO::PARAM_INT);
+            $stmt->bindParam(':tong_tien', $tong_tien);
+            $stmt->bindParam(':ship', $ship);
+            $stmt->bindParam(':tien_phai_tra', $tien_phai_tra);
+            $stmt->execute();
+            return $GLOBALS['conn']->lastInsertId();
+        } catch (PDOException $e) {
+            die($e->getMessage());
+        }
+
+    }
+
+    try {
+        $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
+        $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
+        $tong_tien = isset($_POST['tong_tien']) ? $_POST['tong_tien'] : null;
+        $ship = isset($_POST['ship']) ? $_POST['ship'] : null;
+        $tien_phai_tra = isset($_POST['tien_phai_tra']) ? $_POST['tien_phai_tra'] : null;
+
+        if ($id_var === null || $soluong === null || $tong_tien === null || $ship === null || $tien_phai_tra === null) {
+            echo "ERROR: Missing POST variables";
+            exit;
+        }
+        $result = addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra );
+        var_dump($result);
+        if ($result) {
+            echo "SUCCESS";
+        } else {
+            echo "ERROR";
+        }
+    } catch (Exception $e) {
+      die($e->getMessage());
+    }
+
+    ?>
+
 <div class="container margin_30">
     <div class="page_header">
         <div class="breadcrumbs">
