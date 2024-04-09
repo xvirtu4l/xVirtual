@@ -15,16 +15,16 @@
           //url: '<?php //=BASE_URL?>//?act=cart',
           type: 'POST',
           data: {
-            // id_var: idVar,
-            // soluong: soLuong,
-            // tong_tien: tongTien,
-            // ship: ship,
-            // tien_phai_tra: tienPhaiTra
-            id_var: 1,
-            soluong: 2,
-            tong_tien: 100,
-            ship: 10,
-            tien_phai_tra: 110
+            id_var: idVar,
+            soluong: soLuong,
+            tong_tien: tongTien,
+            ship: ship,
+            tien_phai_tra: tienPhaiTra
+            // id_var: 1,
+            // soluong: 2,
+            // tong_tien: 100,
+            // ship: 10,
+            // tien_phai_tra: 110
           },
           success: function(response) {
             alert('Sản phẩm đã được thêm vào giỏ hàng!');

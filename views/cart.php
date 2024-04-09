@@ -4,6 +4,20 @@
     require_once '/home/david/Documents/draaag/commons/connect-db.php';
     require_once '/home/david/Documents/draaag/commons/model.php';
 
+    function sshow_all_products_in_card() {
+        try {
+            $sql =  "SELECT c.id_cart, sp.name, sp.img, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
+                    FROM cart c
+                    JOIN variant v ON c.id_var = v.var_id
+                    JOIN sanpham sp ON v.id_pro = sp.id";
+            $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->execute();
+            $result = $stmt->fetchAll();
+            return $result;
+        } catch (Exception $e) {
+            die($e->getMessage());
+        }
+    }
 
     function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra) {
         try {
@@ -24,12 +38,7 @@
         try {
           if (isset($_POST['update_cart'])) {
               $soluong = $_POST['quantity'];
-              echo '<pre>';
-              print_r($soluong);
-              echo '</pre>';
               foreach ($soluong as $id_cart => $quantity) {
-
-
                   if (filter_var($quantity, FILTER_VALIDATE_INT) && $quantity > 0) {
                       $sql = "UPDATE cart SET soluong = :quantity WHERE id_cart = :id_cart";
                       $stmt = $GLOBALS['conn']->prepare($sql);
@@ -37,13 +46,12 @@
                       $stmt->bindParam(':id_cart', $id_cart, PDO::PARAM_INT);
                       $stmt->execute();
 
-                      
                   } else {
                       $error_message = "Số lượng không hợp lệ cho sản phẩm với ID: $id_cart";
-                      echo $error_message;
 
                   }
-          } }
+          }
+          }
           else {
               $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
               $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
@@ -57,13 +65,11 @@
                   addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra);}
           }
 
-
         } catch (Exception $e) {
             $error_message = $e->getMessage();
-            echo $error_message;
         }
     }
-    $carts = show_all_products_in_card();
+    $carts = sshow_all_products_in_card();
     ?>
 
 <div class="container margin_30">
@@ -162,10 +168,10 @@
                         $totalP = 0;
                         $tong = 0;
                         foreach ($carts as $ccc) {
-                            $totalP += $ccc['tong_tien'];
-                            $totalship += $ccc['ship'];
-                            $tong += $ccc['tien_phai_tra'];
+                            $totalP += ($ccc['soluong'] * $ccc['price']);
                         }
+                        $totalship = (0.000005 * $totalP);
+                        $tong = $totalP + $totalship;
                     ?>
                     <li>
                         <span>Tổng Tiền Hàng</span> <?= $totalP ?>đ
