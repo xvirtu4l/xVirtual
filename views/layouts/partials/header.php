@@ -1,4 +1,15 @@
+<?php
+    try {
+        $stmt = $GLOBALS['conn']->query("SELECT c.id_cart, c.soluong, sp.img, sp.name, c.tong_tien
+FROM cart c
+INNER JOIN variant v ON c.id_var = v.var_id
+INNER JOIN sanpham sp ON v.id_pro = sp.id;");
+        $productsss = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    } catch (PDOException $e) {
+        echo "Error: " . $e->getMessage();
+    }
 
+?>
 <header class="version_1">
     <div class="layer"></div><!-- Mobile menu overlay mask -->
     <div class="main_header">
@@ -90,30 +101,40 @@
                         <button type="submit"><i class="header-icon_search_custom"></i></button>
                     </div>
                 </div>
+                <?php
+                    $productCount = count($productsss);
+                    $totalPrice = 0;
+                    foreach ($productsss as $pro) {
+                        $totalPrice += $pro['tong_tien'];
+                    }
+                ?>
                 <div class="col-xl-3 col-lg-2 col-md-3">
                     <ul class="top_tools">
                         <li>
                             <div class="dropdown dropdown-cart">
-                                <a href="<?= BASE_URL . '?act=cart' ?>" class="cart_bt"><strong>2</strong></a>
+                                <a href="<?= BASE_URL . '?act=cart' ?>" class="cart_bt"><strong><?=$productCount ?></strong></a>
                                 <div class="dropdown-menu">
-                                    <ul>
+
+
+                                  <ul>
+                                      <?php foreach ($productsss as $pro): ?>
                                         <li>
-                                            <a href="product-detail-1.html">
-                                                <figure><img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/thumb/1.jpg" alt="" width="50" height="50" class="lazy"></figure>
-                                                <strong><span>1x Armor Air x Fear</span>$90.00</strong>
-                                            </a>
-                                            <a href="#0" class="action"><i class="ti-trash"></i></a>
+                                          <a href="<?= BASE_URL . '?act=detail&id=' . $pro['id_cart'] ?>">
+                                            <figure>
+                                              <img src="img/products/product_placeholder_square_small.jpg" data-src="<?= BASE_URL . 'uploads/' . $pro['img'] ?>" alt="" width="50" height="50" class="lazy">
+                                            </figure>
+                                            <strong>
+                                              <span>1x <?= htmlspecialchars($pro['name']) ?></span>
+                                              <?= number_format($pro['tong_tien'], 2) ?>đ
+                                            </strong>
+                                          </a>
                                         </li>
-                                        <li>
-                                            <a href="product-detail-1.html">
-                                                <figure><img src="img/products/product_placeholder_square_small.jpg" data-src="img/products/shoes/thumb/2.jpg" alt="" width="50" height="50" class="lazy"></figure>
-                                                <strong><span>1x Armor Okwahn II</span>$110.00</strong>
-                                            </a>
-                                            <a href="0" class="action"><i class="ti-trash"></i></a>
-                                        </li>
-                                    </ul>
+                                      <?php endforeach; ?>
+                                  </ul>
+
+
                                     <div class="total_drop">
-                                        <div class="clearfix"><strong>Total</strong><span>$200.00</span></div>
+                                        <div class="clearfix"><strong>Total</strong><span><?= $totalPrice ?> đ</span></div>
                                         <a href="<?= BASE_URL ?>?act=cart" class="btn_1 outline">View Cart</a><a href="checkout.html" class="btn_1">Checkout</a>
                                     </div>
                                 </div>

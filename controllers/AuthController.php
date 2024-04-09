@@ -15,13 +15,32 @@
         require_once PATH_VIEW . 'layouts/master.php';
     }
 
-    function cartIndex() {
+    function    cartIndex() {
 
         $view = 'cart';
-
+        $carts = show_all_products_in_card();
 
 
         require_once PATH_VIEW . 'layouts/master.php';
+    }
+    function cartDelete($id) {
+        $result = deleteCartItem($id);
+        if ($result) {
+            header('Location: ' . BASE_URL . '?act=cart');
+            exit();
+        } else {
+            echo "ERROR";
+        }
+    }
+    function iconCartDelete()
+    {
+        $result = deleteCartItem($id);
+        if ($result) {
+            header('Location: ' . BASE_URL);
+            exit();
+        } else {
+            echo "ERROR";
+        }
     }
 
     function checkoutIndex() {

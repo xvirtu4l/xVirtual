@@ -26,6 +26,7 @@ function detail_product() {
     $product               = selectOneProduct($id);
     $sp                    = top6Product();
     $variantall            = selectAllVariants($id);
+    $variant_pro = getFirstVariantByProductId($id);
     $distinctcolor         = selectDistinctColors($id);
     $distinctstorage       = selectDistinctStorage($id);
     $stock                 = OutofStock($id);
