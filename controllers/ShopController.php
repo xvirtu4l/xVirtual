@@ -38,7 +38,7 @@ function detail_product() {
     function trackingIndex()
     {
         $view = 'tracking';
-
+        $title = 'tracking';
         $id = $_GET[''] ?? null;
         $order = selectAlldonhang($id);
 
