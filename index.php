@@ -26,7 +26,8 @@ match($act) {
     'checkout'  => checkoutIndex(),
     'perfect'   => pfIndex(),
     'tracking' => trackingIndex(),
-    'icon_cart_delete' => iconCartDelete($_GET['id'])
+    'icon_cart_delete' => iconCartDelete($_GET['id']),
+    'search' => searchIndex()
 };
 
 require_once './commons/disconnect-db.php';

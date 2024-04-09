@@ -96,10 +96,12 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
                     </nav>
                 </div>
                 <div class="col-xl-6 col-lg-7 col-md-6 d-none d-md-block">
+                  <form action="<?= BASE_URL . '?act=search'?>" method="post">
                     <div class="custom-search-input">
-                        <input type="text" placeholder="Search">
-                        <button type="submit"><i class="header-icon_search_custom"></i></button>
+                      <input type="text" name="search_query" placeholder="Search" required>
+                      <button type="submit" name="iccsearch"><i class="header-icon_search_custom"></i></button>
                     </div>
+                  </form>
                 </div>
                 <?php
                     $productCount = count($productsss);
@@ -184,10 +186,11 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
             </div>
             <!-- /row -->
         </div>
-        <div class="search_mob_wp">
-            <input type="text" class="form-control" placeholder="Search over 10.000 products">
-            <input type="submit" class="btn_1 full-width" value="Search">
-        </div>
+
+      <form action="<?= BASE_URL . '?act=search'?>" class="search_mob_wp">
+        <input type="text" name="search_query" class="form-control" placeholder="Search over 10.000 products">
+        <input type="submit" class="btn_1 full-width" value="Search">
+      </form>
         <!-- /search_mobile -->
     </div>
     <!-- /main_nav -->
