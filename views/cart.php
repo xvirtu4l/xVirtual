@@ -4,40 +4,63 @@
     require_once '/home/david/Documents/draaag/commons/connect-db.php';
     require_once '/home/david/Documents/draaag/commons/model.php';
 
+
+    function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra) {
+        try {
+            $sql = "INSERT INTO cart (id_var, soluong, tong_tien, ship, tien_phai_tra) VALUES (:id_var, :soluong, :tong_tien, :ship, :tien_phai_tra)";
+            $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->bindParam(':id_var', $id_var, PDO::PARAM_INT);
+            $stmt->bindParam(':soluong', $soluong, PDO::PARAM_INT);
+            $stmt->bindParam(':tong_tien', $tong_tien);
+            $stmt->bindParam(':ship', $ship);
+            $stmt->bindParam(':tien_phai_tra', $tien_phai_tra);
+            $stmt->execute();
+            return $GLOBALS['conn']->lastInsertId();
+        } catch (PDOException $e) {
+            die($e->getMessage());
+        }
+    }
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         try {
-            $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
-            $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
-            $tong_tien = isset($_POST['tong_tien']) ? $_POST['tong_tien'] : null;
-            $ship = isset($_POST['ship']) ? $_POST['ship'] : null;
-            $tien_phai_tra = isset($_POST['tien_phai_tra']) ? $_POST['tien_phai_tra'] : null;
-
-            if ($id_var === null || $soluong === null || $tong_tien === null || $ship === null || $tien_phai_tra === null) {
-                $error_message = "ERROR: Missing POST variables";
-            } else {
-                function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra)
-                {
-                    try {
-                        $sql = "INSERT INTO cart (id_var, soluong, tong_tien, ship, tien_phai_tra) VALUES (:id_var, :soluong, :tong_tien, :ship, :tien_phai_tra)";
-                        $stmt = $GLOBALS['conn']->prepare($sql);
-                        $stmt->bindParam(':id_var', $id_var, PDO::PARAM_INT);
-                        $stmt->bindParam(':soluong', $soluong, PDO::PARAM_INT);
-                        $stmt->bindParam(':tong_tien', $tong_tien);
-                        $stmt->bindParam(':ship', $ship);
-                        $stmt->bindParam(':tien_phai_tra', $tien_phai_tra);
-                        $stmt->execute();
-                        return $GLOBALS['conn']->lastInsertId();
-                    } catch (PDOException $e) {
-                        die($e->getMessage());
-                    }
-
-                }
-                addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra);
+          if (isset($_POST['update_cart'])) {
+              $soluong = $_POST['quantity'];
+              echo '<pre>';
+              print_r($soluong);
+              echo '</pre>';
+              foreach ($soluong as $id_cart => $quantity) {
 
 
-            }
+                  if (filter_var($quantity, FILTER_VALIDATE_INT) && $quantity > 0) {
+                      $sql = "UPDATE cart SET soluong = :quantity WHERE id_cart = :id_cart";
+                      $stmt = $GLOBALS['conn']->prepare($sql);
+                      $stmt->bindParam(':quantity', $quantity, PDO::PARAM_INT);
+                      $stmt->bindParam(':id_cart', $id_cart, PDO::PARAM_INT);
+                      $stmt->execute();
+
+                      
+                  } else {
+                      $error_message = "Số lượng không hợp lệ cho sản phẩm với ID: $id_cart";
+                      echo $error_message;
+
+                  }
+          } }
+          else {
+              $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
+              $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
+              $tong_tien = isset($_POST['tong_tien']) ? $_POST['tong_tien'] : null;
+              $ship = isset($_POST['ship']) ? $_POST['ship'] : null;
+              $tien_phai_tra = isset($_POST['tien_phai_tra']) ? $_POST['tien_phai_tra'] : null;
+
+              if ($id_var === null || $soluong === null || $tong_tien === null || $ship === null || $tien_phai_tra === null) {
+                  $error_message = "ERROR: Missing POST variables";
+              } else {
+                  addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra);}
+          }
+
+
         } catch (Exception $e) {
             $error_message = $e->getMessage();
+            echo $error_message;
         }
     }
     $carts = show_all_products_in_card();
@@ -55,6 +78,7 @@
         <h1>Cart page</h1>
     </div>
     <!-- /page_header -->
+  <form action="<?= BASE_URL. '?act=cart' ?>" method="POST">
     <table class="table table-striped cart-list">
         <thead>
             <tr>
@@ -76,14 +100,13 @@
             </tr>
         </thead>
         <tbody>
-
-
             <?php foreach ($carts as $cart) : ?>
               <?php if (isset($cart['id_cart'])) : ?>
         <tr>
           <td>
             <div class="thumb_cart">
-                <img src="<?= BASE_URL . 'uploads/' . $cart['img'] ?>"
+                <img src="<?= BASE_URL . 'uploads/' . $cart['img'] ?>" >
+
             </div>
             <span class="item_cart"><?= $cart['name'] ?></span>
           </td>
@@ -91,7 +114,8 @@
             <strong><?= $cart['price'] ?></strong>
           </td>
           <td class="numbers-row">
-            <input type="text" value="<?= $cart['soluong'] ?>" class="qty2" name="quantity_<?= $cart['var_id'] ?>">
+            <input type="number" name="quantity[<?= $cart['id_cart'] ?>]" value="<?= $cart['soluong'] ?>" class="qty2" min="1" autocomplete="off">
+
           </td>
           <td>
             <strong>
@@ -109,7 +133,7 @@
 
     <div class="row add_top_30 flex-sm-row-reverse cart_actions">
         <div class="col-sm-4 text-end">
-            <button type="button" class="btn_1 gray">Update Cart</button>
+          <button type="submit" class="btn_1 gray" name="update_cart">Update Cart</button>
         </div>
         <div class="col-sm-8">
             <div class="apply-coupon">
@@ -125,6 +149,7 @@
     <!-- /cart_actions -->
 
 </div>
+</form>
 <!-- /container -->
 
 <div class="box_cart">
