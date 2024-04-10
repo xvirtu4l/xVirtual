@@ -1,8 +1,8 @@
 <?php
-    require_once '/home/david/Documents/draaag/commons/env.php';
-    require_once '/home/david/Documents/draaag/commons/helper.php';
-    require_once '/home/david/Documents/draaag/commons/connect-db.php';
-    require_once '/home/david/Documents/draaag/commons/model.php';
+    require_once PATH_VIEW . '../commons/env.php';
+    require_once PATH_VIEW . '../commons/helper.php';
+    require_once PATH_VIEW . '../commons/connect-db.php';
+    require_once PATH_VIEW . '../commons/model.php';
     function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra)
     {
         try {

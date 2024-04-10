@@ -24,7 +24,7 @@ match($act) {
     'cart'      => cartIndex(),
     'checkout'  => checkoutIndex(),
     'perfect'   => pfIndex(),
-    'tracking' => trackingIndex(),
+    'tracking'  => trackingIndex(),
 };
 
 require_once './commons/disconnect-db.php';

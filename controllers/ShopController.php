@@ -5,7 +5,7 @@ function shopIndex(){
     $view           = 'shop';
     
     $i = $GLOBALS['page'];
-    $limit = 3; // số lượng sp muốn để trên 1 trang
+    $limit = 6; // số lượng sp muốn để trên 1 trang
     $initial_page = ($i - 1) * $limit;
     $dataProduct    = selectAllProductPhantrang($limit, $initial_page);
     $total_rows = getTotalPageProduct();
