@@ -136,8 +136,8 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
 
 
                                     <div class="total_drop">
-                                        <div class="clearfix"><strong>Total</strong><span><?= $totalPrice ?> đ</span></div>
-                                        <a href="<?= BASE_URL ?>?act=cart" class="btn_1 outline">View Cart</a><a href="checkout.html" class="btn_1">Checkout</a>
+                                        <div class="clearfix"><strong>Total</strong><span><?= number_format($totalPrice) ?> đ</span></div>
+                                        <a href="<?= BASE_URL ?>?act=cart" class="btn_1 outline">View Cart</a><a href="<?= BASE_URL ?>?act=checkout" class="btn_1">Checkout</a>
                                     </div>
                                 </div>
                             </div>
