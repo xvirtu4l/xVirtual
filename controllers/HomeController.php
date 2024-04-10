@@ -4,7 +4,7 @@ function homeIndex() {
     
     $view   = 'home';
     $script = 'home';
-    $dataProductTop8 = top6Product();
+    $dataProductTop8 = top8Product();
     $dataProduct = selectAllProduct();
 //    $variant = getVariantById($var_id);
 //    $firstVariant = getFirstVariantByProductId($product_id);
