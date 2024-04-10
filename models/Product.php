@@ -17,7 +17,7 @@
     function getFirstVariantByProductId($product_id)
     {
         try {
-            $sql = "SELECT * FROM variant WHERE id_pro = :id_pro ORDER BY var_id ASC LIMIT 1";
+            $sql = "SELECT * FROM variant WHERE id_pro = :id_pro AND quantity > 0 ORDER BY var_id ASC LIMIT 1";
             $stmt = $GLOBALS['conn']->prepare($sql);
             $stmt->bindParam(':id_pro', $product_id, PDO::PARAM_INT);
             $stmt->execute();

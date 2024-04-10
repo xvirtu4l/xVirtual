@@ -31,3 +31,12 @@
 
         require_once PATH_VIEW . 'layouts/master.php';
     }
+
+
+    function searchIndex()
+    {
+        $view = 'search';
+
+        require_once PATH_VIEW . 'layouts/master.php';
+
+    }

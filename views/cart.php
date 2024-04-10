@@ -18,31 +18,57 @@
         } catch (PDOException $e) {
             die($e->getMessage());
         }
-
     }
+    $voucherDiscount = 0;
+    $voucherMessage = '';
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    try {
-        $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
-        $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
-        $tong_tien = isset($_POST['tong_tien']) ? $_POST['tong_tien'] : null;
-        $ship = isset($_POST['ship']) ? $_POST['ship'] : null;
-        $tien_phai_tra = isset($_POST['tien_phai_tra']) ? $_POST['tien_phai_tra'] : null;
+        try {
+          if (isset($_POST['update_cart'])) {
+              $soluong = $_POST['quantity'];
+              foreach ($soluong as $id_cart => $quantity) {
+                  if (filter_var($quantity, FILTER_VALIDATE_INT) && $quantity > 0) {
+                      $sql = "UPDATE cart SET soluong = :quantity WHERE id_cart = :id_cart";
+                      $stmt = $GLOBALS['conn']->prepare($sql);
+                      $stmt->bindParam(':quantity', $quantity, PDO::PARAM_INT);
+                      $stmt->bindParam(':id_cart', $id_cart, PDO::PARAM_INT);
+                      $stmt->execute();
 
-        if ($id_var === null || $soluong === null || $tong_tien === null || $ship === null || $tien_phai_tra === null) {
-            echo "ERROR: Missing POST variables";
-            exit;
+                  } else {
+                      $error_message = "Số lượng không hợp lệ cho sản phẩm với ID: $id_cart";
+
+                  }
+          }
+          }
+          elseif (isset($_POST['apply_voucher'])) {
+              $voucherCode = $_POST['voucher_code'];
+              $voucherDiscountVaild = checkVoucherValidity($voucherCode);
+              if ($voucherDiscountVaild) {
+                  $voucherDiscount = getdisValue($voucherCode);
+                  $voucherMessage = '<p class="text-success">Mã voucher hợp lệ. Bạn được giảm giá: ' . ($voucherDiscount * 100) . '%</p>';
+              } else {
+                  $voucherMessage = '<p class="text-danger">Mã voucher không hợp lệ hoặc đã hết hạn.</p>';
+              }
+
+          }
+          else {
+              $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
+              $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
+              $tong_tien = isset($_POST['tong_tien']) ? $_POST['tong_tien'] : null;
+              $ship = isset($_POST['ship']) ? $_POST['ship'] : null;
+              $tien_phai_tra = isset($_POST['tien_phai_tra']) ? $_POST['tien_phai_tra'] : null;
+
+              if ($id_var === null || $soluong === null || $tong_tien === null || $ship === null || $tien_phai_tra === null) {
+                  $error_message = "ERROR: Missing POST variables";
+              } else {
+                  addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra);}
+          }
+
+        } catch (Exception $e) {
+            $error_message = $e->getMessage();
         }
-        $result = addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra );
-        var_dump($result);
-        if ($result) {
-            echo "SUCCESS";
-        } else {
-            echo "ERROR";
-        }
-    } catch (Exception $e) {
-      die($e->getMessage());
     }
-
+    $carts = sshow_all_products_in_card();
     ?>
 
 <div class="container margin_30">
@@ -57,6 +83,7 @@
         <h1>Cart page</h1>
     </div>
     <!-- /page_header -->
+  <form action="<?= BASE_URL. '?act=cart' ?>" method="POST">
     <table class="table table-striped cart-list">
         <thead>
             <tr>
@@ -78,91 +105,40 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>
-                    <div class="thumb_cart">
-                        <img src="img/products/shoes/1.jpg" data-src="img/products/shoes/1.jpg" class="lazy loaded" alt="Image" data-was-processed="true">
-                    </div>
-                    <span class="item_cart">Armor Air x Fear</span>
-                </td>
-                <td>
-                    <strong>$140.00</strong>
-                </td>
-                <td>
-                    <div class="numbers-row">
-                        <input type="text" value="1" id="quantity_1" class="qty2" name="quantity_1">
-                        <div class="inc button_inc">+</div>
-                        <div class="dec button_inc">-</div>
-                        <div class="inc button_inc">+</div>
-                        <div class="dec button_inc">-</div>
-                    </div>
-                </td>
-                <td>
-                    <strong>$140.00</strong>
-                </td>
-                <td class="options">
-                    <a href="#"><i class="ti-trash"></i></a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="thumb_cart">
-                        <img src="img/products/shoes/2.jpg" data-src="img/products/shoes/2.jpg" class="lazy loaded" alt="Image" data-was-processed="true">
-                    </div>
-                    <span class="item_cart">Armor Okwahn II</span>
-                </td>
-                <td>
-                    <strong>$110.00</strong>
-                </td>
-                <td>
-                    <div class="numbers-row">
-                        <input type="text" value="1" id="quantity_2" class="qty2" name="quantity_2">
-                        <div class="inc button_inc">+</div>
-                        <div class="dec button_inc">-</div>
-                        <div class="inc button_inc">+</div>
-                        <div class="dec button_inc">-</div>
-                    </div>
-                </td>
-                <td>
-                    <strong>$110.00</strong>
-                </td>
-                <td class="options">
-                    <a href="#"><i class="ti-trash"></i></a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="thumb_cart">
-                        <img src="img/products/shoes/3.jpg" data-src="img/products/shoes/3.jpg" class="lazy loaded" alt="Image" data-was-processed="true">
-                    </div>
-                    <span class="item_cart">Armor Air Wildwood ACG</span>
-                </td>
-                <td>
-                    <strong>$90.00</strong>
-                </td>
+            <?php foreach ($carts as $cart) : ?>
+              <?php if (isset($cart['id_cart'])) : ?>
+        <tr>
+          <td>
+            <div class="thumb_cart">
+                <img src="<?= BASE_URL . 'uploads/' . $cart['img'] ?>" >
 
-                <td>
-                    <div class="numbers-row">
-                        <input type="text" value="1" id="quantity_3" class="qty2" name="quantity_3">
-                        <div class="inc button_inc">+</div>
-                        <div class="dec button_inc">-</div>
-                        <div class="inc button_inc">+</div>
-                        <div class="dec button_inc">-</div>
-                    </div>
-                </td>
-                <td>
-                    <strong>$90.00</strong>
-                </td>
-                <td class="options">
-                    <a href="#"><i class="ti-trash"></i></a>
-                </td>
-            </tr>
+            </div>
+            <span class="item_cart"><?= $cart['name'] ?></span>
+          </td>
+          <td>
+            <strong><?= $cart['price'] ?></strong>
+          </td>
+          <td class="numbers-row">
+            <input type="number" name="quantity[<?= $cart['id_cart'] ?>]" value="<?= $cart['soluong'] ?>" class="qty2" min="1" autocomplete="off">
+
+          </td>
+          <td>
+            <strong>
+              <?= $cart['soluong'] * $cart['price'] ?>
+            </strong>
+          </td>
+          <td class="option">
+            <a href="<?= BASE_URL ?>?act=cart-delete&id=<?= $cart['id_cart'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')"><i class="ti-trash"></i></a>
+          </td>
+        </tr>
+            <?php endif;?>
+        <?php endforeach;?>
         </tbody>
     </table>
 
     <div class="row add_top_30 flex-sm-row-reverse cart_actions">
         <div class="col-sm-4 text-end">
-            <button type="button" class="btn_1 gray">Update Cart</button>
+          <button type="submit" class="btn_1 gray" name="update_cart">Update Cart</button>
         </div>
         <div class="col-sm-8">
             <div class="apply-coupon">
@@ -178,6 +154,7 @@
     <!-- /cart_actions -->
 
 </div>
+</form>
 <!-- /container -->
 
 <div class="box_cart">
@@ -185,14 +162,31 @@
         <div class="row justify-content-end">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <ul>
+                    <?php
+                        $totalship = 0;
+                        $totalP = 0;
+                        $tong = 0;
+                        foreach ($carts as $ccc) {
+                            $totalP += ($ccc['soluong'] * $ccc['price']);
+                        }
+                        $totalship = (0.000005 * $totalP);
+
+                    ?>
                     <li>
-                        <span>Tổng Tiền Hàng</span> $240.00
+                        <span>Tổng Tiền Hàng</span> <?= $totalP ?>đ
                     </li>
                     <li>
-                        <span>Shipping</span> $7.00
+                        <span>Shipping</span> <?=$totalship ?>đ
                     </li>
+                  <li>
+                    <form action="<?= BASE_URL. '?act=cart' ?>" method="post">
+                      <input type="text" name="voucher_code" placeholder="Nhập mã voucher" required />
+                      <input type="submit" name="apply_voucher" value="Áp dụng" />
+                        <?= $voucherMessage ?>
+                    </form>
+                  </li>
                     <li>
-                        <span>Tổng Thanh Toán</span> $247.00
+                        <span>Tổng Thanh Toán</span> <?=($totalP + $totalship) - (($totalP + $totalship) * $voucherDiscount); ?>đ
                     </li>
                 </ul>
                 <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
@@ -200,4 +194,3 @@
         </div>
     </div>
 </div>
-<!-- /box_cart -->

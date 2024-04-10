@@ -20,10 +20,10 @@
             tong_tien: tongTien,
             ship: ship,
             tien_phai_tra: tienPhaiTra
-            // id_var: 1, // Dữ liệu giả cho id_var
-            // soluong: 2, // Dữ liệu giả cho soluong
-            // tong_tien: 100, // Dữ liệu giả cho tong_tien
-            // ship: 10, // Dữ liệu giả cho ship
+            // id_var: 1,
+            // soluong: 2,
+            // tong_tien: 100,
+            // ship: 10,
             // tien_phai_tra: 110
           },
           success: function(response) {
@@ -36,6 +36,7 @@
       });
     });
   </script>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">

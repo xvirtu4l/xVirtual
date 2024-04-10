@@ -22,9 +22,12 @@ match($act) {
     'login'     => loginIndex(),
     'logup'     => logupIndex(),
     'cart'      => cartIndex(),
+    'cart-delete' => cartDelete($_GET['id']),
     'checkout'  => checkoutIndex(),
     'perfect'   => pfIndex(),
-    'tracking'  => trackingIndex(),
+    'tracking' => trackingIndex(),
+    'icon_cart_delete' => iconCartDelete($_GET['id']),
+    'search' => searchIndex()
 };
 
 require_once './commons/disconnect-db.php';

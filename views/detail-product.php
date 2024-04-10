@@ -94,50 +94,51 @@
           </div>
 
           <div class="row">
-            <label class="col-xl-5 col-lg-5 col-md-6 col-6"><strong>Quantity</strong></label>
-            <div class="col-xl-4 col-lg-5 col-md-6 col-6">
-              <div class="numbers-row">
-                <input type="text" value="1" id="quantity_1" class="qty2" name="quantity_1" min="0" max="100">
-
+            <form action="<?=BASE_URL . "?act=cart"?>" method="post">
+              <label class="col-xl-5 col-lg-5 col-md-6 col-6"><strong>Quantity</strong></label>
+              <div class="col-xl-4 col-lg-5 col-md-6 col-6">
+                <div class="numbers-row">
+                  <input type="text" value="1" id="quantity_1" class="qty2" name="soluong" min="0" max="100">
+                </div>
               </div>
-            </div>
+
+
+              <input type="hidden" name="id_var" value="<?= $variant_pro['var_id'] ?>" />
+              <input type="hidden" name="tong_tien" value="<?= $product['price'] ?>" />
+              <input type="hidden" name="ship" value="2000" />
+              <input type="hidden" name="tien_phai_tra" value="<?= $product['price'] + 2000 ?>" />
+
+              <input type="hidden" name="action" value="add">
+
+              <div class="row">
+                <div class="col-lg-5 col-md-6">
+                  <div class="price_main"><span class="new_price">
+                              <?= number_format($product['price'], 0, ',') ?> VND
+                          </span><span class="percentage">-20%</span> <span class="old_price">$160.00</span></div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="btn_add_to_cart">
+                      <?php if ($number_row > 0): ?>
+                        <button type="submit" class="btn_1 disabled" disabled>Add to Cart</button>
+                      <?php else: ?>
+                        <button type="submit" class="btn_1">Add to Cart</button>
+                      <?php endif; ?>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-            <?php
 
-                $variant = getFirstVariantByProductId($product['id']);
-                if ($variant) {
-                    $soluong = 1;
-                    $tong_tien = $variant['price'] * $soluong;
-                    $ship = 20000; // Phí ship cố định
-                    $tien_phai_tra = $tong_tien + $ship;
-                }
-            ?>
-          <div class="row">
-            <div class="col-lg-5 col-md-6">
-              <div class="price_main"><span class="new_price">
-                                    <?= number_format($product['price'], 0, ',') ?> VND
-                                </span><span class="percentage">-20%</span> <span class="old_price">$160.00</span></div>
-            </div>
+          <style>
+            .disabled {
+              pointer-events: none;
+              color: #ccc !important;
+              background-color: #f4f4f4 !important;
+              border-color: #ccc !important;
+            }
+          </style>
 
-            <div class="col-lg-4 col-md-6">
-              <div class="btn_add_to_cart">
-                  <?php if ($number_row > 0): ?>
-                    <a href="#" class="btn_1 disabled" onclick="return false;">Add to Cart</a>
-                  <?php else: ?>
-                    <a href="#0" id="add-to-cart-btn" class="btn_1" <?= $number_row > 0 ? 'disabled onclick="return false;"' : '' ?>>Add to Cart</a>
-                  <?php endif; ?>
-              </div>
-            </div>
-
-            <style>
-              .disabled {
-                pointer-events: none;
-                color: #ccc !important;
-                background-color: #f4f4f4 !important;
-                border-color: #ccc !important;
-                text-decoration: none;
-              }
-            </style>
           </div>
         </div>
         <!-- /prod_info -->
