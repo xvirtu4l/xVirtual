@@ -24,7 +24,7 @@ function detail_product() {
 
     $id                    = $_GET['id'] ?? null;
     $product               = selectOneProduct($id);
-    $sp                    = top6Product();
+    $sp                    = top8Product();
     $variantall            = selectAllVariants($id);
     $variant_pro = getFirstVariantByProductId($id);
     $distinctcolor         = selectDistinctColors($id);

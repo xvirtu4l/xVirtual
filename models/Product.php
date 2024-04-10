@@ -84,9 +84,9 @@ function getTotalPageProduct() {
 }
 
 //top6 
-function top6Product() {
+function top8Product() {
     try {
-        $sql = 'select * from sanpham LIMIT 6';
+        $sql = 'select * from sanpham LIMIT 8';
         $stmt = $GLOBALS['conn']->prepare($sql);
         $stmt->execute();
         $result = $stmt->fetchAll();

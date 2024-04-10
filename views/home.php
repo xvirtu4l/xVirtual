@@ -43,7 +43,7 @@
         <p>Siêu Sale</p>
     </div>
     <div class="row small-gutters">
-        <?php foreach($dataProduct as  $key => $value) : ?>
+        <?php foreach($dataProductTop8 as  $key => $value) : ?>
             <?php
             $variant = getFirstVariantByProductId($value['id']);
             $soluong = 1;

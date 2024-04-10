@@ -1,8 +1,8 @@
 <?php
-    require_once PATH_VIEW . '../commons/env.php';
-    require_once PATH_VIEW . '../commons/helper.php';
-    require_once PATH_VIEW . '../commons/connect-db.php';
-    require_once PATH_VIEW . '../commons/model.php';
+    require_once  './commons/env.php';
+    require_once  './commons/helper.php';
+    require_once  './commons/connect-db.php';
+    require_once  './commons/model.php';
     function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra)
     {
         try {
@@ -68,7 +68,7 @@
             $error_message = $e->getMessage();
         }
     }
-    $carts = sshow_all_products_in_card();
+    $carts = show_all_products_in_card();
     ?>
 
 <div class="container margin_30">
