@@ -1,9 +1,50 @@
 <?php
-    require_once PATH_VIEW . '../commons/env.php';
-    require_once PATH_VIEW . '../commons/helper.php';
-    require_once PATH_VIEW . '../commons/connect-db.php';
-    require_once PATH_VIEW . '../commons/model.php';
+    require_once '/home/david/Documents/draaag/commons/env.php';
+    require_once '/home/david/Documents/draaag/commons/helper.php';
+    require_once '/home/david/Documents/draaag/commons/connect-db.php';
+    require_once '/home/david/Documents/draaag/commons/model.php';
 
+    function checkVoucherValidity($voucherCode)
+    {
+        try {
+            $currentDateTime = new DateTime();
+            //            var_dump($currentDateTime);
+            $sql = "SELECT * FROM vouchers WHERE code = :voucherCode";
+            $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->bindParam(':voucherCode', $voucherCode);
+            $stmt->execute();
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+            if ($result) {
+                $resultStartDate = new DateTime($result['start_date']);
+                $resultEndDate = new DateTime($result['end_date']);
+                if (($result['quantity'] > 0) && ($resultStartDate < $currentDateTime) && $currentDateTime < $resultEndDate ) {
+                    return true;
+                } else {
+                    return false;
+                }
+
+            } else {
+                return false;
+            }
+
+
+
+        } catch (Exception $e) {
+            return false;
+        }
+    }
+    function getdisValue($voucherCode)
+    {
+        try {
+            $sql = "SELECT * FROM vouchers";
+            $stmt = $GLOBALS['conn']->prepare($sql);
+            $stmt->execute();
+            $result =  $stmt->fetch(PDO::FETCH_ASSOC);
+            return $result['discount_value'];
+        } catch (Exception $e) {
+            die($e->getMessage());
+        }
+    }
     function sshow_all_products_in_card() {
         try {
             $sql =  "SELECT c.id_cart, sp.name, sp.img, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
@@ -18,7 +59,6 @@
             die($e->getMessage());
         }
     }
-
     function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra) {
         try {
             $sql = "INSERT INTO cart (id_var, soluong, tong_tien, ship, tien_phai_tra) VALUES (:id_var, :soluong, :tong_tien, :ship, :tien_phai_tra)";
@@ -34,7 +74,10 @@
             die($e->getMessage());
         }
     }
+    $voucherDiscount = 0;
+    $voucherMessage = '';
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
         try {
             if (isset($_POST['update_cart'])) {
                 $soluong = $_POST['quantity'];
@@ -51,6 +94,17 @@
 
                     }
                 }
+            }
+            elseif (isset($_POST['apply_voucher'])) {
+                $voucherCode = $_POST['voucher_code'];
+                $voucherDiscountVaild = checkVoucherValidity($voucherCode);
+                if ($voucherDiscountVaild) {
+                    $voucherDiscount = getdisValue($voucherCode);
+                    $voucherMessage = '<p class="text-success">Mã voucher hợp lệ. Bạn được giảm giá: ' . ($voucherDiscount * 100) . '%</p>';
+                } else {
+                    $voucherMessage = '<p class="text-danger">Mã voucher không hợp lệ hoặc đã hết hạn.</p>';
+                }
+
             }
             else {
                 $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
@@ -70,7 +124,7 @@
         }
     }
     $carts = sshow_all_products_in_card();
-    ?>
+?>
 
 <div class="container margin_30">
   <div class="page_header">
@@ -117,7 +171,7 @@
               <span class="item_cart"><?= $cart['name'] ?></span>
             </td>
             <td>
-              <strong><?= number_format($cart['price']) ?></strong>
+              <strong><?= $cart['price'] ?></strong>
             </td>
             <td class="numbers-row">
               <input type="number" name="quantity[<?= $cart['id_cart'] ?>]" value="<?= $cart['soluong'] ?>" class="qty2" min="1" autocomplete="off">
@@ -125,7 +179,7 @@
             </td>
             <td>
               <strong>
-                  <?= number_format($cart['soluong'] * $cart['price']) ?>
+                  <?= $cart['soluong'] * $cart['price'] ?>
               </strong>
             </td>
             <td class="option">
@@ -171,16 +225,23 @@
                     $totalP += ($ccc['soluong'] * $ccc['price']);
                 }
                 $totalship = (0.000005 * $totalP);
-                $tong = $totalP + $totalship;
+
             ?>
           <li>
-            <span>Tổng Tiền Hàng</span> <?= number_format($totalP) ?>đ
+            <span>Tổng Tiền Hàng</span> <?= $totalP ?>đ
           </li>
           <li>
-            <span>Shipping</span> <?= number_format($totalship) ?>đ
+            <span>Shipping</span> <?=$totalship ?>đ
           </li>
           <li>
-            <span>Tổng Thanh Toán</span> <?= number_format($tong) ?>đ
+            <form action="<?= BASE_URL. '?act=cart' ?>" method="post">
+              <input type="text" name="voucher_code" placeholder="Nhập mã voucher" required />
+              <input type="submit" name="apply_voucher" value="Áp dụng" />
+                <?= $voucherMessage ?>
+            </form>
+          </li>
+          <li>
+            <span>Tổng Thanh Toán</span> <?=($totalP + $totalship) - (($totalP + $totalship) * $voucherDiscount); ?>đ
           </li>
         </ul>
         <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
