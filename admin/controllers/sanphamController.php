@@ -94,7 +94,7 @@ function imageValidate($image) {
         $info = new finfo(FILEINFO_MIME_TYPE);
         $file_type = $info->file($image_temp);
         error_log('Uploaded file MIME type: ' . $file_type);
-        $allowed_image_types = ['image/jpeg', 'image/png', 'image/gif', 'image/pjpeg', 'image/jpg', 'image/jpeg'];
+        $allowed_image_types = ['image/jpeg', 'image/png', 'image/gif', 'image/pjpeg', 'image/jpg', 'image/jpeg', 'image/webp'];
         if (!in_array($image_type, $allowed_image_types)) {
             $errors[] = 'Your chosen file type is not allowed.';
         }
@@ -212,12 +212,3 @@ function sanphamDelete($id)
     header('Location: ' . BASE_URL_ADMIN . '?act=sanpham');
     exit();
 }
-
-
-
-
-
-
-
-
-
