@@ -120,9 +120,9 @@
                 <div class="col-lg-4 col-md-6">
                   <div class="btn_add_to_cart">
                       <?php if ($number_row > 0): ?>
-                        <button type="submit" class="btn_1 disabled" disabled>Add to Cart</button>
+                        <button type="submit" class="btn_1" >Add to Cart</button>
                       <?php else: ?>
-                        <button type="submit" class="btn_1">Add to Cart</button>
+                        <button type="submit" class="btn_1 disabled" disabled>Add to Cart</button>
                       <?php endif; ?>
                   </div>
                 </div>

@@ -1,8 +1,8 @@
 <?php
-    require_once '/home/david/Documents/draaag/commons/env.php';
-    require_once '/home/david/Documents/draaag/commons/helper.php';
-    require_once '/home/david/Documents/draaag/commons/connect-db.php';
-    require_once '/home/david/Documents/draaag/commons/model.php';
+    require_once PATH_VIEW . '../commons/env.php';
+    require_once PATH_VIEW . '../commons/helper.php';
+    require_once PATH_VIEW . '../commons/connect-db.php';
+    require_once PATH_VIEW . '../commons/model.php';
 
     function sshow_all_products_in_card() {
         try {
@@ -117,7 +117,7 @@
               <span class="item_cart"><?= $cart['name'] ?></span>
             </td>
             <td>
-              <strong><?= $cart['price'] ?></strong>
+              <strong><?= number_format($cart['price']) ?></strong>
             </td>
             <td class="numbers-row">
               <input type="number" name="quantity[<?= $cart['id_cart'] ?>]" value="<?= $cart['soluong'] ?>" class="qty2" min="1" autocomplete="off">
@@ -125,7 +125,7 @@
             </td>
             <td>
               <strong>
-                  <?= $cart['soluong'] * $cart['price'] ?>
+                  <?= number_format($cart['soluong'] * $cart['price']) ?>
               </strong>
             </td>
             <td class="option">
@@ -174,13 +174,13 @@
                 $tong = $totalP + $totalship;
             ?>
           <li>
-            <span>Tổng Tiền Hàng</span> <?= $totalP ?>đ
+            <span>Tổng Tiền Hàng</span> <?= number_format($totalP) ?>đ
           </li>
           <li>
-            <span>Shipping</span> <?=$totalship ?>đ
+            <span>Shipping</span> <?= number_format($totalship) ?>đ
           </li>
           <li>
-            <span>Tổng Thanh Toán</span> <?= $tong ?>đ
+            <span>Tổng Thanh Toán</span> <?= number_format($tong) ?>đ
           </li>
         </ul>
         <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
