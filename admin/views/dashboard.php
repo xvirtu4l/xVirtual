@@ -1,7 +1,7 @@
 <?php
     global $conn;
     $dateFrom = isset($_GET['dateFrom']) ? (new DateTime($_GET['dateFrom']))->format('Y-m-d') : '2022-01-01';
-    $dateTo = isset($_GET['dateTo']) ? (new DateTime($_GET['dateTo']))->format('Y-m-d') : '2022-12-31';
+    $dateTo = isset($_GET['dateTo']) ? (new DateTime($_GET['dateTo']))->format('Y-m-d') : '2024-04-10';
     $total_sum = 0;
     $tong_tien = array();
     $test = array();
@@ -19,6 +19,7 @@
           'y' => $total,
         );
     }
+//    var_dump($total_sum);
     $formatted_tien = number_format($total_sum);
 
 
