@@ -1,3 +1,18 @@
+<?php
+if (isset($_COOKIE['message'])) :
+
+?>
+
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong><?= $_COOKIE['message'] ?? '' ?></strong> 
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<?php endif ?>
+
+
+
+
 <div class="container margin_30">
     <div class="page_header">
         <div class="breadcrumbs">
@@ -10,7 +25,7 @@
         <h1>Log In or Create an Account</h1>
     </div>
     <!-- /page_header -->
-    <div class="row justify-content-center">
+    <form class="row justify-content-center" method="post" action="">
         <div class="col-xl-6 col-lg-6 col-md-8">
             <div class="box_account">
                 <h3 class="client">Already Client</h3>
@@ -28,7 +43,7 @@
                         <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" name="password_in" id="password_in" value="" placeholder="Password*">
+                        <input type="password" class="form-control" name="password" id="password" value="" placeholder="Password*">
                     </div>
                     <div class="clearfix add_bottom_15">
                         <div class="checkboxes float-start">
@@ -39,7 +54,7 @@
                         </div>
                         <div class="float-end"><a id="forgot" href="<?= BASE_URL . '?act=logup' ?>">Đăng kí tài khoản mới.</a></div>
                     </div>
-                    <div class="text-center"><input type="submit" value="Log In" class="btn_1 full-width"></div>
+                    <div class="text-center"><input type="submit" name="submit" value="Log In" class="btn_1 full-width"></div>
                     <div id="forgot_pw">
                         <div class="form-group">
                             <input type="email" class="form-control" name="email_forgot" id="email_forgot" placeholder="Type your email">
@@ -68,8 +83,8 @@
             </div>
             <!-- /row -->
         </div>
-       
-    </div>
-    <!-- /row -->
+
+</div>
+<!-- /row -->
 </div>
 <!-- /container -->

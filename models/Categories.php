@@ -1,15 +1,12 @@
 <?php
 
-function deleteOneCart($id){
+function loadAllCategory(){
     try {
-        $sql = "DELETE FROM cart WHERE id_cart = :id";
+        $sql = 'select * from danhmuc';
         $stmt = $GLOBALS['conn']->prepare($sql);
-        $stmt->bindParam(":id", $id);
         $stmt->execute();
+        return $stmt->fetchAll();
     } catch (PDOException $e) {
         die($e->getMessage());
     }
 }
-
-
-?>

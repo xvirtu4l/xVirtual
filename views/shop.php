@@ -11,7 +11,7 @@
             <h1>Tất Cả</h1>
         </div>
     </div>
-    <img src="<?=  BASE_URL . "uploads/" . 'samsungz.webp' ?>" class="img-fluid" alt="">
+    <img src="<?= BASE_URL . "uploads/" . 'samsungz.webp' ?>" class="img-fluid" alt="">
 </div>
 <!-- /top_banner -->
 <div id="stick_here"></div>
@@ -65,7 +65,7 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
-                           
+
                         </ul>
                     </div>
                     <!-- /filter_type -->
@@ -87,9 +87,9 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
-                            
+
                             </li>
-                           </li>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
                     }
 
                     ?>
-                     
+
                     <div class="col-6 col-md-4">
                         <div class="grid_item">
                             <span class="ribbon off">-30%</span>
@@ -196,19 +196,11 @@
                                 <!-- <span class="old_price">$60.00</span> -->
                             </div>
                             <ul>
-                              <li>
-                                <a href="#0" class="tooltip-1 add-to-cart"
-                                   data-id_var="<?= $variant['var_id'] ?>"
-                                   data-soluong="<?= $soluong ?>"
-                                   data-tong_tien="<?= $tong_tien ?>"
-                                   data-ship="<?= $ship ?>"
-                                   data-tien_phai_tra="<?= $tien_phai_tra ?>"
-                                   data-bs-toggle="tooltip"
-                                   data-bs-placement="left"
-                                   title="Add to cart">
-                                  <i class="ti-shopping-cart"></i><span>Add to cart</span>
-                                </a>
-                              </li>
+                                <li>
+                                    <a href="#0" class="tooltip-1 add-to-cart" data-id_var="<?= $variant['var_id'] ?>" data-soluong="<?= $soluong ?>" data-tong_tien="<?= $tong_tien ?>" data-ship="<?= $ship ?>" data-tien_phai_tra="<?= $tien_phai_tra ?>" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart">
+                                        <i class="ti-shopping-cart"></i><span>Add to cart</span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <!-- /grid_item -->
@@ -216,25 +208,44 @@
 
                 <?php endforeach ?>
 
-            
+
 
             </div>
             <!-- /row -->
             <div class="pagination__wrapper">
-                
+                <?php
+
+                $urlPage = '';
+
+                if ($act == 'shop') {
+                    $urlPage = '?act=shop&page=';
+                }
+
+                if (isset($_GET['category'])) {
+                    $category = $_GET['category'];
+                    if ($category == 'dien-thoai') {
+                        $urlPage = '?act=shop&category=dien-thoai&page=';
+                    } else if ($category == 'laptop') {
+                        $urlPage = '?act=shop&category=laptop&page=';
+                    } else if ($category == 'phu-kien') {
+                        $urlPage = '?act=shop&category=phu-kien&page=';
+                    }
+                }
+
+                ?>
                 <ul class="pagination">
-                    <li><a href="<?= BASE_URL  ?>?act=shop&page=<?= ($i > 1) ? ($i -1) : 1 ?>" class="prev" title="previous page">&#10094;</a></li>
-                    
-                    <?php  for($page = 1; $page <= $total_i; $page++) :  ?>
-                
-                    <li>
-                        <a href="<?= BASE_URL . '?act=shop&page=' . $page ?>" class="<?= ($page==$i) ? "active" : '' ?>"><?= $page ?></a>
-                    </li>
+                    <li><a href="<?= BASE_URL . $urlPage ?><?= ($i > 1) ? ($i - 1) : 1 ?>" class="prev" title="previous page">&#10094;</a></li>
 
-                     <?php endfor ?>
+                    <?php for ($page = 1; $page <= $total_i; $page++) :  ?>
 
-                    
-                    <li><a href="<?= BASE_URL  ?>?act=shop&page=<?= ($i==$total_i) ? $i : ($i + 1) ?>" class="next" title="next page">&#10095;</a></li>
+                        <li>
+                            <a href="<?= BASE_URL . $urlPage . $page ?>" class="<?= ($page == $i) ? "active" : '' ?>"><?= $page ?></a>
+                        </li>
+
+                    <?php endfor ?>
+
+
+                    <li><a href="<?= BASE_URL  . $urlPage ?><?= ($i == $total_i) ? $i : ($i + 1) ?>" class="next" title="next page">&#10095;</a></li>
                 </ul>
             </div>
         </div>

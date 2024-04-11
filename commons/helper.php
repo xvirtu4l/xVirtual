@@ -63,7 +63,7 @@ if (!function_exists('middleware_auth_check')) {
             }
         } 
         elseif (empty($_SESSION['user'])) {
-            header('Location: ' . BASE_URL_ADMIN . '?act=login');
+            header('Location: ' . BASE_URL . '?act=login');
             exit();
         }
     }

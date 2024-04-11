@@ -63,7 +63,7 @@ match($act) {
 
 
     // CRUD post
-    'posts' => postListAll(),
+    // 'posts' => postListAll(),
     'post-detail' => postShowOne($_GET['id']),
     'post-create' => postCreate(),
     'post-update' => postUpdate($_GET['id']),

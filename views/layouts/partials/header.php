@@ -1,13 +1,13 @@
 <?php
-    try {
-        $stmt = $GLOBALS['conn']->query("SELECT c.id_cart, c.soluong, sp.img, sp.name, c.tong_tien
+try {
+    $stmt = $GLOBALS['conn']->query("SELECT c.id_cart, c.soluong, sp.img, sp.name, c.tong_tien
 FROM cart c
 INNER JOIN variant v ON c.id_var = v.var_id
 INNER JOIN sanpham sp ON v.id_pro = sp.id;");
-        $productsss = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    } catch (PDOException $e) {
-        echo "Error: " . $e->getMessage();
-    }
+    $productsss = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+    echo "Error: " . $e->getMessage();
+}
 
 ?>
 <header class="version_1">
@@ -41,10 +41,10 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
                             </li>
 
                             <li>
-                              <a href="<?= BASE_URL . '?act=tracking' ?>">tracking</a>
+                                <a href="<?= BASE_URL . '?act=tracking' ?>">tracking</a>
                             </li>
-                            
-                           
+
+
 
                         </ul>
                     </div>
@@ -77,18 +77,15 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
                                 </span>
                                 <div id="menu">
                                     <ul>
-                                        <li><span><a href="#0">Điện Thoại</a></span>
-                                            <ul>
-                                                <li><a href="listing-grid-1-full.html">SamSung</a></li>
-                                                <li><a href="listing-grid-2-full.html">Iphone</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><span><a href="#">Phụ Kiện</a></span>
-                                            <ul>
-                                                <li><a href="listing-grid-6-sidebar-left.html">Kính Cường Lực</a></li>
-                                                <li><a href="listing-grid-7-sidebar-right.html">Óp Lưng</a></li>
-                                            </ul>
-                                        </li>
+                                        <?php $dataCategory = loadAllCategory() ?>
+                                        <?php foreach ($dataCategory as $key => $value) : ?>
+
+                                            <li><span><a href="<?= BASE_URL . '?act=shop&category=' . $value['slug'] ?>"><?=  $value['name'] ?></a></span>
+                                                
+                                            </li>
+
+
+                                        <?php endforeach ?>
                                     </ul>
                                 </div>
                             </li>
@@ -96,43 +93,43 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
                     </nav>
                 </div>
                 <div class="col-xl-6 col-lg-7 col-md-6 d-none d-md-block">
-                  <form action="<?= BASE_URL . '?act=search'?>" method="post">
-                    <div class="custom-search-input">
-                      <input type="text" name="search_query" placeholder="Search" required>
-                      <button type="submit" name="iccsearch"><i class="header-icon_search_custom"></i></button>
-                    </div>
-                  </form>
+                    <form action="<?= BASE_URL . '?act=search' ?>" method="post">
+                        <div class="custom-search-input">
+                            <input type="text" name="search_query" placeholder="Search" required>
+                            <button type="submit" name="iccsearch"><i class="header-icon_search_custom"></i></button>
+                        </div>
+                    </form>
                 </div>
                 <?php
-                    $productCount = count($productsss);
-                    $totalPrice = 0;
-                    foreach ($productsss as $pro) {
-                        $totalPrice += $pro['tong_tien'];
-                    }
+                $productCount = count($productsss);
+                $totalPrice = 0;
+                foreach ($productsss as $pro) {
+                    $totalPrice += $pro['tong_tien'];
+                }
                 ?>
                 <div class="col-xl-3 col-lg-2 col-md-3">
                     <ul class="top_tools">
                         <li>
                             <div class="dropdown dropdown-cart">
-                                <a href="<?= BASE_URL . '?act=cart' ?>" class="cart_bt"><strong><?=$productCount ?></strong></a>
+                                <a href="<?= BASE_URL . '?act=cart' ?>" class="cart_bt"><strong><?= $productCount ?></strong></a>
                                 <div class="dropdown-menu">
 
 
-                                  <ul>
-                                      <?php foreach ($productsss as $pro): ?>
-                                        <li>
-                                          <a href="<?= BASE_URL . '?act=detail&id=' . $pro['id_cart'] ?>">
-                                            <figure>
-                                              <img src="img/products/product_placeholder_square_small.jpg" data-src="<?= BASE_URL . 'uploads/' . $pro['img'] ?>" alt="" width="50" height="50" class="lazy">
-                                            </figure>
-                                            <strong>
-                                              <span>1x <?= htmlspecialchars($pro['name']) ?></span>
-                                              <?= number_format($pro['tong_tien'], 2) ?>đ
-                                            </strong>
-                                          </a>
-                                        </li>
-                                      <?php endforeach; ?>
-                                  </ul>
+                                    <ul>
+                                        <?php foreach ($productsss as $pro) : ?>
+                                            <li>
+                                                <a href="<?= BASE_URL . '?act=detail&id=' . $pro['id_cart'] ?>">
+                                                    <figure>
+                                                        <img src="img/products/product_placeholder_square_small.jpg" data-src="<?= BASE_URL . 'uploads/' . $pro['img'] ?>" alt="" width="50" height="50" class="lazy">
+                                                    </figure>
+                                                    <strong>
+                                                        <span>1x <?= htmlspecialchars($pro['name']) ?></span>
+                                                        <?= number_format($pro['tong_tien'], 2) ?>đ
+                                                    </strong>
+                                                </a>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
 
 
                                     <div class="total_drop">
@@ -143,33 +140,43 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
                             </div>
                             <!-- /dropdown-cart-->
                         </li>
-                      
+
                         <li>
                             <div class="dropdown dropdown-access">
-                                <a href="<?= BASE_URL . '?act=login' ?>" class="access_link"><span>Account</span></a>
+                                <a href="#" class="access_link"><span>Account</span></a>
                                 <div class="dropdown-menu">
-                                    <a href="<?= BASE_URL . '?act=login' ?>" class="btn_1">Sign In or Sign Up</a>
-                                    <ul>
-                                        <li>
-                                            <a href="track-order.html"><i class="ti-truck"></i>Track your Order</a>
-                                        </li>
-                                        <li>
-                                            <a href="account.html"><i class="ti-package"></i>My Orders</a>
-                                        </li>
-                                        <li>
-                                            <a href="account.html"><i class="ti-user"></i>My Profile</a>
-                                        </li>
-                                        <li>
-                                            <a href="help.html"><i class="ti-help-alt"></i>Help and Faq</a>
-                                        </li>
+                                    <?php if (!empty($_SESSION['user'])) : ?>
 
-                                    </ul>
+                                        <a href="" class="btn_1"><?= $_SESSION['user']['user'] ?></a>
+                                        <ul>
+                                            <li>
+                                                <a href="track-order.html"><i class="ti-truck"></i>Track your Order</a>
+                                            </li>
+                                            <li>
+                                                <a href="account.html"><i class="ti-package"></i>My Orders</a>
+                                            </li>
+                                            <li>
+                                                <a href="account.html"><i class="ti-user"></i>My Profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="<?= BASE_URL . '?act=logout' ?>"><i class="ti-help-alt"></i>LogOut</a>
+                                            </li>
+
+                                        </ul>
+                                    <?php else : ?>
+
+                                        <a href="<?= BASE_URL . '?act=login' ?>" class="btn_1">Sign In or Sign Up</a>
+
+                                    <?php endif ?>
+
+
+
                                 </div>
                             </div>
                             <!-- /dropdown-access-->
                         </li>
                         <li>
-                       
+
                         </li>
                         <li>
                             <a href="#menu" class="btn_cat_mob">
@@ -187,12 +194,12 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
             <!-- /row -->
         </div>
 
-      <form action="<?= BASE_URL . '?act=search'?>" class="search_mob_wp">
-        <input type="text" name="search_query" class="form-control" placeholder="Search over 10.000 products">
-        <input type="submit" class="btn_1 full-width" value="Search">
-      </form>
+        <form action="<?= BASE_URL . '?act=search' ?>" class="search_mob_wp">
+            <input type="text" name="search_query" class="form-control" placeholder="Search over 10.000 products">
+            <input type="submit" class="btn_1 full-width" value="Search">
+        </form>
         <!-- /search_mobile -->
     </div>
     <!-- /main_nav -->
-    
+
 </header>

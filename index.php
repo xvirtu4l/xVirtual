@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 // Require file trong commons
 require_once './commons/env.php';
 require_once './commons/helper.php';
@@ -21,12 +22,13 @@ match($act) {
     'detail'    => detail_product(),
     'login'     => loginIndex(),
     'logup'     => logupIndex(),
+    'logout'    => logoutIndex(),
     'cart'      => cartIndex(),
-    'cart-delete' => cartDelete($_GET['id']),
+    'cart-delete' => cartDelete(),
     'checkout'  => checkoutIndex(),
     'perfect'   => pfIndex(),
     'tracking' => trackingIndex(),
-    'icon_cart_delete' => iconCartDelete($_GET['id']),
+    // 'icon_cart_delete' => iconCartDelete($_GET['id']),
     'search' => searchIndex()
 };
 

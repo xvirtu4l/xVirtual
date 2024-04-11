@@ -12,58 +12,47 @@
     <!-- /page_header -->
     <div class="row justify-content-center">
 
-        <div class="col-xl-6 col-lg-6 col-md-8">
+        <form class="col-xl-6 col-lg-6 col-md-8" method="post" action="">
             <div class="box_account">
-                <h3 class="new_client">New Client</h3> <small class="float-right pt-2">* Required Fields</small>
+                <h3 class="new_client">Tai khoan moi</h3> <small class="float-right pt-2">* Required Fields</small>
                 <div class="form_container">
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email_2" placeholder="Email*">
+                        <input type="email" class="form-control <?= !empty($_SESSION['error']['email']) ? 'is-invalid' : '' ?>" name="email" id="email_2" placeholder="Email*">
+                        <div class="invalid-feedback">
+                            <?= !empty($_SESSION['error']['email']) ? $_SESSION['error']['email'] : '' ?>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" name="password_in_2" id="password_in_2" value="" placeholder="Password*">
+                        <input type="password" class="form-control <?= !empty($_SESSION['error']['password']) ? 'is-invalid' : '' ?>" name="password" id="password_in_2" value="" placeholder="Password*">
+                        <div class="invalid-feedback">
+                            <?= !empty($_SESSION['error']['password']) ? $_SESSION['error']['password'] : '' ?>
+                        </div>
                     </div>
                     <hr>
-                    <div class="form-group">
-                        <label class="container_radio" style="display: inline-block; margin-right: 15px;">Private
-                            <input type="radio" name="client_type" checked="" value="private">
-                            <span class="checkmark"></span>
-                        </label>
-                        <label class="container_radio" style="display: inline-block;">Company
-                            <input type="radio" name="client_type" value="company">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
+
                     <div class="private box">
                         <div class="row no-gutters">
                             <div class="col-6 pr-1">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name*">
+                                    <input type="text" name="user" class="form-control  <?= !empty($_SESSION['error']['user']) ? 'is-invalid' : '' ?>" placeholder="Name*">
+                                    <div class="invalid-feedback">
+                                        <?= !empty($_SESSION['error']['user']) ? $_SESSION['error']['user'] : '' ?>
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-6 pl-1">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name*">
+                                    <input type="text" name="address" class="form-control  <?= !empty($_SESSION['error']['address']) ? 'is-invalid' : '' ?>" placeholder="Address">
+                                    <div class="invalid-feedback">
+                                        <?= !empty($_SESSION['error']['address']) ? $_SESSION['error']['address'] : '' ?>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Full Address*">
-                                </div>
-                            </div>
+
                         </div>
                         <!-- /row -->
-                        <div class="row no-gutters">
-                            <div class="col-6 pr-1">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="City*">
-                                </div>
-                            </div>
-                            <div class="col-6 pl-1">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Postal Code*">
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- /row -->
 
                         <div class="row no-gutters">
@@ -89,7 +78,10 @@
                             </div>
                             <div class="col-6 pl-1">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Telephone *">
+                                    <input type="text" name="tel" class="form-control  <?= !empty($_SESSION['error']['tel']) ? 'is-invalid' : '' ?>" placeholder="Tel">
+                                    <div class="invalid-feedback">
+                                        <?= !empty($_SESSION['error']['tel']) ? $_SESSION['error']['tel'] : '' ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -161,13 +153,13 @@
                             <span class="checkmark"></span>
                         </label>
                     </div>
-                    <div class="text-center"><input type="submit" value="Register" class="btn_1 full-width"></div>
+                    <div class="text-center"><input type="submit" name="submit" value="Register" class="btn_1 full-width"></div>
                 </div>
                 <!-- /form_container -->
             </div>
             <!-- /box_account -->
-        </div>
     </div>
-    <!-- /row -->
+</div>
+<!-- /row -->
 </div>
 <!-- /container -->

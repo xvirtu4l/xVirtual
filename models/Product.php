@@ -83,6 +83,37 @@ function getTotalPageProduct() {
     }
 }
 
+// select theo category
+function selectAllProductPhantrangCategory($limit, $initial_page, $id)
+{
+    try {
+        $sql = 'select * from sanpham where iddm = :iddm LIMIT :limit  OFFSET :offset';
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':iddm', $id, PDO::PARAM_INT);
+        $stmt->bindParam(':limit', $limit, PDO::PARAM_INT);
+        $stmt->bindParam(':offset', $initial_page, PDO::PARAM_INT);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+        return $result;
+    } catch (PDOException $e) {
+        die($e->getMessage());
+    }
+}
+
+// chia page co category
+function getTotalPageProductCategory($id) {
+    
+    try {
+        $sql = 'select COUNT(*) FROM sanpham where iddm = :iddm';
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':iddm', $id, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetchColumn();
+    } catch (PDOException $e) {
+        die($e->getMessage());
+    }
+}
+
 //top6 
 function top8Product() {
     try {
@@ -108,3 +139,5 @@ function selectAlldonhang($id) {
         die($e->getMessage());
     }
 }
+
+// 
