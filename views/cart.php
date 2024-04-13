@@ -4,94 +4,106 @@
     require_once '/home/david/Documents/draaag/commons/connect-db.php';
     require_once '/home/david/Documents/draaag/commons/model.php';
 
-    function checkVoucherValidity($voucherCode)
-    {
-        try {
-            $currentDateTime = new DateTime();
-            //            var_dump($currentDateTime);
-            $sql = "SELECT * FROM vouchers WHERE code = :voucherCode";
-            $stmt = $GLOBALS['conn']->prepare($sql);
-            $stmt->bindParam(':voucherCode', $voucherCode);
-            $stmt->execute();
-            $result = $stmt->fetch(PDO::FETCH_ASSOC);
-            if ($result) {
-                $resultStartDate = new DateTime($result['start_date']);
-                $resultEndDate = new DateTime($result['end_date']);
-                if (($result['quantity'] > 0) && ($resultStartDate < $currentDateTime) && $currentDateTime < $resultEndDate ) {
-                    return true;
-                } else {
-                    return false;
-                }
 
-            } else {
-                return false;
+    error_log('Session: ' . print_r($_SESSION, true));
+    $isLoggedIn = isset($_SESSION['user']['id']);
+    function addToCartSession($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra) {
+
+
+        $sql = "SELECT sp.name, sp.img, var.price, var.quantity FROM sanpham sp JOIN variant var ON sp.id = var.id_pro WHERE var.var_id = ?";
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->execute([$id_var]);
+        $product = $stmt->fetch(PDO::FETCH_ASSOC);
+        //        var_dump('product: ',$product);
+        //        var_dump('session:', $_SESSION);
+
+
+        $found = false;
+        if (!isset($_SESSION['cart'])) {
+            $_SESSION['cart'] = array();
+        }
+
+        foreach ($_SESSION['cart'] as &$item) {
+            if ($item['id_var'] == $id_var) {
+                $item['soluong'] += $soluong;
+                $item['name'] = $product['name'];
+                $item['img'] = $product['img'];
+                $item['price'] = $product['price'];
+                //                $item['tong_tien'] += $tong_tien;
+                //                $item['ship'] += $ship;
+                //                $item['tien_phai_tra'] += $tien_phai_tra;
+                $found = true;
+                break;
             }
-
-
-
-        } catch (Exception $e) {
-            return false;
         }
+        if (!$found) {
+            $_SESSION['cart'][] = [
+              'id_var' => $id_var,
+              'name' => $product['name'],
+              'img' => $product['img'],
+              'price' => $product['price'],
+              'soluong' => $soluong,
+              'tong_tien' => $tong_tien,
+              'ship' => $ship,
+              'tien_phai_tra' => $tien_phai_tra
+            ];
+        }
+        //        var_dump("SESSION['cart']", $_SESSION['cart']);
     }
-    function getdisValue($voucherCode)
+    function getCartItems($isLoggedIn)
     {
-        try {
-            $sql = "SELECT * FROM vouchers";
-            $stmt = $GLOBALS['conn']->prepare($sql);
-            $stmt->execute();
-            $result =  $stmt->fetch(PDO::FETCH_ASSOC);
-            return $result['discount_value'];
-        } catch (Exception $e) {
-            die($e->getMessage());
+        if ($isLoggedIn) {
+            mergeCartAndLogin($_SESSION['user']['id']);
+            $carts = sshow_all_products_in_card_with_id_user($_SESSION['user']['id']);
+            echo 'login';
+            foreach ($carts as $key => $cart) {
+                $carts[$key]['id_product'] = $cart['id_cart'];
+            }
+        } else {
+            if (!session_id()) {
+                session_start();
+            }
+            $carts = isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
+            echo 'session';
+            foreach ($carts as $key => $cart) {
+                $carts[$key]['id_product'] = $cart['id_var'];
+            }
         }
+        return $carts;
     }
-    function sshow_all_products_in_card() {
-        try {
-            $sql =  "SELECT c.id_cart, sp.name, sp.img, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
-                    FROM cart c
-                    JOIN variant v ON c.id_var = v.var_id
-                    JOIN sanpham sp ON v.id_pro = sp.id";
-            $stmt = $GLOBALS['conn']->prepare($sql);
-            $stmt->execute();
-            $result = $stmt->fetchAll();
-            return $result;
-        } catch (Exception $e) {
-            die($e->getMessage());
-        }
-    }
-    function addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra) {
-        try {
-            $sql = "INSERT INTO cart (id_var, soluong, tong_tien, ship, tien_phai_tra) VALUES (:id_var, :soluong, :tong_tien, :ship, :tien_phai_tra)";
-            $stmt = $GLOBALS['conn']->prepare($sql);
-            $stmt->bindParam(':id_var', $id_var, PDO::PARAM_INT);
-            $stmt->bindParam(':soluong', $soluong, PDO::PARAM_INT);
-            $stmt->bindParam(':tong_tien', $tong_tien);
-            $stmt->bindParam(':ship', $ship);
-            $stmt->bindParam(':tien_phai_tra', $tien_phai_tra);
-            $stmt->execute();
-            return $GLOBALS['conn']->lastInsertId();
-        } catch (PDOException $e) {
-            die($e->getMessage());
-        }
-    }
+    $carts = getCartItems($isLoggedIn);
+
+
     $voucherDiscount = 0;
     $voucherMessage = '';
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
         try {
             if (isset($_POST['update_cart'])) {
                 $soluong = $_POST['quantity'];
-                foreach ($soluong as $id_cart => $quantity) {
+                $isLoggedIn = isset($_SESSION['user']['id']);
+                foreach ($soluong as $id_product => $quantity) {
                     if (filter_var($quantity, FILTER_VALIDATE_INT) && $quantity > 0) {
-                        $sql = "UPDATE cart SET soluong = :quantity WHERE id_cart = :id_cart";
-                        $stmt = $GLOBALS['conn']->prepare($sql);
-                        $stmt->bindParam(':quantity', $quantity, PDO::PARAM_INT);
-                        $stmt->bindParam(':id_cart', $id_cart, PDO::PARAM_INT);
-                        $stmt->execute();
-
+                        if ($isLoggedIn) {
+                            $sql = "UPDATE cart SET soluong = :quantity WHERE id_user = :user_id AND id_cart = :id_var";
+                            $stmt = $GLOBALS['conn']->prepare($sql);
+                            $stmt->bindParam(':quantity', $quantity, PDO::PARAM_INT);
+                            $stmt->bindParam(':user_id', $_SESSION['user']['id'], PDO::PARAM_INT);
+                            $stmt->bindParam(':id_var', $id_product, PDO::PARAM_INT);
+                            $stmt->execute();
+                        } else {
+                            foreach ($_SESSION['cart'] as $index =>$item) {
+                                if ($item['id_var'] == $id_product) {
+                                    $_SESSION['cart'][$index]['soluong'] = $quantity;
+                                    break;
+                                }
+                            }
+                            $carts = isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
+                            foreach ($carts as $key => $cart) {
+                                $carts[$key]['id_product'] = $cart['id_var'];
+                            }
+                        }
                     } else {
-                        $error_message = "Số lượng không hợp lệ cho sản phẩm với ID: $id_cart";
-
+                        $error_message = "Số lượng không hợp lệ cho sản phẩm";
                     }
                 }
             }
@@ -107,24 +119,39 @@
 
             }
             else {
-                $id_var = isset($_POST['id_var']) ? $_POST['id_var'] : null;
+              echo 'test ajax request';
+              var_dump($_POST['id_var']);
+                $id_product = isset($_POST['id_var']) ? $_POST['id_var'] : null;
                 $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
                 $tong_tien = isset($_POST['tong_tien']) ? $_POST['tong_tien'] : null;
                 $ship = isset($_POST['ship']) ? $_POST['ship'] : null;
                 $tien_phai_tra = isset($_POST['tien_phai_tra']) ? $_POST['tien_phai_tra'] : null;
 
-                if ($id_var === null || $soluong === null || $tong_tien === null || $ship === null || $tien_phai_tra === null) {
+                if ($id_product === null || $soluong === null || $tong_tien === null || $ship === null || $tien_phai_tra === null) {
                     $error_message = "ERROR: Missing POST variables";
                 } else {
-                    addToCart($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra);}
+                    if ($isLoggedIn) {
+//                        echo 'add to cart';
+//                        var_dump($_SESSION['user']['id']);
+                        addToCartDatabase($_SESSION['user']['id'], $id_product, $soluong, $tong_tien, $ship, $tien_phai_tra);
+                    } else {
+                        addToCartSession($id_product, $soluong, $tong_tien, $ship, $tien_phai_tra);}
+                }
             }
 
         } catch (Exception $e) {
             $error_message = $e->getMessage();
         }
     }
-    $carts = sshow_all_products_in_card();
+    $carts = getCartItems($isLoggedIn);
+    $totalship = 0;
+    $totalP = 0;
+    $tong = 0;
+
 ?>
+
+
+
 
 <div class="container margin_30">
   <div class="page_header">
@@ -137,6 +164,7 @@
     </div>
     <h1>Cart page</h1>
   </div>
+
   <!-- /page_header -->
   <form action="<?= BASE_URL. '?act=cart' ?>" method="POST">
     <table class="table table-striped cart-list">
@@ -161,7 +189,7 @@
       </thead>
       <tbody>
       <?php foreach ($carts as $cart) : ?>
-          <?php if (isset($cart['id_cart'])) : ?>
+          <?php if (isset($cart['id_product'])) : ?>
           <tr>
             <td>
               <div class="thumb_cart">
@@ -174,7 +202,7 @@
               <strong><?= $cart['price'] ?></strong>
             </td>
             <td class="numbers-row">
-              <input type="number" name="quantity[<?= $cart['id_cart'] ?>]" value="<?= $cart['soluong'] ?>" class="qty2" min="1" autocomplete="off">
+              <input type="number" name="quantity[<?= $cart['id_product'] ?>]" value="<?= $cart['soluong'] ?>" class="qty2" min="1" autocomplete="off">
 
             </td>
             <td>
@@ -183,10 +211,16 @@
               </strong>
             </td>
             <td class="option">
-              <a href="<?= BASE_URL ?>?act=cart-delete&id=<?= $cart['id_cart'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')"><i class="ti-trash"></i></a>
+              <?php if ($isLoggedIn): ?>
+                <a href="<?= BASE_URL ?>?act=cart-delete&id=<?= $cart['id_product'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')"><i class="ti-trash"></i></a>
+
+              <?php else :?>
+              <a href="<?= BASE_URL ?>?act=cart-session-delete&id_var=<?= $cart['id_product'] ?>" onclick="return confirm('Bạn có chắc chắn xóa không?')"><i class="ti-trash"></i></a>
+
             </td>
-          </tr>
           <?php endif;?>
+          </tr>
+      <?php endif;?>
       <?php endforeach;?>
       </tbody>
     </table>
@@ -199,8 +233,7 @@
         <div class="apply-coupon">
           <div class="form-group">
             <div class="row g-2">
-              <!-- <div class="col-md-6"><input type="text" name="coupon-code" value="" placeholder="Promo code" class="form-control"></div>
-              <div class="col-md-4"><button type="button" class="btn_1 outline">Apply Coupon</button></div> -->
+
             </div>
           </div>
         </div>
@@ -218,11 +251,9 @@
       <div class="col-xl-4 col-lg-4 col-md-6">
         <ul>
             <?php
-                $totalship = 0;
-                $totalP = 0;
-                $tong = 0;
+
                 foreach ($carts as $ccc) {
-                    $totalP += ($ccc['soluong'] * $ccc['price']);
+                    $totalP += ($ccc['soluong'] * $ccc['tong_tien']);
                 }
                 $totalship = (0.000005 * $totalP);
 

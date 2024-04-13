@@ -19,7 +19,7 @@ function selectAllVariants($id = null) {
 function countVariant($id)
 {
     try {
-        $sql = "SELECT COUNT(*) FROM variant WHERE id_pro = :id_pro AND quantity = '0'";
+        $sql = "SELECT COUNT(*) FROM variant WHERE id_pro = :id_pro AND quantity > '0'";
         $stmt = $GLOBALS['conn']->prepare($sql);
         $stmt->bindParam(':id_pro', $id, PDO::PARAM_INT);
         $stmt->execute();

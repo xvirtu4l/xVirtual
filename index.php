@@ -25,6 +25,7 @@ match($act) {
     'logout'    => logoutIndex(),
     'cart'      => cartIndex(),
     'cart-delete' => cartDelete(),
+    'cart-session-delete' => cartSessionDelete(),
     'checkout'  => checkoutIndex(),
     'perfect'   => pfIndex(),
     'tracking' => trackingIndex(),

@@ -3,16 +3,13 @@
     $(document).ready(function() {
       $('.add-to-cart').click(function(e) {
         e.preventDefault();
-
         var idVar = $(this).data('id_var');
         var soLuong = $(this).data('soluong');
         var tongTien = $(this).data('tong_tien');
         var ship = $(this).data('ship');
         var tienPhaiTra = $(this).data('tien_phai_tra');
-
         $.ajax({
           url: '<?=BASE_URL."views/" . 'cart.php'?>',
-          //url: '<?php //=BASE_URL?>//?act=cart',
           type: 'POST',
           data: {
             id_var: idVar,
@@ -37,7 +34,7 @@
     });
   </script>
 
-    <div class="container">
+  <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <h3 data-bs-target="#collapse_1">Quick Links</h3>
