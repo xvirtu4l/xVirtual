@@ -1,8 +1,8 @@
 <?php
-    require_once '/home/david/Documents/draaag/commons/env.php';
-    require_once '/home/david/Documents/draaag/commons/helper.php';
-    require_once '/home/david/Documents/draaag/commons/connect-db.php';
-    require_once '/home/david/Documents/draaag/commons/model.php';
+    require_once PATH_VIEW . '../commons/env.php';
+    require_once PATH_VIEW . '../commons/helper.php';
+    require_once PATH_VIEW . '../commons/connect-db.php';
+    require_once PATH_VIEW . '../commons/model.php';
 
 
     error_log('Session: ' . print_r($_SESSION, true));
@@ -160,7 +160,7 @@
   <div class="page_header">
     <div class="breadcrumbs">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="<?= BASE_URL?>">Home</a></li>
         <li><a href="#">Category</a></li>
         <li>Page active</li>
       </ul>
@@ -256,7 +256,7 @@
             <?php
 
                 foreach ($carts as $ccc) {
-                    $totalP += ($ccc['soluong'] * $ccc['tong_tien']);
+                    $totalP = ($ccc['soluong'] * $ccc['price']);
                 }
                 $totalship = (0.000005 * $totalP);
 
@@ -278,7 +278,7 @@
             <span>Tổng Thanh Toán</span> <?=($totalP + $totalship) - (($totalP + $totalship) * $voucherDiscount); ?>đ
           </li>
         </ul>
-        <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
+        <a href="<?= BASE_URL . '?act=checkout&id='. $cart['id_cart'] ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
       </div>
     </div>
   </div>

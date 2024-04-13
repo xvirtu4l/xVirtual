@@ -4,14 +4,16 @@ require_once PATH_VIEW . '../commons/helper.php';
 require_once PATH_VIEW . '../commons/connect-db.php';
 require_once PATH_VIEW . '../commons/model.php';
 
-function sshow_all_products_in_card()
+$id = isset($_GET['id']) ? $_GET['id'] : null;
+function sshow_all_products_in_cart($id)
 {
 	try {
 		$sql =  "SELECT c.id_cart, sp.name, sp.img, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
                     FROM cart c
                     JOIN variant v ON c.id_var = v.var_id
-                    JOIN sanpham sp ON v.id_pro = sp.id";
+                    JOIN sanpham sp ON v.id_pro = sp.id WHERE c.id_cart =:id";
 		$stmt = $GLOBALS['conn']->prepare($sql);
+		$stmt->bindParam(':id', $id, PDO::PARAM_INT);
 		$stmt->execute();
 		$result = $stmt->fetchAll();
 		return $result;
@@ -68,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		$error_message = $e->getMessage();
 	}
 }
-$carts = sshow_all_products_in_card();
+$carts = sshow_all_products_in_cart($id);
 ?>
 <div class="container margin_30">
 	<div class="page_header">
@@ -107,29 +109,11 @@ $carts = sshow_all_products_in_card();
 						<font style="vertical-align: inherit;">1. Thông tin người dùng và địa chỉ thanh toán</font>
 					</font>
 				</h3>
-				<ul class="nav nav-tabs" id="tab_checkout" role="tablist">
-					<li class="nav-item" role="presentation">
-						<a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#tab_1" role="tab" aria-controls="tab_1" aria-selected="true">
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Đăng ký</font>
-							</font>
-						</a>
-					</li>
-					<li class="nav-item" role="presentation">
-						<a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#tab_2" role="tab" aria-controls="tab_2" aria-selected="false" tabindex="-1">
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Đăng nhập</font>
-							</font>
-						</a>
-					</li>
-				</ul>
+
 				<div class="tab-content checkout">
 					<div class="tab-pane fade active show" id="tab_1" role="tabpanel" aria-labelledby="tab_1">
 						<div class="form-group">
 							<input type="email" class="form-control" placeholder="E-mail">
-						</div>
-						<div class="form-group">
-							<input type="password" class="form-control" placeholder="Mật khẩu">
 						</div>
 						<hr>
 						<div class="row no-gutters">
@@ -153,216 +137,18 @@ $carts = sshow_all_products_in_card();
 							</div>
 						</div>
 						<!-- /row -->
-						<div class="row no-gutters">
-							<div class="col-md-12 form-group">
-								<div class="custom-select-form">
-									<select class="wide add_bottom_15" name="country" id="country" style="display: none;">
-										<option value="" selected="">
-											<font style="vertical-align: inherit;">
-												<font style="vertical-align: inherit;">Quốc gia</font>
-											</font>
-										</option>
-										<option value="Europe">
-											<font style="vertical-align: inherit;">
-												<font style="vertical-align: inherit;">Châu Âu</font>
-											</font>
-										</option>
-										<option value="United states">
-											<font style="vertical-align: inherit;">
-												<font style="vertical-align: inherit;">Hoa Kỳ</font>
-											</font>
-										</option>
-										<option value="Asia">
-											<font style="vertical-align: inherit;">
-												<font style="vertical-align: inherit;">Châu Á</font>
-											</font>
-										</option>
-									</select>
-									<div class="nice-select wide add_bottom_15" tabindex="0"><span class="current">
-											<font style="vertical-align: inherit;">
-												<font style="vertical-align: inherit;">Quốc gia</font>
-											</font>
-										</span>
-										<ul class="list">
-											<li data-value="" class="option selected">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Quốc gia</font>
-												</font>
-											</li>
-											<li data-value="Europe" class="option">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Châu Âu</font>
-												</font>
-											</li>
-											<li data-value="United states" class="option">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Hoa Kỳ</font>
-												</font>
-											</li>
-											<li data-value="Asia" class="option">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Châu Á</font>
-												</font>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
 						<!-- /row -->
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Điện thoại">
 						</div>
 						<hr>
-						<div class="form-group">
-							<label class="container_check" id="other_addr">
-								<font style="vertical-align: inherit;">
-									<font style="vertical-align: inherit;">Địa chỉ thanh toán khác
-									</font>
-								</font><input type="checkbox">
-								<span class="checkmark"></span>
-							</label>
-						</div>
-						<div id="other_addr_c" class="pt-2">
-							<div class="row no-gutters">
-								<div class="col-6 form-group pr-1">
-									<input type="text" class="form-control" placeholder="Tên">
-								</div>
-								<div class="col-6 form-group pl-1">
-									<input type="text" class="form-control" placeholder="Họ">
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Địa chỉ đầy đủ">
-							</div>
-							<div class="row no-gutters">
-								<div class="col-6 form-group pr-1">
-									<input type="text" class="form-control" placeholder="Thành phố">
-								</div>
-								<div class="col-6 form-group pl-1">
-									<input type="text" class="form-control" placeholder="mã bưu điện">
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="row no-gutters">
-								<div class="col-md-12 form-group">
-									<div class="custom-select-form">
-										<select class="wide add_bottom_15" name="country" id="country_2" style="display: none;">
-											<option value="" selected="">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Quốc gia</font>
-												</font>
-											</option>
-											<option value="Europe">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Châu Âu</font>
-												</font>
-											</option>
-											<option value="United states">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Hoa Kỳ</font>
-												</font>
-											</option>
-											<option value="Asia">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Châu Á</font>
-												</font>
-											</option>
-										</select>
-										<div class="nice-select wide add_bottom_15" tabindex="0"><span class="current">
-												<font style="vertical-align: inherit;">
-													<font style="vertical-align: inherit;">Quốc gia</font>
-												</font>
-											</span>
-											<ul class="list">
-												<li data-value="" class="option selected">
-													<font style="vertical-align: inherit;">
-														<font style="vertical-align: inherit;">Quốc gia</font>
-													</font>
-												</li>
-												<li data-value="Europe" class="option">
-													<font style="vertical-align: inherit;">
-														<font style="vertical-align: inherit;">Châu Âu</font>
-													</font>
-												</li>
-												<li data-value="United states" class="option">
-													<font style="vertical-align: inherit;">
-														<font style="vertical-align: inherit;">Hoa Kỳ</font>
-													</font>
-												</li>
-												<li data-value="Asia" class="option">
-													<font style="vertical-align: inherit;">
-														<font style="vertical-align: inherit;">Châu Á</font>
-													</font>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /row -->
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Điện thoại">
-							</div>
-						</div>
+
+						
 						<!-- /other_addr_c -->
 						<hr>
 					</div>
 					<!-- /tab_1 -->
-					<div class="tab-pane fade" id="tab_2" role="tabpanel" aria-labelledby="tab_2" style="position: relative;">
-						<a href="#0" class="social_bt facebook">
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Đăng nhập với Facebook</font>
-							</font>
-						</a>
-						<a href="#0" class="social_bt google">
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Đăng nhập với Google</font>
-							</font>
-						</a>
-						<div class="form-group">
-							<input type="email" class="form-control" placeholder="E-mail">
-						</div>
-						<div class="form-group">
-							<input type="password" class="form-control" placeholder="Mật khẩu" name="password_in" id="password_in">
-						</div>
-						<div class="clearfix add_bottom_15">
-							<div class="checkboxes float-start">
-								<label class="container_check">
-									<font style="vertical-align: inherit;">
-										<font style="vertical-align: inherit;">nhớ tôi
-										</font>
-									</font><input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-							</div>
-							<div class="float-end"><a id="forgot" href="#0">
-									<font style="vertical-align: inherit;">
-										<font style="vertical-align: inherit;">Mất mật khẩu?</font>
-									</font>
-								</a></div>
-						</div>
-						<div id="forgot_pw">
-							<div class="form-group">
-								<input type="email" class="form-control" name="email_forgot" id="email_forgot" placeholder="Nhập email của bạn">
-							</div>
-							<p>
-								<font style="vertical-align: inherit;">
-									<font style="vertical-align: inherit;">Mật khẩu mới sẽ sớm được gửi.</font>
-								</font>
-							</p>
-							<div class="text-center">
-								<font style="vertical-align: inherit;">
-									<font style="vertical-align: inherit;"><input type="submit" value="Đặt lại mật khẩu" class="btn_1"></font>
-								</font>
-							</div>
-						</div>
-						<hr>
-						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;"><input type="submit" class="btn_1 full-width" value="Đăng nhập"></font>
-						</font>
-					</div>
+					
 					<!-- /tab_2 -->
 				</div>
 			</div>
@@ -382,15 +168,6 @@ $carts = sshow_all_products_in_card();
 								<font style="vertical-align: inherit;">Thẻ tín dụng</font>
 							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
 							<input type="radio" name="payment" checked="">
-							<span class="checkmark"></span>
-						</label>
-					</li>
-					<li>
-						<label class="container_radio">
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Paypal</font>
-							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-							<input type="radio" name="payment">
 							<span class="checkmark"></span>
 						</label>
 					</li>
@@ -433,7 +210,7 @@ $carts = sshow_all_products_in_card();
 					<li>
 						<label class="container_radio">
 							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">vận chuyển tiêu chuẩn</font>
+								<font style="vertical-align: inherit;">Vận chuyển tiêu chuẩn</font>
 							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
 							<input type="radio" name="shipping" checked="">
 							<span class="checkmark"></span>
@@ -523,12 +300,9 @@ $carts = sshow_all_products_in_card();
 								<span class="checkmark"></span>
 							</label>
 						</div>
-
-						<a href="<?= BASE_URL . '?act=perfect' ?>" class="btn_1 full-width">
-							<font style="vertical-align: inherit;">
-								<font style="vertical-align: inherit;">Xác Nhận Và Thanh Toán</font>
-							</font>
-						</a>
+						<form method="POST" enctype="applications/x-www-form-urlencoded" action="">
+							<input type="submit" class="btn_1 full-width" name="momo" value="Xác Nhận Và Thanh Toán" style="vertical-align: inherit;">
+						</form>
 				</div>
 				<!-- /box_general -->
 			</div>
