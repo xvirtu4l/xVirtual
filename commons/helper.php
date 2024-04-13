@@ -57,7 +57,7 @@ if (!function_exists('get_file_upload')) {
 if (!function_exists('middleware_auth_check')) {
     function middleware_auth_check($act) {
         if ($act == 'login') {
-            if (!empty($_SESSION['user'])) {
+            if (!empty($_SESSION['user']) && $_SESSION['role'] == 1) {
                 header('Location: ' . BASE_URL_ADMIN);
                 exit();
             }

@@ -63,11 +63,11 @@ match($act) {
 
 
     // CRUD post
-    // 'posts' => postListAll(),
-    'post-detail' => postShowOne($_GET['id']),
-    'post-create' => postCreate(),
-    'post-update' => postUpdate($_GET['id']),
-    'post-delete' => postDelete($_GET['id']),
+     'binhluan' => binhluan_ListAll(),
+    'binhluan-detail' => showOneFromComment($_GET['id']),
+    //'binhluan-create' => postCreate(),
+    //'binhluan-update' => binhluan_Update($_GET['id']),
+    'binhluan-delete' => BLDelete($_GET['id']),
 
 
 

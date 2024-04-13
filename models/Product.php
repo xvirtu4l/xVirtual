@@ -140,4 +140,28 @@ function selectAlldonhang($id) {
     }
 }
 
+function selectAllCommentsByID($id) {
+    try {
+        $sql = "SELECT 
+                bl.id            as bl_id,
+                bl.idpro         as bl_idpro,
+                bl.iduser        as bl_iduser,
+                bl.noidung       as bl_noidung,
+                bl.ngaybinhluan  as bl_ngaybinhluan,
+                sp.name          as bl_sanpham,
+                tk.user          as bl_username
+                FROM binhluan as bl
+                INNER JOIN sanpham   as sp    ON bl.idpro    = sp.id
+                INNER JOIN taikhoan      as tk   ON bl.iduser   = tk.id
+        WHERE bl.idpro = :id";
+        $stmt = $GLOBALS['conn']->prepare($sql);
+        $stmt->bindParam(':id', $id);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+        return $result;
+    } catch (PDOException $e) {
+        die($e->getMessage());
+    }
+}
+
 // 

@@ -2,8 +2,6 @@
     <!-- Page Heading -->
     <h1 class="h3 mb-2 text-gray-800">
         <?= $title ?>
-
-        <a href="<?= BASE_URL_ADMIN ?>?act=post-create" class="btn btn-primary">Create</a>
     </h1>
 
     <!-- DataTales Example -->
@@ -27,67 +25,35 @@
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Title</th>
-                            <th>Excerpt</th>
-                            <th>Category</th>
-                            <th>Author</th>
-                            <th>Thumnnail</th>
-                            <th>Cover</th>
-                            <th>Status</th>
-                            <th>Is_trending</th>
-                            <th>Created_at</th>
-                            <th>Updated_at</th>
-                            <th>Action</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Tên khách hàng</th>
+                            <th>Nội dung bình luận</th>
+                            <th>Ngày bình luận</th>
+                            <th>Thao tác</th>
                         </tr>
                     </thead>
                     <tfoot>
                         <tr>
                             <th>ID</th>
-                            <th>Title</th>
-                            <th>Excerpt</th>
-                            <th>Category</th>
-                            <th>Author</th>
-                            <th>Thumnnail</th>
-                            <th>Cover</th>
-                            <th>Status</th>
-                            <th>Is_trending</th>
-                            <th>Created_at</th>
-                            <th>Updated_at</th>
-                            <th>Action</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Tên khách hàng</th>
+                            <th>Nội dung bình luận</th>
+                            <th>Ngày bình luận</th>
+                            <th>Thao tác</th>
                         </tr>
                     </tfoot>
                     <tbody>
-                        <?php foreach ($posts as $post) : ?>
+                        <?php foreach ($cmts as $cm) : ?>
                             <tr>
-                                <td><?= $post['p_id'] ?></td>
-                                <td><?= $post['p_title'] ?></td>
-                                <td><?= $post['p_excerpt'] ?></td>
-                                <td><?= $post['c_name'] ?></td>
+                                <td><?= $cm['bl_id'] ?></td>
+                                <td><?= $cm['bl_sanpham'] ?></td>
+                                <td><?= $cm['bl_username'] ?></td>
+                                <td><?= $cm['bl_noidung'] ?></td>
+                                <td><?= $cm['bl_ngaybinhluan'] ?></td>
                                 <td>
-                                    <div style="display: flex;">
-                                        <img src="<?= $post['au_avatar'] ?>" alt="">
-                                        <p><?= $post['au_name'] ?></p>
-                                    </div>
-                                </td>
-                                
-                                <td>
-                                    <img src="<?= BASE_URL . $post['p_img_thumnail'] ?>" alt="" width="100px">
-                                </td>
-                                <td>
-                                    <img src="<?= BASE_URL . $post['p_img_cover'] ?>" alt="" width="100px">
-                                </td>
-                                <td><?= $post['p_status'] ?></td>
-                                <td>
-                                    <?= $post['p_is_trending'] 
-                                            ? '<span class="badge badge-success">Yes</span>' 
-                                                : '<span class="badge badge-warning">No</span>' ?>
-                                </td>
-                                <td><?= $post['p_created_at'] ?></td>
-                                <td><?= $post['p_updated_at'] ?></td>
-                                <td>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=post-detail&id=<?= $post['p_id'] ?>" class="btn btn-info">Show</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=post-update&id=<?= $post['p_id'] ?>" class="btn btn-warning">Update</a>
-                                    <a href="<?= BASE_URL_ADMIN ?>?act=post-delete&id=<?= $post['p_id'] ?>" 
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=binhluan-detail&id=<?= $cm['bl_id'] ?>" class="btn btn-info">Show</a>
+                        
+                                    <a href="<?= BASE_URL_ADMIN ?>?act=binhluan-delete&id=<?= $cm['bl_id'] ?>" 
                                         onclick="return confirm('Bạn có chắc chắn xóa không?')"
                                         class="btn btn-danger">Delete</a>
                                 </td>

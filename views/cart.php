@@ -72,6 +72,7 @@
     $carts = sshow_all_products_in_card();
     ?>
 
+
 <div class="container margin_30">
   <div class="page_header">
     <div class="breadcrumbs">

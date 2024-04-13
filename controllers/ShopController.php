@@ -56,6 +56,7 @@ function detail_product()
     $distinctstorage       = selectDistinctStorage($id);
     $stock                 = OutofStock($id);
     $number_row            = countVariant($id);
+    $comment               = selectAllCommentsByID($id);
     require_once PATH_VIEW . 'layouts/master.php';
 }
 
