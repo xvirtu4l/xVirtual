@@ -10,7 +10,7 @@
     function addToCartSession($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra) {
 
 
-        $sql = "SELECT sp.name, sp.img, var.price, var.quantity FROM sanpham sp JOIN variant var ON sp.id = var.id_pro WHERE var.var_id = ?";
+        $sql = "SELECT sp.name, sp.img, sp.id, var.price, var.quantity FROM sanpham sp JOIN variant var ON sp.id = var.id_pro WHERE var.var_id = ?";
         $stmt = $GLOBALS['conn']->prepare($sql);
         $stmt->execute([$id_var]);
         $product = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -29,6 +29,8 @@
                 $item['name'] = $product['name'];
                 $item['img'] = $product['img'];
                 $item['price'] = $product['price'];
+                $item['id'] = $product['id'];
+
                 //                $item['tong_tien'] += $tong_tien;
                 //                $item['ship'] += $ship;
                 //                $item['tien_phai_tra'] += $tien_phai_tra;
@@ -42,13 +44,14 @@
               'name' => $product['name'],
               'img' => $product['img'],
               'price' => $product['price'],
+              'id' => $product['id'],
               'soluong' => $soluong,
               'tong_tien' => $tong_tien,
               'ship' => $ship,
               'tien_phai_tra' => $tien_phai_tra
             ];
         }
-        //        var_dump("SESSION['cart']", $_SESSION['cart']);
+//                var_dump("SESSION['cart']", $_SESSION['cart']);
     }
     function getCartItems($isLoggedIn)
     {
@@ -69,6 +72,7 @@
                 $carts[$key]['id_product'] = $cart['id_var'];
             }
         }
+
         return $carts;
     }
     $carts = getCartItems($isLoggedIn);
@@ -131,8 +135,6 @@
                     $error_message = "ERROR: Missing POST variables";
                 } else {
                     if ($isLoggedIn) {
-//                        echo 'add to cart';
-//                        var_dump($_SESSION['user']['id']);
                         addToCartDatabase($_SESSION['user']['id'], $id_product, $soluong, $tong_tien, $ship, $tien_phai_tra);
                     } else {
                         addToCartSession($id_product, $soluong, $tong_tien, $ship, $tien_phai_tra);}
@@ -144,10 +146,10 @@
         }
     }
     $carts = getCartItems($isLoggedIn);
+
     $totalship = 0;
     $totalP = 0;
     $tong = 0;
-
 ?>
 
 

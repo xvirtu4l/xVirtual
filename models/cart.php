@@ -116,7 +116,7 @@ function show_all_products_in_card() {
 
     function sshow_all_products_in_card_with_id_user($id_user) {
         try {
-            $sql =  "SELECT c.id_cart, sp.name, sp.img, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
+            $sql =  "SELECT c.id_cart, sp.name, sp.img,sp.id, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
             FROM cart c
             JOIN variant v ON c.id_var = v.var_id
             JOIN sanpham sp ON v.id_pro = sp.id

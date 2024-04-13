@@ -1,15 +1,29 @@
 <?php
-try {
-    $stmt = $GLOBALS['conn']->query("SELECT c.id_cart, c.soluong, sp.img, sp.name, c.tong_tien
-FROM cart c
-INNER JOIN variant v ON c.id_var = v.var_id
-INNER JOIN sanpham sp ON v.id_pro = sp.id;");
-    $productsss = $stmt->fetchAll(PDO::FETCH_ASSOC);
-} catch (PDOException $e) {
-    echo "Error: " . $e->getMessage();
-}
-
+    if (!session_id()) {
+        session_start();
+    }
+    $productsss = array();
+    $totalPrice = 0;
+    $productCount = 0;
+//    var_dump($_SESSION['cart']);
+    if (isset($_SESSION['cart'])) {
+        foreach ($_SESSION['cart'] as $cartItem) {
+            $productsss[] = array(
+              'id_cart' => $cartItem['id_var'],
+              'soluong' => $cartItem['soluong'],
+              'id_product' => isset($cartItem['id_product']) ? $cartItem['id_product'] : 'default_value',
+              'img' => $cartItem['img'],
+              'name' => $cartItem['name'],
+              'id' => $cartItem['id'],
+              'tong_tien' => $cartItem['price'] * $cartItem['soluong'],
+            );
+            $totalPrice += $cartItem['price'] * $cartItem['soluong'];
+            $productCount += $cartItem['soluong'];
+        }
+    }
 ?>
+
+
 <header class="version_1">
     <div class="layer"></div><!-- Mobile menu overlay mask -->
     <div class="main_header">
@@ -81,7 +95,7 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
                                         <?php foreach ($dataCategory as $key => $value) : ?>
 
                                             <li><span><a href="<?= BASE_URL . '?act=shop&category=' . $value['slug'] ?>"><?=  $value['name'] ?></a></span>
-                                                
+
                                             </li>
 
 
@@ -118,7 +132,7 @@ INNER JOIN sanpham sp ON v.id_pro = sp.id;");
                                     <ul>
                                         <?php foreach ($productsss as $pro) : ?>
                                             <li>
-                                                <a href="<?= BASE_URL . '?act=detail&id=' . $pro['id_cart'] ?>">
+                                                <a href="<?= BASE_URL . '?act=detail&id=' . $pro['id'] ?>">
                                                     <figure>
                                                         <img src="img/products/product_placeholder_square_small.jpg" data-src="<?= BASE_URL . 'uploads/' . $pro['img'] ?>" alt="" width="50" height="50" class="lazy">
                                                     </figure>
