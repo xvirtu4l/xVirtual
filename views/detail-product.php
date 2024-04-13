@@ -188,46 +188,7 @@
               <div class="row justify-content-between">
                 <div class="col-lg-6">
                   <h3>Details</h3>
-                  <p>Lorem ipsum dolor sit amet, in eleifend <strong>inimicus elaboraret</strong> his,
-                    harum efficiendi mel ne. Sale percipit vituperata ex mel, sea ne essent aeterno
-                    sanctus, nam ea laoreet civibus electram. Ea vis eius explicari. Quot iuvaret ad
-                    has.</p>
-                  <p>Vis ei ipsum conclusionemque. Te enim suscipit recusabo mea, ne vis mazim
-                    aliquando,
-                    everti insolens at sit. Cu vel modo unum quaestio, in vide dicta has. Ut his
-                    laudem
-                    explicari adversarium, nisl <strong>laboramus hendrerit</strong> te his, alia
-                    lobortis vis ea.</p>
-                  <p>Perfecto eleifend sea no, cu audire voluptatibus eam. An alii praesent sit, nobis
-                    numquam principes ea eos, cu autem constituto suscipiantur eam. Ex graeci
-                    elaboraret
-                    pro. Mei te omnis tantas, nobis viderer vivendo ex has.</p>
-                </div>
-                <div class="col-lg-5">
-                  <h3>Specifications</h3>
-                  <div class="table-responsive">
-                    <table class="table table-sm table-striped">
-                      <tbody>
-                      <tr>
-                        <td><strong>Color</strong></td>
-                        <td>Blue, Purple</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Size</strong></td>
-                        <td>150x100x100</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Weight</strong></td>
-                        <td>0.6kg</td>
-                      </tr>
-                      <tr>
-                        <td><strong>Manifacturer</strong></td>
-                        <td>Manifacturer</td>
-                      </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!-- /table-responsive -->
+                  <p> <?= $product['mota'] ?></p>
                 </div>
               </div>
             </div>
@@ -249,67 +210,12 @@
                 <div class="col-lg-6">
                   <div class="review_content">
                     <div class="clearfix add_bottom_10">
-                                            <span class="rating"><i class="icon-star"></i><i class="icon-star"></i><i
-                                                class="icon-star"></i><i class="icon-star"></i><i
-                                                class="icon-star"></i><em>5.0/5.0</em></span>
-                      <em>Published 54 minutes ago</em>
+                      <?php foreach($comment as $ct)?>
+                      <span style="font-weight: 600;font-size: 24px; font-style: italic;"><?= $ct['bl_username']?></span>
+                      <em>Published in <?= $ct['bl_ngaybinhluan']?></em>
                     </div>
-                    <h4>"Commpletely satisfied"</h4>
-                    <p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod scaevola sea.
-                      Et
-                      nec tantas accusamus salutatus, sit commodo veritus te, erat legere fabulas
-                      has
-                      ut. Rebum laudem cum ea, ius essent fuisset ut. Viderer petentium cu his.
+                    <p><?= $ct['bl_noidung']?>
                     </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="review_content">
-                    <div class="clearfix add_bottom_10">
-                                            <span class="rating"><i class="icon-star"></i><i class="icon-star"></i><i
-                                                class="icon-star"></i><i class="icon-star empty"></i><i
-                                                class="icon-star empty"></i><em>4.0/5.0</em></span>
-                      <em>Published 1 day ago</em>
-                    </div>
-                    <h4>"Always the best"</h4>
-                    <p>Et nec tantas accusamus salutatus, sit commodo veritus te, erat legere
-                      fabulas
-                      has ut. Rebum laudem cum ea, ius essent fuisset ut. Viderer petentium cu
-                      his.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- /row -->
-              <div class="row justify-content-between">
-                <div class="col-lg-6">
-                  <div class="review_content">
-                    <div class="clearfix add_bottom_10">
-                                            <span class="rating"><i class="icon-star"></i><i class="icon-star"></i><i
-                                                class="icon-star"></i><i class="icon-star"></i><i
-                                                class="icon-star empty"></i><em>4.5/5.0</em></span>
-                      <em>Published 3 days ago</em>
-                    </div>
-                    <h4>"Outstanding"</h4>
-                    <p>Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod scaevola sea.
-                      Et
-                      nec tantas accusamus salutatus, sit commodo veritus te, erat legere fabulas
-                      has
-                      ut. Rebum laudem cum ea, ius essent fuisset ut. Viderer petentium cu his.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="review_content">
-                    <div class="clearfix add_bottom_10">
-                                            <span class="rating"><i class="icon-star"></i><i class="icon-star"></i><i
-                                                class="icon-star"></i><i class="icon-star"></i><i
-                                                class="icon-star"></i><em>5.0/5.0</em></span>
-                      <em>Published 4 days ago</em>
-                    </div>
-                    <h4>"Excellent"</h4>
-                    <p>Sit commodo veritus te, erat legere fabulas has ut. Rebum laudem cum ea, ius
-                      essent fuisset ut. Viderer petentium cu his.</p>
                   </div>
                 </div>
               </div>

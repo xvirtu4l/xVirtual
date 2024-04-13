@@ -57,12 +57,11 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePost" aria-expanded="true" aria-controls="collapsePost">
             <i class="fab fa-apple"></i>
-            <span>Quản lý Post</span>
+            <span>Quản lý Bình luận</span>
         </a>
         <div id="collapsePost" class="collapse" aria-labelledby="headingPost" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=posts">Danh sách</a>
-                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=post-create">Thêm mới</a>
+                <a class="collapse-item" href="<?= BASE_URL_ADMIN ?>?act=binhluan">Danh sách</a>
             </div>
         </div>
     </li>
