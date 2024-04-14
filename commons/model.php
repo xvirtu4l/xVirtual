@@ -54,7 +54,7 @@ if (!function_exists('insert')) {
             }
 
             $stmt->execute();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
@@ -77,7 +77,7 @@ if (!function_exists('insert_get_last_id')) {
             $stmt->execute();
 
             return $GLOBALS['conn']->lastInsertId();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
@@ -93,7 +93,7 @@ if (!function_exists('listAll')) {
             $stmt->execute();
 
             return $stmt->fetchAll();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
@@ -115,7 +115,7 @@ function listAlldonhang($tableName) {
         $stmt->execute();
 
         return $stmt->fetchAll();
-    } catch (\Exception $e) {
+    } catch (Exception $e) {
         debug($e);
     }
 }
@@ -130,7 +130,7 @@ function showOnedonhang($tableName, $id) {
         $stmt->execute();
 
         return $stmt->fetch();
-    } catch (\Exception $e) {
+    } catch (Exception $e) {
         debug($e);
     }
 }
@@ -143,7 +143,7 @@ function deleteDonhang($tableName, $id) {
         $stmt->bindParam(":id", $id);
 
         $stmt->execute();
-    } catch (\Exception $e) {
+    } catch (Exception $e) {
         debug($e);
     }
 }
@@ -162,7 +162,7 @@ function updateDonhang($tableName, $id, $data = []) {
         $stmt->bindParam(":id", $id);
 
         $stmt->execute();
-    } catch (\Exception $e) {
+    } catch (Exception $e) {
         debug($e);
     }
 }
@@ -180,7 +180,7 @@ if (!function_exists('showOne')) {
             $stmt->execute();
 
             return $stmt->fetch();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
@@ -202,7 +202,7 @@ if (!function_exists('update')) {
             $stmt->bindParam(":id", $id);
 
             $stmt->execute();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
@@ -218,7 +218,7 @@ if (!function_exists('delete2')) {
             $stmt->bindParam(":id", $id);
 
             $stmt->execute();
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
@@ -240,7 +240,7 @@ if (!function_exists('checkUniqueName')) {
             $data = $stmt->fetch();
 
             return empty($data) ? true : false;
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
@@ -263,8 +263,9 @@ if (!function_exists('checkUniqueNameForUpdate')) {
             $data = $stmt->fetch();
 
             return empty($data) ? true : false;
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             debug($e);
         }
     }
+
 }

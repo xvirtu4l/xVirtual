@@ -1,26 +1,19 @@
 <?php
+    require_once PATH_MODEL."cart.php";
     if (!session_id()) {
         session_start();
     }
+    $isLoggedIn = isset($_SESSION['user']['id']);
+
     $productsss = array();
     $totalPrice = 0;
     $productCount = 0;
-//    var_dump($_SESSION['cart']);
-    if (isset($_SESSION['cart'])) {
-        foreach ($_SESSION['cart'] as $cartItem) {
-            $productsss[] = array(
-              'id_cart' => $cartItem['id_var'],
-              'soluong' => $cartItem['soluong'],
-              'id_product' => isset($cartItem['id_product']) ? $cartItem['id_product'] : 'default_value',
-              'img' => $cartItem['img'],
-              'name' => $cartItem['name'],
-              'id' => $cartItem['id'],
-              'tong_tien' => $cartItem['price'] * $cartItem['soluong'],
-            );
-            $totalPrice += $cartItem['price'] * $cartItem['soluong'];
-            $productCount += $cartItem['soluong'];
-        }
+    $productsss = getCartItems($isLoggedIn);
+    foreach ($productsss as $cartItem) {
+        $totalPrice += $cartItem['tong_tien'];
+        $productCount += $cartItem['soluong'];
     }
+
 ?>
 
 
@@ -130,19 +123,23 @@
 
 
                                     <ul>
-                                        <?php foreach ($productsss as $pro) : ?>
-                                            <li>
+                                        <?php
+
+                                            foreach ($productsss as $pro) :
+
+                                                ?>
+                                              <li>
                                                 <a href="<?= BASE_URL . '?act=detail&id=' . $pro['id'] ?>">
-                                                    <figure>
-                                                        <img src="img/products/product_placeholder_square_small.jpg" data-src="<?= BASE_URL . 'uploads/' . $pro['img'] ?>" alt="" width="50" height="50" class="lazy">
-                                                    </figure>
-                                                    <strong>
-                                                        <span>1x <?= htmlspecialchars($pro['name']) ?></span>
-                                                        <?= number_format($pro['tong_tien'], 2) ?>đ
-                                                    </strong>
+                                                  <figure>
+                                                    <img src="img/products/product_placeholder_square_small.jpg" data-src="<?= BASE_URL . 'uploads/' . $pro['img'] ?>" alt="" width="50" height="50" class="lazy">
+                                                  </figure>
+                                                  <strong>
+                                                    <span><?= $pro['soluong'] . 'x ' . htmlspecialchars($pro['name']) ?></span>
+                                                      <?= number_format($pro['tong_tien'], ) ?>đ
+                                                  </strong>
                                                 </a>
-                                            </li>
-                                        <?php endforeach; ?>
+                                              </li>
+                                            <?php endforeach; ?>
                                     </ul>
 
 

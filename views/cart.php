@@ -1,15 +1,14 @@
 <?php
-    require_once PATH_VIEW . '../commons/env.php';
-    require_once PATH_VIEW . '../commons/helper.php';
-    require_once PATH_VIEW . '../commons/connect-db.php';
-    require_once PATH_VIEW . '../commons/model.php';
+    require_once '/home/david/Documents/draaag/commons/env.php';
+    require_once '/home/david/Documents/draaag/commons/helper.php';
+    require_once '/home/david/Documents/draaag/commons/connect-db.php';
+    require_once '/home/david/Documents/draaag/commons/model.php';
+    require_once PATH_MODEL."cart.php";
+    $_SESSION['nonce'] = '1212121212';
 
-
-    error_log('Session: ' . print_r($_SESSION, true));
+//    error_log('Session: ' . print_r($_SESSION, true));
     $isLoggedIn = isset($_SESSION['user']['id']);
     function addToCartSession($id_var, $soluong, $tong_tien, $ship, $tien_phai_tra) {
-
-
         $sql = "SELECT sp.name, sp.img, sp.id, var.price, var.quantity FROM sanpham sp JOIN variant var ON sp.id = var.id_pro WHERE var.var_id = ?";
         $stmt = $GLOBALS['conn']->prepare($sql);
         $stmt->execute([$id_var]);
@@ -53,28 +52,7 @@
         }
 //                var_dump("SESSION['cart']", $_SESSION['cart']);
     }
-    function getCartItems($isLoggedIn)
-    {
-        if ($isLoggedIn) {
-            mergeCartAndLogin($_SESSION['user']['id']);
-            $carts = sshow_all_products_in_card_with_id_user($_SESSION['user']['id']);
-            echo 'login';
-            foreach ($carts as $key => $cart) {
-                $carts[$key]['id_product'] = $cart['id_cart'];
-            }
-        } else {
-            if (!session_id()) {
-                session_start();
-            }
-            $carts = isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
-            echo 'session';
-            foreach ($carts as $key => $cart) {
-                $carts[$key]['id_product'] = $cart['id_var'];
-            }
-        }
 
-        return $carts;
-    }
     $carts = getCartItems($isLoggedIn);
 
 
@@ -122,7 +100,7 @@
                 }
 
             }
-            else {
+             else {
               echo 'test ajax request';
               var_dump($_POST['id_var']);
                 $id_product = isset($_POST['id_var']) ? $_POST['id_var'] : null;
@@ -138,8 +116,11 @@
                         addToCartDatabase($_SESSION['user']['id'], $id_product, $soluong, $tong_tien, $ship, $tien_phai_tra);
                     } else {
                         addToCartSession($id_product, $soluong, $tong_tien, $ship, $tien_phai_tra);}
+
                 }
+
             }
+
 
         } catch (Exception $e) {
             $error_message = $e->getMessage();
@@ -160,7 +141,7 @@
   <div class="page_header">
     <div class="breadcrumbs">
       <ul>
-        <li><a href="<?= BASE_URL?>">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#">Category</a></li>
         <li>Page active</li>
       </ul>
@@ -202,7 +183,7 @@
               <span class="item_cart"><?= $cart['name'] ?></span>
             </td>
             <td>
-              <strong><?= $cart['price'] ?></strong>
+              <strong><?= number_format($cart['price']) ?></strong>
             </td>
             <td class="numbers-row">
               <input type="number" name="quantity[<?= $cart['id_product'] ?>]" value="<?= $cart['soluong'] ?>" class="qty2" min="1" autocomplete="off">
@@ -210,7 +191,7 @@
             </td>
             <td>
               <strong>
-                  <?= $cart['soluong'] * $cart['price'] ?>
+                  <?= number_format($cart['soluong'] * $cart['price']) ?>
               </strong>
             </td>
             <td class="option">
@@ -256,16 +237,17 @@
             <?php
 
                 foreach ($carts as $ccc) {
-                    $totalP = ($ccc['soluong'] * $ccc['price']);
+                    $totalP += ($ccc['soluong'] * $ccc['tong_tien']);
                 }
                 $totalship = (0.000005 * $totalP);
 
             ?>
           <li>
-            <span>Tổng Tiền Hàng</span> <?= $totalP ?>đ
+            <span>Tổng Tiền Hàng</span> <?= number_format($totalP, 2) ?>đ
+
           </li>
           <li>
-            <span>Shipping</span> <?=$totalship ?>đ
+            <span>Shipping</span> <?= number_format($totalship) ?>đ
           </li>
           <li>
             <form action="<?= BASE_URL. '?act=cart' ?>" method="post">
@@ -275,10 +257,12 @@
             </form>
           </li>
           <li>
-            <span>Tổng Thanh Toán</span> <?=($totalP + $totalship) - (($totalP + $totalship) * $voucherDiscount); ?>đ
+            <span>Tổng Thanh Toán</span> <?=number_format(($totalP + $totalship) - (($totalP + $totalship) * $voucherDiscount), ); ?>đ
+
           </li>
         </ul>
-        <a href="<?= BASE_URL . '?act=checkout&id='. $cart['id_cart'] ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
+        <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
+
       </div>
     </div>
   </div>

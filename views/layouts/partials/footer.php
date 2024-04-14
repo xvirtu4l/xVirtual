@@ -1,3 +1,4 @@
+
 <footer class="revealed">
   <script>
     $(document).ready(function() {
@@ -16,7 +17,8 @@
             soluong: soLuong,
             tong_tien: tongTien,
             ship: ship,
-            tien_phai_tra: tienPhaiTra
+            tien_phai_tra: tienPhaiTra,
+
             // id_var: 1,
             // soluong: 2,
             // tong_tien: 100,
@@ -25,6 +27,7 @@
           },
           success: function(response) {
             alert('Sản phẩm đã được thêm vào giỏ hàng!');
+              <?php unset($_SESSION['nonce']); ?>
           },
           error: function() {
             alert('Có lỗi xảy ra, không thể thêm sản phẩm vào giỏ hàng.');
