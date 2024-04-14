@@ -19,6 +19,7 @@ $page = $_GET['page'] ?? 1;
 #a
 match($act) {
     '/'         => homeIndex(),
+    'account'   => accountIndex(),
     'shop'      => shopIndex(),
     'detail'    => detail_product(),
     'login'     => loginIndex(),
