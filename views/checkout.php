@@ -8,7 +8,7 @@ $id = isset($_GET['id']) ? $_GET['id'] : null;
 function sshow_all_products_in_cart($id)
 {
 	try {
-		$sql =  "SELECT c.id_cart, sp.name, sp.img, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
+		$sql = "SELECT c.id_cart, sp.name, sp.img, v.price, c.soluong, c.tong_tien, c.ship, c.tien_phai_tra, v.var_id
                     FROM cart c
                     JOIN variant v ON c.id_var = v.var_id
                     JOIN sanpham sp ON v.id_pro = sp.id WHERE c.id_cart =:id";
@@ -143,12 +143,12 @@ $carts = sshow_all_products_in_cart($id);
 						</div>
 						<hr>
 
-						
+
 						<!-- /other_addr_c -->
 						<hr>
 					</div>
 					<!-- /tab_1 -->
-					
+
 					<!-- /tab_2 -->
 				</div>
 			</div>
@@ -166,7 +166,8 @@ $carts = sshow_all_products_in_cart($id);
 						<label class="container_radio">
 							<font style="vertical-align: inherit;">
 								<font style="vertical-align: inherit;">Thẻ tín dụng</font>
-							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
+							</font><a href="#0" class="info" data-bs-toggle="modal"
+								data-bs-target="#payments_method"></a>
 							<input type="radio" name="payment" checked="">
 							<span class="checkmark"></span>
 						</label>
@@ -175,7 +176,8 @@ $carts = sshow_all_products_in_cart($id);
 						<label class="container_radio">
 							<font style="vertical-align: inherit;">
 								<font style="vertical-align: inherit;">Thanh toán khi giao hàng</font>
-							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
+							</font><a href="#0" class="info" data-bs-toggle="modal"
+								data-bs-target="#payments_method"></a>
 							<input type="radio" name="payment">
 							<span class="checkmark"></span>
 						</label>
@@ -184,7 +186,8 @@ $carts = sshow_all_products_in_cart($id);
 						<label class="container_radio">
 							<font style="vertical-align: inherit;">
 								<font style="vertical-align: inherit;">Chuyển khoản ngân hàng</font>
-							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
+							</font><a href="#0" class="info" data-bs-toggle="modal"
+								data-bs-target="#payments_method"></a>
 							<input type="radio" name="payment">
 							<span class="checkmark"></span>
 						</label>
@@ -194,7 +197,9 @@ $carts = sshow_all_products_in_cart($id);
 					<figure><img src="img/cards_all.svg" alt=""></figure>
 					<p>
 						<font style="vertical-align: inherit;">
-							<font style="vertical-align: inherit;">Sensibus Reformidans Interpretaris sit ne, nec errem nostrum et, te nec meliore philosophia. Tại vix quidam periculis. Solet tritani ad pri, không có định nghĩa nào về biển cả.</font>
+							<font style="vertical-align: inherit;">Sensibus Reformidans Interpretaris sit ne, nec errem
+								nostrum et, te nec meliore philosophia. Tại vix quidam periculis. Solet tritani ad pri,
+								không có định nghĩa nào về biển cả.</font>
 						</font>
 					</p>
 				</div>
@@ -211,7 +216,8 @@ $carts = sshow_all_products_in_cart($id);
 						<label class="container_radio">
 							<font style="vertical-align: inherit;">
 								<font style="vertical-align: inherit;">Vận chuyển tiêu chuẩn</font>
-							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
+							</font><a href="#0" class="info" data-bs-toggle="modal"
+								data-bs-target="#payments_method"></a>
 							<input type="radio" name="shipping" checked="">
 							<span class="checkmark"></span>
 						</label>
@@ -220,7 +226,8 @@ $carts = sshow_all_products_in_cart($id);
 						<label class="container_radio">
 							<font style="vertical-align: inherit;">
 								<font style="vertical-align: inherit;">Chuyển phát nhanh</font>
-							</font><a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
+							</font><a href="#0" class="info" data-bs-toggle="modal"
+								data-bs-target="#payments_method"></a>
 							<input type="radio" name="shipping">
 							<span class="checkmark"></span>
 						</label>
@@ -250,15 +257,18 @@ $carts = sshow_all_products_in_cart($id);
 					</font>
 				</h3>
 				<div class="box_general summary">
-					<?php foreach ($carts as $cart) : ?>
+					<?php foreach ($carts as $cart): ?>
 						<ul>
 							<li class="clearfix"><em>
 									<font style="vertical-align: inherit;">
-										<font style="vertical-align: inherit;"><?= $cart['soluong'] ?>x <?= $cart['name'] ?> </font>
+										<font style="vertical-align: inherit;"><?= $cart['soluong'] ?>x <?= $cart['name'] ?>
+										</font>
 									</font>
 								</em> <span>
 									<font style="vertical-align: inherit;">
-										<font style="vertical-align: inherit;"><?= number_format($cart['soluong'] * $cart['price']) ?> đ</font>
+										<font style="vertical-align: inherit;">
+											<?= number_format($cart['soluong'] * $cart['price']) ?> đ
+										</font>
 									</font>
 								</span></li>
 						<?php endforeach ?>
@@ -290,6 +300,7 @@ $carts = sshow_all_products_in_cart($id);
 									<font style="vertical-align: inherit;"><?= number_format($tong) ?>đ</font>
 								</font>
 							</span>
+
 						</div>
 						<div class="form-group">
 							<label class="container_check">
@@ -300,16 +311,25 @@ $carts = sshow_all_products_in_cart($id);
 								<span class="checkmark"></span>
 							</label>
 						</div>
-              <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
-                    action="<?= BASE_URL. 'momo/thanhtoanmomo.php' ?>">
-							<input type="submit" class="btn_1 full-width" name="momoqr" value="Xác Nhận Và Thanh Toán QR Momo" style="vertical-align: inherit;">
-<!--              <input type="submit" class="btn_1 full-width" name="vnpay" value="Thanh toán Vnpay" style="vertical-align: inherit;">-->
+						<?php 
+							$amount = $tong;
+						?>
+						<form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
+							action="<?= BASE_URL . 'momo/thanhtoanmomo.php' ?>">
+							<input type="hidden" name="tong" value="<?= $tong ?>">
+							<input type="submit" class="btn_1 full-width" name="momoqr"
+								value="Xác Nhận Và Thanh Toán QR Momo" style="vertical-align: inherit;">
+							<!--              <input type="submit" class="btn_1 full-width" name="vnpay" value="Thanh toán Vnpay" style="vertical-align: inherit;">-->
 						</form>
-              <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
-                    action="<?= BASE_URL. 'momo/thanhtoanmomo_atm.php' ?>">
-                <input type="submit" class="btn_1 full-width" name="momoatm" value="Xác Nhận Và Thanh Toán Momo ATM"	 style="vertical-align: inherit;">
-                <!--              <input type="submit" class="btn_1 full-width" name="vnpay" value="Thanh toán Vnpay" style="vertical-align: inherit;">-->
-              </form>
+						<form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
+							action="<?= BASE_URL . 'momo/thanhtoanmomo_atm.php' ?>">
+							<input type="hidden" name="idcart" value="<?= $id?>">
+							<input type="hidden" name="tong" value="<?= $amount ?>">
+							<input type="submit" class="btn_1 full-width" name="momoatm"
+								value="Xác Nhận Và Thanh Toán Momo ATM" style="vertical-align: inherit;">
+						</form>
+						<!--              <input type="submit" class="btn_1 full-width" name="vnpay" value="Thanh toán Vnpay" style="vertical-align: inherit;">-->
+						</form>
 				</div>
 				<!-- /box_general -->
 			</div>

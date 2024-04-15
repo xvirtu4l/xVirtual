@@ -1,3 +1,16 @@
+<?
+	if(isset($_GET['orderId']) && isset($_GET['idcart'])) {
+		
+		$orderId = $_GET['orderId'];
+		$idcart = $_GET['idcart'];
+		echo "Order ID: " . $orderId;
+		echo "ID cart: " . $idcart;
+
+	} else {
+		echo "Order ID not found in the URL";
+	}
+	?>
+
 
 		<div class="container">
             <div class="row justify-content-center">
