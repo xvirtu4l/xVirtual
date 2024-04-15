@@ -243,7 +243,7 @@
 
             ?>
           <li>
-            <span>Tổng Tiền Hàng</span> <?= number_format($totalP, 2) ?>đ
+            <span>Tổng Tiền Hàng</span> <?= number_format($totalP, 0) ?>đ
 
           </li>
           <li>

@@ -1,4 +1,8 @@
 <?php
+    require_once '/home/david/Documents/draaag/commons/env.php';
+    require_once '/home/david/Documents/draaag/commons/helper.php';
+    require_once '/home/david/Documents/draaag/commons/connect-db.php';
+    require_once '/home/david/Documents/draaag/commons/model.php';
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 /*
  * To change this license header, choose License Headers in Project Properties.

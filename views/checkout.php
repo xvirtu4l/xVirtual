@@ -300,9 +300,16 @@ $carts = sshow_all_products_in_cart($id);
 								<span class="checkmark"></span>
 							</label>
 						</div>
-						<form method="POST" enctype="applications/x-www-form-urlencoded" action="">
-							<input type="submit" class="btn_1 full-width" name="momo" value="Xác Nhận Và Thanh Toán" style="vertical-align: inherit;">
+              <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
+                    action="<?= BASE_URL. 'momo/thanhtoanmomo.php' ?>">
+							<input type="submit" class="btn_1 full-width" name="momoqr" value="Xác Nhận Và Thanh Toán QR Momo" style="vertical-align: inherit;">
+<!--              <input type="submit" class="btn_1 full-width" name="vnpay" value="Thanh toán Vnpay" style="vertical-align: inherit;">-->
 						</form>
+              <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
+                    action="<?= BASE_URL. 'momo/thanhtoanmomo_atm.php' ?>">
+                <input type="submit" class="btn_1 full-width" name="momoatm" value="Xác Nhận Và Thanh Toán Momo ATM" style="vertical-align: inherit;">
+                <!--              <input type="submit" class="btn_1 full-width" name="vnpay" value="Thanh toán Vnpay" style="vertical-align: inherit;">-->
+              </form>
 				</div>
 				<!-- /box_general -->
 			</div>
