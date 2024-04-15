@@ -1,10 +1,11 @@
+<?php $dataCategory = loadAllCategory() ?>
 <div class="top_banner">
     <div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.3)">
         <div class="container">
             <div class="breadcrumbs">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Danh Mục</a></li>
+                    <li><a href="<?php BASE_URL?>">Home</a></li>
+                    <li><a href="<?=BASE_URL . '?act=shop'?>">Shop</a></li>
                     <li>Tất Cả</li>
                 </ul>
             </div>

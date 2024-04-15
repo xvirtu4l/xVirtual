@@ -102,13 +102,20 @@ function imageValidate($image) {
         if ($image_size > $upload_max_filesize) {
             $errors[] = 'Image must not be larger than 2MB.';
         }
+        // Debug: Print out file information
+        error_log('File name: ' . $image_name);
+        error_log('File size: ' . $image_size);
+        error_log('File temp location: ' . $image_temp);
+        error_log('File type: ' . $image_type);
+
         if (empty($errors)) {
             $extension = pathinfo($image_name, PATHINFO_EXTENSION);
             $new_name = uniqid() . '.' . $extension;
             $move_file = move_uploaded_file($image_temp, PATH_UPLOAD . $new_name);
             if ($move_file === false) {
+                // Debug: Print out detailed error message
                 $errors[] = 'Image upload failed. Please try again.';
-                $errors[] = print_r(error_get_last(), true);
+                $errors[] = 'Move uploaded file failed: ' . error_get_last()['message'];
             } else {
                 return $new_name;
             }
@@ -129,15 +136,19 @@ function sanphamUpdate($id)
     $view = 'sanpham/update';
 
     if (!empty($_POST)) {
+        // Retrieve existing user data
+        $user = showOne('sanpham', $id);
+
+        // Retrieve form data
         $data = [
-          "name" => $_POST['name'] ?? $user['name'],
-          "price" => $_POST['price'] ?? $user['price'],
-          "mota" => $_POST['mota'] ?? $user['mota'],
-          "iddm" => $_POST['iddm'] ?? $user['iddm'],
-          "img" => $_FILES['img'] ?? null
+            "name" => $_POST['name'] ?? $user['name'],
+            "price" => $_POST['price'] ?? $user['price'],
+            "mota" => $_POST['mota'] ?? $user['mota'],
+            "iddm" => $_POST['iddm'] ?? $user['iddm'],
+            "img" => $user['img'] // Default to existing image path
         ];
 
-        validatesanphamUpdate($id, $data);
+        // Validate and handle image update
         if (!empty($_FILES['img']['name'])) {
             $image_result = imageValidate($_FILES['img']);
             if (is_array($image_result)) {
@@ -145,16 +156,17 @@ function sanphamUpdate($id)
                 header('Location: ' . BASE_URL_ADMIN . '?act=sanpham-update&id=' . $id);
                 exit();
             } else {
-                $data['img'] = $image_result;
+                $data['img'] = $image_result; // Update image path with new image
             }
         }
 
+        // Validate other fields if needed
+        validatesanphamUpdate($id, $data);
 
-        if (empty($data['img'])) {
-            $data['img'] = $user['img'];
-        }
+        // Update the database
+        update('sanpham', $id, $data);
+
         $_SESSION['success'] = 'Thao tác thành công!';
-
         header('Location: ' . BASE_URL_ADMIN . '?act=sanpham-update&id=' . $id);
         exit();
     }

@@ -48,7 +48,7 @@
                             </li>
 
                             <li>
-                                <a href="<?= BASE_URL . '?act=tracking' ?>">tracking</a>
+                                <a href="<?= BASE_URL . '?act=tracking' ?>">Tracking</a>
                             </li>
 
 
@@ -164,11 +164,13 @@
                                                 <a href="track-order.html"><i class="ti-truck"></i>Track your Order</a>
                                             </li>
                                             <li>
-                                                <a href="account.html"><i class="ti-package"></i>My Orders</a>
+                                                <a href="<?= BASE_URL . '?act=tracking' ?>"><i class="ti-package"></i>My Orders</a>
                                             </li>
+                                            <form method="get">
                                             <li>
-                                                <a href="account.html"><i class="ti-user"></i>My Profile</a>
+                                                <a href="<?= BASE_URL . '?act=account'?>"><i class="ti-user"></i>My Profile</a>
                                             </li>
+                                            </form>
                                             <li>
                                                 <a href="<?= BASE_URL . '?act=logout' ?>"><i class="ti-help-alt"></i>LogOut</a>
                                             </li>
