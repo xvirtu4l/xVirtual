@@ -1,9 +1,9 @@
 <?php
-    require_once PATH_VIEW . '../commons/env.php';
-    require_once PATH_VIEW . '../commons/helper.php';
-    require_once PATH_VIEW . '../commons/connect-db.php';
-    require_once PATH_VIEW . '../commons/model.php';
-    require_once PATH_MODEL."cart.php";
+    require_once  '/home/david/Documents/draaag/commons/env.php';
+    require_once  '/home/david/Documents/draaag/commons/helper.php';
+    require_once  '/home/david/Documents/draaag/commons/connect-db.php';
+    require_once  '/home/david/Documents/draaag/commons/model.php';
+    require_once "/home/david/Documents/draaag/models/cart.php";
     $_SESSION['nonce'] = '1212121212';
 
 //    error_log('Session: ' . print_r($_SESSION, true));
@@ -261,7 +261,7 @@
 
           </li>
         </ul>
-        <a href="<?= BASE_URL . '?act=checkout&id='. $cart['id_cart'] ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
+        <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
 
       </div>
     </div>
