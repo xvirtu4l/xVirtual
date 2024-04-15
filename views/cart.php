@@ -1,8 +1,8 @@
 <?php
-    require_once PATH_VIEW . '../commons/env.php';
-    require_once PATH_VIEW . '../commons/helper.php';
-    require_once PATH_VIEW . '../commons/connect-db.php';
-    require_once PATH_VIEW . '../commons/model.php';
+    require_once   '/home/david/Documents/draaag/commons/env.php';
+    require_once   '/home/david/Documents/draaag/commons/helper.php';
+    require_once   '/home/david/Documents/draaag/commons/connect-db.php';
+    require_once   '/home/david/Documents/draaag/commons/model.php';
     require_once PATH_MODEL."cart.php";
     $_SESSION['nonce'] = '1212121212';
 
@@ -101,7 +101,7 @@
 
             }
              else {
-              echo 'test ajax request';
+//              echo 'test ajax request';
               var_dump($_POST['id_var']);
                 $id_product = isset($_POST['id_var']) ? $_POST['id_var'] : null;
                 $soluong = isset($_POST['soluong']) ? $_POST['soluong'] : null;
@@ -261,8 +261,11 @@
 
           </li>
         </ul>
-        <a href="<?= BASE_URL . '?act=checkout&id='. $cart['id_cart']  ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
-
+          <?php if ($isLoggedIn) : ?>
+        <a href="<?= BASE_URL . '?act=checkout' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
+          <?php else: ?>
+        <a href="<?= BASE_URL . '?act=login1' ?>" class="btn_1 full-width cart">Xác Nhận Và Thanh Toán</a>
+        <?php endif;?>
       </div>
     </div>
   </div>

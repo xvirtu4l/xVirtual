@@ -164,7 +164,7 @@ function show_all_products_in_card() {
         if ($isLoggedIn) {
             mergeCartAndLogin($_SESSION['user']['id']);
             $carts = sshow_all_products_in_card_with_id_user($_SESSION['user']['id']);
-            echo 'login';
+
             foreach ($carts as $key => $cart) {
                 $carts[$key]['id_product'] = $cart['id_cart'];
             }
@@ -173,7 +173,7 @@ function show_all_products_in_card() {
                 session_start();
             }
             $carts = isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
-            echo 'session';
+
             foreach ($carts as $key => $cart) {
                 $carts[$key]['id_product'] = $cart['id_var'];
             }

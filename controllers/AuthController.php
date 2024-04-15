@@ -48,8 +48,55 @@ function loginIndex()
 
     require_once PATH_VIEW . 'layouts/master.php';
 }
+    function loginIndex1()
+    {
 
-function logupIndex()
+        $view = 'login';
+
+        if (isset($_POST['submit'])) {
+            $email = $_POST['email'];
+            $password = $_POST['password'];
+            $user = authlogin($email);
+            if (empty($email)) {
+                $_SESSION['error']['email'] = 'Vui long nhap email';
+            } else {
+                unset($_SESSION['error']['email']);
+            }
+
+            if (empty($password)) {
+                $_SESSION['error']['password'] = 'Vui long nhap password';
+            } else {
+                unset($_SESSION['error']['password']);
+            }
+
+            if (!empty($_SESSION['error'])) {
+                header('Location: ' . BASE_URL . '?act=login');
+            } else {
+                if ($user && $password == $user['pass']) {
+
+                    setcookie("message", "Đăng nhập thành công", time() + 1);
+                    $_SESSION['user'] = [
+                      'id' => $user['id'],
+                      'user' => $user['user'],
+                      'email' => $user['email'],
+                    ];
+                    if ($user['role'] == 1) {
+                        header('Location: ' . BASE_URL . '?act=checkout' );
+                    } else {
+                        header('Location: ' . BASE_URL . '?act=checkout');
+                    }
+                } else {
+                    setcookie("message", "Email hoac password khong dung. Vui long kiem tra lai", time() + 1);
+                    header('Location: ' . BASE_URL . '?act=login');
+                }
+            }
+        }
+
+
+        require_once PATH_VIEW . 'layouts/master.php';
+    }
+
+function logupIndex1()
 {
 
     $view = 'sign';

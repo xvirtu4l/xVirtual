@@ -23,6 +23,7 @@ match($act) {
     'shop'      => shopIndex(),
     'detail'    => detail_product(),
     'login'     => loginIndex(),
+    'login1' => loginIndex1(),
     'logup'     => logupIndex(),
     'logout'    => logoutIndex(),
     'cart'      => cartIndex(),
