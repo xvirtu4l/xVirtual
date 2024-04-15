@@ -11,17 +11,17 @@
         </div>
         <div class="card-body">
 
-            <?php if (isset($_SESSION['success'])) : ?>
+            <?php if (isset($_SESSION['success'])): ?>
                 <div class="alert alert-success">
                     <?= $_SESSION['success'] ?>
                 </div>
                 <?php unset($_SESSION['success']); ?>
             <?php endif; ?>
 
-            <?php if (isset($_SESSION['errors'])) : ?>
+            <?php if (isset($_SESSION['errors'])): ?>
                 <div class="alert alert-danger">
                     <ul>
-                        <?php foreach ($_SESSION['errors'] as $error) : ?>
+                        <?php foreach ($_SESSION['errors'] as $error): ?>
                             <li><?= $error ?></li>
                         <?php endforeach; ?>
                     </ul>
@@ -34,33 +34,39 @@
                     <div class="col-md-6">
                         <div class="mb-3 mt-3">
                             <label for="name" class="form-label">Tên sản phẩm:</label>
-                            <input type="text" class="form-control" id="name" value="<?= $user['name'] ?>" placeholder="Enter name" name="name">
+                            <input type="text" class="form-control" id="name" value="<?= $user['name'] ?>"
+                                placeholder="Enter name" name="name">
                         </div>
                         <div class="mb-3 mt-3">
                             <label for="price" class="form-label">Giá:</label>
-                            <input type="price" class="form-control" id="price" value="<?= $user['price'] ?>" placeholder="Enter price" name="price">
+                            <input type="price" class="form-control" id="price" value="<?= $user['price'] ?>"
+                                placeholder="Enter price" name="price">
                         </div>
-                      <div class="mb-3 mt-3">
-                        <label for="img" class="form-label">Hình ảnh:</label>
-                        <input type="file" class="form-control" id="img" value="<?= $user['img'] ?>" placeholder="Enter img" name="img">
-                      </div>
+                        <div class="mb-3 mt-3">
+                            <label for="img" class="form-label">Hình ảnh:</label>
+                            <input type="file" class="form-control" id="img" value="<?= $user['img'] ?>"
+                                placeholder="Enter img" name="img">
+                        </div>
 
 
                     </div>
                     <div class="col-md-6">
-                      <div class="mb-3 mt-3">
-                        <label for="mota" class="form-label">Mô tả:</label>
-                        <input type="text" class="form-control" id="mota" value="<?= $user['mota'] ?>" placeholder="Enter...." name="mota">
-                      </div>
-                      <div class="mb-3 mt-3">
-                        <label for="danhmuc" class="form-label">Danh Mục:</label>
-                        <select name="iddm" id="iddm" class="form-control">
-                          <option value="">Chọn danh mục</option>
-                            <?php foreach ($danhmuc as $dm): ?>
-                              <option value="<?= $dm['id'] ?>" <?= (isset($_SESSION['data']) && $_SESSION['data']['iddm'] == $dm['id']) ? 'selected' : '' ?>><?= htmlspecialchars($dm['name']) ?></option>
-                            <?php endforeach; ?>
-                        </select>
-                      </div>
+                        <div class="mb-3 mt-3">
+                            <label for="mota" class="form-label">Mô tả:</label>
+                            <input type="text" class="form-control" id="mota" value="<?= $user['mota'] ?>"
+                                placeholder="Enter...." name="mota">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="danhmuc" class="form-label">Danh Mục:</label>
+                            <select name="iddm" id="iddm" class="form-control">
+                                <option value="">Chọn danh mục</option>
+                                <?php foreach ($danhmuc as $dm): ?>
+                                    <?php $selected = ($dm['id'] == $user['iddm']) ? 'selected' : ''; ?>
+                                    <option value="<?= $dm['id'] ?>" <?= $selected ?>><?= htmlspecialchars($dm['name']) ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
 
 
                     </div>

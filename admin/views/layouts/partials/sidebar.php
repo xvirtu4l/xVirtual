@@ -110,9 +110,9 @@
 
     <!-- Nav Item - Setting -->
     <li class="nav-item">
-        <a class="nav-link" href="<?= BASE_URL_ADMIN . '?act=setting-form' ?>">
+        <a class="nav-link" href="<?= BASE_URL?>">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Setting</span></a>
+            <span>Trang chủ</span></a>
     </li>
 
     <!-- Divider -->
