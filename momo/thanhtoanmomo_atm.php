@@ -1,8 +1,4 @@
 <?php
-    require_once "/home/david/Documents/draaag/commons/env.php";
-    require_once '/home/david/Documents/draaag/commons/helper.php';
-    require_once '/home/david/Documents/draaag/commons/connect-db.php';
-    require_once '/home/david/Documents/draaag/commons/model.php';
     include_once 'helper_momo.php';
     header('Content-type: text/html; charset=utf-8');
 
@@ -16,8 +12,8 @@
     $amount = "130000";
     $orderId = time() ."";
 //    $redirectUrl = BASE_URL . "?act=perfect";
-    $redirectUrl = "http://localhost:63342".BASE_URL. "?act=cart";
-    $ipnUrl = "http://localhost:63342/draaag/?act=cart";
+    $redirectUrl = "http://localhost:81/xVirtual/?act=perfect";
+    $ipnUrl = "http://localhost:81/xVirtual/?act=perfect";
     $extraData = "";
 
 

@@ -307,7 +307,7 @@ $carts = sshow_all_products_in_cart($id);
 						</form>
               <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
                     action="<?= BASE_URL. 'momo/thanhtoanmomo_atm.php' ?>">
-                <input type="submit" class="btn_1 full-width" name="momoatm" value="Xác Nhận Và Thanh Toán Momo ATM" style="vertical-align: inherit;">
+                <input type="submit" class="btn_1 full-width" name="momoatm" value="Xác Nhận Và Thanh Toán Momo ATM"	 style="vertical-align: inherit;">
                 <!--              <input type="submit" class="btn_1 full-width" name="vnpay" value="Thanh toán Vnpay" style="vertical-align: inherit;">-->
               </form>
 				</div>

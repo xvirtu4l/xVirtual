@@ -1,8 +1,5 @@
 <?php
-    require_once "/home/david/Documents/draaag/commons/env.php";
-    require_once '/home/david/Documents/draaag/commons/helper.php';
-    require_once '/home/david/Documents/draaag/commons/connect-db.php';
-    require_once '/home/david/Documents/draaag/commons/model.php';
+
     require_once 'helper_momo.php';
     header('Content-type: text/html; charset=utf-8');
 
